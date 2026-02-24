@@ -114,8 +114,8 @@
                 "bFile": ".obsidian/plugins/obsidian-git/data.json",
                 "aRef": ""
               },
-              "icon": "diff",
-              "title": "Diff: data.json  (Working Tree)"
+              "icon": "lucide-ghost",
+              "title": "split-diff-view"
             }
           },
           {
@@ -295,7 +295,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -303,7 +302,8 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-importer:Open Importer": false
+      "obsidian-importer:Open Importer": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "2cad78c80e0d8018",
