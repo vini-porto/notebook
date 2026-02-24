@@ -1,1 +1,0 @@
-Esse teste e para ver se o obsidian esta funcionando corretamente
