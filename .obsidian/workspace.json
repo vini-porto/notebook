@@ -81,14 +81,13 @@
             "id": "47f551d28a958fe6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Notes for the test.md",
-                "mode": "preview",
-                "source": false
+                "file": "Untitled.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
-              "title": "Notes for the test"
+              "icon": "lucide-table",
+              "title": "Untitled"
             }
           },
           {
@@ -120,7 +119,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -281,12 +280,15 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "47f551d28a958fe6",
+  "active": "2ccaf720fd300922",
   "lastOpenFiles": [
+    "Teste para git.md",
+    "Untitled.base",
+    "Untitled.canvas",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Notes for the test.md",
     "myNotes/README.md",
     "myNotes",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/4 - Introduction to Software Testing.md",
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Notes for the test.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/3 - Designing Types.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/2 - Namespaces in Java.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/1 - Intoduction to Java.md",
@@ -308,12 +310,8 @@
     "Sault College/W26/Winter 2026/Bussiness Aplications/Lab 4 – Intermediate Excel Study Notes.md",
     "Sault College/W26/Winter 2026/Bussiness Aplications/Lab 01 - Email Management and Collaboration Tools.md",
     "Sault College/W26/Winter 2026/Introduction to Web Development/4 - The World of CSS.md",
-    "Compute.md",
-    "Sault College/W26/Winter 2026/Bussiness Aplications/Lab 7 – SharePoint Study Notes.md",
     "Computer Science/Programming Languages",
     "Computer Science",
-    "Untitled.base",
-    "Untitled.canvas",
     "English/General Notes",
     "English/Pillars",
     "English",
