@@ -108,31 +108,18 @@
             "id": "87349808c0d69b4f",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/plugins/obsidian-git/data.json",
-                "bFile": ".obsidian/plugins/obsidian-git/data.json",
-                "aRef": ""
+                "file": "Sault College/W26/Winter 2026/Databases I - CSD123/5 - SQL Aggregation & Functions.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-ghost",
-              "title": "split-diff-view"
-            }
-          },
-          {
-            "id": "daed6fd588eabafb",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "Untitled.base",
-                "viewName": "Table"
-              },
-              "icon": "lucide-table",
-              "title": "Untitled"
+              "icon": "lucide-file",
+              "title": "5 - SQL Aggregation & Functions"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -292,17 +279,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ba7f4238cbf16f48",
+  "active": "87349808c0d69b4f",
   "lastOpenFiles": [
-    "Teste para obsidian.md",
+    "Type definition.md",
     "Untitled.base",
+    "Untitled.canvas",
+    "Teste para obsidian.md",
     "Oi.md",
     "Teste para git.md",
     "Ola.md",
     "Teste novamenet.md",
     "Interfaces.md",
     "Databases.md",
-    "Untitled.canvas",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Notes for the test.md",
     "myNotes/README.md",
     "myNotes",
