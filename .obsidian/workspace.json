@@ -110,16 +110,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sault College/W26/Winter 2026/Databases I - CSD123/5 - SQL Aggregation & Functions.md",
+                "file": "Sault College/W26/Winter 2026/Cloud Computing - CSD126/6 - Compute.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5 - SQL Aggregation & Functions"
+              "title": "6 - Compute"
+            }
+          },
+          {
+            "id": "8c9e4666bb668b56",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.4"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -279,8 +291,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "87349808c0d69b4f",
+  "active": "8c9e4666bb668b56",
   "lastOpenFiles": [
+    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/1 - Cloud Concepts Overview.md",
+    "Sault College/W26/Winter 2026/Databases I - CSD123/5 - SQL Aggregation & Functions.md",
     "Type definition.md",
     "Untitled.base",
     "Untitled.canvas",
@@ -300,7 +314,6 @@
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/1 - Intoduction to Java.md",
     "Availability Zones.md",
     "Rust.md",
-    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/1 - Cloud Concepts Overview.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/6 - Compute.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/5 - Networking and Content Delivery.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/4 - AWS Cloud Security.md",
@@ -309,7 +322,6 @@
     "Sault College/W26/Winter 2026/Databases I - CSD123/4 - AI SQL Joins.md",
     "Sault College/W26/Winter 2026/Databases I - CSD123/3 - AI The Relational Model.md",
     "Sault College/W26/Winter 2026/Introduction to Web Development/1 - Architecture, Tools, & Setup.md",
-    "Sault College/W26/Winter 2026/Databases I - CSD123/5 - SQL Aggregation & Functions.md",
     "Computer Science/Programming Languages",
     "Computer Science",
     "English/General Notes",
