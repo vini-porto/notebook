@@ -138,12 +138,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sault College/W26/Winter 2026/Databases I - CSD123/6 - Subqueries — Query Inception.md",
+                "file": "Sault College/W26/Winter 2026/Programming Concepts - CSD121/5 - Generalization and Polymorphism.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6 - Subqueries — Query Inception"
+              "title": "5 - Generalization and Polymorphism"
             }
           }
         ],
@@ -286,13 +286,23 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "24134f0d97f258b6",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 511.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -311,10 +321,17 @@
   },
   "active": "b7540f4de38e4428",
   "lastOpenFiles": [
-    "Sault College/W26/Winter 2026/Databases I - CSD123/5 - SQL Aggregation & Functions.md",
-    "Sault College/W26/Winter 2026/Databases I - CSD123/6 - Subqueries — Query Inception.md",
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/5 - Generalization and Polymorphism.md",
+    "copilot/copilot-conversations/Are_you_there@20260305_110936.md",
+    "copilot/copilot-conversations",
+    "copilot",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Notes for the test.md",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/4 - Introduction to Software Testing.md",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/2 - Namespaces in Java.md",
+    "Sault College/W26/Spring 2025/CSD112/Router on a Stick.md",
+    "Sault College/W26/Spring 2025/CSD112/VLAN.md",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/5 - Generalization and Polymorphism.md",
+    "Sault College/W26/Winter 2026/Databases I - CSD123/6 - Subqueries — Query Inception.md",
+    "Sault College/W26/Winter 2026/Databases I - CSD123/5 - SQL Aggregation & Functions.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/5 - Networking and Content Delivery.md",
     "Sault College/W26/Winter 2026/Introduction to Web Development/6 - JavaScript.md",
     "Sault College/W26/Winter 2026/Introduction to Web Development/5 - CSS Flexbox, Positioning, and Z-Index.md",
@@ -333,21 +350,14 @@
     "Databases.md",
     "myNotes/README.md",
     "myNotes",
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/4 - Introduction to Software Testing.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/3 - Designing Types.md",
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/2 - Namespaces in Java.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/1 - Intoduction to Java.md",
-    "Availability Zones.md",
-    "Rust.md",
-    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/4 - AWS Cloud Security.md",
     "Computer Science/Programming Languages",
     "Computer Science",
     "English/General Notes",
     "English/Pillars",
     "English",
     "Sault College/W26/Winter 2026/Bussiness Aplications",
-    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/Untitled",
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121",
     "Pasted image 20260107101322.png",
     "Pasted image 20260107100759.png",
     "Pasted image 20260107100742.png",
