@@ -1,10 +1,4 @@
-# Lecture 7: Subqueries — Query Inception
-
-Related: [[Databases]] | [[Data Structures]]
-
----
-
-## The Problem That Makes Subqueries Necessary
+# The Problem That Makes Subqueries Necessary
 
 Before diving into what a subquery _is_, it helps to understand _why_ it exists. Consider a simple-sounding question: "Which employees earn more than the average salary?" Your first instinct might be to write something like this:
 
@@ -14,7 +8,9 @@ SELECT name FROM employees
 WHERE salary > AVG(salary);
 ```
 
-SQL will reject this outright. The reason is a fundamental rule: **aggregate functions like `AVG()`, `SUM()`, and `MAX()` cannot be used inside a `WHERE` clause.** The `WHERE` clause filters individual rows one at a time, but `AVG()` needs to look at _all_ rows at once to compute a result. These two operations happen at different stages of query execution — they simply cannot coexist on the same line.
+SQL will reject this outright. The reason is a fundamental rule: **aggregate functions like `AVG()`, `SUM()`, and `MAX()` cannot be used inside a `WHERE` clause.** T
+
+he `WHERE` clause filters individual rows one at a time, but `AVG()` needs to look at _all_ rows at once to compute a result. These two operations happen at different stages of query execution; they simply cannot coexist on the same line.
 
 The naive workaround is to run two separate queries — first manually find the average, then hardcode that number into a second query:
 

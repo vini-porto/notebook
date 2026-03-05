@@ -138,12 +138,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sault College/W26/Winter 2026/Programming Concepts - CSD121/5 - Generalization and Polymorphism.md",
+                "file": "Sault College/W26/Winter 2026/Databases I - CSD123/6 - Subqueries — Query Inception.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5 - Generalization and Polymorphism"
+              "title": "6 - Subqueries — Query Inception"
             }
           }
         ],
@@ -292,7 +292,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -309,14 +310,14 @@
   },
   "active": "b7540f4de38e4428",
   "lastOpenFiles": [
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Notes for the test.md",
+    "Sault College/W26/Winter 2026/Databases I - CSD123/5 - SQL Aggregation & Functions.md",
+    "Sault College/W26/Winter 2026/Databases I - CSD123/6 - Subqueries — Query Inception.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/5 - Generalization and Polymorphism.md",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Notes for the test.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/5 - Networking and Content Delivery.md",
     "Sault College/W26/Winter 2026/Introduction to Web Development/6 - JavaScript.md",
     "Sault College/W26/Winter 2026/Introduction to Web Development/5 - CSS Flexbox, Positioning, and Z-Index.md",
     "Sault College/W26/Winter 2026/Introduction to Web Development/4 - The World of CSS.md",
-    "Sault College/W26/Winter 2026/Databases I - CSD123/6 - Subqueries — Query Inception.md",
-    "Sault College/W26/Winter 2026/Databases I - CSD123/5 - SQL Aggregation & Functions.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/6 - Compute.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/1 - Cloud Concepts Overview.md",
     "Type definition.md",
