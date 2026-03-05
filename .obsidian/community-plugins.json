@@ -1,5 +1,6 @@
 [
   "obsidian-importer",
   "obsidian-git",
-  "code-emitter"
+  "code-emitter",
+  "copilot"
 ]

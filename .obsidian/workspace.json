@@ -305,7 +305,8 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "obsidian-importer:Open Importer": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "copilot:Open Copilot Chat": false
     }
   },
   "active": "b7540f4de38e4428",
