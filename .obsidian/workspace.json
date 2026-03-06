@@ -36,61 +36,6 @@
             }
           },
           {
-            "id": "f1b0497f2499bc1d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sault College/W26/Winter 2026/Cloud Computing - CSD126/3- AWS Global Infrastructure Overview.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "3- AWS Global Infrastructure Overview"
-            }
-          },
-          {
-            "id": "3119b43d2cd2ff76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sault College/W26/Winter 2026/Introduction to Web Development/4 - The World of CSS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "4 - The World of CSS"
-            }
-          },
-          {
-            "id": "9b132a202f15bcf8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sault College/W26/Winter 2026/Programming Concepts - CSD121/1 - Intoduction to Java.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1 - Intoduction to Java"
-            }
-          },
-          {
-            "id": "47f551d28a958fe6",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "Untitled.base",
-                "viewName": "Table"
-              },
-              "icon": "lucide-table",
-              "title": "Untitled"
-            }
-          },
-          {
             "id": "2ccaf720fd300922",
             "type": "leaf",
             "state": {
@@ -147,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -320,6 +265,15 @@
   },
   "active": "b7540f4de38e4428",
   "lastOpenFiles": [
+    "Sault College/W26/Winter 2026/Introduction to Web Development/4 - The World of CSS.md",
+    "Sault College/W26/Winter 2026/Databases I - CSD123/5 - SQL Aggregation & Functions.md",
+    "Interfaces.md",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/1 - Intoduction to Java.md",
+    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/3- AWS Global Infrastructure Overview.md",
+    "SQL.md",
+    "Sault College/W26/Winter 2026/Databases I - CSD123/2- AI raw generated text.md",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/5 - Generalization and Polymorphism.md",
+    "copilot/copilot-conversations/What_is_a_super_type@20260306_135012.md",
     "copilot/copilot-conversations/Are_you_there@20260305_110936.md",
     "copilot/copilot-conversations",
     "copilot",
@@ -328,13 +282,10 @@
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/2 - Namespaces in Java.md",
     "Sault College/W26/Spring 2025/CSD112/Router on a Stick.md",
     "Sault College/W26/Spring 2025/CSD112/VLAN.md",
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/5 - Generalization and Polymorphism.md",
     "Sault College/W26/Winter 2026/Databases I - CSD123/6 - Subqueries — Query Inception.md",
-    "Sault College/W26/Winter 2026/Databases I - CSD123/5 - SQL Aggregation & Functions.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/5 - Networking and Content Delivery.md",
     "Sault College/W26/Winter 2026/Introduction to Web Development/6 - JavaScript.md",
     "Sault College/W26/Winter 2026/Introduction to Web Development/5 - CSS Flexbox, Positioning, and Z-Index.md",
-    "Sault College/W26/Winter 2026/Introduction to Web Development/4 - The World of CSS.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/6 - Compute.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/1 - Cloud Concepts Overview.md",
     "Type definition.md",
@@ -344,13 +295,7 @@
     "Oi.md",
     "Teste para git.md",
     "Ola.md",
-    "Teste novamenet.md",
-    "Interfaces.md",
-    "Databases.md",
-    "myNotes/README.md",
     "myNotes",
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/3 - Designing Types.md",
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/1 - Intoduction to Java.md",
     "Computer Science/Programming Languages",
     "Computer Science",
     "English/General Notes",
