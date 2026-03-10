@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sault College/W26/Winter 2026/Programming Concepts - CSD121/5 - Generalization and Polymorphism.md",
+                "file": "Sault College/W26/Winter 2026/Databases I - CSD123/6 - Subqueries — Query Inception.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5 - Generalization and Polymorphism"
+              "title": "6 - Subqueries — Query Inception"
             }
           }
         ],
@@ -263,8 +263,10 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "b7540f4de38e4428",
+  "active": "24134f0d97f258b6",
   "lastOpenFiles": [
+    "copilot/copilot-conversations/Give_me_a_quick_recap_of_activeNote_in_two_sentences.@20260310_101937.md",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/5 - Generalization and Polymorphism.md",
     "Sault College/W26/Winter 2026/Introduction to Web Development/4 - The World of CSS.md",
     "Sault College/W26/Winter 2026/Databases I - CSD123/5 - SQL Aggregation & Functions.md",
     "Interfaces.md",
@@ -272,7 +274,6 @@
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/3- AWS Global Infrastructure Overview.md",
     "SQL.md",
     "Sault College/W26/Winter 2026/Databases I - CSD123/2- AI raw generated text.md",
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/5 - Generalization and Polymorphism.md",
     "copilot/copilot-conversations/What_is_a_super_type@20260306_135012.md",
     "copilot/copilot-conversations/Are_you_there@20260305_110936.md",
     "copilot/copilot-conversations",
@@ -294,7 +295,6 @@
     "Teste para obsidian.md",
     "Oi.md",
     "Teste para git.md",
-    "Ola.md",
     "myNotes",
     "Computer Science/Programming Languages",
     "Computer Science",

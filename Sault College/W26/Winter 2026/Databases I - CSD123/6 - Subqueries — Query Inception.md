@@ -1,6 +1,6 @@
 # The Problem That Makes Subqueries Necessary
 
-Before diving into what a subquery _is_, it helps to understand _why_ it exists. Consider a simple-sounding question: "Which employees earn more than the average salary?" Your first instinct might be to write something like this:
+Consider a simple-sounding question: "Which employees earn more than the average salary?" Your first instinct might be to write something like this:
 
 ```sql
 -- This looks logical, but it FAILS.
@@ -10,9 +10,11 @@ WHERE salary > AVG(salary);
 
 SQL will reject this outright. The reason is a fundamental rule: **aggregate functions like `AVG()`, `SUM()`, and `MAX()` cannot be used inside a `WHERE` clause.** T
 
-he `WHERE` clause filters individual rows one at a time, but `AVG()` needs to look at _all_ rows at once to compute a result. These two operations happen at different stages of query execution; they simply cannot coexist on the same line.
+The `WHERE` clause filters individual rows one at a time, but `AVG()` needs to look at _all_ rows at once to compute a result. 
 
-The naive workaround is to run two separate queries — first manually find the average, then hardcode that number into a second query:
+These two operations happen at different stages of query execution; they simply cannot coexist on the same line.
+
+The naive workaround is to run two separate queries, first manually find the average, then hardcode that number into a second query:
 
 ```sql
 -- Step 1: Find the average (assume the result is 4.5)
@@ -22,21 +24,21 @@ SELECT AVG(qty) FROM assignments;
 SELECT name FROM minions WHERE qty > 4.5;
 ```
 
-This _works_, but it is brittle. Tomorrow the average might be 5.2, and your hardcoded query is now silently wrong. You have also split one logical question into two manual steps, which is error-prone and tedious. The elegant fix is to make SQL do both steps for you — automatically, dynamically, in a single statement. That is exactly what subqueries enable.
+This _works_, but it is brittle. Tomorrow the average might be 5.2, and your hardcoded query is now silently wrong. 
 
-> [!important] The Core Idea A subquery lets you embed one `SELECT` statement inside another. The inner query runs first, calculates its result, and hands that result to the outer query — all in one shot, with no hardcoding.
+> [!important] The Core Idea 
+> A subquery lets you embed one `SELECT` statement inside another. The inner query runs first, calculates its result, and hands that result to the outer query — all in one shot, with no hardcoding.
 
----
+# Definition
 
-## Formal Definition
+> [!note] What Is a Subquery? 
+> A **subquery** (also called a _nested query_ or _inner query_) is a complete `SELECT` statement placed inside another SQL statement. 
+> - It must always be wrapped in parentheses `()`. 
+> - The inner query generally executes first, and its result is used by the outer (_parent_) query.
 
-> [!note] What Is a Subquery? A **subquery** (also called a _nested query_ or _inner query_) is a complete `SELECT` statement placed inside another SQL statement. It must always be wrapped in parentheses `()`. The inner query generally executes first, and its result is used by the outer (_parent_) query.
+Subqueries are full `SELECT` statements, always enclosed in parentheses, where the inner query executes first, and they can be placed in `SELECT`, `FROM`, `WHERE`, or `HAVING` clauses.
 
-Four properties define every subquery, regardless of type: it is a full, valid `SELECT` statement living inside another one (**nested logic**); it must always be enclosed in parentheses (**syntax rule**); the inner query executes before the outer query uses its result (**order of operations**); and they can appear inside `SELECT`, `FROM`, `WHERE`, or `HAVING` clauses (**versatility**).
-
----
-
-## The 3 Structural Types: What Does the Inner Query Return?
+# The 3 Structural Types
 
 Here is the most important mental shift when learning subqueries: _the type of result the inner query returns completely determines how you must write the outer query._ There are three possibilities, and each one unlocks different operators and placement rules.
 
@@ -46,13 +48,14 @@ Here is the most important mental shift when learning subqueries: _the type of r
 |**List**|Many rows × 1 column (a list of values)|`WHERE` clause|`IN`, `NOT IN`, `ANY`, `ALL`|
 |**Table**|Many rows × many columns (a full table)|`FROM` clause|Standard `SELECT` logic|
 
-Think of it this way: if a subquery gives back _one number_, the outer query can compare against it directly. If it gives back _a list of IDs_, the outer query needs to check membership in that list. If it gives back _an entire table_, the outer query can treat it like any other table and query it normally.
+Think of it this way: if a subquery gives back _one number_, the outer query can compare against it directly. 
+- If it gives back _a list of IDs_, the outer query needs to check membership in that list. 
+- If it gives back _an entire table_, the outer query can treat it like any other table and query it normally.
 
----
+# Scalar Subqueries
 
-## Part 1: Scalar Subqueries
-
-> [!note] Definition A **scalar subquery** returns exactly **one value** — one row and one column. Because it behaves identically to a single hardcoded number or string, the outer query can use any standard comparison operator against it.
+> [!note] Definition
+> A **scalar subquery** returns exactly **one value**, one row and one column. Because it behaves identically to a single hardcoded number or string, the outer query can use any standard comparison operator against it.
 
 This is the most frequently used type of subquery in everyday SQL. Aggregate functions (`AVG`, `MIN`, `MAX`, `SUM`, `COUNT`) naturally collapse many rows into a single value, making them the perfect engine for scalar subqueries.
 
@@ -84,15 +87,15 @@ This is the most frequently used type of subquery in everyday SQL. Aggregate fun
 
 You can use `=`, `!=`, `<`, `>`, `<=`, or `>=` — any operator that makes sense when comparing two single values works here.
 
-> [!warning] The Crash Scenario — Scalar Subqueries Must Return Exactly One Value If you use `=` (or any single-value comparison operator) but your inner query accidentally returns **two or more rows**, the database throws a fatal error. The engine is confused because it cannot compare one thing to multiple things simultaneously.
+> [!warning] The Crash Scenario
+> Scalar Subqueries Must Return Exactly One Value If you use `=` (or any single-value comparison operator) but your inner query accidentally returns **two or more rows**, the database throws a fatal error. The engine is confused because it cannot compare one thing to multiple things simultaneously.
 > 
 > This is why aggregate functions are so heavily used with scalar subqueries — `AVG()`, `MIN()`, `MAX()` always reduce everything down to exactly one value, so they are inherently safe. If you write a scalar subquery _without_ an aggregate, be very confident it can only ever return one row.
 
----
+# List (Column) Subqueries
 
-## Part 2: List (Column) Subqueries
-
-> [!note] Definition A **list subquery** returns a **single column containing multiple rows** — a list of values. The outer query uses set membership operators to check whether each row belongs to (or is absent from) that list.
+> [!note] Definition
+> A **list subquery** returns a **single column containing multiple rows**. The outer query uses set membership operators to check whether each row belongs to (or is absent from) that list.
 
 The reason you need different operators here is straightforward: if the inner query returns `(501, 503, 509)`, asking `WHERE MinionID = (501, 503, 509)` is nonsensical — an ID cannot be equal to three things at once. The `IN` operator was designed precisely for this: it asks "is this value _anywhere_ in the list?"
 
