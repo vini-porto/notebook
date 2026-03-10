@@ -137,7 +137,8 @@ You can also stack subqueries inside each other — the innermost one always exe
 > 
 > Read from the inside out: first we find the bots that used Part 20, then we find the minions assigned to those bots, then we retrieve their names.
 
-> [!warning] Three Rules You Cannot Break with List Subqueries **One column only** — the inner `SELECT` must return exactly one column. Writing `SELECT Name, ID` will cause an error because `IN` can only compare one thing at a time. **Data type match** — the column in the outer query must be the same data type as the column returned by the inner query. **NULLs poison `NOT IN`** — if the subquery list contains even a single `NULL` value, `NOT IN` will return zero results. Always add `WHERE column IS NOT NULL` inside your inner query when using `NOT IN`.
+> [!warning] Three Rules 
+> You Cannot Break with List Subqueries **One column only** — the inner `SELECT` must return exactly one column. Writing `SELECT Name, ID` will cause an error because `IN` can only compare one thing at a time. **Data type match** — the column in the outer query must be the same data type as the column returned by the inner query. **NULLs poison `NOT IN`** — if the subquery list contains even a single `NULL` value, `NOT IN` will return zero results. Always add `WHERE column IS NOT NULL` inside your inner query when using `NOT IN`.
 
 ---
 
