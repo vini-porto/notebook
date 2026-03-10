@@ -10,7 +10,8 @@ Before diving in, here's a recap of the OOP concepts you should already know:
 
 # Polymorphism
 
-> [!note] Definition **Polymorphism** means "many forms." In programming, it's the ability for different types to be used in a _uniform_ way — the same operation works across different types.
+> [!note] Polymorphism 
+> Means "many forms." In programming, it's the ability for different types to be used in a _uniform_ way — the same operation works across different types.
 
 You've already seen several kinds of polymorphism:
 
@@ -23,13 +24,15 @@ You've already seen several kinds of polymorphism:
 
 But in OOP, when people say "polymorphism," they usually mean **subtype polymorphism**.
 
-> [!important] Subtype Polymorphism **Subtype polymorphism** is when a subtype value is allowed to be treated as though it were a supertype value. To understand this, we first need to understand **generalization**.
+> [!important] Subtype Polymorphism 
+> is when a subtype value is allowed to be treated as though it were a supertype value. To understand this, we first need to understand **generalization**.
 
 # Generalization
 
-> [!note] Definition **Generalization** means identifying what multiple classes have in common and moving that shared state and behaviour into a single, broader **superclass**.
+> [!note] Definition Generalization 
+> Means identifying what multiple classes have in common and moving that shared state and behaviour into a single, broader **superclass**.
 
-## Why ?
+## How it works
 
 Imagine you have two classes:
 
