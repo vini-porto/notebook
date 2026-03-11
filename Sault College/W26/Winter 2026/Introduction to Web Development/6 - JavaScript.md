@@ -152,24 +152,22 @@ let total = price * quantity; // JavaScript calculates this: 47.97
 > 
 > When you use `+` on **strings**, JavaScript does not add them, it _concatenates_ (joins) them end-to-end. `'5' + '5'` gives you the text string `'55'`, not the number `10`.
 
-### Booleans — True/False Logic
+## Booleans
 
-	The simplest type. A boolean can only ever be one of two values: `true` or `false`. Used for on/off switches and decision-making:
+The simplest type. A boolean can only ever be one of two values: `true` or `false`. Used for on/off switches and decision-making:
 
 ```javascript
 let isHungry = true;
 let isDarkModeOn = false;
 ```
 
----
+# The DOM - JavaScript's Map of Your Page
 
-## The DOM — JavaScript's Map of Your Page
+This is arguably the most important concept in client-side web development. When a browser reads your HTML file, it does not just display it on screen. It builds a **tree structure in memory** called the **Document Object Model (DOM)**. 
 
-This is arguably the most important concept in client-side web development. When a browser reads your HTML file, it does not just display it on screen. It builds a **tree structure in memory** called the **Document Object Model (DOM)**. Every HTML tag becomes a node on this tree — parent elements branch into child elements, all the way down.
+>JavaScript can **climb this tree, grab any element, and modify it**, changing its text, its styles, its attributes, or even its existence on the page. 
 
-JavaScript can **climb this tree, grab any element, and modify it** — changing its text, its styles, its attributes, or even its existence on the page. If HTML is the physical house, the DOM is the live blueprint that JavaScript uses to renovate rooms on the fly without ever tearing the whole building down.
-
-### Grabbing an Element
+## Grabbing an Element
 
 To change something on the page, you first need to grab a reference to it. Give the HTML element an `id` attribute, then use `document.getElementById()` in your JS:
 
@@ -185,14 +183,14 @@ let heading = document.getElementById('title');
 
 Now `heading` is your handle on that element. You can do anything to it.
 
-### Changing an Element's Text
+## Changing an Element's Text
 
 ```javascript
 heading.innerText = 'New Text!';
 // innerText treats everything as plain text — safe and simple
 ```
 
-### Injecting HTML
+## Injecting HTML
 
 ```javascript
 let box = document.getElementById('content');
@@ -200,20 +198,19 @@ box.innerHTML = '<strong>Bold Text</strong>';
 // innerHTML parses HTML tags — powerful, but use carefully
 ```
 
-### Changing CSS Styles
+## Changing CSS Styles
 
 ```javascript
 heading.style.color = 'red';
 heading.style.fontSize = '50px';
 ```
 
-> [!tip] CSS Properties Become camelCase in JavaScript In CSS you write `font-size`, `background-color`, `border-radius`. In JavaScript's `.style` property, hyphens are not allowed in names, so all CSS properties are written in **camelCase**: `fontSize`, `backgroundColor`, `borderRadius`. This trips people up constantly at first — just remember the pattern.
+> [!tip] CSS Properties Become camelCase in JavaScript 
+> In CSS you write `font-size`, `background-color`, `border-radius`. In JavaScript's `.style` property, hyphens are not allowed in names, so all CSS properties are written in **camelCase**: `fontSize`, `backgroundColor`, `borderRadius`. This trips people up constantly at first — just remember the pattern.
 
----
+# Functions
 
-## Functions — Packaging Code into Reusable Recipes
-
-Imagine needing to write the same 15 lines of code every single time a user does something. Functions solve this. A **function** is a named block of code that performs a specific task. You define it once and can run it as many times as you like, from anywhere in your program.
+ A **function** is a named block of code that performs a specific task. You define it once and can run it as many times as you like, from anywhere in your program.
 
 The recipe analogy is perfect here: a recipe in a cookbook does nothing until you decide to cook it.
 
@@ -245,7 +242,7 @@ sayHello(); // NOW the code inside runs
 
 ---
 
-## Events — Making the Page React to the User
+## Events -  Making the Page React to the User
 
 Functions that only run when you manually call them are useful but limited. The real power of JavaScript comes from connecting functions to **events** — actions the user takes, like clicking a button, hovering over an element, or pressing a key.
 
@@ -280,8 +277,6 @@ When writing an event listener, answer these three questions:
 |`'mouseover'`|User's cursor enters the element|
 |`'mouseout'`|User's cursor leaves the element|
 |`'keydown'`|User presses any key on the keyboard|
-
----
 
 ## The Complete Pattern: Putting It All Together
 
@@ -325,8 +320,6 @@ Every interactive JavaScript feature follows the same four-step flow. Once you h
 > // Step 4: Listen for the click
 > activateButton.addEventListener('click', activateWorker);
 > ```
-
----
 
 ## Lecture Summary
 
