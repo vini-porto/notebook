@@ -1,14 +1,4 @@
-# Lecture 7: Enter JavaScript — Giving Your Website a Brain
-
-_The third pillar of the web: making pages think, calculate, and react_
-
-> [!note] Where We Are So far in this course, we have built pages that look great but are essentially digital brochures — static, unresponsive, and lifeless. HTML gave us structure. CSS gave us style. Today, JavaScript gives us **behaviour**. This is the moment the website gets a brain.
-
-Related: [[Web Development]] | [[CSS Basics]] | [[HTML Basics]]
-
----
-
-## The Holy Trinity of the Web
+# The Holy Trinity of the Web
 
 Every website you have ever used is built from the same three technologies working together. A useful way to think about them:
 
@@ -18,22 +8,18 @@ Every website you have ever used is built from the same three technologies worki
 |**CSS**|Appearance & Style|The skin and clothes (adjectives)|
 |**JavaScript**|Logic & Behaviour|The brain and muscles (verbs)|
 
-JavaScript is what allows a page to _do_ things — respond to a button click, validate a form, update content without a page reload, animate elements, or pull in live data from the internet.
+JavaScript is what allows a page to _do_ things:
 
-### What JS Can Do
+> [!tip] What JS can do
+> - Change HTML content and CSS styles while the page is live
+> - Show and hide elements (dropdown menus, modals, tooltips)
+> - Validate form input before it gets submitted
+> - Fetch live data from external sources (weather, prices, news)
 
-- Change HTML content and CSS styles while the page is live
-- Show and hide elements (dropdown menus, modals, tooltips)
-- Validate form input before it gets submitted
-- Fetch live data from external sources (weather, prices, news)
+> [!warning] What JS cannot do
+> JavaScript runs inside a protected "sandbox" inside your browser. This is a deliberate security feature. It means JS cannot read files from your computer's hard drive, and it cannot access hardware like your webcam or microphone without your explicit permission. This protects you from malicious websites.
 
-### What JS CANNOT Do
-
-JavaScript runs inside a protected "sandbox" inside your browser. This is a deliberate security feature. It means JS cannot read files from your computer's hard drive, and it cannot access hardware like your webcam or microphone without your explicit permission. This protects you from malicious websites.
-
----
-
-## Connecting JavaScript to Your HTML Page
+# Connecting JavaScript to Your HTML Page
 
 There are two ways to add JavaScript to a page, just like there are two ways to add CSS.
 
@@ -51,9 +37,10 @@ There are two ways to add JavaScript to a page, just like there are two ways to 
 <script src="app.js"></script>
 ```
 
-The core principle behind external files: **keep your structure (HTML) separate from your logic (JS)**. It keeps projects organised and makes both files easier to read and debug.
+> [!TIP] The core principle behind external files: 
+> **keep your structure (HTML) separate from your logic (JS)**. It keeps projects organised and makes both files easier to read and debug.
 
-### The Critical Placement Rule
+## The Critical Placement Rule
 
 > [!important] Put your `<script>` tag at the very BOTTOM of your `<body>`, directly above the closing `</body>` tag.
 > 
@@ -72,19 +59,16 @@ The core principle behind external files: **keep your structure (HTML) separate 
 > </html>
 > ```
 
-**Why?** Browsers read code from top to bottom. If your `<script>` tag is in the `<head>`, the JavaScript runs before any HTML elements have been drawn on the page. Your code then tries to find a button or heading that doesn't exist yet — and it fails. Building the skeleton before switching on the brain is always the right order.
+**Why?** Browsers read code from top to bottom. If your `<script>` tag is in the `<head>`, the JavaScript runs before any HTML elements have been drawn on the page.
 
----
+# The Developer Console
 
-## The Developer Console — Your Best Friend
+>[!NOTE] To open it: 
+**Right-click anywhere on a page → Inspect → Console tab.**
 
-Before writing any logic, you need to know how to check whether your code is actually working. The answer is the **Developer Console** — a hidden panel built into every browser that regular users never see.
+## console.log()
 
-To open it: **Right-click anywhere on a page → Inspect → Console tab.**
-
-### console.log()
-
-This is the single most important tool a JavaScript developer has. It sends a hidden message to the console — invisible to users, visible to you:
+This is the single most important tool a JavaScript developer has. It sends a hidden message to the console. Invisible to users, visible to you:
 
 ```javascript
 console.log('My JS file is connected and running!');
@@ -94,13 +78,7 @@ console.log('The value of x is:', x);
 
 Use it constantly while building. Whenever you are unsure what value a variable holds, or whether a section of code is even running, `console.log` it.
 
-> [!tip] Red Errors Are Good News When your code breaks, the console yells at you in red text. This is not a bad thing — it's the console being helpful. It tells you **exactly which line** has the problem. Read the error message carefully; it is pointing you straight at the fix. Developers who learn to read error messages become much better coders much faster.
-
----
-
-## Variables — Giving Your Program a Memory
-
-A program that cannot remember anything is not very useful. **Variables** are the solution: labelled boxes where you store a piece of data so you can use it later in your code.
+# Variables
 
 You create a variable using the keyword `let`:
 
@@ -110,7 +88,7 @@ let currentScore = 100;
 // Translation: "Let the box named myName hold the value 'Sam'."
 ```
 
-### `let` vs `const` — The Key Difference
+## `let` vs `const` - The Key Difference
 
 `let` creates a box whose contents **can be changed** at any time:
 
@@ -128,11 +106,11 @@ birthday = 'Feb 2'; // ERROR! Cannot reassign a const.
 
 A practical guideline: default to `const` for everything, and only use `let` when you know the value will need to change (like a running score, a counter, or a toggle state).
 
-### Variable Naming Rules
+## Variable Naming Rules
 
 1. No spaces in the name
 2. Cannot start with a number
-3. Use **camelCase** — first word lowercase, each subsequent word starts with a capital, no spaces or underscores
+3. Use **camelCase**: first word lowercase, each subsequent word starts with a capital, no spaces or underscores
 
 ```javascript
 // Good
@@ -144,13 +122,9 @@ let Player high score = 50; // spaces not allowed
 let 1stPlace = 'Gold';       // cannot start with a number
 ```
 
----
+# Data Types
 
-## Data Types — What Kind of Thing Are You Storing?
-
-JavaScript needs to know what _kind_ of data a variable holds, because different types behave differently. The three core types in this lecture are **Strings**, **Numbers**, and **Booleans**.
-
-### Strings — Text Data
+## Strings
 
 Any piece of text. Must always be wrapped in quotation marks (single or double, both are fine):
 
@@ -159,9 +133,9 @@ let catBreed = 'Russian Blue';
 let errorMessage = "File not found";
 ```
 
-### Numbers — Numeric Data
+## Numbers
 
-Used for any kind of calculation. **No quotes** — ever. Numbers without quotes are actual numbers that can do maths:
+Used for any kind of calculation. Numbers without quotes are actual numbers that can do maths:
 
 ```javascript
 let price = 15.99;
@@ -169,18 +143,18 @@ let quantity = 3;
 let total = price * quantity; // JavaScript calculates this: 47.97
 ```
 
-> [!warning] The Quote Trap — One of the Most Common Early Bugs What do you think these two lines produce?
+> [!warning] The Quote Trap
 > 
 > ```javascript
 > let result1 = 5 + 5;    // → 10   (maths: addition)
 > let result2 = '5' + '5'; // → '55' (text: joined together!)
 > ```
 > 
-> When you use `+` on **strings**, JavaScript does not add them — it _concatenates_ (joins) them end-to-end. `'5' + '5'` gives you the text string `'55'`, not the number `10`. Quotes change everything. Always be deliberate about whether a value is a number or a string.
+> When you use `+` on **strings**, JavaScript does not add them, it _concatenates_ (joins) them end-to-end. `'5' + '5'` gives you the text string `'55'`, not the number `10`.
 
 ### Booleans — True/False Logic
 
-The simplest type. A boolean can only ever be one of two values: `true` or `false`. Used for on/off switches and decision-making:
+	The simplest type. A boolean can only ever be one of two values: `true` or `false`. Used for on/off switches and decision-making:
 
 ```javascript
 let isHungry = true;
