@@ -1,14 +1,11 @@
-# Aggregate Functions (The Math)
+# Aggregate Functions
 
-### The Core Concept: Squashing Rows
+> [!NOTE] The Core Concept
+> Normal SQL returns **one row per record**. [[Aggregate Functions]] collapse many rows into **one summary row**.
+> 
+> Think of it like this: instead of listing every receipt in a store, you just want the total sales for the day.
 
-Normal SQL returns **one row per record**. [[Aggregate Functions]] collapse many rows into **one summary row**.
-
-Think of it like this: instead of listing every receipt in a store, you just want the total sales for the day.
-
----
-
-### COUNT() – The Headcount
+## COUNT()
 
 Counts the number of rows (or non-null values in a column).
 
@@ -29,9 +26,7 @@ SELECT COUNT(ReportsToID) FROM Minions;
 
 > Nulls are invisible to `COUNT(column)`. Always know which version you need.
 
----
-
-### SUM() – The Bill
+## SUM()
 
 Adds up all values in a numeric column.
 
@@ -42,9 +37,7 @@ SELECT SUM(Cost) FROM Parts;
 
 **Constraint:** Only works on **number columns**.
 
----
-
-### AVG() – The Average
+## AVG()
 
 Calculates the mean value across a column.
 
@@ -52,9 +45,7 @@ Calculates the mean value across a column.
 SELECT AVG(Cost) FROM Parts;
 ```
 
----
-
-### MIN() and MAX() – The Extremes
+## MIN() and MAX()
 
 Find the lowest or highest value in a column.
 
@@ -63,9 +54,7 @@ SELECT MAX(Cost) FROM Parts;  -- Most expensive item
 SELECT MIN(Cost) FROM Parts;  -- Cheapest item
 ```
 
----
-
-### Combining Multiple Aggregates
+# Combining Multiple Aggregates
 
 You can run several aggregates in a single query:
 
@@ -76,23 +65,17 @@ SELECT COUNT(*) AS TotalParts,
 FROM Parts;
 ```
 
-> **Summary:** Aggregate functions (COUNT, SUM, AVG, MIN, MAX) turn many rows into one number. They operate on an entire column — or a group of rows when combined with GROUP BY.
+> Aggregate functions (COUNT, SUM, AVG, MIN, MAX) turn many rows into one number. They operate on an entire column — or a group of rows when combined with GROUP BY.
 
----
-
-## Part 2 – GROUP BY & HAVING (The Buckets)
-
-### The Problem Aggregates Alone Can't Solve
+# GROUP BY & HAVING
 
 `AVG(Cost)` gives one average for the whole table. But what if you want the average **per bot model**? You need **buckets**.
 
----
+## GROUP BY
 
-### GROUP BY – Sorting Into Buckets
+**GROUP BY** divides rows into groups _before_ applying aggregates. Each group gets its own calculation.
 
-[[GROUP BY]] divides rows into groups _before_ applying aggregates. Each group gets its own calculation.
-
-**Analogy:** Imagine three physical buckets on the floor, one per bot model. You drop each row into the right bucket, then count/sum/average what's inside each bucket separately.
+> Imagine three physical buckets on the floor, one per bot model. You drop each row into the right bucket, then count/sum/average what's inside each bucket separately.
 
 ```sql
 SELECT ModelName, COUNT(BotID)
@@ -105,9 +88,7 @@ Result:
 - Cookie-Bot 3000: 4 units
 - Mega-Cookie: 1 unit
 
----
-
-### The Golden Rule of GROUP BY
+## The Golden Rule of GROUP BY
 
 > **Every column in SELECT must either be in GROUP BY or wrapped in an aggregate function.**
 
@@ -126,11 +107,9 @@ FROM Bots
 GROUP BY ModelName, Status;
 ```
 
----
+## HAVING
 
-### HAVING – Filtering the Buckets
-
-[[HAVING]] filters _groups_ **after** they've been formed. You cannot use `WHERE` for this because `WHERE` runs before grouping.
+HAVING filters _groups_ **after** they've been formed. You cannot use `WHERE` for this because `WHERE` runs before grouping.
 
 **WHERE vs. HAVING — the key difference:**
 
@@ -151,9 +130,7 @@ HAVING COUNT(*) > 2;          -- Then filter groups
 
 Logic: Keep only Active bots → bucket by model → count → discard small buckets.
 
----
-
-### Combining JOINs with Aggregates
+# Combining JOINs with Aggregates
 
 Real-world questions often require both.
 
@@ -176,20 +153,18 @@ JOIN Parts p ON bom.PartID = p.PartID
 GROUP BY b.ModelName;
 ```
 
-> **Summary:** GROUP BY buckets your data; HAVING filters those buckets. WHERE cannot filter aggregated results — that's HAVING's job.
+> GROUP BY buckets your data; HAVING filters those buckets. WHERE cannot filter aggregated results — that's HAVING's job.
 
----
+# Scalar Functions
 
-## Part 3 – Scalar Functions (The Cleanup)
+## Scalar vs. Aggregate
 
-### Scalar vs. Aggregate
+| Type                                    | Input     | Output  | Used for     |
+| --------------------------------------- | --------- | ------- | ------------ |
+| **Aggregate** (COUNT, SUM)              | Many rows | 1 value | Summarizing  |
+| **[[Scalar Functions]]** (UPPER, ROUND) | 1 row     | 1 row   | Transforming |
 
-|Type|Input|Output|Used for|
-|---|---|---|---|
-|**Aggregate** (COUNT, SUM)|Many rows|1 value|Summarizing|
-|**[[Scalar Functions]]** (UPPER, ROUND)|1 row|1 row|Transforming|
-
-Scalar functions work **row by row** — they don't collapse data.
+> Scalar functions work **row by row** — they don't collapse data.
 
 You **can** mix them:
 
@@ -197,18 +172,20 @@ You **can** mix them:
 SELECT UPPER(Name), COUNT(*) ... GROUP BY Name
 ```
 
----
+## String Functions
 
-### String Functions
+### UPPER() / LOWER()
 
-**UPPER() / LOWER()** – change text case
+change text case:
 
 ```sql
 SELECT UPPER(Name) FROM Minions;     -- KEVIN, STUART, BOB
 WHERE LOWER(Name) = 'kevin';        -- case-insensitive search
 ```
 
-**LENGTH()** – count characters
+### LENGTH() 
+
+count characters:
 
 ```sql
 SELECT Name, LENGTH(Name)
@@ -217,7 +194,9 @@ WHERE LENGTH(Name) < 5;
 -- Result: Bob (3), Dave (4)
 ```
 
-**SUBSTRING()** – extract part of a string
+### SUBSTRING()
+
+extract part of a string:
 
 ```sql
 -- Syntax: SUBSTRING(Column, Start, Length)
@@ -225,7 +204,9 @@ SELECT SUBSTRING(Name, 1, 1) FROM Minions;
 -- Result: K, S, B, D (first initials)
 ```
 
-**CONCAT() / ||** – join strings together
+### CONCAT() / ||
+
+join strings together:
 
 ```sql
 -- SQLite / PostgreSQL:
@@ -235,18 +216,20 @@ SELECT CONCAT(Name, ' is a Minion') AS Description FROM Minions;
 -- Result: 'Kevin is a Minion'
 ```
 
----
+## Math Functions
 
-### Math Functions
+### ROUND()
 
-**ROUND()** – limit decimal places
+limit decimal places:
 
 ```sql
 SELECT ROUND(AVG(Cost), 2) FROM Parts;
 -- Result: $176.49 (not $176.333333...)
 ```
 
-**ABS()** – absolute value (remove the negative sign)
+### ABS()
+
+absolute value (remove the negative sign):
 
 ```sql
 SELECT ABS(-500);
@@ -255,11 +238,11 @@ SELECT ABS(-500);
 
 Useful when calculating differences where direction doesn't matter.
 
----
+## Date Functions
 
-### Date Functions
+### NOW() / DATE('now')
 
-**NOW() / DATE('now')** – get the current date
+get the current date:
 
 ```sql
 SELECT DATE('now');
@@ -272,18 +255,20 @@ SELECT DATE('now');
 SELECT julianday('now') - julianday(BuildDate) FROM Bots;
 ```
 
----
+## Type & Null Functions
 
-### Type & Null Functions
+### CAST()
 
-**CAST()** – convert a value from one data type to another
+convert a value from one data type to another:
 
 ```sql
 SELECT CAST(Cost AS INTEGER) * 2 FROM Parts;
 -- Forces text '500' to behave as the number 500
 ```
 
-**COALESCE()** – replace NULLs with a default value
+### COALESCE()
+
+replace NULLs with a default value:
 
 ```sql
 SELECT m.Name, COALESCE(a.Shift, 'Lazy') AS Status
@@ -292,33 +277,25 @@ LEFT JOIN Assignments a ON m.MinionID = a.MinionID;
 -- If Shift is NULL, display 'Lazy' instead
 ```
 
-> **Summary:** Scalar functions clean and format data one row at a time. They can appear in SELECT, WHERE, and even inside aggregate functions.
+> Scalar functions clean and format data one row at a time. They can appear in SELECT, WHERE, and even inside aggregate functions.
 
----
-
-## Part 4 – The Order of Execution
+# Order of Execution
 
 This is the sequence SQL **actually** processes a query — not the order you write it:
 
-|Step|Clause|What happens|
-|---|---|---|
-|1|`FROM / JOIN`|Load the table(s)|
-|2|`WHERE`|Filter individual rows|
-|3|`GROUP BY`|Form groups/buckets|
-|4|`HAVING`|Filter groups|
-|5|`SELECT`|Calculate scalars & aggregates|
-|6|`ORDER BY`|Sort the result|
-|7|`LIMIT`|Cut the result|
+| Step | Clause        | What happens                   |
+| ---- | ------------- | ------------------------------ |
+| 1    | `FROM / JOIN` | Load the table(s)              |
+| 2    | `WHERE`       | Filter individual rows         |
+| 3    | `GROUP BY`    | Form groups/buckets            |
+| 4    | `HAVING`      | Filter groups                  |
+| 5    | `SELECT`      | Calculate scalars & aggregates |
+| 6    | `ORDER BY`    | Sort the result                |
+| 7    | `LIMIT`       | Cut the result                 |
 
-**Mnemonic to remember the order:**
+>This order explains **why** you can't use `WHERE` to filter aggregates — WHERE runs at step 2, before groups even exist.
 
-> **F**ind **W**eird **G**ru **H**ats, **S**o **O**thers **L**augh (FROM, WHERE, GROUP BY, HAVING, SELECT, ORDER BY, LIMIT)
-
-This order explains **why** you can't use `WHERE` to filter aggregates — WHERE runs at step 2, before groups even exist.
-
----
-
-## The Ultimate Report Query
+# The Ultimate Report Query
 
 Pulling it all together — all caps names, rounded costs, only for expensive minions:
 
@@ -332,29 +309,6 @@ JOIN Parts p ON bom.PartID = p.PartID
 GROUP BY m.Name
 HAVING SUM(p.Cost) > 100;
 ```
-
----
-
-## Summary Checklist
-
-- **Aggregates** (COUNT, SUM, AVG, MIN, MAX) – math on a whole column, returns one row per group
-- **Scalar functions** (UPPER, ROUND, LENGTH, COALESCE) – transform individual values, row by row
-- **GROUP BY** – divides data into buckets for separate aggregate calculations
-- **HAVING** – filters groups _after_ aggregation (WHERE filters rows _before_)
-- **Order of execution** – FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY → LIMIT
-
----
-
-## Practice Questions
-
-1. What is the difference between `COUNT(*)` and `COUNT(ColumnName)`? When would each give a different result?
-2. Write a query that returns each bot model and the total number of bots built, but only for models with more than 5 units.
-3. Why can't you use `WHERE COUNT(*) > 5`? What should you use instead, and where does it go in the query?
-4. A column stores prices as text (e.g., `'199'`). What function lets you do math with it?
-5. You run `SELECT AVG(Cost) FROM Parts`. How would you change this to get the average cost _per supplier_?
-6. What does `COALESCE(a.Shift, 'Unassigned')` do? In what type of JOIN is this particularly useful?
-7. A classmate writes `SELECT ModelName, Status, COUNT(*) FROM Bots GROUP BY ModelName`. What is wrong with this query?
-8. In what order does SQL process the clauses `WHERE`, `HAVING`, `GROUP BY`, and `SELECT`?
 
 # Tags
 
