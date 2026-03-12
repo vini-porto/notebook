@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sault College/W26/Winter 2026/Cloud Computing - CSD126/6 - Compute.md",
+                "file": "Sault College/W26/Winter 2026/Cloud Computing - CSD126/7 - Infrestructure as Code.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6 - Compute"
+              "title": "7 - Infrestructure as Code"
             }
           }
         ],
@@ -265,8 +265,11 @@
   },
   "active": "b7540f4de38e4428",
   "lastOpenFiles": [
-    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/7 - Storage.md",
+    "Sault College/W26/Winter 2026/Emerging Technology - CSD125/1 - Agentic AI & TuringBots.md",
+    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/7 - Infrestructure as Code.md",
+    "copilot/copilot-conversations/How_could_I_expand_this_topic_about_terraform@20260312_140026.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/6 - Compute.md",
+    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/7 - Storage.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/5 - Generalization and Polymorphism.md",
     "Sault College/W26/Winter 2026/Introduction to Web Development/7 - JavaScript Logic.md",
     "Sault College/W26/Winter 2026/Introduction to Web Development/6 - JavaScript.md",
@@ -290,9 +293,6 @@
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/4 - Introduction to Software Testing.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/2 - Namespaces in Java.md",
     "Sault College/W26/Spring 2025/CSD112/Router on a Stick.md",
-    "Sault College/W26/Spring 2025/CSD112/VLAN.md",
-    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/5 - Networking and Content Delivery.md",
-    "Sault College/W26/Winter 2026/Introduction to Web Development/5 - CSS Flexbox, Positioning, and Z-Index.md",
     "Untitled.base",
     "Untitled.canvas",
     "myNotes",
