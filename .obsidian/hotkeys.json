@@ -1,0 +1,11 @@
+{
+  "auto-anki:export-current-file-to-anki": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
+    }
+  ]
+}
