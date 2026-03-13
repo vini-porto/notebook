@@ -117,9 +117,37 @@
               "icon": "diff",
               "title": "Diff: workspace.json  (Working Tree)"
             }
+          },
+          {
+            "id": "8344431faf5fd0d7",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json  (Working Tree)"
+            }
+          },
+          {
+            "id": "bce5b980f03e2ab6",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json  (Working Tree)"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -211,12 +239,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sault College/F25/CSD112/Cisco CLI - Network Equipment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Cisco CLI - Network Equipment"
+              "title": "Outgoing links"
             }
           },
           {
@@ -240,13 +267,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sault College/F25/CSD112/Cisco CLI - Network Equipment.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Cisco CLI - Network Equipment"
+              "title": "Outline"
             }
           },
           {
@@ -279,10 +305,10 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "87349808c0d69b4f",
+  "active": "ba7f4238cbf16f48",
   "lastOpenFiles": [
-    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/7 - Infrestructure as Code.md",
     "conflict-files-obsidian-git.md",
+    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/7 - Infrestructure as Code.md",
     "Untitled.canvas",
     "Untitled.base",
     "copilot/copilot-conversations/What_is_a_super_type@20260306_135012.md",
