@@ -134,7 +134,7 @@
     "Defaults": {
       "Scan Directory": "",
       "Tag": "Obsidian_to_Anki",
-      "Deck": "Default",
+      "Deck": "Obsidian",
       "Scheduling Interval": 0,
       "Add File Link": false,
       "Add Context": false,
@@ -150,7 +150,7 @@
   "Added Media": [],
   "File Hashes": {
     "structs.md": "e23716ab7425568f7b0d9abb2fd85b50",
-    "copilot/copilot-conversations/Generate_10_formated_cards_for_anki_ready_to_import@20260313_002523.md": "2f5c976dcb8e548a2c72b10ed4bc1c13",
+    "copilot/copilot-conversations/Generate_10_formated_cards_for_anki_ready_to_import@20260313_002523.md": "af43a2fc380ab8b2607577349c4848f4",
     "copilot/copilot-conversations/What_is_a_super_type@20260306_135012.md": "474552fd994c1e07e2cc51bd3b0b3595",
     "copilot/copilot-conversations/How_could_I_expand_this_topic_about_terraform@20260312_140026.md": "5b0efebdab26c290bffe9b790169b32b",
     "copilot/copilot-conversations/Give_me_a_quick_recap_of_activeNote_in_two_sentences.@20260310_101937.md": "7a46d2f5d2a2de1ff3c18b9e110238f0",
@@ -245,7 +245,7 @@
     "Availability Zones.md": "0c4442dc1b97a836b289f5bfb248e964",
     "AWS.md": "30ad807f1b71dbcae589182f9ee1aa07",
     "AWS Cloud Adoption Framework.md": "e1a4e59ff677691af039f50f9c280209",
-    "Anki.md": "8b51b235db540b9c8b3af7f4a67f1984"
+    "Anki.md": "7b7a4facd848c2df716dd97d87f3348b"
   },
   "fields_dict": {
     "01 BASIC": [
