@@ -92,17 +92,17 @@
             }
           },
           {
-            "id": "b297d3be6653b1bd",
+            "id": "c8062139fc858138",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "conflict-files-obsidian-git.md",
-                "bFile": "conflict-files-obsidian-git.md",
-                "aRef": ""
+                "file": "Anki.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: conflict-files-obsidian-git  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "Anki"
             }
           }
         ],
@@ -257,7 +257,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -280,10 +280,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "b297d3be6653b1bd",
+  "active": "24134f0d97f258b6",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/7 - Infrestructure as Code.md",
+    "Anki.md",
+    "copilot/copilot-conversations/Generate_10_formated_cards_for_anki_ready_to_import@20260313_002523.md",
+    "conflict-files-obsidian-git.md",
     "Sault College/W26/Winter 2026/Emerging Technology - CSD125/1 - Agentic AI & TuringBots.md",
     "copilot/copilot-conversations/How_could_I_expand_this_topic_about_terraform@20260312_140026.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/6 - Compute.md",
@@ -308,8 +310,6 @@
     "copilot/copilot-conversations",
     "copilot",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Notes for the test.md",
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/4 - Introduction to Software Testing.md",
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/2 - Namespaces in Java.md",
     "Untitled.base",
     "Untitled.canvas",
     "myNotes",
