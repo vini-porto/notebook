@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sault College/W26/Winter 2026/Cloud Computing - CSD126/7 - Infrestructure as Code.md",
+                "file": "Sault College/W26/Winter 2026/Introduction to Web Development/7 - JavaScript Logic.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7 - Infrestructure as Code"
+              "title": "7 - JavaScript Logic"
             }
           }
         ],
@@ -261,24 +261,22 @@
       "obsidian-importer:Open Importer": false,
       "obsidian-git:Open Git source control": false,
       "copilot:Open Copilot Chat": false,
-      "quiz-generator:Open generator": false,
-      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
-      "flashcards-obsidian:Generate flashcards": false
+      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "315c83aaff31e835",
+  "active": "b7540f4de38e4428",
   "lastOpenFiles": [
+    "Sault College/W26/Winter 2026/Introduction to Web Development/6 - JavaScript.md",
+    "Sault College/W26/Winter 2026/Introduction to Web Development/7 - JavaScript Logic.md",
+    "Sault College/W26/Winter 2026/Emerging Technology - CSD125/1 - Agentic AI & TuringBots.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/7 - Infrestructure as Code.md",
     "Anki.md",
     "copilot/copilot-conversations/Generate_10_formated_cards_for_anki_ready_to_import@20260313_002523.md",
     "conflict-files-obsidian-git.md",
-    "Sault College/W26/Winter 2026/Emerging Technology - CSD125/1 - Agentic AI & TuringBots.md",
     "copilot/copilot-conversations/How_could_I_expand_this_topic_about_terraform@20260312_140026.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/6 - Compute.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/7 - Storage.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/5 - Generalization and Polymorphism.md",
-    "Sault College/W26/Winter 2026/Introduction to Web Development/7 - JavaScript Logic.md",
-    "Sault College/W26/Winter 2026/Introduction to Web Development/6 - JavaScript.md",
     "copilot/copilot-conversations/Create_Linking_notes_from_relevant_content_in_this_note@20260311_104731.md",
     "Sault College/W26/Winter 2026/Introduction to Web Development/Untitled.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/2 - AWS Pricing, Total Cost of Ownership, and Support.md",
