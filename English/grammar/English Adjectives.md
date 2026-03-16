@@ -169,16 +169,6 @@ Many predicative adjectives require a specific preposition when followed by a co
 - [[well aware]] — fixed collocation; _well_ is the idiomatic intensifier for _aware_ (not _very_)
 - [[bitterly cold]] — strong fixed collocation; the adverb _bitterly_ collocates almost exclusively with cold-related adjectives and feelings of resentment
 
----
-
-## Real-World Examples
-
-The contrast between gradable and extreme adjectives is a standard feature of natural-sounding dialogue in British sitcoms — _Fleabag_ and _Peep Show_ both make heavy use of understated gradable adjectives followed by sudden extreme escalation for comic effect (e.g., a character describing something as _a bit odd_ and then revising to _absolutely deranged_).
-
-The OSASCOMP order failure as a stylistic device appears in advertising copy and poetry — unusual stacking (_a tiny, ancient, exquisite wooden Japanese puzzle box_) is used deliberately to slow the reader down and foreground every attribute. Recognising when a writer is _bending_ the rule for effect requires knowing the rule first.
-
----
-
 ## Memory Hook
 
 **Grading adverb + non-gradable adjective = social signal**: saying _very freezing_ or _very exhausted_ doesn't just break a rule — it signals an intermediate speaker to a native ear. The fix is simple: swap _very_ for _absolutely_ when the adjective is already extreme, and the sentence immediately sounds native.
