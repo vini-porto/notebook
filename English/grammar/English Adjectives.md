@@ -7,6 +7,7 @@ tags:
 - modification
 - level/B2 date: 2026-03-16 lesson_level: B2 topic: Adjectives — types, position, order, and gradability source: Multiple grammar references (Cambridge Dictionary, British Council LearnEnglish, Perfect English Grammar, EnglishClub, Test-English, My Lingua Academy)
 
+---
 ## Core Concept
 
 Adjectives modify nouns or describe a subject through a linking verb. 
@@ -22,14 +23,22 @@ Adjectives modify nouns or describe a subject through a linking verb.
 >He is tall_, _The room looks clean_
 
 - Most adjectives can occupy both positions, but some are **position-restricted**:
+
     - **Predicative-only** (cannot precede a noun): _afraid, asleep, alive, awake, aware, alone, glad, ill_ (when meaning "unwell"), _poorly_, _sorry_ (in the apology sense)
         - ✗ _an afraid boy_ → ✓ _a frightened boy_
-        - ✗ _an asleep child_ → ✓ _a sleeping child_
+        - ✗ _an asleep child_ → ✓ _a sleeping child
+
     - **Attributive-only** (rarely follow a linking verb with the same meaning): _former, main, utter, sheer, mere, atomic, earthen_
         - ✗ _The reason was main_ → ✓ _the main reason_
 
 > [!tip] Advanced note 
-> Some adjectives _change meaning_ depending on position. _A poor woman_ (attributive) = an unfortunate woman. _The woman is poor_ (predicative) = she has little money. Similarly: _a certain answer_ (a specific answer) vs. _she is certain_ (she is sure). _The present members_ (those who are here now) vs. _the members are present_.
+> Some adjectives _change meaning_ depending on position. 
+> - _A poor woman_ (attributive) = an unfortunate woman. 
+> - _The woman is poor_ (predicative) = she has little money. 
+>
+>>[!note] Similarly: 
+>>- _a certain answer_ (a specific answer) vs. _she is certain_ (she is sure). 
+>>- _The present members_ (those who are here now) vs. _the members are present_.
 
 ### Adjective Order (OSASCOMP)
 
@@ -39,7 +48,8 @@ When stacking multiple adjectives before a noun, the canonical sequence is:
 
 Mnemonic: **OSASCOMP**
 
-- _a beautiful little old round green French silver whittling knife_
+>_a beautiful little old round green French silver whittling knife_
+
 - In practice, rarely more than three adjectives are stacked; native speakers violate the order occasionally for emphasis
 - When two adjectives belong to the **same category**, use _and_: _a blue and green cotton shirt_
 
