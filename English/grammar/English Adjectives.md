@@ -36,7 +36,7 @@ Adjectives modify nouns or describe a subject through a linking verb.
 > - _A poor woman_ (attributive) = an unfortunate woman. 
 > - _The woman is poor_ (predicative) = she has little money. 
 >
->>[!note] Similarly: 
+>>[!example] Similarly: 
 >>- _a certain answer_ (a specific answer) vs. _she is certain_ (she is sure). 
 >>- _The present members_ (those who are here now) vs. _the members are present_.
 
@@ -100,7 +100,10 @@ Many predicative adjectives require a specific preposition when followed by a co
 - **pretty + adjective** — informal spoken; interchangeable with _fairly_ in most contexts (_pretty tired, pretty obvious_)
 - **a bit + negative gradable adjective** — softening device, common in polite speech (_a bit boring, a bit expensive_)
 
-> [!example] "It was quite good" (gradable) ≠ "It was quite perfect" (non-gradable). The first means _reasonably good_; the second means _completely perfect_. Context and stress carry the distinction in speech.
+> [!example] 
+> "It was quite good" (gradable) ≠ "It was quite perfect" (non-gradable). 
+> 
+> The first means _reasonably good_; the second means _completely perfect_. Context and stress carry the distinction in speech.
 
 ## Written Examples
 
