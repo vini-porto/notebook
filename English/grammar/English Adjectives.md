@@ -53,7 +53,10 @@ Mnemonic: **OSASCOMP**
 - In practice, rarely more than three adjectives are stacked; native speakers violate the order occasionally for emphasis
 - When two adjectives belong to the **same category**, use _and_: _a blue and green cotton shirt_
 
-> [!tip] Advanced note The deeper logic behind OSASCOMP is that adjectives closer to the noun are more _classifying_ (objective, intrinsic), while those further away are more _evaluative_ (subjective, speaker-dependent). Opinion comes first because it is the least inherent quality of the object. This is why reordering feels wrong — it disrupts the gradient from subjectivity to objectivity.
+> [!tip] Advanced note 
+> The deeper logic behind OSASCOMP is that adjectives closer to the noun are more _classifying_ (objective, intrinsic), while those further away are more _evaluative_ (subjective, speaker-dependent). 
+> 
+> Opinion comes first because it is the least inherent quality of the object. This is why reordering feels wrong it disrupts the gradient from subjectivity to objectivity.
 
 ### Gradable vs. Non-Gradable Adjectives
 
@@ -63,26 +66,28 @@ Mnemonic: **OSASCOMP**
 
 **Non-gradable adjectives** fall into three subtypes:
 
-|Subtype|Description|Examples|Correct adverbs|
-|---|---|---|---|
-|Extreme|Already imply "very"|_freezing, furious, exhausted, enormous, tiny, terrified_|_absolutely, completely, utterly, really_|
-|Absolute|Binary states (either/or)|_dead, perfect, unique, married, pregnant, finished_|_absolutely, completely, virtually, practically_|
-|Classifying|Assign to a category|_nuclear, domestic, environmental, chemical, French_|_almost, largely, primarily, exclusively_|
+| Subtype     | Description               | Examples                                                  | Correct adverbs                                  |
+| ----------- | ------------------------- | --------------------------------------------------------- | ------------------------------------------------ |
+| Extreme     | Already imply "very"      | _freezing, furious, exhausted, enormous, tiny, terrified_ | _absolutely, completely, utterly, really_        |
+| Absolute    | Binary states (either/or) | _dead, perfect, unique, married, pregnant, finished_      | _absolutely, completely, virtually, practically_ |
+| Classifying | Assign to a category      | _nuclear, domestic, environmental, chemical, French_      | _almost, largely, primarily, exclusively_        |
 
 - ✗ _very freezing_ / ✗ _very dead_ / ✗ _very nuclear_
 - ✓ _absolutely freezing_ / ✓ _completely dead_ / ✓ _largely domestic_
-- **Exception**: _really_ and _pretty_ collocate with both gradable and non-gradable adjectives — use them when unsure
+
+>[!warning] Exception
+> _really_ and _pretty_ collocate with both gradable and non-gradable adjectives, use them when unsure
+
 - Non-gradable adjectives do **not** normally form comparatives or superlatives (✗ _more unique_, ✗ _deader_)
 
-> [!warning] _Unique_ is technically absolute (either one of a kind or not), but native speakers routinely use _very unique_ in informal speech. In formal writing or academic registers, avoid it.
+> [!warning] 
+> _Unique_ is technically absolute (either one of a kind or not), but native speakers routinely use _very unique_ in informal speech. In formal writing or academic registers, avoid it.
 
 ### Predicative Adjective + Preposition Collocations
 
 Many predicative adjectives require a specific preposition when followed by a complement. These are **not** optional choices — wrong prepositions sound unidiomatic:
 
 - _afraid of / interested in / proud of / responsible for / aware of / capable of / keen on / similar to / different from_
-
----
 
 ## Collocations & Fixed Expressions
 
@@ -97,8 +102,6 @@ Many predicative adjectives require a specific preposition when followed by a co
 
 > [!example] "It was quite good" (gradable) ≠ "It was quite perfect" (non-gradable). The first means _reasonably good_; the second means _completely perfect_. Context and stress carry the distinction in speech.
 
----
-
 ## Written Examples
 
 1. _She found a beautiful old Italian marble fountain in the courtyard._ (opinion → age → origin → material)
@@ -106,8 +109,6 @@ Many predicative adjectives require a specific preposition when followed by a co
 3. _He seemed completely unaware of the implications of his decision._ (predicative + absolute adverb + prep. complement)
 4. _The former minister is now responsible for the new oversight body._ (attributive-only _former_ + predicative + prep.)
 5. ✗ _She was very exhausted after the flight._ → ✓ _She was absolutely exhausted after the flight._
-
----
 
 ## Register & Nuance
 
