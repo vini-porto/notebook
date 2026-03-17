@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages/French/A1-A2/French Sound System.md",
+                "file": "Type definition.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "French Sound System"
+              "title": "Type definition"
             }
           }
         ],
@@ -229,7 +229,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -250,10 +250,12 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "44f3742c9c5f1fe2",
+  "active": "ba7f4238cbf16f48",
   "lastOpenFiles": [
-    "Sault College/W26/Winter 2026/Introduction to Web Development/4 - The World of CSS.md",
+    "Tokens.md",
     "Languages/French/A1-A2/French Sound System.md",
+    "Test.md",
+    "Sault College/W26/Winter 2026/Introduction to Web Development/4 - The World of CSS.md",
     "Languages/French/A1-A2/French Vowels.md",
     "Languages/English/grammar/English Adjectives.md",
     "Languages/French/A1-A2",
@@ -280,8 +282,6 @@
     "copilot/copilot-conversations/Give_me_a_quick_recap_of_activeNote_in_two_sentences.@20260310_101937.md",
     "Sault College/W26/Winter 2026/Databases I - CSD123/5 - SQL Aggregation & Functions.md",
     "Interfaces.md",
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/1 - Intoduction to Java.md",
-    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/3- AWS Global Infrastructure Overview.md",
     "copilot/copilot-conversations",
     "copilot",
     "Untitled.base",
