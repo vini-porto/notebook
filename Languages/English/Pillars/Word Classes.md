@@ -1,6 +1,6 @@
 # Definition
 
-In [[linguistics]], the categories you are referring to Nouns, Verbs, Adverbs, and others fall under the study of **Morphology** and **Syntax**. These are known as **Part of Speech** or **Lexical Categories**.
+In [[Linguistics]], the categories you are referring to Nouns, Verbs, Adverbs, and others fall under the study of **Morphology** and **Syntax**. These are known as **Part of Speech** or **Lexical Categories**.
 
 # Open Classes (Content Words)
 
