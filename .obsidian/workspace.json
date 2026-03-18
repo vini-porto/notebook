@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Type definition.md",
+                "file": "Sault College/W26/Winter 2026/Databases I - CSD123/6 - Subqueries — Query Inception.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Type definition"
+              "title": "6 - Subqueries — Query Inception"
             }
           }
         ],
@@ -250,8 +250,9 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "ba7f4238cbf16f48",
+  "active": "44f3742c9c5f1fe2",
   "lastOpenFiles": [
+    "Type definition.md",
     "Tokens.md",
     "Languages/French/A1-A2/French Sound System.md",
     "Test.md",
@@ -281,7 +282,6 @@
     "Sault College/W26/Winter 2026/Databases I - CSD123/6 - Subqueries — Query Inception.md",
     "copilot/copilot-conversations/Give_me_a_quick_recap_of_activeNote_in_two_sentences.@20260310_101937.md",
     "Sault College/W26/Winter 2026/Databases I - CSD123/5 - SQL Aggregation & Functions.md",
-    "Interfaces.md",
     "copilot/copilot-conversations",
     "copilot",
     "Untitled.base",
