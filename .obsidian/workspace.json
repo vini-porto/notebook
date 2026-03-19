@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sault College/W26/Winter 2026/Programming Concepts - CSD121/1 - Intoduction to Java.md",
+                "file": "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards/1 - Intro. Java - V1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1 - Intoduction to Java"
+              "title": "1 - Intro. Java - V1"
             }
           }
         ],
@@ -252,6 +252,9 @@
   },
   "active": "44f3742c9c5f1fe2",
   "lastOpenFiles": [
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/1 - Intoduction to Java.md",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards/1 - Intro. Java - V1.md",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards",
     "Sault College/W26/Winter 2026/Introduction to Web Development/1 - Architecture, Tools, & Setup.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/Infrastructure as Code (IaC).md",
     "Sault College/W26/Winter 2026/Databases I - CSD123/6 - Subqueries — Query Inception.md",
@@ -280,15 +283,12 @@
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/7 - Storage.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/5 - Generalization and Polymorphism.md",
     "copilot/copilot-conversations/Create_Linking_notes_from_relevant_content_in_this_note@20260311_104731.md",
-    "Sault College/W26/Winter 2026/Introduction to Web Development/Untitled.md",
-    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/2 - AWS Pricing, Total Cost of Ownership, and Support.md",
     "copilot/copilot-conversations",
     "copilot",
     "Untitled.base",
     "Untitled.canvas",
     "myNotes",
     "Computer Science/Programming Languages",
-    "Computer Science",
     "Pasted image 20260107101322.png",
     "Pasted image 20260107100759.png",
     "Pasted image 20260107100742.png",
