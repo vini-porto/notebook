@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sault College/W26/Winter 2026/Programming Concepts - CSD121/1 - Intoduction to Java.md",
+                "file": "Sault College/W26/Winter 2026/Programming Concepts - CSD121/2 - Namespaces in Java.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1 - Intoduction to Java"
+              "title": "2 - Namespaces in Java"
             }
           }
         ],
@@ -250,11 +250,16 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "315c83aaff31e835",
+  "active": "44f3742c9c5f1fe2",
   "lastOpenFiles": [
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards/Type-in-Answer/1 - Typein - Introduction to Java.md",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards/Cloze/1 - Cloze - Introduction to Java.md",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards/Type-in-Answer",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards/Basic Cards/1 - Basic Cards - Introduction to Java.md",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards/Cloze",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/1 - Intoduction to Java.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards/Basic Cards",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards/1 - Intro. Java - V1.md",
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/1 - Intoduction to Java.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards",
     "Sault College/W26/Winter 2026/Introduction to Web Development/1 - Architecture, Tools, & Setup.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/Infrastructure as Code (IaC).md",
@@ -281,14 +286,9 @@
     "conflict-files-obsidian-git.md",
     "copilot/copilot-conversations/How_could_I_expand_this_topic_about_terraform@20260312_140026.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/6 - Compute.md",
-    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/7 - Storage.md",
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/5 - Generalization and Polymorphism.md",
     "copilot/copilot-conversations",
     "copilot",
-    "Untitled.base",
     "Untitled.canvas",
-    "myNotes",
-    "Computer Science/Programming Languages",
     "Pasted image 20260107101322.png",
     "Pasted image 20260107100759.png",
     "Pasted image 20260107100742.png",
