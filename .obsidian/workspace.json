@@ -76,9 +76,21 @@
               "icon": "lucide-file",
               "title": "7 - Creating Databases"
             }
+          },
+          {
+            "id": "718f5f90ba2e24a9",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.7"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -250,7 +262,7 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "44f3742c9c5f1fe2",
+  "active": "718f5f90ba2e24a9",
   "lastOpenFiles": [
     "Sault College/W26/Winter 2026/Databases I - CSD123/6 - Subqueries — Query Inception.md",
     "Sault College/W26/Winter 2026/Databases I - CSD123/7 - Creating Databases.md",
