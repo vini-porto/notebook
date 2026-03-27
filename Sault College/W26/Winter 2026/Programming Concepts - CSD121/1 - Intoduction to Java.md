@@ -52,7 +52,6 @@ Modern Java allows the keyword `var` if you provide a value immediately. The com
 
 **Analogy:** Think of a variable as a labeled container. In Python, you can put anything in any box. In Java, a box labeled "Shoes" can *only* ever hold shoes; trying to put a "Book" in it will cause a [[Compile-time Error]]. 
 
----
 # Data Types in Java
 
 1. [[Primitive Types]]: Basic, values that have no extra features (obs. no methods)
