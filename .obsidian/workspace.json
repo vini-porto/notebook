@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sault College/W26/Winter 2026/Programming Concepts - CSD121/2 - Namespaces in Java.md",
+                "file": "Sault College/W26/Winter 2026/Cloud Computing - CSD126/2 - AWS Pricing, Total Cost of Ownership, and Support.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2 - Namespaces in Java"
+              "title": "2 - AWS Pricing, Total Cost of Ownership, and Support"
             }
           }
         ],
@@ -250,8 +250,18 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "44f3742c9c5f1fe2",
+  "active": "ba7f4238cbf16f48",
   "lastOpenFiles": [
+    "copilot/copilot-conversations/Explain_me_about_AWS_Elastic_Beanstalk@20260331_103115.md",
+    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/1 - Cloud Concepts Overview.md",
+    "Sault College/W26/Winter 2026/Databases I - CSD123/5 - SQL Aggregation & Functions.md",
+    "Interfaces.md",
+    "SQL.md",
+    "Sault College/W26/Winter 2026/Databases I - CSD123/2- AI raw generated text.md",
+    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/Infrastructure as Code (IaC).md",
+    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/6 - Compute.md",
+    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/5 - Networking and Content Delivery.md",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/2 - Namespaces in Java.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/1 - Intoduction to Java.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/5 - Generalization and Polymorphism.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/4 - Introduction to Software Testing.md",
@@ -263,7 +273,6 @@
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/3 - Designing Types.md",
     "Sault College/W26/Winter 2026/Databases I - CSD123/3 - AI The Relational Model.md",
     "Sault College/W26/Winter 2026/Introduction to Web Development/3 - Advanced HTML & Data.md",
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/2 - Namespaces in Java.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards/Type-in-Answer/1 - Typein - Introduction to Java.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards/Cloze/1 - Cloze - Introduction to Java.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards/Type-in-Answer",
@@ -273,19 +282,10 @@
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards/1 - Intro. Java - V1.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards",
     "Sault College/W26/Winter 2026/Introduction to Web Development/1 - Architecture, Tools, & Setup.md",
-    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/Infrastructure as Code (IaC).md",
-    "Type definition.md",
-    "Tokens.md",
-    "Languages/French/A1-A2/French Sound System.md",
-    "Test.md",
-    "Sault College/W26/Winter 2026/Introduction to Web Development/4 - The World of CSS.md",
-    "Languages/French/A1-A2/French Vowels.md",
-    "Languages/English/grammar/English Adjectives.md",
     "Languages/French/A1-A2",
     "Languages/French",
     "Languages",
     "Languages/English/grammar",
-    "Languages/English/Pillars/Word Classes.md",
     "copilot/copilot-conversations",
     "copilot",
     "Untitled.canvas",
