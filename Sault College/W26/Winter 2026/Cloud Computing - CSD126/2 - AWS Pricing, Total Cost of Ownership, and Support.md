@@ -63,7 +63,7 @@ For certain services like [[Amazon EC2]] and [[Amazon RDS]], you can invest in *
 - Smallest discount
 - Frees capital for other projects
 
->[!NOTE] Benefits: 
+>[!Tip] Benefits: 
 >Minimize risks, predictably manage budgets, comply with policies requiring longer-term commitments.
 
 ## 3. Pay Less By Using More
@@ -177,7 +177,7 @@ Obs: you pay only for the resources created
 
 **[[AWS OpsWorks]]**: Application management service for deploying and operating applications of all sizes.
 
-> [!NOTE]
+> [!Warning]
 > You pay for underlying resources
 
 # Total Cost of Ownership (TCO)
@@ -262,7 +262,7 @@ Obs: you pay only for the resources created
 - Facilities: Upgrades, maintenance, building security, taxes
 - IT labor: Security administration, application administration
 
->[!NOTE] The Difference
+>[!important] The Difference
 >
 >**On-premises**: Predicted costs that continue whether capacity is used or not.
 >
@@ -335,7 +335,7 @@ Obs: you pay only for the resources created
 - **Agile business processes**: Quickly respond to new opportunities
 - **Increased global reach**: Deploy worldwide in minutes
 
->[!NOTE] Importance: 
+>[!tip] Importance: 
 >Understanding both hard and soft benefits reveals the full value of cloud migration.
 
 # AWS Organizations
@@ -470,7 +470,7 @@ Root (Organization)
 
 ## Naming Restrictions
 
->[!NOTE] Names must be:
+>[!warning] Names must be:
 >
 >- Composed of Unicode characters
 >- Not exceed 250 characters in length
@@ -614,9 +614,8 @@ From the billing dashboard, access several tools:
 - Customers using AWS for production
 - Customers using AWS as business-critical resource
 
-**Support varies** based on customer needs and goals.
-
-**Goal**: Enable customers to plan, deploy, and optimize with confidence.
+>[!tip] 
+>**Support varies** based on customer needs and goals.
 
 ## AWS Support Resources
 
@@ -651,12 +650,11 @@ AWS offers four support plans: **Basic**, **Developer**, **Business**, and **Ent
 
 **[[Basic Support Plan]]**: Included free for all AWS customers.
 
-**Offers**:
-
-- 24/7 access to customer service
-- Documentation, whitepapers, support forums
-- Access to 6 core Trusted Advisor checks
-- Access to [[Personal Health Dashboard]]
+>[!example] **Offers**:
+>- 24/7 access to customer service
+>- Documentation, whitepapers, support forums
+>- Access to 6 core Trusted Advisor checks
+>- Access to [[Personal Health Dashboard]]
 
 **Limitations**: No direct technical support or case support.
 
@@ -664,11 +662,12 @@ AWS offers four support plans: **Basic**, **Developer**, **Business**, and **Ent
 
 **[[Developer Support Plan]]**: For customers testing or doing early development.
 
-**Best for customers who**:
-
-- Want access to guidance and technical support
-- Are exploring how to quickly put AWS to work
-- Use AWS for non-production workloads or applications
+> [!example] **Best for customers who**:
+> 
+> - Want access to guidance and technical support
+> - Are exploring how to quickly put AWS to work
+> - Use AWS for non-production workloads or applications
+> 
 
 **Includes**: Email support during business hours, general guidance.
 
@@ -676,11 +675,11 @@ AWS offers four support plans: **Basic**, **Developer**, **Business**, and **Ent
 
 **[[Business Support Plan]]**: For customers running production workloads.
 
-**Best for customers who**:
-
-- Run one or more applications in production environments
-- Have multiple services activated or use key services extensively
-- Depend on business solutions to be available, scalable, and secure
+> [!example] Best for customers who**:
+> 
+> - Run one or more applications in production environments
+> - Have multiple services activated or use key services extensively
+> - Depend on business solutions to be available, scalable, and secure
 
 **Includes**: 24/7 phone, email, and chat support, faster response times, access to all Trusted Advisor checks.
 
@@ -688,19 +687,19 @@ AWS offers four support plans: **Basic**, **Developer**, **Business**, and **Ent
 
 **[[Enterprise Support Plan]]**: For business and mission-critical workloads.
 
-**Best for customers who want to**:
+> [!example] **Best for customers who want to**:
+> 
+> - Focus on proactive management to increase efficiency and availability
+> - Build and operate workloads following AWS best practices
+> - Use AWS expertise to support launches and migrations
+> - Have a Technical Account Manager (TAM)
 
-- Focus on proactive management to increase efficiency and availability
-- Build and operate workloads following AWS best practices
-- Use AWS expertise to support launches and migrations
-- Have a Technical Account Manager (TAM)
-
-**TAM benefits**:
-
-- Technical expertise for full range of AWS services
-- Detailed understanding of your use case and architecture
-- Primary point of contact for ongoing support needs
-- Proactive guidance and planning
+> [!tip] **TAM benefits**:
+> 
+> - Technical expertise for full range of AWS services
+> - Detailed understanding of your use case and architecture
+> - Primary point of contact for ongoing support needs
+> - Proactive guidance and planning
 
 # Case Severity and Response Times
 

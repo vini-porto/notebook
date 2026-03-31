@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sault College/W26/Winter 2026/Cloud Computing - CSD126/2 - AWS Pricing, Total Cost of Ownership, and Support.md",
+                "file": "Sault College/W26/Winter 2026/Cloud Computing - CSD126/3- AWS Global Infrastructure Overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2 - AWS Pricing, Total Cost of Ownership, and Support"
+              "title": "3- AWS Global Infrastructure Overview"
             }
           }
         ],
@@ -250,8 +250,9 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "ba7f4238cbf16f48",
+  "active": "44f3742c9c5f1fe2",
   "lastOpenFiles": [
+    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/2 - AWS Pricing, Total Cost of Ownership, and Support.md",
     "copilot/copilot-conversations/Explain_me_about_AWS_Elastic_Beanstalk@20260331_103115.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/1 - Cloud Concepts Overview.md",
     "Sault College/W26/Winter 2026/Databases I - CSD123/5 - SQL Aggregation & Functions.md",
@@ -281,7 +282,6 @@
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards/Basic Cards",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards/1 - Intro. Java - V1.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards",
-    "Sault College/W26/Winter 2026/Introduction to Web Development/1 - Architecture, Tools, & Setup.md",
     "Languages/French/A1-A2",
     "Languages/French",
     "Languages",
