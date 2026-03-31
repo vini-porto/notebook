@@ -149,18 +149,19 @@ Always verify legal and regulatory requirements before selecting a Region.
 
 **[[Redundant Design]]**: Data centers anticipate and tolerate failure while maintaining service levels.
 
-**Key operational principles**:
-
-**Availability**: Critical system components are backed up across multiple Availability Zones.
-
-**Capacity management**: AWS continuously monitors service usage to deploy infrastructure supporting availability commitments.
+> [!NOTE] Key operational principles:
+> 
+> **Availability**: Critical system components are backed up across multiple Availability Zones.
+> 
+> **Capacity management**: AWS continuously monitors service usage to deploy infrastructure supporting availability commitments.
 
 **Security**:
 
 - Data center locations are **not disclosed**
 - All access to them is **restricted**
 
-**Failure recovery**: Automated processes move data traffic away from affected areas in case of failure.
+> [!warning]
+> **Failure recovery**: Automated processes move data traffic away from affected areas in case of failure.
 
 ## Network Equipment
 
@@ -176,12 +177,12 @@ Always verify legal and regulatory requirements before selecting a Region.
 
 **[[Points of Presence]]**: Locations in major cities around the world for content delivery and DNS services.
 
-**Primary services using Points of Presence**:
-
-- [[Amazon CloudFront]] - Content Delivery Network (CDN)
-- [[Amazon Route 53]] - Domain Name System (DNS) service
-- [[AWS Shield]] - DDoS protection
-- [[AWS WAF]] - Web Application Firewall
+> [!example] Primary services using Points of Presence:
+> 
+> - [[Amazon CloudFront]] - Content Delivery Network (CDN)
+> - [[Amazon Route 53]] - Domain Name System (DNS) service
+> - [[AWS Shield]] - DDoS protection
+> - [[AWS WAF]] - Web Application Firewall
 
 ## How Points of Presence Work
 
