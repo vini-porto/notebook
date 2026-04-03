@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sault College/W26/Winter 2026/Cloud Computing - CSD126/3- AWS Global Infrastructure Overview.md",
+                "file": "Sault College/W26/Winter 2026/Programming Concepts - CSD121/6 - Interfaces in Java.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3- AWS Global Infrastructure Overview"
+              "title": "6 - Interfaces in Java"
             }
           }
         ],
@@ -233,7 +233,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 511.5
+    "width": 468.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -252,6 +252,14 @@
   },
   "active": "44f3742c9c5f1fe2",
   "lastOpenFiles": [
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/5 - Generalization and Polymorphism.md",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/6 - Interfaces in Java.md",
+    "Sault College/W26/Winter 2026/Introduction to Web Development/10 - APIs & Fetch.md",
+    "Sault College/W26/Winter 2026/Introduction to Web Development/9 - Memory & Forms — Curing JavaScript's Amnesia.md",
+    "Sault College/W26/Winter 2026/Introduction to Web Development/8 - Loops & Objects - Automating the Boring Stuff.md",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/1 - Intoduction to Java.md",
+    "Sault College/W26/Winter 2026/Introduction to Web Development/1 - Architecture, Tools, & Setup.md",
+    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/3- AWS Global Infrastructure Overview.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/2 - AWS Pricing, Total Cost of Ownership, and Support.md",
     "copilot/copilot-conversations/Explain_me_about_AWS_Elastic_Beanstalk@20260331_103115.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/1 - Cloud Concepts Overview.md",
@@ -263,24 +271,16 @@
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/6 - Compute.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/5 - Networking and Content Delivery.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/2 - Namespaces in Java.md",
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/1 - Intoduction to Java.md",
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/5 - Generalization and Polymorphism.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/4 - Introduction to Software Testing.md",
-    "Sault College/W26/Winter 2026/Introduction to Web Development/8 - Loops & Objects - Automating the Boring Stuff.md",
     "Sault College/W26/Winter 2026/Introduction to Web Development/7 - JavaScript Logic.md",
     "Sault College/W26/Winter 2026/Introduction to Web Development/6 - JavaScript.md",
     "Sault College/W26/Winter 2026/Databases I - CSD123/7 - Creating Databases.md",
     "Sault College/W26/Winter 2026/Databases I - CSD123/6 - Subqueries — Query Inception.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/3 - Designing Types.md",
     "Sault College/W26/Winter 2026/Databases I - CSD123/3 - AI The Relational Model.md",
-    "Sault College/W26/Winter 2026/Introduction to Web Development/3 - Advanced HTML & Data.md",
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards/Type-in-Answer/1 - Typein - Introduction to Java.md",
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards/Cloze/1 - Cloze - Introduction to Java.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards/Type-in-Answer",
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards/Basic Cards/1 - Basic Cards - Introduction to Java.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards/Cloze",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards/Basic Cards",
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards/1 - Intro. Java - V1.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards",
     "Languages/French/A1-A2",
     "Languages/French",
