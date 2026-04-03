@@ -350,12 +350,6 @@ Now if you need to change what `DataEntry` workers can do, you change the role o
 
 > [!important] The Golden Combo Views + DCL together = a powerful security layer. Create a view to hide sensitive columns, then grant permissions only on the view. Users can interact with data safely without ever touching the raw tables.
 
----
-
-Related notes: [[Databases]], [[Data Structures]], [[Algorithms]], [[Cybersecurity]]
-
----
-
 ## Tags
 
 #databases #sql #views #indexes #dcl #security #btree #data_control_language #least_privilege #sql_injection #roles #permissions
