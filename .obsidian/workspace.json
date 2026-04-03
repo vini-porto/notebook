@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL.md",
+                "file": "Sault College/W26/Winter 2026/Programming Concepts - CSD121/2 - Namespaces in Java.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SQL"
+              "title": "2 - Namespaces in Java"
             }
           },
           {
@@ -50,35 +50,21 @@
             }
           },
           {
-            "id": "87349808c0d69b4f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sault College/W26/Winter 2026/Databases I - CSD123/5 - SQL Aggregation & Functions.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "5 - SQL Aggregation & Functions"
-            }
-          },
-          {
             "id": "44f3742c9c5f1fe2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sault College/W26/Winter 2026/Databases I - CSD123/10 - Transactions & Disaster Recovery.md",
+                "file": "javac.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10 - Transactions & Disaster Recovery"
+              "title": "javac"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -233,7 +219,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 468.5
+    "width": 468.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -250,10 +237,20 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "44f3742c9c5f1fe2",
+  "active": "54cf3d2cc1d15e94",
   "lastOpenFiles": [
-    "Sault College/W26/Winter 2026/Databases I - CSD123/9 - Database-Driven Apps & NoSQL.md",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/1 - Intoduction to Java.md",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/2 - Namespaces in Java.md",
+    "Sault College/W26/Winter 2026/Introduction to Web Development/1 - Architecture, Tools, & Setup.md",
+    "SQL.md",
+    "Interfaces.md",
+    "javac.md",
+    "Static Typing.md",
+    "Sault College/W26/Winter 2026/Databases I - CSD123/5 - SQL Aggregation & Functions.md",
+    "Sault College/W26/Winter 2026/Databases I - CSD123/1 - Introduction to Databases.md",
+    "Sault College/W26/Winter 2026/Databases I - CSD123/2 - Talking to Your Data - SQL Basics.md",
     "Sault College/W26/Winter 2026/Databases I - CSD123/10 - Transactions & Disaster Recovery.md",
+    "Sault College/W26/Winter 2026/Databases I - CSD123/9 - Database-Driven Apps & NoSQL.md",
     "Sault College/W26/Winter 2026/Databases I - CSD123/8 - Views, Indexes & Security.md",
     "Sault College/W26/Winter 2026/Databases I - CSD123/7 - Creating Databases.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/7 - Intro to JavaFX.md",
@@ -262,22 +259,12 @@
     "Sault College/W26/Winter 2026/Introduction to Web Development/10 - APIs & Fetch.md",
     "Sault College/W26/Winter 2026/Introduction to Web Development/9 - Memory & Forms — Curing JavaScript's Amnesia.md",
     "Sault College/W26/Winter 2026/Introduction to Web Development/8 - Loops & Objects - Automating the Boring Stuff.md",
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/1 - Intoduction to Java.md",
-    "Sault College/W26/Winter 2026/Introduction to Web Development/1 - Architecture, Tools, & Setup.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/3- AWS Global Infrastructure Overview.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/2 - AWS Pricing, Total Cost of Ownership, and Support.md",
     "copilot/copilot-conversations/Explain_me_about_AWS_Elastic_Beanstalk@20260331_103115.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/1 - Cloud Concepts Overview.md",
-    "Sault College/W26/Winter 2026/Databases I - CSD123/5 - SQL Aggregation & Functions.md",
-    "Interfaces.md",
-    "SQL.md",
     "Sault College/W26/Winter 2026/Databases I - CSD123/2- AI raw generated text.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/Infrastructure as Code (IaC).md",
-    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/6 - Compute.md",
-    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/5 - Networking and Content Delivery.md",
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/2 - Namespaces in Java.md",
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/4 - Introduction to Software Testing.md",
-    "Sault College/W26/Winter 2026/Introduction to Web Development/7 - JavaScript Logic.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards/Type-in-Answer",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards/Cloze",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards/Basic Cards",
