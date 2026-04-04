@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sault College/W26/Winter 2026/Programming Concepts - CSD121/2 - Namespaces in Java.md",
+                "file": "Sault College/W26/Winter 2026/Programming Concepts - CSD121/3 - Designing Types.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2 - Namespaces in Java"
+              "title": "3 - Designing Types"
             }
           },
           {
@@ -236,17 +236,18 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "24134f0d97f258b6",
+  "active": "54cf3d2cc1d15e94",
   "lastOpenFiles": [
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/6 - Interfaces in Java.md",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/3 - Designing Types.md",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/2 - Namespaces in Java.md",
     "copilot/copilot-conversations/Java_Shadowing_Explanation@20260404_115309.md",
     "variables.md",
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/2 - Namespaces in Java.md",
     "Interfaces.md",
     "Tokens.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/1 - Intoduction to Java.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/4 - Introduction to Software Testing.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/5 - Generalization and Polymorphism.md",
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/6 - Interfaces in Java.md",
     "Sault College/W26/Winter 2026/Introduction to Web Development/1 - Architecture, Tools, & Setup.md",
     "SQL.md",
     "javac.md",
@@ -263,7 +264,6 @@
     "Sault College/W26/Winter 2026/Introduction to Web Development/9 - Memory & Forms — Curing JavaScript's Amnesia.md",
     "Sault College/W26/Winter 2026/Introduction to Web Development/8 - Loops & Objects - Automating the Boring Stuff.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/3- AWS Global Infrastructure Overview.md",
-    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/2 - AWS Pricing, Total Cost of Ownership, and Support.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards/Type-in-Answer",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards/Cloze",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards/Basic Cards",

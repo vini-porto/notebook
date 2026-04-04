@@ -1,5 +1,3 @@
-Related: [[Data Structures]] | [[Programming Languages]] | [[Software Engineering]] | [[Algorithms]]
-
 # Why Do We Need to Model Data?
 
 Every program operates on data. Depending on the domain, that data looks very different:
@@ -54,7 +52,7 @@ def show_event_titles(event_list):
 # Maps — Better, but Still Problematic
 
 ```python
-events = [
+events = [show_event_titles
     { "title": "Hackathon", "start": "...", "end": "...", "services": ["wifi"] },
 ]
 
@@ -97,24 +95,23 @@ class <TypeName> {
 ```
 
 > [!example] Example: Event class
-
-```java
-class Event {
-    String title;
-    LocalDateTime startTime;
-    LocalDateTime endTime;
-
-    Event(String title, LocalDateTime startTime, LocalDateTime endTime) {
-        this.title = title;
-        this.startTime = startTime;
-        this.endTime = endTime;
-    }
-
-    Duration getDuration() {
-        return Duration.between(startTime, endTime);
-    }
-}
-```
+>```java
+>class Event {
+  >  String title;
+    >LocalDateTime startTime;
+    >LocalDateTime endTime;
+>
+  >  Event(String title, LocalDateTime startTime, LocalDateTime endTime) {
+    >    this.title = title;
+    >    this.startTime = startTime;
+    >    this.endTime = endTime;
+    >}
+>
+  >  Duration getDuration() {
+    >    return Duration.between(startTime, endTime);
+    >}
+>}
+>```
 
 ## The `this` Keyword
 
@@ -158,7 +155,8 @@ Objects of the **same type** share the same _behaviour_ (methods) but can have d
 - It has **no explicit return type** (the return type is implicitly the type itself)
 - Java auto-inserts a no-argument constructor **only if no constructor is defined**
 
-> [!warning] Common Gotcha with Constructors If you define _any_ constructor, Java will **not** add a default no-arg constructor automatically.
+> [!warning] Common Gotcha with Constructors 
+> If you define _any_ constructor, Java will **not** add a default no-arg constructor automatically.
 > 
 > ```java
 > class Counter {

@@ -114,3 +114,34 @@ Here's what it indicates for different members:
 
 In summary, `static` members are associated with the class itself rather than with any particular object, making them useful for utility methods, constants, and shared resources.
 [Timestamp: 2026/04/04 12:03:30]
+
+**user**: Overloading constructors
+[Context: Notes: Sault College/W26/Winter 2026/Programming Concepts - CSD121/3 - Designing Types.md]
+[Timestamp: 2026/04/04 14:26:05]
+
+**ai**: You can create multiple constructors in a Java class, provided they have different parameter lists (different *signatures*). This is known as **constructor overloading**.
+
+Here's an example from your note:
+
+```java
+// Constructor 1: explicit start and end times
+Event(String title, LocalDateTime startTime, LocalDateTime endTime) { ... }
+
+// Constructor 2: start time + duration
+Event(String title, LocalDateTime start, Duration duration) {
+    this.title = title;
+    this.startTime = start;
+    this.endTime = start.plus(duration);
+}
+```
+
+In this `Event` class, there are two constructors:
+- One takes a `title`, `startTime`, and `endTime`.
+- Another takes a `title`, `start` time, and a `duration`, and then calculates the `endTime` internally.
+
+This allows you to create `Event` objects using different sets of initial data, depending on what's most convenient for the situation.
+[Timestamp: 2026/04/04 14:26:07]
+
+**user**: What are Access Modifiers?
+[Context: Notes: Sault College/W26/Winter 2026/Programming Concepts - CSD121/3 - Designing Types.md]
+[Timestamp: 2026/04/04 14:36:05]
