@@ -1,11 +1,7 @@
-Related: [[Software Engineering]] | [[Programming Languages]] | [[Algorithms]]
-
 # What is Software Testing?
 
 > [!note] Software testing 
 > Is the process of running software or software components in specific ways to verify that it works as expected.
-
-In simple terms: you give your program specific inputs, and check that it produces the right outputs. If it doesn't, something is broken and needs to be fixed.
 
 # Why Do We Test?
 
@@ -15,7 +11,8 @@ There are three main reasons to test software:
 - **Identify bugs** — find errors in the code before users encounter them.
 - **Detect regressions** — check that new changes haven't accidentally broken something that was already working.
 
-> [!important] A **regression** is when a previously working feature breaks due to a new code change. Automated tests help catch these automatically.
+> [!important] 
+> A **regression** is when a previously working feature breaks due to a new code change. Automated tests help catch these automatically.
 
 # Kinds of Tests
 
@@ -32,7 +29,8 @@ This refers to _how much_ of the system is being tested at once.
 |**End-to-end / System**|Entire software system behaves correctly|UI flows, system workflows|
 |**Acceptance**|System meets client requirements|User Acceptance Testing (UAT)|
 
-> [!tip] Think of scope like zoom levels. Unit tests zoom in on one small piece. End-to-end tests zoom all the way out to view the whole system.
+> [!tip] 
+> Think of scope like zoom levels. Unit tests zoom in on one small piece. End-to-end tests zoom all the way out to view the whole system.
 
 ## By Execution Pattern
 
@@ -73,7 +71,8 @@ This refers to _how_ the tests are run.
 
 # When Should You Test?
 
-> [!important] Test **early and often!** The sooner you catch a bug, the cheaper and easier it is to fix.
+> [!important] 
+> Test **early and often!** The sooner you catch a bug, the cheaper and easier it is to fix.
 
 Two popular development philosophies around testing:
 
@@ -93,11 +92,14 @@ Most programming platforms have dedicated testing frameworks that make writing a
 |Go|go test (built-in)|
 |PHP|PHPUnit, Pest|
 
-> [!tip] For more on testing frameworks in Python, check out [GeeksforGeeks - Pytest](https://www.geeksforgeeks.org/pytest-tutorial/).
+> [!tip]
+>  For more on testing frameworks in Python, check out [GeeksforGeeks - Pytest](https://www.geeksforgeeks.org/pytest-tutorial/).
 
 # Writing Automated Tests
 
-You _could_ test your program manually every time — but that's slow, tedious, and easy to mess up. Instead, we write **automated tests**: separate programs that run our code and verify it produces the right output.
+You _could_ test your program manually every time but that's slow, tedious, and easy to mess up. 
+
+Instead, we write **automated tests**: separate programs that run our code and verify it produces the right output.
 
 Each test should clearly state:
 
@@ -127,7 +129,8 @@ A good automated test suite:
 </dependencies>
 ```
 
-> [!note] The `<scope>test</scope>` tag means this dependency is **only included during test runs**, not in the final compiled program. The default scope is `compile`.
+> [!note] 
+> The `<scope>test</scope>` tag means this dependency is **only included during test runs**, not in the final compiled program. The default scope is `compile`.
 
 ## Anatomy of a JUnit Test
 
@@ -167,18 +170,22 @@ class TestIntUtils {
 }
 ```
 
-Let's break this down piece by piece:
-
 - **`import org.junit.jupiter.api.Test`** — imports the `@Test` annotation from JUnit.
+
 - **`import static org.junit.jupiter.api.Assertions.*`** — imports assertion methods like `assertTrue`, `assertFalse`, `assertEquals`, etc.
+
 - **The test class** — named `TestIntUtils` (convention: `Test` + name of class being tested).
+
 - **`@Test` annotation** — marks a method as a JUnit test. Every method with this annotation will be automatically run by JUnit.
+
 - **Test method name** — can be anything, but _should clearly describe what is being tested_.
+
 - **Multiple assertions per test** — a single test method can (and often should) contain multiple assertions, as long as they all relate to the same concept being verified.
 
-> [!important] One test class should have **multiple test methods** — one for each distinct behaviour or scenario you want to verify.
+> [!important] 
+> One test class should have **multiple test methods**, one for each distinct behaviour or scenario you want to verify.
 
-Here's the complementary test for _non-prime_ numbers:
+Complementary test for _non-prime_ numbers:
 
 ```java
 @Test
@@ -226,8 +233,6 @@ When a test **fails**, the IDE tells you:
 > 
 > This tells you precisely where to look in your code to fix the bug.
 
----
-
 # Choosing What to Test
 
 You can't always test every possible input (imagine testing every possible string!). So you need to be strategic about _what_ to test.
@@ -254,11 +259,12 @@ You can't always test every possible input (imagine testing every possible strin
 
 - If a certain condition _should_ throw an exception, write a test to verify it actually does.
 
-> [!tip] Ask yourself: _"How could this code break or go wrong?"_ Then write tests that try to trigger exactly those circumstances.
+> [!tip] 
+> Ask yourself: _"How could this code break or go wrong?"_ Then write tests that try to trigger exactly those circumstances.
 
 ## Code Coverage
 
-> [!note] **Code coverage
+> [!note] Code coverage
 >  is a percentage that indicates how much of your code is actually executed when your tests run. 100% means every line was touched by at least one test.
 
 In large projects, 100% coverage is often not feasible. Instead, prioritize:
@@ -272,8 +278,6 @@ In large projects, 100% coverage is often not feasible. Instead, prioritize:
 Testing instance methods works just like testing static methods — but you need to **create an object first** and configure it before calling the method.
 
 You should also **test constructors** to verify that instance variables are correctly initialized.
-
-> [!example] Testing a Hero Class
 
 ```java
 class Hero {
@@ -357,7 +361,8 @@ void singleLetterIsCapitalized() {
 }
 ```
 
-> [!warning] Common Mistake Many beginners only test the "happy path" — valid inputs that obviously work. Don't forget to test `null`, empty strings, negative numbers, and other edge cases. These are where bugs love to hide.
+> [!warning] Common Mistake 
+> Many beginners only test the "happy path" — valid inputs that obviously work. Don't forget to test `null`, empty strings, negative numbers, and other edge cases. These are where bugs love to hide.
 
 # External Resources
 
