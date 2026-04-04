@@ -83,7 +83,7 @@ In Java, the following structures can be considered [[namespaces]]:
 - **[[Objects]]**
 - **[[Packages]]**
 
-## Type Definitions / TODO
+## Type Definitions 
 
 **Rule**: In Java, all code is ultimately inside one [[Type definition]] or another.
 
@@ -217,7 +217,7 @@ D d;  // A variable of type D
 
 **Characteristics**:
 
-- All values of the same type share the same properties and behavior
+- All values of the same type share the same properties and behaviour
 - Example: All Lists have a `get` method; all arrays have a `length` property
 
 **Metaphor**: Think of a type (class/record/enum/interface) as a **blueprint** or **recipe** for a certain kind of value.
@@ -232,7 +232,8 @@ D d;  // A variable of type D
 
 **Metaphor**: Think of an object as one specific **instance** of a certain blueprint/recipe.
 
-**Note**: Here, we are considering only [[Reference Types]], NOT [[Primitive Types]].
+> [!important]
+> Here, we are considering only [[Reference Types]], NOT [[Primitive Types]].
 
 ## Objects as Namespaces
 

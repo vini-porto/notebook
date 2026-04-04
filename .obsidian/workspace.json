@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sault College/W26/Winter 2026/Programming Concepts - CSD121/1 - Intoduction to Java.md",
+                "file": "Sault College/W26/Winter 2026/Programming Concepts - CSD121/2 - Namespaces in Java.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1 - Intoduction to Java"
+              "title": "2 - Namespaces in Java"
             }
           },
           {
@@ -215,12 +215,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 468.5,
-    "collapsed": true
+    "width": 468.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -237,16 +236,19 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "54cf3d2cc1d15e94",
+  "active": "24134f0d97f258b6",
   "lastOpenFiles": [
+    "copilot/copilot-conversations/Java_Shadowing_Explanation@20260404_115309.md",
+    "variables.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/2 - Namespaces in Java.md",
+    "Interfaces.md",
+    "Tokens.md",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/1 - Intoduction to Java.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/4 - Introduction to Software Testing.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/5 - Generalization and Polymorphism.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/6 - Interfaces in Java.md",
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/1 - Intoduction to Java.md",
     "Sault College/W26/Winter 2026/Introduction to Web Development/1 - Architecture, Tools, & Setup.md",
     "SQL.md",
-    "Interfaces.md",
     "javac.md",
     "Static Typing.md",
     "Sault College/W26/Winter 2026/Databases I - CSD123/5 - SQL Aggregation & Functions.md",
@@ -262,9 +264,6 @@
     "Sault College/W26/Winter 2026/Introduction to Web Development/8 - Loops & Objects - Automating the Boring Stuff.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/3- AWS Global Infrastructure Overview.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/2 - AWS Pricing, Total Cost of Ownership, and Support.md",
-    "copilot/copilot-conversations/Explain_me_about_AWS_Elastic_Beanstalk@20260331_103115.md",
-    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/1 - Cloud Concepts Overview.md",
-    "Sault College/W26/Winter 2026/Databases I - CSD123/2- AI raw generated text.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards/Type-in-Answer",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards/Cloze",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards/Basic Cards",
