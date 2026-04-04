@@ -360,7 +360,8 @@ This is a _shallow copy_, but that is fine here because `String` and `LocalDateT
 
 Sometimes a type should only have a specific, limited set of possible values.
 
-> [!warning] Don't Use Strings for This Using strings like `"NORTH"`, `"SOUTH"` etc. is error-prone — typos like `"nrht"` only cause errors at **run time**, and switches need a messy `default` case.
+> [!warning] Don't Use Strings for This 
+> Using strings like `"NORTH"`, `"SOUTH"` etc. is error-prone — typos like `"nrht"` only cause errors at **run time**, and switches need a messy `default` case.
 
 Instead, use an **enum**:
 
@@ -417,7 +418,8 @@ A `record` automatically gives you:
 - `equals`, `hashCode`, and `toString` — all auto-generated
 - **Immutability** — no setters; fields cannot be changed after creation
 
-> [!tip] In Java, when you need a composite type that isn't a collection, **start with `record`** instead of `class`. Upgrade to `class` only if you need mutability or more complex behaviour.
+> [!tip] 
+> In Java, when you need a composite type that isn't a collection, **start with `record`** instead of `class`. Upgrade to `class` only if you need mutability or more complex behaviour.
 
 Both `enum` and `record` can have additional methods and class members attached to them just like a regular class.
 
