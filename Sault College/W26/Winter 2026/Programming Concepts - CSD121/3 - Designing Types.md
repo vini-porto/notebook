@@ -289,16 +289,17 @@ c2.getCount(); // 1
 > }
 > ```
 
-> [!tip] Type Design Tip: Minimize the Public Interface Every `public` member is a **promise**: "This will always be here." The less you expose, the more freedom you have to change internals later.
+> [!tip] Minimize the Public Interface 
+> Every `public` member is a **promise**: "This will always be here." The less you expose, the more freedom you have to change internals later.
 
 # Accessors, Mutators, Getters, and Setters
 
-|Term|What it does|
-|---|---|
-|**Accessor**|Reads values; never changes any state|
-|**Mutator**|Changes one or more values|
-|**Getter**|Accessor that reads one specific instance variable; named `getX()`|
-|**Setter**|Mutator that sets one specific instance variable; named `setX()`|
+| Term         | What it does                                                       |
+| ------------ | ------------------------------------------------------------------ |
+| **Accessor** | Reads values; never changes any state                              |
+| **Mutator**  | Changes one or more values                                         |
+| **Getter**   | Accessor that reads one specific instance variable; named `getX()` |
+| **Setter**   | Mutator that sets one specific instance variable; named `setX()`   |
 
 # Useful Methods to Implement
 
@@ -352,7 +353,8 @@ public Event(Event other) {
 
 This is a _shallow copy_, but that is fine here because `String` and `LocalDateTime` are **immutable** — you cannot change them through the copy, so the original is safe.
 
-> [!tip] IDE Code Generation Most modern IDEs (like IntelliJ) can auto-generate boilerplate like getters, setters, `equals`, `hashCode`, `toString`, and constructors. Use the "Generate" menu to save time!
+> [!tip] IDE Code Generation 
+> Most modern IDEs (like IntelliJ) can auto-generate boilerplate like getters, setters, `equals`, `hashCode`, `toString`, and constructors. Use the "Generate" menu to save time!
 
 # `enum` — Fixed Sets of Values
 
