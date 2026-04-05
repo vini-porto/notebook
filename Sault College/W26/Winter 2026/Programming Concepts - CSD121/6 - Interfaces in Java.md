@@ -5,15 +5,15 @@ Interfaces are one of the most powerful tools in Java for writing clean, flexibl
 
 Recall that classes define both **state** (instance variables) and **behaviour** (methods). When we use inheritance, subclasses inherit both from their superclass. But what if a group of classes shares common _behaviour_ but has completely _different_ internal data?
 
-> [!example] Imagine you need to send alerts via Email, SMS, Discord, and a PA system. Each of these has very different internal state (different API keys, endpoints, data structures), so it makes no sense to force them into a class hierarchy. But they all share one behaviour: _sending an alert_.
+> [!example] 
+> Imagine you need to send alerts via Email, SMS, Discord, and a PA system. Each of these has very different internal state (different API keys, endpoints, data structures), so it makes no sense to force them into a class hierarchy. But they all share one behaviour: _sending an alert_.
 
 This is exactly the problem **interfaces** solve.
 
----
-
 ## What is an Interface?
 
-> [!note] Definition An **interface** is a type definition structure that defines _only behaviour_ — specifically, the set of methods that any implementing class must provide. It has **no instance variables** (no shared state).
+> [!note] Definition 
+> An **interface** is a type definition structure that defines _only behaviour_ specifically, the set of methods that any implementing class must provide. It has **no instance variables** (no shared state).
 
 ```java
 public interface Alerter {
@@ -25,8 +25,6 @@ Key rules about interfaces:
 
 - All methods in an interface are **`public` and `abstract` by default** — you don't need to write those keywords explicitly.
 - Interfaces typically do **not** provide method bodies (the implementation is left to the classes that use them).
-
----
 
 ## Implementing an Interface
 
@@ -41,7 +39,8 @@ public class EmailAlerter implements Alerter {
 }
 ```
 
-> [!important] A class that implements an interface **MUST implement ALL methods** defined by that interface. If it doesn't, the code won't compile.
+> [!important] 
+> A class that implements an interface **MUST implement ALL methods** defined by that interface. If it doesn't, the code won't compile.
 
 A class can implement **multiple interfaces** at once (unlike class inheritance, which only allows one superclass):
 
@@ -54,8 +53,6 @@ class Circle implements Drawable, Scalable {
     public void scale(double factor) { ... }
 }
 ```
-
----
 
 ## Interfaces as Subtypes (Polymorphism)
 
@@ -72,9 +69,8 @@ void doSomethingThatMightAlert(Alerter alerter) {
 
 You can pass an `EmailAlerter`, `SmsAlerter`, or `DiscordAlerter` — any implementing class works here. This gives you **loose coupling**: your method doesn't care _which_ implementation is used.
 
-> [!tip] Using the interface as the **type** (e.g. `Alerter` instead of `EmailAlerter`) means future implementations can be added with zero changes to existing code. This is a massive win for maintainability.
-
----
+> [!tip] 
+> Using the interface as the **type** (e.g. `Alerter` instead of `EmailAlerter`) means future implementations can be added with zero changes to existing code. This is a massive win for maintainability.
 
 ## Clearing Up the Word "Interface"
 
@@ -87,11 +83,9 @@ The word "interface" gets used in a few different ways in CS. Here's a summary:
 |**Public interface of a class**|The public members of a class|
 |**Interface (type structure)**|A Java code structure defining a type by its methods|
 
----
-
 ## Default Methods
 
-Normally, interfaces have no method bodies. But since Java 8, interfaces can provide **default method implementations** — as long as the method does not depend on instance variables.
+Normally, interfaces have no method bodies. But since Java 8, interfaces can provide **default method implementations** as long as the method does not depend on instance variables.
 
 ```java
 public interface Service {
@@ -104,9 +98,8 @@ public interface Service {
 }
 ```
 
-> [!note] Implementing classes may **override** default methods, but they don't have to. Default methods exist to allow interfaces to evolve without breaking existing implementations.
-
----
+> [!note] 
+> Implementing classes may **override** default methods, but they don't have to. Default methods exist to allow interfaces to evolve without breaking existing implementations.
 
 ## Interface Hierarchies
 
@@ -121,8 +114,6 @@ interface CanSayWords extends CanMakeSound { void sayWords(); }
 // Inherits ALL methods from both parents (plus makeSound from CanMakeSound)
 interface CanSingSong extends CanMakeMelody, CanSayWords { void singSong(); }
 ```
-
----
 
 ## Interfaces vs Abstract Classes vs Other Types
 
@@ -146,9 +137,8 @@ It helps to think of Java's type structures on a spectrum from _data-oriented_ t
 |Can have concrete methods?|Only as `default` (no instance vars)|Yes|
 |Can have static members?|Yes|Yes|
 
-> [!important] Use an **interface** when many unrelated types share a common behaviour. Use an **abstract class** when subtypes share common _data_ and _behaviour_.
-
----
+> [!important] 
+> Use an **interface** when many unrelated types share a common behaviour. Use an **abstract class** when subtypes share common _data_ and _behaviour_.
 
 ## The Java Collections Hierarchy
 
@@ -160,13 +150,12 @@ The Java standard library (JDK) is built heavily on interfaces. The Collections 
 
 This means you can write `List<String> myList = new ArrayList<>()` and switch to `LinkedList` later with just one change.
 
-See also: [[Data Structures]]
-
----
+[[Data Structures]]
 
 ## Functional Interfaces
 
-> [!note] Definition A **functional interface** is any interface with exactly **one abstract method**. It can have any number of `default` or `static` methods — those don't count.
+> [!note] Definition 
+> A **functional interface** is any interface with exactly **one abstract method**. It can have any number of `default` or `static` methods — those don't count.
 
 ```java
 @FunctionalInterface
@@ -181,8 +170,6 @@ public interface MyInterface {
 The `@FunctionalInterface` annotation is optional but recommended — if you add it, the compiler will throw an error if the interface accidentally has more or fewer than one abstract method.
 
 Functional interfaces represent a **single abstract function**, and they are the key to lambda expressions.
-
----
 
 ## Lambda Expressions
 
@@ -228,8 +215,6 @@ s -> s.contains("world")
 > printIf(someStr, s -> s.contains("world"));
 > ```
 
----
-
 ## Function References
 
 When a lambda simply forwards its argument(s) to an existing method, you can use a **function reference** as an even shorter alternative.
@@ -250,8 +235,6 @@ The `::` operator creates a reference to a method.
 |Constructor|`Person::new`|`(n, a) -> new Person(n, a)`|
 |Object instance method|`list::add`|`s -> list.add(s)`|
 
----
-
 ## Anonymous Inner Classes
 
 Under the hood, lambda expressions and function references are converted by the compiler to **anonymous inner classes** — one-time, unnamed implementations of an interface.
@@ -269,9 +252,8 @@ list.forEach(new Consumer<String>() {
 });
 ```
 
-> [!note] Normally you can't instantiate an interface with `new`. The anonymous class syntax (a code block immediately after `new InterfaceName()`) is a special case that creates and instantiates a one-off implementation inline.
-
----
+> [!note] 
+> Normally you can't instantiate an interface with `new`. The anonymous class syntax (a code block immediately after `new InterfaceName()`) is a special case that creates and instantiates a one-off implementation inline.
 
 ## Useful JDK Functional Interfaces
 
@@ -284,8 +266,6 @@ Java provides several ready-made functional interfaces in `java.util.function`:
 |`Function<T, R>`|Takes a `T`, returns an `R`|`s -> s.length()`|
 |`BiFunction<T, U, R>`|Takes a `T` and `U`, returns an `R`|`(a, b) -> a + b`|
 |`Predicate<T>`|Takes a `T`, returns a `boolean`|`s -> s.length() > 42`|
-
----
 
 ## The Stream Interface
 
@@ -300,7 +280,8 @@ foods.stream()
     .forEach(food -> IO.println(food));   // Print each one
 ```
 
-> [!important] Many `Stream` operations accept **functional interfaces** (lambdas or function references) as arguments. This is what makes them so flexible.
+> [!important] 
+> Many `Stream` operations accept **functional interfaces** (lambdas or function references) as arguments. This is what makes them so flexible.
 
 ### Chainable operations (return another Stream)
 
@@ -324,8 +305,6 @@ foods.stream()
 |`max/min(comp)`|Largest / smallest item|`.min((a, b) -> a - b)`|
 |`reduce(init, fn)`|Accumulate a result|`.reduce(0, (a, b) -> a + b)`|
 |`toList()`|Collect back into a List|`.toList()`|
-
----
 
 ## Sorting with Comparator
 
@@ -354,9 +333,8 @@ people.stream()
     .toList();
 ```
 
-> [!tip] `Comparator.comparing(keyExtractor)` is the cleanest way to sort — just give it a function that pulls out the value to compare by.
-
----
+> [!tip] 
+> `Comparator.comparing(keyExtractor)` is the cleanest way to sort — just give it a function that pulls out the value to compare by.
 
 ## Higher-Order Functions in Java
 
@@ -374,9 +352,8 @@ This works because:
 2. Lambda expressions / function references are automatically converted to **anonymous inner classes** that implement the expected functional interface.
 3. Methods that accept functional interfaces as parameters are effectively higher-order functions.
 
-> [!warning] Java doesn't truly have higher-order functions — what's happening is syntactic sugar. The compiler is generating anonymous classes behind the scenes. Don't confuse this with languages like Python or JavaScript where functions are truly first-class.
-
----
+> [!warning] 
+> Java doesn't truly have higher-order functions — what's happening is syntactic sugar. The compiler is generating anonymous classes behind the scenes. Don't confuse this with languages like Python or JavaScript where functions are truly first-class.
 
 ## Putting It All Together: GUI Event Handling Example
 
@@ -398,19 +375,12 @@ button.setActionListener(e -> IO.println("Button was clicked!"));
 
 `ActionListener` is a **functional interface** with one method: `actionPerformed`. The lambda replaces the entire class definition.
 
----
-
-## Further Reading
+# Other Sorces
 
 - [GeeksForGeeks — Java Interfaces](https://www.geeksforgeeks.org/interfaces-in-java/)
 - [GeeksForGeeks — Lambda Expressions](https://www.geeksforgeeks.org/lambda-expressions-java-8/)
 - [GeeksForGeeks — Java Stream API](https://www.geeksforgeeks.org/stream-in-java/)
-- [MDN Web Docs](https://developer.mozilla.org/) (for general programming concepts)
-
-Related notes: [[Software Engineering]], [[Data Structures]], [[Algorithms]], [[Programming Languages]]
-
----
-
-## Tags
+- [MDN Web Docs](https://developer.mozilla.org/) 
+# Tags
 
 #computer_science #java #interfaces #lambda_expressions #functional_programming #streams #object_oriented_programming #software_engineering #study_notes #polymorphism

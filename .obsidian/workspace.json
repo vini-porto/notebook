@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sault College/W26/Winter 2026/Programming Concepts - CSD121/4 - Introduction to Software Testing.md",
+                "file": "Sault College/W26/Winter 2026/Programming Concepts - CSD121/6 - Interfaces in Java.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4 - Introduction to Software Testing"
+              "title": "6 - Interfaces in Java"
             }
           },
           {
@@ -205,7 +205,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 468.5
+    "width": 468.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -224,17 +225,17 @@
   },
   "active": "54cf3d2cc1d15e94",
   "lastOpenFiles": [
-    "Interfaces.md",
-    "javac.md",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/5 - Generalization and Polymorphism.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/4 - Introduction to Software Testing.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/3 - Designing Types.md",
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/6 - Interfaces in Java.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/2 - Namespaces in Java.md",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/1 - Intoduction to Java.md",
+    "Interfaces.md",
+    "javac.md",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/6 - Interfaces in Java.md",
     "copilot/copilot-conversations/Java_Shadowing_Explanation@20260404_115309.md",
     "variables.md",
     "Tokens.md",
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/1 - Intoduction to Java.md",
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/5 - Generalization and Polymorphism.md",
     "Sault College/W26/Winter 2026/Introduction to Web Development/1 - Architecture, Tools, & Setup.md",
     "SQL.md",
     "Static Typing.md",
