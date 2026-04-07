@@ -2,8 +2,6 @@
 
 **[[AWS Global Infrastructure]]**: Designed and built to deliver a flexible, reliable, scalable, and secure cloud computing environment with high-quality global network performance.
 
-**Core principle**: The infrastructure provides the foundation for all AWS services and customer workloads.
-
 # AWS Regions
 
 ## What is an AWS Region?
@@ -12,7 +10,8 @@
 
 **Current scale**: AWS has 22 Regions worldwide (as of the lecture date).
 
-**Infrastructure hierarchy**: AWS Cloud infrastructure is built around Regions, which contain Availability Zones, which in turn consist of one or more [[Data Centers]].
+> [!Tip] **Infrastructure hierarchy**: 
+> AWS Cloud infrastructure is built around Regions, which contain Availability Zones, which in turn consist of one or more [[Data Centers]].
 
 ## Region Isolation and Data Residency
 
@@ -24,7 +23,7 @@
 
 **[[Data Residency]]**: When you store data in a specific Region, it is **not replicated outside that Region** unless you explicitly configure it.
 
-> [!NOTE] Your responsibility 
+> [!Warning] Your responsibility 
 >You must replicate data across Regions if your business needs require it.
 
 ## Region Availability
@@ -33,10 +32,10 @@
 
 **[[Opt-in Regions]]**: Regions introduced after March 20, 2019 are disabled by default.
 
-**Examples of opt-in Regions**:
-
-- Asia Pacific (Hong Kong)
-- Middle East (Bahrain)
+> [!example] **Examples of opt-in Regions**:
+> 
+> - Asia Pacific (Hong Kong)
+> - Middle East (Bahrain)
 
 **Enabling Regions**: Use the [[AWS Management Console]] to enable or disable Regions as needed.
 
@@ -50,9 +49,11 @@ When choosing the optimal Region(s) for your workloads, consider these factors:
 
 **[[Compliance Requirements]]**: Laws may restrict where you can offer content or services.
 
-**Example**: [[European Union Data Protection Directive]] requires certain data to remain within EU boundaries.
+> [!example]
+> [[European Union Data Protection Directive]] requires certain data to remain within EU boundaries.
 
-**Principle**: Always verify legal and regulatory requirements before selecting a Region.
+>[!tip] **Principle**: 
+Always verify legal and regulatory requirements before selecting a Region.
 
 ## 2. Latency (Proximity to Users)
 
@@ -61,8 +62,6 @@ When choosing the optimal Region(s) for your workloads, consider these factors:
 **Benefit**: Reduces **[[Latency]]**—the delay between request and response.
 
 **Testing tool**: [[CloudPing]] is a website to test latency between your location and all AWS Regions.
-
-**Best practice**: Choose Regions closest to your user base for optimal performance.
 
 ## 3. Service Availability
 
@@ -74,10 +73,11 @@ When choosing the optimal Region(s) for your workloads, consider these factors:
 
 **[[Regional Pricing]]**: The cost of running services varies by Region.
 
-**Example comparison** (On-Demand t3.medium [[Amazon EC2]] Linux instance):
-
-- **US East (Ohio)**: $0.0416 per hour
-- **Asia Pacific (Tokyo)**: $0.0544 per hour
+> [!example] **Example comparison** (On-Demand t3.medium [[Amazon EC2]] Linux instance):
+> 
+> - **US East (Ohio)**: $0.0416 per hour
+> - **Asia Pacific (Tokyo)**: $0.0544 per hour
+> 
 
 **30% price difference** for the same resource in different Regions.
 
@@ -93,19 +93,19 @@ When choosing the optimal Region(s) for your workloads, consider these factors:
 
 ## Availability Zone Characteristics
 
-**Physical composition**:
+### Physical composition:
 
 - Each AZ can include multiple data centers (typically **three**)
 - At full scale, hundreds of thousands of servers
 - Fully isolated partitions of AWS Global Infrastructure
 
-**Infrastructure independence**:
+### Infrastructure independence:
 
 - Own **power infrastructure**
 - Physically separated by **many kilometers** from other AZs
 - All AZs within **100 km** of each other in the same Region
 
-**Connectivity between AZs**:
+### Connectivity between AZs:
 
 - Interconnected with **high-bandwidth, low-latency networking**
 - Fully redundant, dedicated fiber connections
@@ -123,12 +123,13 @@ When choosing the optimal Region(s) for your workloads, consider these factors:
 - Natural disasters
 - Infrastructure failures
 
-**Your responsibility**:
+> [!warning] Your responsibility:
+> 
+> - Select which Availability Zones your systems will reside in
+> - Systems can span multiple Availability Zones
 
-- Select which Availability Zones your systems will reside in
-- Systems can span multiple Availability Zones
-
-**[[AWS Recommendation]]**: Replicate across Availability Zones for **[[Resiliency]]**.
+>[!tip] 
+>**[[AWS Recommendation]]**: Replicate across Availability Zones for **[[Resiliency]]**.
 
 **Design principle**: Design systems to survive the temporary or prolonged failure of an Availability Zone if a disaster occurs.
 
@@ -148,18 +149,19 @@ When choosing the optimal Region(s) for your workloads, consider these factors:
 
 **[[Redundant Design]]**: Data centers anticipate and tolerate failure while maintaining service levels.
 
-**Key operational principles**:
-
-**Availability**: Critical system components are backed up across multiple Availability Zones.
-
-**Capacity management**: AWS continuously monitors service usage to deploy infrastructure supporting availability commitments.
+> [!NOTE] Key operational principles:
+> 
+> **Availability**: Critical system components are backed up across multiple Availability Zones.
+> 
+> **Capacity management**: AWS continuously monitors service usage to deploy infrastructure supporting availability commitments.
 
 **Security**:
 
 - Data center locations are **not disclosed**
 - All access to them is **restricted**
 
-**Failure recovery**: Automated processes move data traffic away from affected areas in case of failure.
+> [!warning]
+> **Failure recovery**: Automated processes move data traffic away from affected areas in case of failure.
 
 ## Network Equipment
 
@@ -175,12 +177,12 @@ When choosing the optimal Region(s) for your workloads, consider these factors:
 
 **[[Points of Presence]]**: Locations in major cities around the world for content delivery and DNS services.
 
-**Primary services using Points of Presence**:
-
-- [[Amazon CloudFront]] - Content Delivery Network (CDN)
-- [[Amazon Route 53]] - Domain Name System (DNS) service
-- [[AWS Shield]] - DDoS protection
-- [[AWS WAF]] - Web Application Firewall
+> [!example] Primary services using Points of Presence:
+> 
+> - [[Amazon CloudFront]] - Content Delivery Network (CDN)
+> - [[Amazon Route 53]] - Domain Name System (DNS) service
+> - [[AWS Shield]] - DDoS protection
+> - [[AWS WAF]] - Web Application Firewall
 
 ## How Points of Presence Work
 

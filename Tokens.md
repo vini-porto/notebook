@@ -21,8 +21,6 @@ The smallest meaningful units of code that a programming language recognises. **
 >- Write cleaner, more readable code
 >- Understand error messages better
 
----
-
 # How the compiler see
 
 ```python

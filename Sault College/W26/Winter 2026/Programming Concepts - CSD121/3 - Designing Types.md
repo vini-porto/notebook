@@ -1,5 +1,3 @@
-Related: [[Data Structures]] | [[Programming Languages]] | [[Software Engineering]] | [[Algorithms]]
-
 # Why Do We Need to Model Data?
 
 Every program operates on data. Depending on the domain, that data looks very different:
@@ -54,7 +52,7 @@ def show_event_titles(event_list):
 # Maps — Better, but Still Problematic
 
 ```python
-events = [
+events = [show_event_titles
     { "title": "Hackathon", "start": "...", "end": "...", "services": ["wifi"] },
 ]
 
@@ -97,24 +95,23 @@ class <TypeName> {
 ```
 
 > [!example] Example: Event class
-
-```java
-class Event {
-    String title;
-    LocalDateTime startTime;
-    LocalDateTime endTime;
-
-    Event(String title, LocalDateTime startTime, LocalDateTime endTime) {
-        this.title = title;
-        this.startTime = startTime;
-        this.endTime = endTime;
-    }
-
-    Duration getDuration() {
-        return Duration.between(startTime, endTime);
-    }
-}
-```
+>```java
+>class Event {
+  >  String title;
+    >LocalDateTime startTime;
+    >LocalDateTime endTime;
+>
+  >  Event(String title, LocalDateTime startTime, LocalDateTime endTime) {
+    >    this.title = title;
+    >    this.startTime = startTime;
+    >    this.endTime = endTime;
+    >}
+>
+  >  Duration getDuration() {
+    >    return Duration.between(startTime, endTime);
+    >}
+>}
+>```
 
 ## The `this` Keyword
 
@@ -158,7 +155,8 @@ Objects of the **same type** share the same _behaviour_ (methods) but can have d
 - It has **no explicit return type** (the return type is implicitly the type itself)
 - Java auto-inserts a no-argument constructor **only if no constructor is defined**
 
-> [!warning] Common Gotcha with Constructors If you define _any_ constructor, Java will **not** add a default no-arg constructor automatically.
+> [!warning] Common Gotcha with Constructors 
+> If you define _any_ constructor, Java will **not** add a default no-arg constructor automatically.
 > 
 > ```java
 > class Counter {
@@ -291,16 +289,17 @@ c2.getCount(); // 1
 > }
 > ```
 
-> [!tip] Type Design Tip: Minimize the Public Interface Every `public` member is a **promise**: "This will always be here." The less you expose, the more freedom you have to change internals later.
+> [!tip] Minimize the Public Interface 
+> Every `public` member is a **promise**: "This will always be here." The less you expose, the more freedom you have to change internals later.
 
 # Accessors, Mutators, Getters, and Setters
 
-|Term|What it does|
-|---|---|
-|**Accessor**|Reads values; never changes any state|
-|**Mutator**|Changes one or more values|
-|**Getter**|Accessor that reads one specific instance variable; named `getX()`|
-|**Setter**|Mutator that sets one specific instance variable; named `setX()`|
+| Term         | What it does                                                       |
+| ------------ | ------------------------------------------------------------------ |
+| **Accessor** | Reads values; never changes any state                              |
+| **Mutator**  | Changes one or more values                                         |
+| **Getter**   | Accessor that reads one specific instance variable; named `getX()` |
+| **Setter**   | Mutator that sets one specific instance variable; named `setX()`   |
 
 # Useful Methods to Implement
 
@@ -354,13 +353,15 @@ public Event(Event other) {
 
 This is a _shallow copy_, but that is fine here because `String` and `LocalDateTime` are **immutable** — you cannot change them through the copy, so the original is safe.
 
-> [!tip] IDE Code Generation Most modern IDEs (like IntelliJ) can auto-generate boilerplate like getters, setters, `equals`, `hashCode`, `toString`, and constructors. Use the "Generate" menu to save time!
+> [!tip] IDE Code Generation 
+> Most modern IDEs (like IntelliJ) can auto-generate boilerplate like getters, setters, `equals`, `hashCode`, `toString`, and constructors. Use the "Generate" menu to save time!
 
 # `enum` — Fixed Sets of Values
 
 Sometimes a type should only have a specific, limited set of possible values.
 
-> [!warning] Don't Use Strings for This Using strings like `"NORTH"`, `"SOUTH"` etc. is error-prone — typos like `"nrht"` only cause errors at **run time**, and switches need a messy `default` case.
+> [!warning] Don't Use Strings for This 
+> Using strings like `"NORTH"`, `"SOUTH"` etc. is error-prone — typos like `"nrht"` only cause errors at **run time**, and switches need a messy `default` case.
 
 Instead, use an **enum**:
 
@@ -417,7 +418,8 @@ A `record` automatically gives you:
 - `equals`, `hashCode`, and `toString` — all auto-generated
 - **Immutability** — no setters; fields cannot be changed after creation
 
-> [!tip] In Java, when you need a composite type that isn't a collection, **start with `record`** instead of `class`. Upgrade to `class` only if you need mutability or more complex behaviour.
+> [!tip] 
+> In Java, when you need a composite type that isn't a collection, **start with `record`** instead of `class`. Upgrade to `class` only if you need mutability or more complex behaviour.
 
 Both `enum` and `record` can have additional methods and class members attached to them just like a regular class.
 

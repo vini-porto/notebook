@@ -1,4 +1,4 @@
-# Recap
+	# Recap
 
 - **Variables** – Memory boxes that store data
 - **The [[DOM]]** – How JavaScript grabs and manipulates HTML elements

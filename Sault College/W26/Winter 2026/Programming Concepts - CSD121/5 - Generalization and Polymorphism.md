@@ -6,7 +6,7 @@ Before diving in, here's a recap of the OOP concepts you should already know:
 > 
 > - **Abstraction** — Focus on the essential details of something; ignore everything irrelevant. If a `Person` class only needs `name` and `address` for your program, you don't need to add `height`, `birthday`, etc.
 > - **Encapsulation** — Wrap up your abstraction into a class with a clean public interface. Users of your class don't need to know _how_ it works internally, only _what_ it does.
-> - **Generalization** _(new this lecture!)_ — When multiple classes share common state or behaviour, move those shared parts into a broader, more general class.
+> - **Generalization** — When multiple classes share common state or behaviour, move those shared parts into a broader, more general class.
 
 # Polymorphism
 
@@ -89,7 +89,8 @@ Now `name`, `address`, and `letterhead()` live in one place — `Person`. Any ch
 
 # Inheritance
 
-> [!note] Definition **Inheritance** is the mechanism by which a subclass automatically gains all non-private members (variables and methods) of its superclass.
+> [!note] Definition 
+> **Inheritance** is the mechanism by which a subclass automatically gains all non-private members (variables and methods) of its superclass.
 
 The `extends` keyword sets up the inheritance relationship:
 
@@ -220,7 +221,8 @@ class Student extends Person {
 
 **Option 2: Use `protected` visibility**
 
-> [!note] The `protected` Modifier `protected` members are accessible within the class itself, its package, _and_ all subclasses — even subclasses many levels down the hierarchy.
+> [!note] 
+> The `protected` Modifier `protected` members are accessible within the class itself, its package, _and_ all subclasses — even subclasses many levels down the hierarchy.
 
 ```java
 class Person {
@@ -310,9 +312,8 @@ class Instructor extends Employee {
 }
 ```
 
-> [!warning] Never use `this.toString()` here! If you call `this.toString()` inside `toString()`, you'd get **infinite recursion**. Always use `super.toString()` to refer to the parent class's version.
-
----
+> [!warning] 
+> Never use `this.toString()` here! If you call `this.toString()` inside `toString()`, you'd get **infinite recursion**. Always use `super.toString()` to refer to the parent class's version.
 
 ## Overriding vs. Overloading
 
@@ -323,8 +324,6 @@ These two are easy to confuse:
 |Where|In a **subclass**|In the **same class**|
 |Signature|Must be **identical** to superclass method|Must be **different** from all other versions|
 |Purpose|Specialize inherited behaviour|Provide multiple signatures for one method name|
-
----
 
 # Static vs. Dynamic Types
 
@@ -350,8 +349,6 @@ Person p = new Instructor();
 p.toString();    // Calls Instructor's toString() — dynamic method dispatch
 p.getCourses();  // COMPILE ERROR: Person has no getCourses() method
 ```
-
----
 
 # Dynamic Method Dispatch and Subtype Polymorphism
 
@@ -382,7 +379,8 @@ Dynamic method dispatch is what makes subtype polymorphism so powerful in practi
 
 Sometimes a superclass exists _only_ to group shared state and behaviour — it should never be instantiated on its own. That's what `abstract` is for.
 
-> [!note] Definition An **abstract class** cannot be directly instantiated with `new`. It is meant to be extended by concrete subclasses. It may define **abstract methods** — methods with no body that subclasses _must_ implement.
+> [!note] Definition 
+> An **abstract class** cannot be directly instantiated with `new`. It is meant to be extended by concrete subclasses. It may define **abstract methods** — methods with no body that subclasses _must_ implement.
 
 ```java
 abstract class Storage {
@@ -427,9 +425,8 @@ Storage d = new Disk();     // OK
 Storage c = new Cloud();    // OK
 ```
 
-> [!tip] Abstract classes are great when you want to guarantee that all subclasses implement certain behaviour (like `write()`), while still sharing common code (like `hasEnoughCapacity()`).
-
----
+> [!tip] 
+> Abstract classes are great when you want to guarantee that all subclasses implement certain behaviour (like `write()`), while still sharing common code (like `hasEnoughCapacity()`).
 
 # Putting It All Together
 

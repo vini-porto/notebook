@@ -63,7 +63,7 @@ For certain services like [[Amazon EC2]] and [[Amazon RDS]], you can invest in *
 - Smallest discount
 - Frees capital for other projects
 
->[!NOTE] Benefits: 
+>[!Tip] Benefits: 
 >Minimize risks, predictably manage budgets, comply with policies requiring longer-term commitments.
 
 ## 3. Pay Less By Using More
@@ -177,7 +177,7 @@ Obs: you pay only for the resources created
 
 **[[AWS OpsWorks]]**: Application management service for deploying and operating applications of all sizes.
 
-> [!NOTE]
+> [!Warning]
 > You pay for underlying resources
 
 # Total Cost of Ownership (TCO)
@@ -262,7 +262,7 @@ Obs: you pay only for the resources created
 - Facilities: Upgrades, maintenance, building security, taxes
 - IT labor: Security administration, application administration
 
->[!NOTE] The Difference
+>[!important] The Difference
 >
 >**On-premises**: Predicted costs that continue whether capacity is used or not.
 >
@@ -335,7 +335,7 @@ Obs: you pay only for the resources created
 - **Agile business processes**: Quickly respond to new opportunities
 - **Increased global reach**: Deploy worldwide in minutes
 
->[!NOTE] Importance: 
+>[!tip] Importance: 
 >Understanding both hard and soft benefits reveals the full value of cloud migration.
 
 # AWS Organizations
@@ -470,7 +470,7 @@ Root (Organization)
 
 ## Naming Restrictions
 
->[!NOTE] Names must be:
+>[!warning] Names must be:
 >
 >- Composed of Unicode characters
 >- Not exceed 250 characters in length
@@ -614,9 +614,8 @@ From the billing dashboard, access several tools:
 - Customers using AWS for production
 - Customers using AWS as business-critical resource
 
-**Support varies** based on customer needs and goals.
-
-**Goal**: Enable customers to plan, deploy, and optimize with confidence.
+>[!tip] 
+>**Support varies** based on customer needs and goals.
 
 ## AWS Support Resources
 
@@ -651,12 +650,11 @@ AWS offers four support plans: **Basic**, **Developer**, **Business**, and **Ent
 
 **[[Basic Support Plan]]**: Included free for all AWS customers.
 
-**Offers**:
-
-- 24/7 access to customer service
-- Documentation, whitepapers, support forums
-- Access to 6 core Trusted Advisor checks
-- Access to [[Personal Health Dashboard]]
+>[!example] **Offers**:
+>- 24/7 access to customer service
+>- Documentation, whitepapers, support forums
+>- Access to 6 core Trusted Advisor checks
+>- Access to [[Personal Health Dashboard]]
 
 **Limitations**: No direct technical support or case support.
 
@@ -664,11 +662,12 @@ AWS offers four support plans: **Basic**, **Developer**, **Business**, and **Ent
 
 **[[Developer Support Plan]]**: For customers testing or doing early development.
 
-**Best for customers who**:
-
-- Want access to guidance and technical support
-- Are exploring how to quickly put AWS to work
-- Use AWS for non-production workloads or applications
+> [!example] **Best for customers who**:
+> 
+> - Want access to guidance and technical support
+> - Are exploring how to quickly put AWS to work
+> - Use AWS for non-production workloads or applications
+> 
 
 **Includes**: Email support during business hours, general guidance.
 
@@ -676,11 +675,11 @@ AWS offers four support plans: **Basic**, **Developer**, **Business**, and **Ent
 
 **[[Business Support Plan]]**: For customers running production workloads.
 
-**Best for customers who**:
-
-- Run one or more applications in production environments
-- Have multiple services activated or use key services extensively
-- Depend on business solutions to be available, scalable, and secure
+> [!example] Best for customers who**:
+> 
+> - Run one or more applications in production environments
+> - Have multiple services activated or use key services extensively
+> - Depend on business solutions to be available, scalable, and secure
 
 **Includes**: 24/7 phone, email, and chat support, faster response times, access to all Trusted Advisor checks.
 
@@ -688,19 +687,19 @@ AWS offers four support plans: **Basic**, **Developer**, **Business**, and **Ent
 
 **[[Enterprise Support Plan]]**: For business and mission-critical workloads.
 
-**Best for customers who want to**:
+> [!example] **Best for customers who want to**:
+> 
+> - Focus on proactive management to increase efficiency and availability
+> - Build and operate workloads following AWS best practices
+> - Use AWS expertise to support launches and migrations
+> - Have a Technical Account Manager (TAM)
 
-- Focus on proactive management to increase efficiency and availability
-- Build and operate workloads following AWS best practices
-- Use AWS expertise to support launches and migrations
-- Have a Technical Account Manager (TAM)
-
-**TAM benefits**:
-
-- Technical expertise for full range of AWS services
-- Detailed understanding of your use case and architecture
-- Primary point of contact for ongoing support needs
-- Proactive guidance and planning
+> [!tip] **TAM benefits**:
+> 
+> - Technical expertise for full range of AWS services
+> - Detailed understanding of your use case and architecture
+> - Primary point of contact for ongoing support needs
+> - Proactive guidance and planning
 
 # Case Severity and Response Times
 
@@ -759,169 +758,6 @@ AWS offers four support plans: **Basic**, **Developer**, **Business**, and **Ent
 
 >[!NOTE] Important 
 >Response times should be considered when determining which support plan is best for your organization.
-
----
-
-## Review Questions
-
-1. What are the three fundamental drivers of cost with AWS? Are there charges for inbound data transfer?
-    
-2. Explain the four pillars of AWS pricing: Pay for what you use, Pay less when you reserve, Pay less by using more, and Pay less as AWS grows.
-    
-3. What are Reserved Instances? Describe the three types (AURI, PURI, NURI) and explain when you'd choose each.
-    
-4. How does tiered pricing work for services like Amazon S3? What happens to the cost per GB as you use more storage?
-    
-5. What is the AWS Free Tier? What services are included and for how long is it available to new customers?
-    
-6. Name five AWS services that have no charge. For each, explain if there might be associated costs from other services.
-    
-7. Explain the difference between on-premises infrastructure and cloud infrastructure in terms of cost structure and scalability.
-    
-8. What is Total Cost of Ownership (TCO)? What four main cost categories should you consider when calculating TCO?
-    
-9. In the sample comparison from the lecture, what were the 3-year costs for on-premises vs. AWS? What percentage savings did AWS provide?
-    
-10. What is the AWS Pricing Calculator used for? List at least four things it helps you do.
-    
-11. Explain the difference between "hard benefits" and "soft benefits" when analyzing cloud migration. Give three examples of each.
-    
-12. What is AWS Organizations? What are its four main capabilities?
-    
-13. Explain the organizational structure in AWS Organizations. What is a Root? What is an OU? How many parents can an OU have?
-    
-14. What are Service Control Policies (SCPs)? How do they differ from IAM policies? Can SCPs restrict the root user?
-    
-15. What are the four steps to set up AWS Organizations?
-    
-16. What are some key limits in AWS Organizations? (Name at least 5)
-    
-17. What are the four ways to access and manage AWS Organizations?
-    
-18. What is AWS Billing and Cost Management? What tools does it provide access to?
-    
-19. Describe what you see on the AWS Billing Dashboard. What are the two main graphs displayed?
-    
-20. What is AWS Cost Explorer? What can you do with it and how far back can you view cost data?
-    
-21. What is AWS Budgets used for? How can you receive notifications when budgets are exceeded?
-    
-22. What information is included in the AWS Cost and Usage Report? Where can reports be published?
-    
-23. What are the four AWS Support Plans? List them in order from basic to most comprehensive.
-    
-24. Compare the Basic Support Plan and Enterprise Support Plan. What are the key differences?
-    
-25. What is a Technical Account Manager (TAM)? Which support plan includes access to a TAM?
-    
-26. What is AWS Trusted Advisor? What does it help you optimize?
-    
-27. Explain the five case severity levels. Which has the fastest response time?
-    
-28. What are the response times for a "Production system down" case under Business Support vs. Enterprise Support?
-    
-29. Calculate the potential 3-year savings: Your on-premises solution costs $200,000 over 3 years. An equivalent AWS solution costs $15,000 over 3 years. What's the percentage savings?
-    
-30. You're running variable workloads that spike unpredictably. Should you use Reserved Instances or On-Demand pricing? Justify your answer using the pricing pillars.
-    
-
----
-
-## Practical Scenarios
-
-### Scenario 1: Choosing a Reserved Instance Type
-
-Your company runs a database that operates 24/7 for the next 3 years. You have $50,000 in budget available upfront, but leadership wants to minimize total cost. Which Reserved Instance type should you choose (AURI, PURI, or NURI) and why?
-
-### Scenario 2: TCO Analysis
-
-You're migrating a workload from on-premises to AWS. The on-premises solution costs:
-
-- Hardware: $100,000 upfront
-- Facilities: $2,000/month
-- IT Labor: $8,000/month
-- Software licenses: $15,000/year
-
-The AWS solution costs:
-
-- EC2 Reserved Instances: $500/month
-- Storage: $300/month
-- Data transfer: $200/month
-
-Calculate the 3-year TCO for both options. Which is more cost-effective and by how much?
-
-### Scenario 3: Support Plan Selection
-
-Your startup is launching a new e-commerce platform. You have:
-
-- 3 developers (not AWS experts)
-- Production launch in 2 months
-- Limited budget but need to ensure uptime
-- No in-house AWS expertise
-
-Which support plan should you choose? Justify your decision considering budget, response times, and available resources.
-
-### Scenario 4: AWS Organizations Design
-
-Your company has:
-
-- Corporate IT department
-- Development team
-- Production environment
-- Testing environment
-- Finance team requiring separate billing visibility
-
-Design an AWS Organizations structure with appropriate OUs. Explain your organizational hierarchy and why you structured it that way.
-
-### Scenario 5: Cost Optimization
-
-You notice your AWS bill has increased 40% over the last 3 months. Which AWS tools would you use to: a) Identify which services are driving the cost increase? b) Forecast next month's spending? c) Set up alerts to prevent future unexpected increases? d) Optimize your resource usage?
-
----
-
-## Discussion Topics
-
-1. **Reserved Instances vs. Flexibility**: Reserved Instances offer significant savings but require commitment. When does the flexibility of on-demand pricing outweigh the cost savings of reserved capacity?
-    
-2. **Cloud Migration ROI**: Beyond direct cost savings, what "soft benefits" might be most valuable to different types of organizations (startups vs. enterprises, tech companies vs. traditional businesses)?
-    
-3. **Support Plan Economics**: Is it worth paying for Enterprise Support if you have a strong in-house AWS team? What factors should influence this decision?
-    
-4. **Organizational Structure**: How should you balance security (strict OU boundaries) with flexibility (easier cross-team collaboration) when designing AWS Organizations?
-    
-5. **TCO Blind Spots**: What costs are commonly overlooked when calculating on-premises TCO? What about cloud TCO? How can organizations ensure accurate comparisons?
-    
-
----
-
-## Calculation Practice
-
-### Exercise 1: Reserved Instance Savings
-
-- On-Demand cost: $1,000/month
-- Reserved Instance (AURI): $7,000 upfront for 3 years
-- Calculate: (a) Total 3-year on-demand cost, (b) Percentage savings with RI
-
-### Exercise 2: Volume Pricing
-
-Amazon S3 tiered pricing:
-
-- First 50 TB: $0.023 per GB
-- Next 450 TB: $0.022 per GB
-- Over 500 TB: $0.021 per GB
-
-Calculate the monthly cost for storing 600 TB of data.
-
-### Exercise 3: Support Plan ROI
-
-- Developer Plan: $29/month
-- Business Plan: $100/month
-- Your team wastes 10 hours/month troubleshooting issues
-- Developer hourly rate: $50/hour
-
-Calculate the break-even point: At what hourly savings does Business Support justify its additional cost?
-
----
 
 # Tags 
 

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL.md",
+                "file": "Sault College/W26/Winter 2026/Programming Concepts - CSD121/6 - Interfaces in Java.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SQL"
+              "title": "6 - Interfaces in Java"
             }
           },
           {
@@ -48,37 +48,9 @@
               "icon": "lucide-file",
               "title": "Interfaces"
             }
-          },
-          {
-            "id": "87349808c0d69b4f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sault College/W26/Winter 2026/Databases I - CSD123/5 - SQL Aggregation & Functions.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "5 - SQL Aggregation & Functions"
-            }
-          },
-          {
-            "id": "44f3742c9c5f1fe2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Type definition.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Type definition"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -229,11 +201,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 511.5
+    "width": 468.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -250,45 +223,45 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "ba7f4238cbf16f48",
+  "active": "54cf3d2cc1d15e94",
   "lastOpenFiles": [
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/5 - Generalization and Polymorphism.md",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/4 - Introduction to Software Testing.md",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/3 - Designing Types.md",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/2 - Namespaces in Java.md",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/1 - Intoduction to Java.md",
+    "Interfaces.md",
+    "javac.md",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/6 - Interfaces in Java.md",
+    "copilot/copilot-conversations/Java_Shadowing_Explanation@20260404_115309.md",
+    "variables.md",
     "Tokens.md",
-    "Languages/French/A1-A2/French Sound System.md",
-    "Test.md",
-    "Sault College/W26/Winter 2026/Introduction to Web Development/4 - The World of CSS.md",
-    "Languages/French/A1-A2/French Vowels.md",
-    "Languages/English/grammar/English Adjectives.md",
+    "Sault College/W26/Winter 2026/Introduction to Web Development/1 - Architecture, Tools, & Setup.md",
+    "SQL.md",
+    "Static Typing.md",
+    "Sault College/W26/Winter 2026/Databases I - CSD123/5 - SQL Aggregation & Functions.md",
+    "Sault College/W26/Winter 2026/Databases I - CSD123/1 - Introduction to Databases.md",
+    "Sault College/W26/Winter 2026/Databases I - CSD123/2 - Talking to Your Data - SQL Basics.md",
+    "Sault College/W26/Winter 2026/Databases I - CSD123/10 - Transactions & Disaster Recovery.md",
+    "Sault College/W26/Winter 2026/Databases I - CSD123/9 - Database-Driven Apps & NoSQL.md",
+    "Sault College/W26/Winter 2026/Databases I - CSD123/8 - Views, Indexes & Security.md",
+    "Sault College/W26/Winter 2026/Databases I - CSD123/7 - Creating Databases.md",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/7 - Intro to JavaFX.md",
+    "Sault College/W26/Winter 2026/Introduction to Web Development/10 - APIs & Fetch.md",
+    "Sault College/W26/Winter 2026/Introduction to Web Development/9 - Memory & Forms — Curing JavaScript's Amnesia.md",
+    "Sault College/W26/Winter 2026/Introduction to Web Development/8 - Loops & Objects - Automating the Boring Stuff.md",
+    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/3- AWS Global Infrastructure Overview.md",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards/Type-in-Answer",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards/Cloze",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards/Basic Cards",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards",
     "Languages/French/A1-A2",
     "Languages/French",
     "Languages",
     "Languages/English/grammar",
-    "Languages/English/Pillars/Word Classes.md",
-    "Languages/English/Pillars/Linguistics.md",
-    "Sault College/W26/Winter 2026/Introduction to Web Development/7 - JavaScript Logic.md",
-    "Sault College/W26/Winter 2026/Introduction to Web Development/6 - JavaScript.md",
-    "Sault College/W26/Winter 2026/Emerging Technology - CSD125/1 - Agentic AI & TuringBots.md",
-    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/7 - Infrestructure as Code.md",
-    "Anki.md",
-    "copilot/copilot-conversations/Generate_10_formated_cards_for_anki_ready_to_import@20260313_002523.md",
-    "conflict-files-obsidian-git.md",
-    "copilot/copilot-conversations/How_could_I_expand_this_topic_about_terraform@20260312_140026.md",
-    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/6 - Compute.md",
-    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/7 - Storage.md",
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/5 - Generalization and Polymorphism.md",
-    "copilot/copilot-conversations/Create_Linking_notes_from_relevant_content_in_this_note@20260311_104731.md",
-    "Sault College/W26/Winter 2026/Introduction to Web Development/Untitled.md",
-    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/2 - AWS Pricing, Total Cost of Ownership, and Support.md",
-    "Sault College/W26/Winter 2026/Databases I - CSD123/6 - Subqueries — Query Inception.md",
-    "copilot/copilot-conversations/Give_me_a_quick_recap_of_activeNote_in_two_sentences.@20260310_101937.md",
-    "Sault College/W26/Winter 2026/Databases I - CSD123/5 - SQL Aggregation & Functions.md",
-    "Interfaces.md",
     "copilot/copilot-conversations",
     "copilot",
-    "Untitled.base",
     "Untitled.canvas",
-    "myNotes",
-    "Computer Science/Programming Languages",
-    "Computer Science",
     "Pasted image 20260107101322.png",
     "Pasted image 20260107100759.png",
     "Pasted image 20260107100742.png",
