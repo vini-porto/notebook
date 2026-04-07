@@ -12,7 +12,7 @@ This means logging into the [[AWS]] (or Azure, GCP, etc.) web interface and clic
 - **Hard to keep environments consistent** — your dev, test, and production environments can easily drift apart because each was set up by hand.
 - **Hard to automate** — clicking through a web UI cannot be scripted easily.
 
-### Approach 2: Using the [[CLI]] or SDKs
+## Approach 2: Using the [[CLI]] or SDKs
 
 This means writing scripts that use the [[AWS]] CLI or an SDK to configure services programmatically.
 
@@ -115,7 +115,7 @@ resource "aws_vpc" "myvpc" {
 
 # Terraform Blocks
 
-Most Terraform configuration is made up of **blocks**. A block has a type, optional labels, and a set of attributes inside curly braces.1
+Most Terraform configuration is made up of **blocks**. A block has a type, optional labels, and a set of attributes inside curly braces.
 
 ```hcl
 blocktype "label" "label" {
@@ -211,7 +211,7 @@ resource "aws_route_table" "public" {
 }
 ```
 
-### References and Dependency Management
+## References and Dependency Management
 
 Notice that `aws_subnet.az1_public` references `aws_vpc.myvpc.id` instead of hard-coding the VPC's ID. This is called a **reference**.
 
@@ -224,7 +224,7 @@ The reference format is: `<resource_type>.<resource_label>.<attribute>`
 
 ## The `variable` Block
 
-Variables let you store reusable values and avoid repeating yourself. You access a variable using the `var.` prefix.
+Variables let you store reusable values and avoid repeating yourself. You access a variable using the `var.` prefix. 
 
 ```hcl
 variable "aws_region" {
