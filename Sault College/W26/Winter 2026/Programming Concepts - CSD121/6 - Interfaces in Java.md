@@ -285,14 +285,14 @@ foods.stream()
 
 ### Chainable operations (return another Stream)
 
-|Operation|Description|Example|
-|---|---|---|
-|`distinct()`|Remove duplicates|`.distinct()`|
-|`filter(pred)`|Keep items matching predicate|`.filter(i -> i > 0)`|
-|`limit(n)`|Keep first n items|`.limit(10)`|
-|`map(fn)`|Transform each item|`.map(i -> i * 2)`|
-|`skip(n)`|Skip first n items|`.skip(10)`|
-|`sorted(comparator)`|Sort items|`.sorted((a, b) -> a - b)`|
+| Operation            | Description                   | Example                    |
+| -------------------- | ----------------------------- | -------------------------- |
+| `distinct()`         | Remove duplicates             | `.distinct()`              |
+| `filter(pred)`       | Keep items matching predicate | `.filter(i -> i > 0)`      |
+| `limit(n)`           | Keep first n items            | `.limit(10)`               |
+| `map(fn)`            | Transform each item           | `.map(i -> i * 2)`         |
+| `skip(n)`            | Skip first n items            | `.skip(10)`                |
+| `sorted(comparator)` | Sort items                    | `.sorted((a, b) -> a - b)` |
 
 ### Terminal operations (end the chain)
 
