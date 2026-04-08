@@ -155,7 +155,8 @@ Classes connected through inheritance form a **hierarchy**. Higher up = more gen
 > 
 > A `NullPointerException` has the full public interface of `NullPointerException` **plus** `RuntimeException` **plus** `Exception` **plus** `Throwable`.
 
-> [!tip] Not everything belongs in one hierarchy You don't need to force all your classes into a single hierarchy. `Car` and `Building` are completely separate — don't make one a subclass of the other just to use inheritance. Only use inheritance when the "is a" relationship is genuinely true.
+> [!tip] 
+> Not everything belongs in one hierarchy You don't need to force all your classes into a single hierarchy. `Car` and `Building` are completely separate — don't make one a subclass of the other just to use inheritance. Only use inheritance when the "is a" relationship is genuinely true.
 
 # Key Terms
 
@@ -182,8 +183,6 @@ If no superclass is specified, Java automatically makes `Object` the superclass:
 ```java
 class Person { ... } // Automatically extends Object
 ```
-
----
 
 # Visibility and Inheritance
 
