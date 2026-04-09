@@ -1,4 +1,4 @@
-	
+
 Interfaces are one of the most powerful tools in Java for writing clean, flexible, and maintainable code. This note covers everything from what an interface is, to lambda expressions, streams, and design patterns.
 
 ## Why Interfaces Exist
