@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Availability Zones.md",
+                "file": "Sault College/W26/Winter 2026/Cloud Computing - CSD126/7 - Infrestructure as Code (IaC).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Availability Zones"
+              "title": "7 - Infrestructure as Code (IaC)"
             }
           }
         ]
@@ -179,21 +179,27 @@
   },
   "active": "17868b78d6a8c0d3",
   "lastOpenFiles": [
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/6 - Interfaces in Java.md",
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/6 - Interfaces in Java 1.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/8 - Storage.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/7 - Infrestructure as Code (IaC).md",
-    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/7 - Infrestructure as Code.md",
-    "/copilot/copilot-conversations/Benefits_of_IaC@20260407_094351.md",
-    "copilot/copilot-conversations/Benefits_of_IaC@20260407_094351.md",
+    "Availability Zones.md",
+    "/copilot/copilot-conversations/Extends_vs._Implements@20260408_113544.md",
+    "copilot/copilot-conversations/Extends_vs._Implements@20260408_113544.md",
     "/copilot/copilot-conversations",
     "/copilot",
-    "/Sault College/W26/Winter 2026/Cloud Computing - CSD126/8 - Storage.md",
-    "/Sault College/W26/Winter 2026/Cloud Computing - CSD126/7 - Infrestructure as Code (IaC).md",
-    "/Sault College/W26/Winter 2026/Cloud Computing - CSD126",
+    "/Sault College/W26/Winter 2026/Programming Concepts - CSD121/6 - Interfaces in Java.md",
+    "/Sault College/W26/Winter 2026/Programming Concepts - CSD121/5 - Generalization and Polymorphism.md",
+    "/Sault College/W26/Winter 2026/Programming Concepts - CSD121",
     "/Sault College/W26/Winter 2026",
     "/Sault College/W26",
     "/Sault College",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/6 - Interfaces in Java.md",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/6 - Interfaces in Java 1.md",
+    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/7 - Infrestructure as Code.md",
+    "/copilot/copilot-conversations/Benefits_of_IaC@20260407_094351.md",
+    "copilot/copilot-conversations/Benefits_of_IaC@20260407_094351.md",
+    "/Sault College/W26/Winter 2026/Cloud Computing - CSD126/8 - Storage.md",
+    "/Sault College/W26/Winter 2026/Cloud Computing - CSD126/7 - Infrestructure as Code (IaC).md",
+    "/Sault College/W26/Winter 2026/Cloud Computing - CSD126",
     "structs.md",
     "Sault College/W26/Winter 2026/Introduction to Web Development/9 - Memory & Forms — Curing JavaScript's Amnesia.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/7 - Intro to JavaFX.md",
@@ -206,12 +212,6 @@
     "variables.md",
     "javac.md",
     "/Sault College/W26/Winter 2026/Programming Concepts - CSD121/3 - Designing Types.md",
-    "/copilot/copilot-conversations/Java_Shadowing_Explanation@20260404_115309.md",
-    "/Sault College/W26/Winter 2026/Programming Concepts - CSD121/6 - Interfaces in Java.md",
-    "/Sault College/W26/Winter 2026/Programming Concepts - CSD121/2 - Namespaces in Java.md",
-    "/Sault College/W26/Winter 2026/Databases I - CSD123/8 - Views, Indexes & Security.md",
-    "/Sault College/W26/Winter 2026/Cloud Computing - CSD126/3- AWS Global Infrastructure Overview.md",
-    "/Sault College/W26/Winter 2026/Programming Concepts - CSD121",
     "/Sault College/W26/Winter 2026/Introduction to Web Development",
     "/Sault College/W26/Winter 2026/Databases I - CSD123"
   ]
