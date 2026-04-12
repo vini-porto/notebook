@@ -854,7 +854,7 @@ Amazon Route 53 supports several routing policies determining how Route 53 respo
 
 **Reduced origin load**: Results in reduced load on origin servers and reduced need to scale origin infrastructure.
 
-**AWS origins savings**: If using AWS origins (Amazon S3, Elastic Load Balancing), pay only for storage costs, not for data transferred between these services and CloudFront.
+**AWS origins savings**: If using AWS origins ([[Amazon S3]], Elastic Load Balancing), pay only for storage costs, not for data transferred between these services and CloudFront.
 
 ## Amazon CloudFront Pricing
 

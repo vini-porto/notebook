@@ -6,9 +6,9 @@
 
 **Critical objectives**:
 
-- Protect **[[Confidentiality]]** of systems and data
-- Protect **[[Integrity]]** of systems and data
-- Protect **[[Availability]]** of systems and data
+- Protect **Confidentiality** of systems and data
+- Protect **Integrity** of systems and data
+- Protect **Availability** of systems and data
 - Maintain customer trust and confidence
 
 > [!NOTE] **Dual approach**:
@@ -18,7 +18,7 @@
 
 ## Overview
 
-**[[AWS Shared Responsibility Model]]**: Security and compliance are a shared responsibility between AWS and the customer.
+**AWS Shared Responsibility Model**: Security and compliance are a shared responsibility between AWS and the customer.
 
 **Purpose**:
 
@@ -33,7 +33,7 @@
 
 # AWS Responsibility: Security OF the Cloud
 
-**[[Security of the Cloud]]**: AWS operates, manages, and controls components from the software virtualization layer down to the physical security of facilities.
+**Security of the Cloud**: AWS operates, manages, and controls components from the software virtualization layer down to the physical security of facilities.
 
 **What AWS protects**: The infrastructure that runs all services offered in the AWS Cloud.
 
@@ -46,7 +46,7 @@
 
 # Physical Infrastructure
 
-**[[Physical Security of Data Centers]]**:
+**Physical Security of Data Centers**:
 
 - Controlled, need-based access
 - Located in nondescript facilities
@@ -58,19 +58,19 @@
 
 ## Hardware Infrastructure
 
-**[[Hardware Infrastructure]]**: Servers, storage devices, and other appliances that AWS relies on.
+Servers, storage devices, and other appliances that AWS relies on.
 
 **Management**: AWS maintains and upgrades all physical hardware.
 
 ## Software Infrastructure
 
-**[[Software Infrastructure]]**: Hosts operating systems, service applications, and virtualization software.
+Hosts operating systems, service applications, and virtualization software.
 
-**Layer**: From bare metal host operating system and [[Hypervisor]] virtualization layer upward.
+**Layer**: From bare metal host operating system and Hypervisor virtualization layer upward.
 
 ## Network Infrastructure
 
-**[[Network Infrastructure]]**: Routers, switches, load balancers, firewalls, and cabling.
+Routers, switches, load balancers, firewalls, and cabling.
 
 **Monitoring**:
 
@@ -93,7 +93,7 @@ AWS is responsible for protecting the global infrastructure including:
 
 # Customer Responsibility: Security IN the Cloud
 
-**[[Security in the Cloud]]**: Customers are responsible for security of everything they put in the cloud.
+**Security in the Cloud**: Customers are responsible for security of everything they put in the cloud.
 
 **What customers control**: What is implemented using AWS services and applications connected to AWS.
 
@@ -108,7 +108,7 @@ Customers are responsible for:
 
 - Selecting and securing instance operating systems
 - Securing applications launched on AWS resources
-- [[Security Group]] configurations
+- Security Group configurations
 - Firewall configurations
 - Network configurations
 - Secure account management
@@ -125,7 +125,7 @@ Customers maintain complete control over their content and are responsible for:
 - Format and structure of content
 - Whether content is masked, anonymized, or encrypted
 
-**[[Access Control]]**:
+**Access Control**:
 
 - Who has access to content
 - How access rights are granted
@@ -138,7 +138,7 @@ Customers maintain complete control over their content and are responsible for:
 
 ## Infrastructure as a Service (IaaS)
 
-**[[IaaS Security Model]]**: Services provide basic building blocks for cloud IT.
+**IaaS Security Model**: Services provide basic building blocks for cloud IT.
 
 **Includes**: Configurable networking, computers (virtual or dedicated hardware), and data storage space.
 
@@ -146,7 +146,7 @@ Customers maintain complete control over their content and are responsible for:
 
 **Most similar to**: Existing on-premises computing resources.
 
-**Example: Amazon EC2**:
+**Example: [[Amazon EC2]]**:
 
 - Customers manage guest operating system (including updates and security patches)
 - Customers manage application software installed on instances
@@ -156,7 +156,7 @@ Customers maintain complete control over their content and are responsible for:
 
 ## Platform as a Service (PaaS)
 
-**[[PaaS Security Model]]**: Services remove the need to manage underlying infrastructure.
+**PaaS Security Model**: Services remove the need to manage underlying infrastructure.
 
 **Focus**: Customers deploy and manage applications only.
 
@@ -193,7 +193,7 @@ Customers maintain complete control over their content and are responsible for:
 
 ## Software as a Service (SaaS)
 
-**[[SaaS Security Model]]**: Services provide centrally hosted software.
+**SaaS Security Model**: Services provide centrally hosted software.
 
 **Access methods**: Web browser, mobile app, or API.
 
@@ -203,7 +203,7 @@ Customers maintain complete control over their content and are responsible for:
 
 **AWS SaaS examples**:
 
-**[[AWS Trusted Advisor]]**:
+**AWS Trusted Advisor**:
 
 - Online tool analyzing AWS environment
 - Provides real-time guidance and recommendations
@@ -223,7 +223,7 @@ Customers maintain complete control over their content and are responsible for:
 - Advanced version available to all customers
 - DDoS Response Team available with Enterprise or Business Support
 
-**[[Amazon Chime]]**:
+**Amazon Chime**:
 
 - Communications service
 - Meet, chat, and place business calls
@@ -235,7 +235,7 @@ Customers maintain complete control over their content and are responsible for:
 
 ## Scenario Analysis
 
-**Deployment**: Customer uses Amazon S3 to store data, configured a VPC, and runs EC2 instance and Oracle database in the VPC.
+**Deployment**: Customer uses [[Amazon S3]] to store data, configured a VPC, and runs EC2 instance and Oracle database in the VPC.
 
 **Questions**: Who is responsible—AWS or the customer?
 
@@ -276,7 +276,7 @@ Customers maintain complete control over their content and are responsible for:
 - **Answer**: Customer
 - Customer manages all software on EC2 instances
 
-**8. S3 bucket access configuration**
+**8. [[Amazon S3]] bucket access configuration**
 
 - **Answer**: Customer
 - Customer controls access to their content
@@ -287,7 +287,7 @@ Customers maintain complete control over their content and are responsible for:
 
 **Database on RDS**: AWS applies Oracle software upgrades and patches.
 
-**Reason**: Amazon RDS is a [[Managed Database]] offering—AWS handles time-consuming database administration tasks:
+**Reason**: Amazon RDS is a Managed Database offering—AWS handles time-consuming database administration tasks:
 
 - Provisioning
 - Backups
@@ -322,7 +322,7 @@ Customers maintain complete control over their content and are responsible for:
 
 **Example scenarios**:
 
-- Some users: Full access to EC2, S3, DynamoDB, Redshift, and other services
+- Some users: Full access to EC2, [[Amazon S3]], DynamoDB, Redshift, and other services
 - Other users: Read-only access to only a few S3 buckets
 - Other users: Administer only specific EC2 instances
 - Other users: Access only account billing information
@@ -346,7 +346,7 @@ Understanding the four IAM components is critical for securing your AWS account:
 
 ## IAM Group
 
-**[[IAM Group]]**: A collection of IAM users.
+**IAM Group**: A collection of IAM users.
 
 **Purpose**: Simplify specifying and managing permissions for multiple users.
 
@@ -354,7 +354,7 @@ Understanding the four IAM components is critical for securing your AWS account:
 
 ## IAM Policy
 
-**[[IAM Policy]]**: A document that defines permissions to determine what users can do in the AWS account.
+**IAM Policy**: A document that defines permissions to determine what users can do in the AWS account.
 
 **Typically grants**: Access to specific resources and specifies what users can do with those resources.
 
@@ -362,7 +362,7 @@ Understanding the four IAM components is critical for securing your AWS account:
 
 ## IAM Role
 
-**[[IAM Role]]**: A tool for granting temporary access to specific AWS resources in an AWS account.
+**IAM Role**: A tool for granting temporary access to specific AWS resources in an AWS account.
 
 **Key characteristic**: Not uniquely associated with one person—assumable by anyone who needs it.
 
@@ -378,7 +378,7 @@ Understanding the four IAM components is critical for securing your AWS account:
 
 When defining an IAM user, select which type of access the user is permitted:
 
-**1. [[Programmatic Access]]**:
+**1. Programmatic Access**:
 
 - Requires **[[Access Key ID]]** and **[[Secret Access Key]]**
 - Used when making AWS API calls via:
@@ -386,7 +386,7 @@ When defining an IAM user, select which type of access the user is permitted:
     - AWS SDK
     - Other development tools
 
-**2. [[AWS Management Console Access]]**:
+**2. AWS Management Console Access**:
 
 - User fills in browser login fields:
     - 12-digit account ID or account alias
@@ -406,7 +406,7 @@ When defining an IAM user, select which type of access the user is permitted:
 
 ## MFA Token Options
 
-**[[Virtual MFA Applications]]**:
+**Virtual MFA Applications**:
 
 - Google Authenticator
 - Authy 2-Factor Authentication
@@ -427,7 +427,7 @@ When defining an IAM user, select which type of access the user is permitted:
 
 **Requirement**: Must explicitly grant permissions to a user, group, or role by creating a policy.
 
-**[[Policy Document]]**: Written in [[JSON]] (JavaScript Object Notation) format.
+**[[Policy Document]]**: Written in [[JSON]] ([[JavaScript]] Object Notation) format.
 
 **Policy content**: Lists permissions that allow or deny access to resources in the AWS account.
 
@@ -435,15 +435,15 @@ When defining an IAM user, select which type of access the user is permitted:
 
 ## How Permissions Work
 
-**No default permissions**: All actions in the account are denied by default (**[[Implicit Deny]]**) unless explicitly allowed.
+**No default permissions**: All actions in the account are denied by default (**Implicit Deny**) unless explicitly allowed.
 
 **Explicit allow**: Actions must be explicitly allowed to be permitted.
 
-**[[Explicit Deny]]**: Any actions explicitly denied are **always denied** (takes precedence over allow).
+**Explicit Deny**: Any actions explicitly denied are **always denied** (takes precedence over allow).
 
 ## Principle of Least Privilege
 
-**[[Principle of Least Privilege]]**: Important security concept—grant only the minimal user privileges needed based on user requirements.
+**Principle of Least Privilege**: Important security concept grant only the minimal user privileges needed based on user requirements.
 
 **Best practice process**:
 
@@ -464,7 +464,7 @@ When defining an IAM user, select which type of access the user is permitted:
 
 ## What is an IAM Policy?
 
-**[[IAM Policy]]**: A formal statement of permissions granted to an entity.
+**IAM Policy**: A formal statement of permissions granted to an entity.
 
 **Can be attached to**: Users, groups, roles, or resources.
 
@@ -488,7 +488,7 @@ When defining an IAM user, select which type of access the user is permitted:
 
 ## Types of IAM Policies
 
-**1. [[Identity-Based Policies]]**: Permissions policies attached to a principal (identity) such as:
+**1. Identity-Based Policies**: Permissions policies attached to a principal (identity) such as:
 
 - IAM user
 - IAM role
@@ -498,19 +498,19 @@ When defining an IAM user, select which type of access the user is permitted:
 
 **Subtypes**:
 
-**[[Managed Policies]]**:
+**Managed Policies**:
 
 - Standalone identity-based policies
 - Can attach to multiple users, groups, and roles in AWS account
 - Can be AWS-managed or customer-managed
 
-**[[Inline Policies]]**:
+**Inline Policies**:
 
 - Policies you create and manage
 - Embedded directly into a single user, group, or role
 - Strict one-to-one relationship
 
-**2. [[Resource-Based Policies]]**: JSON policy documents attached to a resource (such as S3 bucket).
+**2. Resource-Based Policies**: [[JSON]] policy documents attached to a resource (such as [[Amazon S3]]).
 
 **Controls**: What actions a specified principal can perform on that resource, and under what conditions.
 
@@ -525,9 +525,9 @@ When defining an IAM user, select which type of access the user is permitted:
 - Access only to specific DynamoDB table
 - Access to specific S3 bucket and all objects it contains
 
-**Key element**: **[[Explicit Deny]]** (`"Effect":"Deny"`)
+**Key element**: **Explicit Deny** (`"Effect":"Deny"`)
 
-**[[NotResource Element]]**: Ensures users cannot use any other DynamoDB or S3 actions/resources except those specified—even if permissions granted in another policy.
+**NotResource Element**: Ensures users cannot use any other DynamoDB or [[Amazon S3]] actions/resources except those specified—even if permissions granted in another policy.
 
 **Precedence rule**: An explicit deny statement takes precedence over an allow statement.
 
@@ -543,13 +543,13 @@ When defining an IAM user, select which type of access the user is permitted:
 
 ### Examples
 
-**[[S3 Bucket Policy]]**:
+**S3 Bucket Policy**:
 
 - Type of resource-based policy
 - Define on S3 bucket via Permissions tab and Bucket Policy button
 - JSON-formatted policy document
 
-**[[Amazon S3 ACL]]** (Access Control List):
+**Amazon S3 ACL** (Access Control List):
 
 - Another example of resource-based policy
 
@@ -565,7 +565,7 @@ When defining an IAM user, select which type of access the user is permitted:
 
 ## IAM Permissions Evaluation
 
-**[[IAM Permissions Evaluation]]**: Process IAM uses to determine if permission is allowed.
+**IAM Permissions Evaluation**: Process IAM uses to determine if permission is allowed.
 
 **Evaluation order**:
 
@@ -584,7 +584,7 @@ When defining an IAM user, select which type of access the user is permitted:
 
 ### What is an IAM Group?
 
-**[[IAM Group]]**: A collection of IAM users.
+**IAM Group**: A collection of IAM users.
 
 **Purpose**: Convenient way to specify permissions for a collection of users, making it easier to manage permissions.
 
@@ -612,7 +612,7 @@ When defining an IAM user, select which type of access the user is permitted:
 - A group can contain many users
 - A user can belong to multiple groups
 
-**[[No Nesting]]**:
+**No Nesting**:
 
 - Groups cannot be nested
 - A group can contain only users, not other groups
@@ -626,7 +626,7 @@ When defining an IAM user, select which type of access the user is permitted:
 
 ### What is an IAM Role?
 
-**[[IAM Role]]**: An IAM identity you can create in your account with specific permissions.
+**IAM Role**: An IAM identity you can create in your account with specific permissions.
 
 **Similar to IAM user**: Also an AWS identity with permission policies attached.
 
@@ -635,7 +635,7 @@ When defining an IAM user, select which type of access the user is permitted:
 - Not uniquely associated with one person
 - **Assumable by anyone who needs it**
 - No standard long-term credentials (password or access keys)
-- Provides **[[Temporary Security Credentials]]** for role session
+- Provides **Temporary Security Credentials** for role session
 
 ### Use Cases for IAM Roles
 
@@ -664,8 +664,8 @@ When defining an IAM user, select which type of access the user is permitted:
 
 1. Administrator creates IAM role
 2. Administrator attaches role to EC2 instance
-3. Role includes **[[Permissions Policy]]**: Grants read-only access to specified S3 bucket
-4. Role includes **[[Trust Policy]]**: Allows EC2 instance to assume role and retrieve temporary credentials
+3. Role includes **Permissions Policy**: Grants read-only access to specified S3 bucket
+4. Role includes **Trust Policy**: Allows EC2 instance to assume role and retrieve temporary credentials
 
 **When application runs**:
 
@@ -683,7 +683,7 @@ When defining an IAM user, select which type of access the user is permitted:
 
 ### AWS Account Root User vs. IAM Access
 
-**[[AWS Account Root User]]**: The first sign-in identity created with an AWS account.
+**AWS Account Root User**: The first sign-in identity created with an AWS account.
 
 **Characteristics**:
 
@@ -758,7 +758,7 @@ When defining an IAM user, select which type of access the user is permitted:
 
 **[[AWS CloudTrail]]**: Service that logs all API requests to resources in your account.
 
-**Purpose**: Enables **[[Operational Auditing]]** on your account.
+**Purpose**: Enables **Operational Auditing** on your account.
 
 ### Default Configuration
 
@@ -781,7 +781,7 @@ When defining an IAM user, select which type of access the user is permitted:
 
 **Recommendation**: Enable billing reports for new AWS accounts.
 
-**[[AWS Cost and Usage Report]]**: Provides information about:
+**AWS Cost and Usage Report**: Provides information about:
 
 - Use of AWS resources
 - Estimated costs for that use
@@ -794,187 +794,6 @@ When defining an IAM user, select which type of access the user is permitted:
 
 **Purpose**: Helps monitor costs and identify unexpected spending.
 
-
-## Review Questions
-
-1. What is the AWS Shared Responsibility Model? Explain the difference between security "of" the cloud and security "in" the cloud.
-    
-2. List at least four components of AWS infrastructure that AWS is responsible for securing.
-    
-3. What physical security measures does AWS implement at data centers? Name at least five.
-    
-4. What are customers responsible for securing in the cloud? List at least five specific items.
-    
-5. Explain the key difference in customer security responsibilities between IaaS, PaaS, and SaaS service models.
-    
-6. In the shared responsibility model scenario, who is responsible for Oracle database patches if the database runs on EC2? What if it runs as Amazon RDS? Why the difference?
-    
-7. What are the four essential components of IAM? Define each briefly.
-    
-8. What is the difference between authentication and authorization in IAM?
-    
-9. What are the two types of access you can grant to an IAM user? What credentials does each require?
-    
-10. What is Multi-Factor Authentication (MFA)? Name three types of MFA token generators.
-    
-11. What does the "Principle of Least Privilege" mean? Why is it important for IAM policies?
-    
-12. Are IAM settings Region-specific or global? What does this mean for your configurations?
-    
-13. Explain the difference between identity-based policies and resource-based policies. Give an example of each.
-    
-14. What is the difference between managed policies and inline policies?
-    
-15. In IAM permissions evaluation, what is checked first: explicit deny or explicit allow? What happens if neither exists?
-    
-16. What are three important characteristics of IAM groups regarding nesting, user membership, and default groups?
-    
-17. How is an IAM role different from an IAM user? What type of credentials does a role provide?
-    
-18. Give three use cases where IAM roles are essential (not just helpful, but necessary).
-    
-19. In the IAM role example with EC2 and S3, what two types of policies are attached to the role? What does each do?
-    
-20. What is the AWS account root user? Why does AWS strongly recommend not using it for day-to-day operations?
-    
-21. List the six steps for securing a new AWS account and stopping use of the root user.
-    
-22. What is AWS CloudTrail? How many days of activity does it retain by default?
-    
-23. Why should you enable billing reports like the AWS Cost and Usage Report when securing a new account?
-    
-24. Create an IAM policy (describe in words, not JSON) that:
-    
-    - Allows read access to a specific S3 bucket
-    - Allows EC2 instance start/stop for instances tagged "Environment: Development"
-    - Explicitly denies all DynamoDB access
-25. You have three developers who all need the same permissions. What's the best way to manage their permissions using IAM? Walk through the process.
-    
-
----
-
-## Practical Scenarios
-
-### Scenario 1: Shared Responsibility Identification
-
-Your company is migrating an application to AWS. For each component, identify whether AWS or the customer is responsible for security:
-
-a) Physical server hardware b) Application code c) Operating system patches on EC2 d) S3 bucket encryption settings e) Network firewalls between data centers f) IAM user password policies g) RDS database software updates h) Security group rules i) DDoS protection at edge locations j) Application-level logging
-
-### Scenario 2: IAM Architecture Design
-
-Design an IAM structure for a company with:
-
-- 5 developers (need EC2, S3, RDS access)
-- 3 QA testers (need read-only access to EC2 and S3)
-- 2 administrators (need full access)
-- 1 billing person (needs billing access only)
-
-Describe:
-
-- How many groups you'd create and what they're called
-- What permissions each group should have
-- Whether you'd use managed or inline policies
-- How you'd handle someone changing roles
-
-### Scenario 3: Root Account Security Incident
-
-You discover someone has been using your AWS root account for daily operations, and the access keys are stored in a text file on a shared network drive. No MFA is enabled.
-
-Create a step-by-step plan to:
-
-- Immediately secure the account
-- Transition to proper IAM usage
-- Implement proper security measures
-- Prevent this from happening again
-
-### Scenario 4: Cross-Account Access
-
-Your company (Account A) needs to allow a partner company (Account B) temporary access to specific S3 buckets for a 3-month project.
-
-Design a solution using IAM roles that:
-
-- Grants the minimum necessary permissions
-- Doesn't require sharing long-term credentials
-- Can be easily revoked when the project ends
-- Provides audit logging of all access
-
-### Scenario 5: MFA Implementation Strategy
-
-You're tasked with implementing MFA for all users in your AWS organization. You have:
-
-- 50 regular users
-- 10 administrators
-- 5 automated systems needing API access
-
-Design an MFA implementation strategy addressing:
-
-- Which type of MFA to use for each user type
-- How to handle the automated systems
-- Rollout plan and timeline
-- What to do if someone loses their MFA device
-
----
-
-## Security Best Practices Checklist
-
-Use this checklist when setting up a new AWS account:
-
-- [ ] Stop using root user for daily tasks
-- [ ] Create IAM users for each person
-- [ ] Enable MFA on root user
-- [ ] Enable MFA on all IAM users
-- [ ] Create IAM groups with appropriate permissions
-- [ ] Assign users to groups (not individual policies)
-- [ ] Follow principle of least privilege
-- [ ] Enable CloudTrail logging
-- [ ] Create CloudTrail trail for long-term retention
-- [ ] Enable billing reports
-- [ ] Set up billing alerts
-- [ ] Rotate access keys regularly
-- [ ] Remove unused credentials
-- [ ] Use roles for EC2 instances (not embedded keys)
-- [ ] Enable password policy requirements
-- [ ] Store root credentials securely
-- [ ] Document security procedures
-- [ ] Review IAM policies regularly
-- [ ] Monitor CloudTrail logs for suspicious activity
-- [ ] Use resource-based policies where appropriate
-
----
-
-## Policy Evaluation Flowchart
-
-Understand this decision flow:
-
-1. Is there an **Explicit Deny**?
-    
-    - YES → **DENY ACCESS** (Stop here)
-    - NO → Continue to step 2
-2. Is there an **Explicit Allow**?
-    
-    - YES → **ALLOW ACCESS**
-    - NO → Continue to step 3
-3. Apply **Implicit Deny** (default) → **DENY ACCESS**
-    
-
-**Key principle**: Explicit Deny always wins, regardless of any Allow statements.
-
----
-
-## Common Mistakes to Avoid
-
-1. **Using root user for daily tasks** - Violates security best practices
-2. **Sharing IAM credentials** - Create individual users instead
-3. **Overly permissive policies** - Follow least privilege principle
-4. **Not enabling MFA** - Leaves accounts vulnerable
-5. **Embedding access keys in code** - Use IAM roles instead
-6. **Forgetting to rotate credentials** - Implement regular rotation
-7. **Not monitoring CloudTrail** - Miss security incidents
-8. **Inline policies everywhere** - Use managed policies for reusability
-9. **No password policy** - Weak passwords compromise security
-10. **Not testing policies** - Use policy simulator before deployment
-
 # Tags
 
-#AWS #Security #IAM #SharedResponsibility #CloudSecurity #AccessControl #Authentication #Authorization #AWSBestPractices #SecurityPolicies #MFA #CloudTrail #RootUser #IAMRoles #IAMPolicies #SecurityGroups #AWSCompliance #IdentityManagement #LeastPrivilege #SecurityAuditing #CloudGovernance #AWSSecurity #InfrastructureSecurity #DataProtection #SecurityArchitecture
+#AWS #Security #IAM #SharedResponsibility #CloudSecurity #AccessControl #Authentication #Authorization #SecurityPolicies #CloudTrail #IAMPolicies #AWSSecurity #DataProtection #cloud-computing 

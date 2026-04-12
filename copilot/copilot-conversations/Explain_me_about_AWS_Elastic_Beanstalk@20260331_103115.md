@@ -13,7 +13,7 @@ tags:
 [Context: Notes: Sault College/W26/Winter 2026/Cloud Computing - CSD126/2 - AWS Pricing, Total Cost of Ownership, and Support.md]
 [Timestamp: 2026/03/31 10:31:15]
 
-**ai**: Based on your note [[2 - AWS Pricing, Total Cost of Ownership, and Support]], here is an explanation of **[[AWS Elastic Beanstalk]]**:
+**ai**: Based on your note [[2 - AWS Pricing]], here is an explanation of **[[AWS Elastic Beanstalk]]**:
 
 ### What is AWS Elastic Beanstalk?
 [[AWS Elastic Beanstalk]] is an easy-to-use service for **deploying and scaling web applications and services**. It is designed to help developers quickly get their applications from code to the cloud without worrying about the underlying infrastructure.

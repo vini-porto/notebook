@@ -38,7 +38,7 @@ Cloud computing is the delivery of computing services, including [[Servers]], [[
 
 ### IaaS Providers:
 
-- Amazon EC2 (Elastic Compute Cloud)
+- [[Amazon EC2]] (Elastic Compute Cloud)
 - Microsoft Azure Virtual Machines
 - Google Compute Engine
 - DigitalOcean Droplets

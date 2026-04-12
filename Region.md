@@ -84,13 +84,9 @@ In cloud architecture, the **Blast Radius** refers to how much of your system is
 ## Related Notes
 
 - [[Availability Zones]]
-
 - [[Content Delivery Network]]
-
 - [[Data Sovereignty]]
-
 - [[Fault Tolerance]]
-
 - [[High Availability vs Disaster Recovery]]
 
 # Tags

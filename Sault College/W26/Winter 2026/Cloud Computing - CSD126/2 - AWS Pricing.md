@@ -8,18 +8,16 @@ There are three fundamental drivers of cost with AWS:
 
 >[!NOTE] Important notes
 >- **No charge** for inbound data transfer in most cases
->- **No charge** for data transfer between AWS services within the same [[AWS Region]]
+>- **No charge** for data transfer between AWS services within the same [[AWS Regions|AWS Region]]
 >- **Outbound data transfer** is aggregated across services and billed as "AWS Data Transfer Out"
 >- Always verify data transfer rates before using a service—there are exceptions
 
-### Core AWS Pricing Philosophy
-
-AWS pricing is based on a simple principle: **pay for what you use**. Key characteristics:
+## Core AWS Pricing Philosophy
 
 - Start or stop using a product at any time
 - No long-term contracts required
 - Pay at the end of each month for actual usage
-- [[Utility-Style Pricing]]—like electricity or water
+- Utility-Style Pricing 
 
 # The Four Pillars of AWS Pricing
 
@@ -27,7 +25,7 @@ AWS pricing is based on a simple principle: **pay for what you use**. Key charac
 
 **Benefits**:
 
-- Lower **[[Variable Costs]]**
+- Lower Variable Costs
 - No need to build costly infrastructure
 - No purchasing servers or software licenses
 - No leasing facilities
@@ -39,25 +37,25 @@ AWS pricing is based on a simple principle: **pay for what you use**. Key charac
 
 ## 2. Pay Less When You Reserve
 
-For certain services like [[Amazon EC2]] and [[Amazon RDS]], you can invest in **[[Reserved Capacity]]**.
+For certain services like [[Amazon EC2]] and [[Amazon RDS]], you can invest in Reserved Capacity.
 
 **Savings**: Up to **75% discount** over equivalent on-demand capacity.
 
-**Three Reserved Instance Options**:
+### Three Reserved Instance Options:
 
-**[[All Upfront Reserved Instance]]** (AURI):
+**All Upfront Reserved Instance** (AURI):
 
 - Pay everything upfront
 - Receive the largest discount
 - Best for cost minimizations
 
-**[[Partial Upfront Reserved Instance]]** (PURI):
+**Partial Upfront Reserved Instance** (PURI):
 
 - Pay some upfront, rest over time
 - Lower discount than AURI
 - Balance between upfront cost and savings
 
-**[[No Upfront Reserved Instance]]** (NURI):
+**No Upfront Reserved Instance** (NURI):
 
 - Pay nothing upfront
 - Smallest discount
@@ -68,15 +66,15 @@ For certain services like [[Amazon EC2]] and [[Amazon RDS]], you can invest in *
 
 ## 3. Pay Less By Using More
 
-**[[Volume-Based Discounts]]**: Get better pricing as your usage increases.
+**Volume-Based Discounts**: Get better pricing as your usage increases.
 
-**Example**: [[Amazon S3]] uses **[[Tiered Pricing]]**:
+**Example**: [[Amazon S3]] uses Tiered Pricing:
 
 - Pay less per GB when you use more
 - Data transfer IN is always free
 - Storage costs decrease based on your needs
 
->**Economy of scale benefit**: As your AWS usage increases, you benefit from economies of scale that help you:
+>**Economy of scale benefit**: As your [[AWS]] usage increases, you benefit from economies of scale that help you:
 
 - Increase adoption
 - Keep costs under control
@@ -98,15 +96,14 @@ AWS constantly works to reduce costs:
 - Reduced power consumption
 - Lower cost of doing business
 
-**Result**: Substantial economies of scale = savings passed to customers as lower pricing.
-
-**Additional benefit**: Future, higher-performing resources replace current ones for no extra charge.
+> [!NOTE]
+> Substantial economies of scale = savings passed to customers as lower pricing.
 
 ## Custom Pricing
 
 AWS recognizes that every customer has different needs.
 
-**When standard pricing doesn't work**: Custom Pricing is available for:
+Custom Pricing is available for:
 
 - High-volume projects
 - Unique requirements
@@ -119,20 +116,21 @@ AWS recognizes that every customer has different needs.
 >[!NOTE] Availability: 
 >New customers for up to 1 year
 
-**What's included**:
+What's included:
 
 - Free [[Amazon EC2]] T2 micro instance for a year
 - Free usage tier for [[Amazon S3]]
 - Free usage tier for [[Amazon EBS]]
-- [[Elastic Load Balancing]]
+- Elastic Load Balancing
 - AWS data transfer
 - Other AWS services
 
 # Services with No Charge
 
-## Amazon Virtual Private Cloud (Amazon VPC)
+## Amazon Virtual Private Cloud (VPC)
 
 **[[Amazon VPC]]**: Provision a logically isolated section of the AWS Cloud where you launch AWS resources in a virtual network you define.
+![[Amazon VPC#Why Does VPC Exist?]]
 
 ## AWS Identity and Access Management (IAM)
 
@@ -140,7 +138,7 @@ AWS recognizes that every customer has different needs.
 
 ## Consolidated Billing
 
-**[[Consolidated Billing]]**: A billing feature in [[AWS Organizations]] to consolidate payment for multiple AWS accounts.
+A billing feature in [[AWS Organizations]] to consolidate payment for multiple AWS accounts.
 
 **Provides**:
 
@@ -163,7 +161,7 @@ Obs: you pay only for the resources created
 
 ## Auto Scaling
 
-**[[Auto Scaling]]**: Automatically adds or removes resources according to conditions you define.
+**Auto Scaling**: Automatically adds or removes resources according to conditions you define.
 
 **Benefits**:
 
@@ -184,29 +182,29 @@ Obs: you pay only for the resources created
 
 ## On-Premises Infrastructure
 
-**[[On-Premises Infrastructure]]**: Installed locally on a company's computers and servers.
+On-Premises Infrastructure: Installed locally on a company's computers and servers.
 
 **Characteristics**:
 
-- Several **[[Fixed Costs]]** (also called [[Capital Expenses]])
+- Several Fixed Costs (also called Capital Expenses)
 - Includes: facilities, hardware, licenses, maintenance staff
 - **Scaling up**: Expensive and time-consuming
 - **Scaling down**: Does NOT reduce fixed costs
 
 ## Cloud Infrastructure
 
-**[[Cloud Infrastructure]]**: Purchased from a service provider who builds and maintains facilities, hardware, and staff.
+Purchased from a service provider who builds and maintains facilities, hardware, and staff.
 
 **Characteristics**:
 
 - Customer pays for what is used
 - **Scaling up or down**: Simple and flexible
 - **Costs**: Easy to estimate based on service use
-- [[Consumption-Based Costs]]
+- Consumption Based Costs
 
 # What is Total Cost of Ownership?
 
-**[[Total Cost of Ownership]]** (TCO): A financial estimate to help buyers and owners determine direct and indirect costs of a product or system.
+Total Cost of Ownership (TCO): A financial estimate to help buyers and owners determine direct and indirect costs of a product or system.
 
 **Includes**:
 
@@ -291,14 +289,14 @@ Obs: you pay only for the resources created
 **Organization features**:
 
 - Name your estimates
-- Create and name **[[Groups]]** (containers for services)
+- Create and name **Groups** (containers for services)
 - Organize by cost-center, department, product architecture, etc.
 
 # Additional Benefit Considerations
 
 ## Hard Benefits
 
-**[[Hard Benefits]]**: Quantifiable, direct cost reductions.
+Hard Benefits: Quantifiable, direct cost reductions.
 
 **Examples**:
 
@@ -316,7 +314,7 @@ Obs: you pay only for the resources created
 
 **Limitation**: Provides only a narrow view of total financial impact.
 
-**[[Return on Investment]]** (ROI): Determines value generated while considering spending and saving.
+Return on Investment (ROI): Determines value generated while considering spending and saving.
 
 **ROI process**:
 
@@ -325,7 +323,7 @@ Obs: you pay only for the resources created
 
 ### Soft Benefits
 
-**[[Soft Benefits]]**: Value points challenging to accurately quantify, but can be more valuable than hard savings.
+Value points challenging to accurately quantify, but can be more valuable than hard savings.
 
 **Examples**:
 
@@ -363,15 +361,15 @@ Obs: you pay only for the resources created
 
 ### Organizational Structure
 
-**[[Root]]**: The top-level organization containing all accounts and OUs.
+Root: The top-level organization containing all accounts and OUs.
 
-**[[Organizational Unit]]** (OU): A container for accounts within a root.
+Organizational Unit (OU): A container for accounts within a root.
 
 - Can contain other OUs
 - Creates a hierarchical structure
 - Like an upside-down tree with root at top
 
-**[[Account]]**: Standard AWS account containing your AWS resources.
+Account: Standard AWS account containing your AWS resources.
 
 **Structure visualization**:
 
@@ -397,7 +395,7 @@ Root (Organization)
 
 **1. Service Control Policies**:
 
-- Create [[Service Control Policies]] (SCPs) that centrally control AWS services
+- Create **Service Control Policies (SCPs)** that centrally control AWS services
 - Apply policies across multiple AWS accounts
 
 **2. Group Management**:
@@ -425,7 +423,7 @@ Root (Organization)
 
 **AWS Organizations does NOT replace [[IAM]] policies**.
 
-**[[IAM Policies]]**:
+IAM Policies:
 
 - Allow or deny access to AWS services (e.g., Amazon S3)
 - Can target individual AWS resources (e.g., specific S3 bucket)
@@ -433,7 +431,7 @@ Root (Organization)
 - Apply only to IAM users, groups, or roles
 - **Cannot restrict** the AWS account root user
 
-**[[Service Control Policies]]** (SCPs):
+Service Control Policies (SCPs):
 
 - Allow or deny access to AWS services for entire accounts or groups of accounts
 - Apply to individual AWS accounts or OUs
@@ -446,9 +444,9 @@ Root (Organization)
 
 **Step 1**: Create your organization
 
-- Use current AWS account as [[Primary Account]]
+- Use current AWS account as Primary Account
 - Invite one AWS account to join
-- Create another account as [[Member Account]]
+- Create another account as Member Account
 
 **Step 2**: Create organizational units
 
@@ -464,7 +462,7 @@ Root (Organization)
 
 - Sign in as a user for each role
 - See how SCPs impact account access
-- Use [[IAM Policy Simulator]] to test and troubleshoot policies
+- Use IAM Policy Simulator to test and troubleshoot policies
 
 # Limits of AWS Organizations
 
@@ -499,7 +497,7 @@ Browser-based interface to manage organization and AWS resources. Can perform an
 
 ## AWS CLI
 
-**[[AWS Command Line Interface]]**: Issue commands at system's command line to perform tasks.
+**[[AWS CLI]]**: Issue commands at system's command line to perform tasks.
 
 - Faster and more convenient than console
 - Good for automation
@@ -533,7 +531,7 @@ Programmatic access via HTTPS requests directly to the service.
 
 # AWS Billing Dashboard
 
-**[[AWS Billing Dashboard]]**: View status of month-to-date AWS expenditure.
+**AWS Billing Dashboard:** View status of month-to-date AWS expenditure.
 
 - Identify services accounting for majority of expenditure
 - Understand how costs are trending
@@ -544,7 +542,7 @@ Programmatic access via HTTPS requests directly to the service.
 - Estimated costs for month-to-date
 - Forecast for current month spending
 
-**[[Month-to-Date Spend by Service]]**
+**Month-to-Date Spend by Service**
 
 - Top services you use most
 - Proportion of costs attributed to each service
@@ -563,7 +561,6 @@ From the billing dashboard, access several tools:
 - Breakdown by linked account
 - Monthly bill details
 
----
 
 **[[AWS Cost Explorer]]**: Visualize, understand, and manage AWS costs and usage over time.
 
@@ -575,7 +572,6 @@ From the billing dashboard, access several tools:
 - Identify most-used services
 - View metrics (Availability Zone traffic, linked account usage)
 
----
 
 **[[AWS Budgets]]**: Set budget thresholds and receive alerts.
 
@@ -588,9 +584,8 @@ From the billing dashboard, access several tools:
 >[!NOTE] Proactive cost management
 >Get alerted before overspending occurs.
 
----
 
-**[[AWS Cost and Usage Reports]]**: Comprehensive reports on AWS costs and usage.
+**AWS Cost and Usage Reports:** Comprehensive reports on AWS costs and usage.
 
 -  Lists usage for each service category
 - Breaks down by account and users
@@ -602,7 +597,7 @@ From the billing dashboard, access several tools:
 >[!NOTE] Use case 
 >Detailed analysis and custom processing of cost data.
 
-# AWS Support / TODO
+# AWS Support
 
 ## Introduction to AWS Support
 
@@ -619,7 +614,7 @@ From the billing dashboard, access several tools:
 
 ## AWS Support Resources
 
-**[[Technical Account Manager]]** (TAM):
+**Technical Account Manager** (TAM):
 
 - Designated primary point of contact
 - Provides proactive guidance
@@ -627,7 +622,7 @@ From the billing dashboard, access several tools:
 - Continuous ongoing communication
 - Helps you plan, deploy, and optimize solutions
 
-**[[AWS Trusted Advisor]]**:
+**AWS Trusted Advisor**:
 
 - Like a customized cloud expert
 - Online resource checking for optimization opportunities
@@ -636,7 +631,7 @@ From the billing dashboard, access several tools:
 - Follows best practices
 - Increases performance and fault tolerance
 
-**[[Support Concierge]]**:
+**Support Concierge**:
 
 - Billing and account expert
 - Quick, efficient analysis on billing and account issues
@@ -648,7 +643,7 @@ AWS offers four support plans: **Basic**, **Developer**, **Business**, and **Ent
 
 ### Basic Support Plan
 
-**[[Basic Support Plan]]**: Included free for all AWS customers.
+**Basic Support Plan**: Included free for all AWS customers.
 
 >[!example] **Offers**:
 >- 24/7 access to customer service
@@ -660,7 +655,7 @@ AWS offers four support plans: **Basic**, **Developer**, **Business**, and **Ent
 
 ## Developer Support Plan
 
-**[[Developer Support Plan]]**: For customers testing or doing early development.
+**Developer Support Plan**: For customers testing or doing early development.
 
 > [!example] **Best for customers who**:
 > 
@@ -673,7 +668,7 @@ AWS offers four support plans: **Basic**, **Developer**, **Business**, and **Ent
 
 ## Business Support Plan
 
-**[[Business Support Plan]]**: For customers running production workloads.
+**Business Support Plan**: For customers running production workloads.
 
 > [!example] Best for customers who**:
 > 
@@ -685,7 +680,7 @@ AWS offers four support plans: **Basic**, **Developer**, **Business**, and **Ent
 
 ## Enterprise Support Plan
 
-**[[Enterprise Support Plan]]**: For business and mission-critical workloads.
+**Enterprise Support Plan**: For business and mission-critical workloads.
 
 > [!example] **Best for customers who want to**:
 > 
@@ -703,7 +698,7 @@ AWS offers four support plans: **Basic**, **Developer**, **Business**, and **Ent
 
 # Case Severity and Response Times
 
-**[[Case Severity]]**: Determines response time based on impact level.
+**Case Severity**: Determines response time based on impact level.
 
 ## Five Severity Levels
 
@@ -761,4 +756,4 @@ AWS offers four support plans: **Basic**, **Developer**, **Business**, and **Ent
 
 # Tags 
 
-#AWS #CloudPricing #TCO #CostOptimization #AWSOrganizations #ConsolidatedBilling #ReservedInstances #AWSSupport #CloudEconomics #FinOps #CloudFinance #AWSBilling #CostManagement #CloudCosts #AWSTrustedAdvisor #AWSPricing #CloudBudgeting #ROI #EnterpriseCloud #CloudStrategy #AWSBestPractices #CostAnalysis #CloudMigration
+#AWS #CloudPricing #CostOptimization #AWSOrganizations #AWSSupport #CostManagement #AWSPricing #EnterpriseCloud #AWSBestPractices #cloud-computing 

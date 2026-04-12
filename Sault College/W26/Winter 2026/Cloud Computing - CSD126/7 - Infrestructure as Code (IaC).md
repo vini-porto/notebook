@@ -154,7 +154,7 @@ terraform {
 
 ## Terraform Backends
 
-By default, Terraform stores its state file on your local disk. You can configure a **backend** to store it remotely (e.g., in [[S3]]), which enables team collaboration.
+By default, Terraform stores its state file on your local disk. You can configure a **backend** to store it remotely (e.g., in [[Amazon S3]]), which enables team collaboration.
 
 ```hcl
 terraform {

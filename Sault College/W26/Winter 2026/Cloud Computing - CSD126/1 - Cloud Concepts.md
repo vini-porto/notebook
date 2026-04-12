@@ -104,7 +104,7 @@ Deploys resources on-premises using virtualization and resource management tools
 	- Create applications that deploy and monitor complex systems entirely through code
 	- Programmatic access to AWS services
 
-## AWS Cloud Adoption Framework (AWS CAF)
+# AWS Cloud Adoption Framework (AWS CAF)
 
 ![[AWS Cloud Adoption Framework#What Is the AWS CAF]]
 
@@ -120,7 +120,7 @@ Deploys resources on-premises using virtualization and resource management tools
 
 ### Business Perspective
 
-**[[Business Perspective]]** stakeholders:
+**Business Perspective** stakeholders:
 
 - Business managers
 - Finance managers
@@ -131,7 +131,7 @@ Deploys resources on-premises using virtualization and resource management tools
 
 ### People Perspective
 
-**[[People Perspective]]** stakeholders:
+**People Perspective** stakeholders:
 
 - Human resources
 - Staffing managers
@@ -143,11 +143,11 @@ Deploys resources on-premises using virtualization and resource management tools
 
 - Perform analysis of needs and gaps
 - Prioritize training, staffing, and organizational changes
-- Build an **[[Agile Organization]]**
+- Build an **Agile Organization**
 
 ### Governance Perspective
 
-**[[Governance Perspective]]** stakeholders:
+**Governance Perspective** stakeholders:
 
 - Chief Information Officer (CIO)
 - Program managers
@@ -161,7 +161,7 @@ Deploys resources on-premises using virtualization and resource management tools
 
 ### Platform Perspective
 
-**[[Platform Perspective]]** stakeholders:
+**Platform Perspective** stakeholders:
 
 - Chief Technology Officer (CTO)
 - IT managers
@@ -179,7 +179,7 @@ Deploys resources on-premises using virtualization and resource management tools
 
 ### Security Perspective
 
-**[[Security Perspective]]** stakeholders:
+**Security Perspective** stakeholders:
 
 - Chief Information Security Officer (CISO)
 - IT security managers
@@ -198,7 +198,7 @@ Deploys resources on-premises using virtualization and resource management tools
 
 ### Operations Perspective
 
-**[[Operations Perspective]]** stakeholders:
+**Operations Perspective** stakeholders:
 
 - IT operations managers
 - IT support managers
@@ -213,94 +213,7 @@ Deploys resources on-premises using virtualization and resource management tools
 - Identify process changes needed for successful cloud adoption
 - Plan training requirements
 
-
----
-
-## Review Questions
-
-1. Define cloud computing in your own words. What are the five main types of IT resources delivered via cloud computing?
-    
-2. What is the fundamental difference between thinking of infrastructure as "hardware" versus "software"? Explain using the traditional vs. cloud computing models.
-    
-3. List three problems with the traditional computing model's hardware procurement cycle. How does cloud computing solve each problem?
-    
-4. Compare and contrast the three cloud service models (IaaS, PaaS, and SaaS). For each, describe what you manage vs. what the provider manages.
-    
-5. Give a real-world example of a SaaS application you use regularly. Why is it considered SaaS rather than IaaS or PaaS?
-    
-6. Explain the three cloud deployment models (Cloud, Hybrid, On-Premises). When would an organization choose each one?
-    
-7. What is meant by "pay-as-you-go pricing"? How does this represent trading capital expense for variable expense?
-    
-8. Describe the advantage "Stop guessing capacity." What are the two problems that occur when you guess capacity incorrectly in traditional computing?
-    
-9. Explain how cloud computing provides "massive economies of scale." Why can AWS offer lower prices than what you could achieve on your own?
-    
-10. What does "Go global in minutes" mean? How does this advantage benefit customers and what AWS feature enables it?
-    
-11. List and explain the six advantages of cloud computing. Which advantage do you think is most important for a startup company? For an enterprise? Justify your answers.
-    
-12. What is the difference between a "web service" and "AWS"? How do web services use APIs?
-    
-13. Describe a simple AWS solution architecture that includes services from at least three different categories. Explain how these services work together.
-    
-14. AWS offers 10 different compute services (EC2, Lambda, ECS, etc.). Why would AWS offer so many options instead of just one compute service?
-    
-15. What are the three ways to interact with AWS? Which method would be best for: (a) a beginner exploring AWS, (b) automating repetitive tasks, (c) building an application that programmatically creates resources?
-    
-16. What is the AWS Cloud Adoption Framework (AWS CAF)? Why was it created?
-    
-17. What are the three elements that must be in alignment for successful cloud adoption? Why is technology alone not sufficient?
-    
-18. Explain the difference between the six perspectives in AWS CAF. Which three focus on business capabilities and which three focus on technical capabilities?
-    
-19. You are the CIO of a company planning to migrate to AWS. Which AWS CAF perspective is most relevant to your role? What would you focus on using that perspective?
-    
-20. Describe the role of stakeholders in the People Perspective. What kinds of gaps might they identify and how would they address them?
-    
-21. A company has sensitive customer data that cannot leave their physical data center due to regulations, but they want to use cloud for their web application and analytics. Which deployment model should they use and why?
-    
-22. Calculate the cost difference: You run a traditional data center that costs $100,000 upfront and $2,000/month in maintenance. You use only 40% of its capacity on average. Compare this to a cloud solution that costs $0 upfront and $1,200/month based on actual usage. What's the total cost for each over 3 years?
-    
-23. Your company website experiences traffic spikes during holiday sales—10x normal traffic for 2 weeks per year. Explain how the "elastic scaling" advantage of cloud computing helps with this scenario vs. traditional infrastructure.
-    
-24. Match each AWS service analog to its traditional IT component:
-    
-    - Amazon EC2 → ?
-    - IAM → ?
-    - Amazon S3 → ?
-    - Elastic Load Balancing → ?
-25. A startup asks for your advice: "Should we build our own data center or use AWS?" Using the six advantages of cloud computing, construct an argument for why they should use AWS.
-    
-
----
-
-## Discussion Topics
-
-1. **Cost Analysis**: Is cloud computing always cheaper than traditional infrastructure? Under what circumstances might on-premises infrastructure be more cost-effective?
-    
-2. **Control vs. Convenience**: As you move from IaaS → PaaS → SaaS, you gain convenience but lose control. What are the trade-offs? When is control more important than convenience?
-    
-3. **Career Impact**: How does the shift from infrastructure-as-hardware to infrastructure-as-software change the skills needed by IT professionals? What should students focus on learning?
-    
-4. **Security**: Some organizations are hesitant to move to the cloud due to security concerns. Are these concerns valid? Is data more or less secure in the cloud vs. on-premises?
-    
-5. **Vendor Lock-in**: Once you build your application on AWS, it can be difficult to move to another provider. Is this a significant risk? How can organizations mitigate it?
-    
-
----
-
-## Practical Scenarios
-
-1. **Scenario**: You're launching an e-commerce website and expect 100 customers/day initially, but could grow to 10,000 customers/day within a year. Design a solution using cloud advantages. Which advantages are most relevant?
-    
-2. **Scenario**: Your organization has a legacy COBOL application running on mainframes, a modern web application you want to migrate to cloud, and highly sensitive data that legally cannot leave your country. Design a deployment strategy using the three deployment models.
-    
-3. **Scenario**: You're the IT director planning AWS adoption. Using the AWS CAF, identify which perspectives you need to address first. What gaps might you find in your organization and how would you prioritize addressing them?
-    
-
----
-
 # Tags
 
-#CloudComputing #AWS #AWSArchitecture #CloudAdoption #IaaS #PaaS #SaaS #CloudDeployment #AWSServices #CloudEconomics #AWSCAF #CloudStrategy #ITInfrastructure #DigitalTransformation #CloudMigration #EnterpriseIT #Scalability #CostOptimization #CloudSecurity #AWSBestPractices
+#cloud-computing #AWS #CloudAdoption #AWSServices #CloudEconomics #AWSCAF #CloudStrategy #CloudMigration #CostOptimization #CloudSecurity #AWSBestPractices
+

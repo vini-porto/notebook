@@ -16,7 +16,7 @@ This module includes an activity that challenges you to determine the best stora
 
 ## Core AWS services
 
-Storage is another AWS core service category. Some broad categories of storage include: instance store (ephemeral storage), Amazon EBS, Amazon EFS, Amazon S3, and Amazon S3 Glacier.
+Storage is another AWS core service category. Some broad categories of storage include: instance store (ephemeral storage), Amazon EBS, Amazon EFS, [[Amazon S3]], and Amazon S3 Glacier.
 - Instance store, or ephemeral storage, istemporary storagethat is added to your Amazon EC2 instance.
 - Amazon EBS is persistent, mountable storage that can be mounted as a device to an Amazon EC2 instance. Amazon EBS can be mounted to an Amazon EC2 instance only within the same Availability Zone. Only one Amazon EC2 instance at a time can mount an Amazon EBS volume.
 - Amazon EFS is a shared file system that multiple Amazon EC2 instances can mount at the same time. 
