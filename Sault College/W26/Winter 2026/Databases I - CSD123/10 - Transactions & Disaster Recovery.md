@@ -1,4 +1,4 @@
-# The Problem: Why Do We Even Need This?
+# Why Do We Even Need This?
 
 Imagine this scenario. Dr. Nefario wants to move 1,000 bananas from the Vault to the Breakroom. In SQL, that requires **two separate commands**:
 
