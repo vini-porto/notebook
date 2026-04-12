@@ -4,7 +4,7 @@ Before understanding IaC, it helps to understand _why_ it was created. There are
 
 ## Approach 1: Manual Setup via the Cloud Console
 
-This means logging into the [[AWS]] (or Azure, GCP, etc.) web interface and clicking through menus to configure each service one by one.
+This means logging into the [[AWS]] (or [[Azure]], GCP, etc.) web interface and clicking through menus to configure each service one by one.
 
 **Problems with this approach:**
 
@@ -12,7 +12,7 @@ This means logging into the [[AWS]] (or Azure, GCP, etc.) web interface and clic
 - **Hard to keep environments consistent** — your dev, test, and production environments can easily drift apart because each was set up by hand.
 - **Hard to automate** — clicking through a web UI cannot be scripted easily.
 
-## Approach 2: Using the [[CLI]] or SDKs
+## Approach 2: Using the [[Amazon CLI]] or SDKs
 
 This means writing scripts that use the [[AWS]] CLI or an SDK to configure services programmatically.
 
@@ -81,12 +81,12 @@ There are several IaC tools available. Here is a comparison:
 [[Terraform]] is a [[CLI]] tool made by HashiCorp. It:
 
 - Supports many platforms through **providers** (e.g., AWS provider, Azure provider, etc.)
-- Uses a simple configuration format called **[[HCL]]** (HashiCorp Configuration Language)
+- Uses a simple configuration format called **[[HashiCorp Configuration Language|HCL]]** (HashiCorp Configuration Language)
 - Takes your declarative configuration and automatically translates it into the correct imperative API calls to build your infrastructure
 
 ## Configuration Language: HCL
 
-[[HCL]] files end in `.tf`. Here is a small example of a complete Terraform config:
+[[HashiCorp Configuration Language|HCL]] files end in `.tf`. Here is a small example of a complete Terraform config:
 
 ```hcl
 terraform {
@@ -394,4 +394,4 @@ For these tasks, you would use other tools (e.g., Ansible for configuration mana
 
 # Tags
 
-#iac #terraform #aws #cloud #infrastructure #devops #hcl #cli #declarative
+#iac #terraform #aws #cloud #infrastructure #devops #hcl #cli #declarative #cloud-computing 

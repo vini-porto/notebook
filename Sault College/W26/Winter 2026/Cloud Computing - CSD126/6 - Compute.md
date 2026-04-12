@@ -1,6 +1,6 @@
-# AWS Compute Services Overview
+# AWS Compute Services
 
-## Introduction to AWS Compute Options
+## AWS Compute Options
 
 [[Amazon Web Services]] (AWS) provides multiple compute services, each designed for specific use cases. Think of compute services as different ways to run your applications in the cloud - some give you full control over virtual machines, others handle everything automatically, and some fall in between.
 
@@ -13,25 +13,23 @@ AWS compute services fall into four broad categories:
 3. **[[Container-Based Services]]** - Run multiple isolated applications on shared infrastructure
 4. **[[Platform as a Service]]** - AWS manages infrastructure; you focus on your application
 
----
+# Core AWS Compute Services
 
-## Core AWS Compute Services
-
-### Virtual Machine Services
+## Virtual Machine Services
 
 **[[Amazon EC2]]** (Elastic Compute Cloud) provides resizable virtual machines where you have full control. You choose the operating system, configure the server size, and manage the software.
 
-**[[Amazon EC2 Auto Scaling]]** automatically adjusts the number of EC2 instances based on conditions you define. This ensures your application remains available during traffic spikes while minimizing costs during quiet periods.
+**[[Amazon EC2#EC2 Auto Scaling|EC2 Auto Scaling]]** automatically adjusts the number of EC2 instances based on conditions you define. This ensures your application remains available during traffic spikes while minimizing costs during quiet periods.
 
-**[[VMware Cloud on AWS]]** enables hybrid cloud deployments without requiring custom hardware, useful for organizations with existing VMware investments.
+**VMware Cloud on AWS** enables hybrid cloud deployments without requiring custom hardware, useful for organizations with existing VMware investments.
 
-### Serverless Services
+## Serverless Services
 
 **[[AWS Lambda]]** is a serverless compute solution where you run code without managing servers. You only pay for the actual compute time your code uses - measured in milliseconds.
 
-**[[AWS Serverless Application Repository]]** provides a catalog where you can discover, deploy, and publish serverless applications.
+**AWS Serverless Application Repository** provides a catalog where you can discover, deploy, and publish serverless applications.
 
-### Container Services
+## Container Services
 
 **[[Amazon ECS]]** (Elastic Container Service) orchestrates [[Docker]] containers, managing where and how containers run across your infrastructure.
 
@@ -41,7 +39,7 @@ AWS compute services fall into four broad categories:
 
 **[[AWS Fargate]]** runs containers without requiring you to manage the underlying servers or clusters.
 
-### Platform Services
+## Platform Services
 
 **[[AWS Elastic Beanstalk]]** provides a simple platform for deploying web applications. You upload your code, and Beanstalk handles deployment, scaling, and infrastructure management.
 
@@ -49,15 +47,13 @@ AWS compute services fall into four broad categories:
 
 **[[Amazon Lightsail]]** offers a simplified service for building applications or websites, ideal for simpler use cases.
 
-### Hybrid and Edge Services
+## Hybrid and Edge Services
 
 **[[AWS Outposts]]** enables you to run select AWS services in your on-premises data center, extending AWS infrastructure to your location.
 
----
+# Choosing the Right Compute Service
 
-## Choosing the Right Compute Service
-
-### Key Considerations
+## Key Considerations
 
 The optimal compute service depends on your specific use case. Consider:
 
@@ -66,7 +62,7 @@ The optimal compute service depends on your specific use case. Consider:
 - **Scalability needs** - Does your workload have predictable or variable traffic patterns?
 - **Cost optimization** - What's the balance between control and operational efficiency?
 
-### Best Practices
+## Best Practices
 
 1. **Evaluate available options** - Don't default to familiar solutions; assess all possibilities
 2. **Understand configuration options** - Each service offers different customization levels
@@ -115,12 +111,12 @@ EC2 supports multiple operating systems:
 - **Windows**: Windows Server 2008, 2012, 2016, 2019
 - **Linux**: Red Hat, SUSE, Ubuntu, Amazon Linux
 
-The operating system running on a virtual machine is called the **[[guest operating system]]**, distinguishing it from the **[[host operating system]]** that runs directly on physical hardware.
+The operating system running on a virtual machine is called the **guest operating system**, distinguishing it from the **host operating system** that runs directly on physical hardware.
 
 ### Key Features
 
 - Launch any number of instances of any size
-- Deploy in any [[Availability Zone]] worldwide
+- Deploy in any [[Availability Zones|Availability Zone]] worldwide
 - Launch within minutes
 - Control traffic with [[security groups]]
 - Integrate with other AWS services
@@ -161,11 +157,11 @@ Instance types define the hardware resources (CPU, memory, storage, network) you
 
 **Categories**:
 
-- **[[General Purpose Instances]]** (T3) - Balanced resources, burstable performance
-- **[[Compute Optimized Instances]]** (C5) - High-performance processors
-- **[[Memory Optimized Instances]]** (R5) - Large amounts of RAM
-- **[[Storage Optimized Instances]]** - High disk throughput
-- **[[Accelerated Computing Instances]]** - GPU or specialized hardware
+- **General Purpose Instances** (T3) - Balanced resources, burstable performance
+- **Compute Optimized Instances** (C5) - High-performance processors
+- **Memory Optimized Instances** (R5) - Large amounts of RAM
+- **Storage Optimized Instances** - High disk throughput
+- **Accelerated Computing Instances** - GPU or specialized hardware
 
 **Example**: A `t3.medium` provides baseline CPU performance with burst capability, ideal for web servers with variable traffic. A `c5.large` provides consistent high CPU, better for batch processing.
 
@@ -173,17 +169,17 @@ Instance types define the hardware resources (CPU, memory, storage, network) you
 
 You must specify:
 
-- **[[VPC]]** (Virtual Private Cloud) - Your isolated network
-- **Subnet** - Which [[Availability Zone]] to deploy in
+- **[[Amazon VPC]]** (Virtual Private Cloud) - Your isolated network
+- **Subnet** - Which [[Availability Zones|Availability Zone]] to deploy in
 - **Public IP** - Whether the instance needs internet accessibility
 
 **Default VPC** instances automatically receive public IPs. **Non-default VPC** instances don't unless you specify otherwise or configure the subnet.
 
-**[[Placement Groups]]** let you specify how instances are physically arranged to optimize for either high availability (spread apart) or low latency (placed close together).
+**Placement Groups** let you specify how instances are physically arranged to optimize for either high availability (spread apart) or low latency (placed close together).
 
-#### 4. Attach [[IAM Role]] (Optional but Recommended)
+#### 4. Attach [[IAM#IAM Roles|IAM Role]] (Optional but Recommended)
 
-Never store AWS credentials on an EC2 instance. Instead, attach an **[[IAM role]]** that grants permissions.
+Never store AWS credentials on an EC2 instance. Instead, attach an **[[IAM#IAM Roles|IAM Role]]** that grants permissions.
 
 **How it works**:
 
@@ -196,7 +192,7 @@ Never store AWS credentials on an EC2 instance. Instead, attach an **[[IAM role]
 
 #### 5. User Data Script (Optional)
 
-**[[User data]]** scripts automate instance configuration at launch. Use them to:
+**User data** scripts automate instance configuration at launch. Use them to:
 
 - Install software updates
 - Download and install applications
@@ -211,7 +207,7 @@ yum update -y
 yum install wget -y
 ```
 
-For Windows, use batch commands or PowerShell syntax.
+For Windows, use batch commands or [[PowerShell]] syntax.
 
 #### 6. Specify Storage
 
@@ -224,7 +220,7 @@ Configure the volumes (disks) attached to your instance:
 - Can change size or type without downtime
 - Multiple volume types for different performance needs
 
-**[[EC2 Instance Store]]**:
+**EC2 Instance Store**:
 
 - Temporary storage physically attached to host
 - High performance but data lost if instance stops
@@ -282,9 +278,9 @@ Security groups act as **virtual firewalls** controlling network traffic.
 
 **Default behavior**: All outbound traffic allowed, all inbound traffic blocked unless explicitly permitted.
 
-#### 9. Create or Select [[Key Pair]]
+#### 9. Create or Select Key Pair
 
-**[[Key pairs]]** use public-key cryptography for secure login:
+**Key pairs** use public-key cryptography for secure login:
 
 - **Public key** - Stored on the instance
 - **Private key** - You download and keep secure (only chance to download!)
@@ -299,7 +295,7 @@ Security groups act as **virtual firewalls** controlling network traffic.
 
 ### Instance Lifecycle States
 
-Understanding the **[[EC2 instance lifecycle]]** helps manage instances effectively:
+Understanding the **EC2 instance lifecycle** helps manage instances effectively:
 
 - **Pending** - Instance is starting up, booting, deploying
 - **Running** - Instance is fully operational and accessible
@@ -319,7 +315,7 @@ Understanding the **[[EC2 instance lifecycle]]** helps manage instances effectiv
 - Changes when instance stops/starts
 - Released back to pool when not in use
 
-**[[Elastic IP addresses]]**:
+**Elastic IP addresses**:
 
 - Static public IPs you can keep
 - Remains with your account until released
@@ -330,7 +326,7 @@ Understanding the **[[EC2 instance lifecycle]]** helps manage instances effectiv
 
 ### Instance Metadata
 
-**[[EC2 instance metadata]]** provides information about the running instance, accessible from within the instance:
+**EC2 instance metadata** provides information about the running instance, accessible from within the instance:
 
 - Access URL: `http://169.254.169.254/latest/meta-data/`
 - Available information: public/private IPs, instance ID, security groups, Region, Availability Zone
@@ -340,7 +336,7 @@ Understanding the **[[EC2 instance lifecycle]]** helps manage instances effectiv
 
 ### Monitoring with CloudWatch
 
-**[[Amazon CloudWatch]]** monitors EC2 instances automatically:
+**[[Amazon CloudWatch]]** monitors [[Amazon EC2|EC2]] instances automatically:
 
 - **Basic monitoring** (default): 5-minute intervals, free
 - **Detailed monitoring** (optional): 1-minute intervals, additional cost
@@ -379,7 +375,7 @@ aws ec2 run-instances \
 
 AWS offers multiple pricing models to optimize costs:
 
-### [[On-Demand Instances]]
+### [[Amazon EC2#Instance Types|On-Demand Instances]]
 
 **Characteristics**:
 
@@ -396,7 +392,8 @@ AWS offers multiple pricing models to optimize costs:
 
 **AWS Free Tier eligible**: Yes
 
-### [[Reserved Instances]]
+### [[Amazon EC2#Instance Types|Reserved Instances]]
+
 
 **Characteristics**:
 
@@ -412,7 +409,7 @@ AWS offers multiple pricing models to optimize costs:
 
 **Example**: A database server running 24/7 for multiple years
 
-### [[Scheduled Reserved Instances]]
+### [[Amazon EC2#Instance Types|Scheduled Reserved Instances]]
 
 **Characteristics**:
 
@@ -426,7 +423,7 @@ AWS offers multiple pricing models to optimize costs:
 - Predictable periodic workloads
 - Batch processing with known schedules
 
-### [[Spot Instances]]
+### Spot Instances
 
 **Characteristics**:
 
@@ -445,7 +442,7 @@ AWS offers multiple pricing models to optimize costs:
 
 **Not suitable for**: Applications requiring guaranteed availability
 
-### [[Dedicated Hosts]]
+### [[Amazon EC2#Purchasing Options — How You Pay for EC2|Dedicated Hosts]]
 
 **Characteristics**:
 
@@ -459,7 +456,7 @@ AWS offers multiple pricing models to optimize costs:
 - Compliance needs
 - Existing software licenses
 
-### [[Dedicated Instances]]
+### [[Amazon EC2#Purchasing Options — How You Pay for EC2|Dedicated Instances]]
 
 **Characteristics**:
 
@@ -473,7 +470,7 @@ AWS offers multiple pricing models to optimize costs:
 
 ### Pillar 1: Right-Sizing
 
-**[[Right-sizing]]** means choosing the smallest instance that meets performance requirements.
+**Right-sizing** means choosing the smallest instance that meets performance requirements.
 
 **Approach**:
 
@@ -500,7 +497,7 @@ AWS offers multiple pricing models to optimize costs:
 
 **For production workloads**:
 
-- Use [[Auto Scaling]] to match capacity to demand
+- Use Auto Scaling to match capacity to demand
 - Scale horizontally (more instances) during peaks
 - Scale down during quiet periods
 
@@ -526,8 +523,8 @@ Combine multiple pricing models based on workload patterns:
 
 1. **Resize volumes**: If you provisioned 500 GB but only use 20 GB, shrink the volume
 2. **Choose appropriate volume types**:
-    - [[EBS gp2]] (General Purpose SSD): Default, balanced
-    - [[EBS st1]] (Throughput Optimized HDD): Half the cost, good for sequential access
+    - EBS gp2 (General Purpose SSD): Default, balanced
+    - EBS st1 (Throughput Optimized HDD): Half the cost, good for sequential access
 3. **Delete unused snapshots**: Review and remove old backups
 4. **Use appropriate storage service**:
     - EBS for block storage (databases)
@@ -543,7 +540,7 @@ Cost optimization is ongoing, not one-time:
 1. **Implement tagging**: Tag resources by project, team, environment
 2. **Use [[AWS Cost Explorer]]**: Visualize spending patterns over time
 3. **Review regularly**: Monthly cost reviews identify optimization opportunities
-4. **Leverage [[AWS Trusted Advisor]]**: Automated recommendations for cost savings
+4. **Leverage AWS Trusted Advisor**: Automated recommendations for cost savings
 5. **Assign ownership**: Designate individuals or teams responsible for cost optimization
 6. **Architect for cost**: Make cost a design consideration from the start
 
@@ -620,9 +617,9 @@ Each container packages:
 
 ### Docker Components
 
-- **[[Docker image]]**: Template defining container contents
-- **[[Docker container]]**: Running instance of an image
-- **[[Docker engine]]**: Software managing container lifecycle
+- **Docker image**: Template defining container contents
+- **Docker container**: Running instance of an image
+- **Docker engine**: Software managing container lifecycle
 
 ## Amazon ECS (Elastic Container Service)
 
@@ -632,22 +629,22 @@ While you could manually install Docker on EC2 instances, [[Amazon ECS]] simplif
 
 ### Core Concepts
 
-**[[Task Definition]]**:
+**Task Definition**:
 
 - JSON/text file describing your container configuration
 - Specifies: which images, how many containers (1-10), ports, data volumes
 - Think of it as a blueprint for your application
 
-**[[ECS Task]]**:
+**ECS Task**:
 
 - Running instantiation of a task definition
 - One task might run 1-10 containers (as defined in task definition)
 - You specify how many tasks to run
 
-**[[ECS Cluster]]**:
+**ECS Cluster**:
 
 - Logical grouping of EC2 instances (with EC2 launch type)
-- Each instance runs the [[ECS container agent]]
+- Each instance runs the **ECS container agent**
 - ECS scheduler places tasks across cluster based on resource availability
 
 ### Key Capabilities
@@ -698,9 +695,9 @@ When creating an ECS cluster, choose from three options:
 
 ### Kubernetes Architecture
 
-- **[[Cluster]]**: Group of compute instances (nodes)
-- **[[Node]]**: Individual compute instance running containers
-- **[[Pod]]**: Smallest deployable unit (one or more containers)
+- **Cluster**: Group of compute instances (nodes)
+- **Node**: Individual compute instance running containers
+- **Pod**: Smallest deployable unit (one or more containers)
 - **Service**: Stable network endpoint for accessing pods
 
 **Benefits**: Deploy anywhere using same tooling - on-premises, AWS, multi-cloud.
@@ -817,7 +814,7 @@ Build complex workflows:
 
 ## Lambda Event Sources
 
-Lambda functions are triggered by **[[event sources]]**:
+Lambda functions are triggered by **event sources**:
 
 ### Direct Invocation (Asynchronous)
 
@@ -825,7 +822,7 @@ Services that directly invoke Lambda:
 
 - **[[Amazon S3]]**: Object upload/delete events
 - **[[Amazon SNS]]**: Message publication
-- **[[Amazon CloudWatch Events]]**: Scheduled or rule-based triggers
+- **[[Amazon CloudWatch#Events]]**: Scheduled or rule-based triggers
 
 ### Polling (Lambda pulls events)
 
@@ -857,7 +854,7 @@ Invoke Lambda directly from:
 
 1. **Function name**: Identifier for your function
 2. **Runtime**: Language and version (e.g., Python 3.11, Node.js 18)
-3. **Execution role**: [[IAM role]] granting permissions to AWS services
+3. **Execution role**: [[IAM#Roles|IAM role]] granting permissions to AWS services
 
 ### Detailed Configuration
 
@@ -882,7 +879,7 @@ Invoke Lambda directly from:
 
 **VPC settings**: Optionally run in specific VPC to access private resources
 
-**[[Lambda layers]]**: Reusable code packages (libraries, dependencies)
+**Lambda layers**: Reusable code packages (libraries, dependencies)
 
 - Share code between functions
 - Keep deployment packages small
@@ -925,7 +922,7 @@ Invoke Lambda directly from:
 
 ## Lambda Limitations
 
-Understanding **[[Lambda quotas]]** helps avoid deployment issues:
+Understanding **Lambda quotas** helps avoid deployment issues:
 
 ### Compute Limits
 
@@ -937,7 +934,7 @@ Understanding **[[Lambda quotas]]** helps avoid deployment issues:
 
 - **Deployment package** (.zip): 250 MB
 - **Container image**: 10 GB
-- **[[Lambda layers]]**: Up to 5 per function
+- **Lambda layers**: Up to 5 per function
 
 ### Workarounds
 
@@ -1051,30 +1048,6 @@ Understanding **[[Lambda quotas]]** helps avoid deployment issues:
 
 **Pay-as-you-go**: Only pay for what you use, no upfront commitments.
 
-# Practice Questions
-
-1. **Scenario Analysis**: You have an application that processes data during business hours (9 AM - 6 PM) on weekdays. Which pricing model combination would be most cost-effective? Explain your reasoning.
-    
-2. **Architecture Decision**: When would you choose AWS Lambda over Amazon EC2 for running an application? Provide three specific scenarios and explain why Lambda is the better choice.
-    
-3. **Container Selection**: Compare and contrast Amazon ECS and Amazon EKS. What factors would influence your decision to use one over the other?
-    
-4. **Right-Sizing Exercise**: An EC2 instance consistently shows 15% CPU utilization and 25% memory usage. What steps would you take to optimize costs while maintaining performance?
-    
-5. **Security Configuration**: Explain how IAM roles, security groups, and key pairs work together to secure an EC2 instance. What is the purpose of each, and why shouldn't you ever store AWS credentials on an EC2 instance?
-    
-6. **Lifecycle Management**: Describe the lifecycle of an EC2 instance from launch to termination. What happens to data in EBS volumes vs Instance Store volumes when an instance is stopped?
-    
-7. **Lambda Limitations**: You need to run a data processing job that typically takes 20 minutes. Can you use AWS Lambda? If not, what alternatives would you suggest?
-    
-8. **Cost Optimization Strategy**: You're running 50 EC2 instances - 30 run 24/7 for production, 15 run only during business hours for development, and 5 run batch jobs that can be interrupted. Design an optimal pricing strategy using multiple EC2 pricing models.
-    
-9. **Container vs VM**: Explain to a non-technical stakeholder why containers might be more efficient than virtual machines for microservices architecture.
-    
-10. **Elastic Beanstalk Use Case**: When would Elastic Beanstalk be the right choice over managing EC2 instances directly? When would you choose EC2 instead?
-    
-
-
 # Tags
 
-#aws #cloud-computing #compute-services #ec2 #lambda #containers #serverless #cost-optimization #ecs #elastic-beanstalk
+#aws #cloud-computing #compute-services #ec2 #lambda #containers #serverless #cost-optimization #ecs #elastic-beanstalk #cloud-computing 

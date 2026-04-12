@@ -137,10 +137,10 @@ This is one of the most important topics in EC2 for both real-world use and clou
 > [!important] 
 > **Spot Instances** can be **terminated by AWS with 2 minutes notice** when they need the capacity back. They are ideal for batch jobs, data processing, or CI/CD pipelines — not for production web servers.
 
-## EC2 [[Auto Scaling]]
+## EC2 Auto Scaling
 
 > [!note] 
-> **[[Auto Scaling]]** automatically adjusts the number of EC2 instances in response to demand. It can add instances when traffic spikes (_scale out_) and remove them when traffic drops (_scale in_).
+> **[[Auto Scaling** automatically adjusts the number of EC2 instances in response to demand. It can add instances when traffic spikes (_scale out_) and remove them when traffic drops (_scale in_).
 
 - **Launch Template**: Defines what kind of instance to launch (AMI, type, security group, etc.)
 - **Auto Scaling Group (ASG)**: The logical group of instances managed together, with minimum, maximum, and desired capacity settings.

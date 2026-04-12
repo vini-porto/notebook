@@ -1,6 +1,6 @@
 # What is a Network?
 
-**[[Computer Network]]**: Two or more client machines connected together to share resources.
+**Computer Network**: Two or more client machines connected together to share resources.
 
 **[[Subnets]]**: Networks can be logically partitioned into subnets.
 
@@ -56,7 +56,7 @@
 
 1. An IP address (the first address of the network)
 2. A slash character (`/`)
-3. A number telling you how many bits of the [[Routing Prefix]] must be fixed for the network identifier
+3. A number telling you how many bits of the Routing Prefix must be fixed for the network identifier
 
 **Purpose**: Expresses a group of IP addresses that are consecutive to each other.
 
@@ -80,7 +80,7 @@
 
 ## Special CIDR Cases
 
-**[[Fixed IP Address]]**: `192.0.2.0/32`
+**Fixed IP Address**: `192.0.2.0/32`
 
 - Every bit is fixed
 - Represents a single IP address
@@ -101,23 +101,25 @@
 
 ### Layer Examples
 
-**Layer 2** ([[Data Link Layer]]):
+**Layer 2** (Data Link Layer):
 
 - Hubs and switches operate here
 
-**Layer 3** ([[Network Layer]]):
+**Layer 3** (Network Layer):
 
 - Routers operate here
 
-**Application**: Can be used to understand communication in a **[[VPC]]** (Virtual Private Cloud).
+**Application**: Can be used to understand communication in a **[[Amazon VPC|VPC]]**
 
 **Note**: [[ICA]] (Independent Computing Architecture) was developed by Citrix Systems to facilitate efficient data transfer between a server and a client.
 
-# Section 2: Amazon VPC
+# Amazon VPC
 
 ## What is Amazon VPC?
 
 **[[Amazon VPC]]** (Amazon Virtual Private Cloud): A service that lets you provision a logically isolated section of the AWS Cloud where you can launch AWS resources.
+
+![[Amazon VPC#Why Does VPC Exist?]]
 
 **Control provided**:
 
@@ -150,7 +152,7 @@
 **Characteristics**:
 
 - Dedicated to your account
-- Belong to a single [[AWS Region]]
+- Belong to a single [[AWS Regions|AWS Region]]
 - Can span multiple [[Availability Zones]]
 
 ## Subnets
@@ -160,13 +162,13 @@
 **Characteristics**:
 
 - Belong to a single Availability Zone
-- Can create subnets in different AZs for **[[High Availability]]**
+- Can create subnets in different AZs for **High Availability**
 
 **Classification**:
 
-**[[Public Subnet]]**: Has direct access to the internet
+**Public Subnet**: Has direct access to the internet
 
-**[[Private Subnet]]**: Does not have direct access to the internet
+**Private Subnet**: Does not have direct access to the internet
 
 # IP Addressing in VPCs
 
@@ -174,7 +176,7 @@
 
 ## IPv4 CIDR Blocks
 
-**When creating a VPC**: You assign an **[[IPv4 CIDR Block]]** (a range of private IPv4 addresses).
+**When creating a VPC**: You assign an **IPv4 CIDR Block** (a range of private IPv4 addresses).
 
 **Important limitation**: After you create a VPC, you **cannot change** the address range—choose carefully!
 
@@ -185,7 +187,7 @@
 
 ## IPv6 Support
 
-**Optional**: You can associate an **[[IPv6 CIDR Block]]** with your VPC and subnets.
+**Optional**: You can associate an **IPv6 CIDR Block** with your [[VPC]] and [[subnets]].
 
 **Different limits**: IPv6 CIDR blocks have different block size limits than IPv4.
 
@@ -203,11 +205,11 @@
 
 **Reserved for**:
 
-1. **[[Network Address]]**
-2. **[[VPC Local Router]]** (internal communications)
-3. **[[DNS Resolution]]**
+1. **Network Address**
+2. **VPC Local Router** (internal communications)
+3. **DNS Resolution**
 4. **Future use**
-5. **[[Network Broadcast Address]]**
+5. **Network Broadcast Address**
 
 ## Example Calculation
 
@@ -221,11 +223,11 @@
 
 ## Automatic Private IP
 
-**Default**: Every instance in a VPC gets a **[[Private IP Address]]** automatically.
+**Default**: Every instance in a VPC gets a **Private IP Address** automatically.
 
 ## Public IP Address
 
-**[[Public IP Address]]**: Can be assigned when creating an instance by modifying the subnet's auto-assign public IP address properties.
+**Public IP Address**: Can be assigned when creating an instance by modifying the subnet's auto-assign public IP address properties.
 
 ## Elastic IP Address
 
@@ -243,7 +245,7 @@
 
 # Elastic Network Interface
 
-**[[Elastic Network Interface]]**: A virtual network interface you can attach or detach from an instance in a VPC.
+**Elastic Network Interface**: A virtual network interface you can attach or detach from an instance in a VPC.
 
 **Attribute persistence**: Network interface's attributes follow it when reattached to another instance.
 
@@ -251,7 +253,7 @@
 
 ## Primary Network Interface
 
-**Default**: Each instance has a **[[Primary Network Interface]]** assigned a private IPv4 address from the VPC range.
+**Default**: Each instance has a **Primary Network Interface** assigned a private IPv4 address from the VPC range.
 
 **Cannot detach**: You cannot detach a primary network interface from an instance.
 
@@ -269,14 +271,14 @@
 
 **Route components**:
 
-- **[[Destination]]**: The destination CIDR block where traffic should go
-- **[[Target]]**: The target that the destination traffic is sent through
+- **Destination**: The destination CIDR block where traffic should go
+- **Target**: The target that the destination traffic is sent through
 
 **Default route**: Every route table contains a **[[Local Route]]** for communication within the VPC (cannot be deleted).
 
 ## Main Route Table
 
-**[[Main Route Table]]**: Automatically assigned to your VPC.
+**Main Route Table**: Automatically assigned to your VPC.
 
 **Controls**: Routing for all subnets not explicitly associated with any other route table.
 
@@ -294,7 +296,7 @@
 **Two purposes**:
 
 1. Provide a target in VPC route tables for internet-routable traffic
-2. Perform **[[Network Address Translation]]** (NAT) for instances assigned public IPv4 addresses
+2. Perform **[[NAT Gateway|Network Address Translation]]** (NAT) for instances assigned public IPv4 addresses
 
 **Making a subnet public**:
 
@@ -318,9 +320,9 @@
 
 ## NAT Gateway vs. NAT Instance
 
-**Alternative**: Can use a **[[NAT Instance]]** in a public subnet instead of a NAT gateway.
+**Alternative**: Can use a **NAT Instance** in a public subnet instead of a NAT gateway.
 
-**AWS recommendation**: Use a NAT gateway for common use cases because it provides:
+**AWS recommendation**: Use a [[NAT gateway]] for common use cases because it provides:
 
 - Better availability
 - Higher bandwidth
@@ -328,7 +330,7 @@
 
 # VPC Sharing
 
-**[[VPC Sharing]]**: Enables customers to share subnets with other AWS accounts in the same organization in [[AWS Organizations]].
+**VPC Sharing**: Enables customers to share subnets with other AWS accounts in the same organization in [[AWS Organizations]].
 
 ## How VPC Sharing Works
 
@@ -342,17 +344,17 @@
 
 ## VPC Sharing Benefits
 
-**[[Separation of Duties]]**: Centrally controlled VPC structure, routing, IP address allocation
+**Separation of Duties**: Centrally controlled VPC structure, routing, IP address allocation
 
-**[[Ownership]]**: Application owners continue to own resources, accounts, and security groups
+**Ownership**: Application owners continue to own resources, accounts, and security groups
 
 **[[Security Groups]]**: Participants can reference each other's security group IDs
 
-**[[Efficiencies]]**: Higher density in subnets, efficient use of VPNs and [[AWS Direct Connect]]
+**Efficiencies**: Higher density in subnets, efficient use of VPNs and [[AWS Direct Connect]]
 
-**[[No Hard Limits]]**: Avoid hard limits (e.g., 50 virtual interfaces per Direct Connect connection) through simplified network architecture
+**No Hard Limits**: Avoid hard limits (e.g., 50 virtual interfaces per Direct Connect connection) through simplified network architecture
 
-**[[Optimized Costs]]**: Costs optimized through reuse of NAT gateways, [[VPC Interface Endpoints]], and intra-Availability Zone traffic
+**Optimized Costs**: Costs optimized through reuse of NAT gateways, VPC Interface Endpoints, and intra-Availability Zone traffic
 
 ### Architecture Benefits
 
@@ -364,7 +366,7 @@
 
 ## VPC Peering
 
-**[[VPC Peering Connection]]**: A networking connection between two VPCs enabling private traffic routing between them.
+**VPC Peering Connection**: A networking connection between two VPCs enabling private traffic routing between them.
 
 **Communication**: Instances in either VPC can communicate as if within the same network.
 
@@ -376,7 +378,7 @@
 
 ### Setting Up VPC Peering
 
-**Process**: Create rules in route tables to allow VPCs to communicate through the **[[Peering Resource]]**.
+**Process**: Create rules in route tables to allow VPCs to communicate through the **Peering Resource**.
 
 **Example configuration**:
 
@@ -396,7 +398,7 @@
 
 ## AWS Site-to-Site VPN
 
-**Purpose**: Connect your VPC to your remote network (create a **[[VPN Connection]]**).
+**Purpose**: Connect your VPC to your remote network (create a **[[VPN]] Connection**).
 
 ### Setup Process
 
@@ -404,18 +406,18 @@
 
 **Setup steps**:
 
-1. Create a **[[VPN Gateway]]** (virtual gateway device) and attach to your VPC
-2. Define the configuration of the **[[Customer Gateway]]** (not a physical device, but an AWS resource providing information about your VPN device)
+1. Create a **[[VPN|VPN Gateway]]** (virtual gateway device) and attach to your VPC
+2. Define the configuration of the **Customer Gateway** (not a physical device, but an AWS resource providing information about your VPN device)
 3. Create a custom route table to point corporate data center-bound traffic to the VPN gateway
 4. Update security group rules
-5. Establish an **[[AWS Site-to-Site VPN]]** connection to link the two systems
+5. Establish an **AWS Site-to-Site VPN** connection to link the two systems
 6. Configure routing to pass traffic through the connection
 
 ## AWS Direct Connect
 
 **Challenge**: Network performance can be negatively affected if your data center is far from your AWS Region.
 
-**[[AWS Direct Connect]]** (DX): Enables you to establish a dedicated, private network connection between your network and one of the **[[DX Locations]]**.
+**[[AWS Direct Connect]]** (DX): Enables you to establish a dedicated, private network connection between your network and one of the **DX Locations**.
 
 ### Benefits
 
@@ -425,7 +427,7 @@
 
 **Consistent experience**: More consistent network experience than internet-based connections
 
-**Standard**: Uses open standard **[[802.1q VLANs]]** (Virtual Local Area Networks)
+**Standard**: Uses open standard **802.1q [[VLAN|VLANs]]** (Virtual Local Area Networks)
 
 ## VPC Endpoints
 
@@ -444,7 +446,7 @@
 
 ### Types of VPC Endpoints
 
-**[[Interface VPC Endpoint]]** (Interface Endpoint):
+**Interface VPC Endpoint** (Interface Endpoint):
 
 - Connects to services powered by AWS PrivateLink
 - Includes AWS services, services hosted by other AWS customers and [[APN Partners]] in their VPCs ([[Endpoint Services]]), and supported AWS Marketplace services
@@ -523,7 +525,7 @@
 
 - Can remove the rule and add outbound rules for specific traffic only
 
-**[[Stateful]]**: Security groups are stateful—state information is kept even after a request is processed.
+**Stateful**: Security groups are stateful—state information is kept even after a request is processed.
 
 **Stateful behavior**:
 
@@ -552,7 +554,7 @@
 
 **Required association**: Each subnet must be associated with a network ACL.
 
-**Default association**: If not explicitly associated, subnet is automatically associated with the **[[Default Network ACL]]**.
+**Default association**: If not explicitly associated, subnet is automatically associated with the **Default Network ACL**.
 
 **One-to-many**: Can associate a network ACL with multiple subnets.
 
@@ -568,7 +570,7 @@
 
 **Default network ACL**: By default, allows all inbound and outbound IPv4 traffic (and IPv6 if applicable).
 
-**[[Stateless]]**: Network ACLs are stateless—no information about a request is maintained after processing.
+**Stateless**: Network ACLs are stateless—no information about a request is maintained after processing.
 
 ### Custom Network ACLs
 
@@ -606,14 +608,14 @@
 **AWS integration**: Connects user requests to infrastructure running in AWS:
 
 - Amazon EC2 instances
-- [[Elastic Load Balancing]] load balancers
+- Elastic Load Balancing load balancers
 - Amazon S3 buckets
 
 **External routing**: Can also route users to infrastructure outside of AWS.
 
-**[[DNS Health Checks]]**: Can configure DNS health checks to route traffic to healthy endpoints or independently monitor application health.
+**DNS Health Checks**: Can configure [[DNS]] health checks to route traffic to healthy endpoints or independently monitor application health.
 
-**[[Amazon Route 53 Traffic Flow]]**: Helps manage traffic globally through several routing types, which can be combined with DNS failover for low-latency, fault-tolerant architectures.
+**[[Amazon Route 53|Amazon Route 53 Traffic Flow]]**: Helps manage traffic globally through several routing types, which can be combined with DNS failover for low-latency, fault-tolerant architectures.
 
 **Visual editor**: Simple visual editor to manage how users are routed to application endpoints.
 
@@ -633,15 +635,15 @@ Amazon Route 53 supports several routing policies determining how Route 53 respo
 
 ### Simple Routing (Round Robin)
 
-**[[Simple Routing]]**: Use for a single resource performing a given function for your domain (e.g., a web server serving content for `example.com`).
+**Simple Routing**: Use for a single resource performing a given function for your domain (e.g., a web server serving content for `example.com`).
 
 ### Weighted Round Robin Routing
 
-**[[Weighted Round Robin Routing]]**: Route traffic to multiple resources in proportions you specify.
+**Weighted Round Robin Routing**: Route traffic to multiple resources in proportions you specify.
 
 **How it works**: Assign weights to resource record sets to specify frequency of different responses.
 
-**Use case**: [[A/B Testing]]—send a small portion of traffic to a server with software changes.
+**Use case**: A/B Testing—send a small portion of traffic to a server with software changes.
 
 **Example**:
 
@@ -653,7 +655,7 @@ Amazon Route 53 supports several routing policies determining how Route 53 respo
 
 ### Latency Routing (LBR)
 
-**[[Latency Routing]]**: Use when you have resources in multiple AWS Regions and want to route traffic to the Region providing the best latency.
+**Latency Routing**: Use when you have resources in multiple AWS Regions and want to route traffic to the Region providing the best latency.
 
 **How it works**: Routes customers to the AWS endpoint providing fastest experience based on actual performance measurements.
 
@@ -672,11 +674,11 @@ Amazon Route 53 supports several routing policies determining how Route 53 respo
 
 ### Geoproximity Routing
 
-**[[Geoproximity Routing]]**: Route traffic based on the location of your resources and, optionally, shift traffic from resources in one location to resources in another.
+**Geoproximity Routing**: Route traffic based on the location of your resources and, optionally, shift traffic from resources in one location to resources in another.
 
 ### Failover Routing (DNS Failover)
 
-**[[Failover Routing]]**: Configure active-passive failover.
+**Failover Routing**: Configure active-passive failover.
 
 **Purpose**: Amazon Route 53 can detect website outage and redirect users to alternate locations where application is operating properly.
 
@@ -686,7 +688,7 @@ Amazon Route 53 supports several routing policies determining how Route 53 respo
 
 ### Multivalue Answer Routing
 
-**[[Multivalue Answer Routing]]**: Route 53 responds to DNS queries with up to eight healthy records selected at random.
+**Multivalue Answer Routing**: Route 53 responds to DNS queries with up to eight healthy records selected at random.
 
 **Capability**: Can return multiple values (e.g., IP addresses for web servers) in response to DNS queries.
 
@@ -696,16 +698,16 @@ Amazon Route 53 supports several routing policies determining how Route 53 respo
 
 ## Use Case: Multi-Region Deployment
 
-**[[Multi-Region Deployment]]**: An example use case for Amazon Route 53.
+**Multi-Region Deployment**: An example use case for Amazon Route 53.
 
 **How it works**: User is automatically directed to the Elastic Load Balancing load balancer closest to the user.
 
 **Benefits**:
 
-- **[[Latency-Based Routing]]** to the Region
-- **[[Load Balancing]]** routing to the Availability Zone
+- **Latency-Based Routing** to the Region
+- **Load Balancing** routing to the Availability Zone
 
-## Amazon Route 53 DNS Failover
+## Amazon [[Route 53]] DNS Failover
 
 **Purpose**: Improve availability of applications running on AWS.
 
@@ -727,10 +729,10 @@ Amazon Route 53 supports several routing policies determining how Route 53 respo
 
 ### High Availability Tasks
 
-**1. Create DNS records**: Two DNS records for **[[CNAME]]** (Canonical Name Record) `www` with [[Failover Routing Policy]]:
+**1. Create DNS records**: Two DNS records for **[[CNAME]]** (Canonical Name Record) `www` with Failover Routing Policy:
 
 - **Primary route policy**: Points to load balancer for web application
-- **Secondary route policy**: Points to static Amazon S3 website
+- **Secondary route policy**: Points to static [[Amazon S3]] website
 
 **2. Use Route 53 health checks**: Make sure primary is running
 
@@ -739,13 +741,13 @@ Amazon Route 53 supports several routing policies determining how Route 53 respo
     - Web server goes down (or stops responding)
     - Database instance goes down
 
-## Section 6: Amazon CloudFront
+## Section 6: [[Amazon CloudFront]]
 
 ### Content Delivery and Network Latency
 
 **The challenge**: Network performance and latency affect content delivery.
 
-**Network hops**: When you browse a website or stream video, your request routes through many different networks to reach an **[[Origin Server]]**.
+**Network hops**: When you browse a website or stream video, your request routes through many different networks to reach an **Origin Server**.
 
 **Origin server**: Stores the original, definitive versions of objects (webpages, images, media files).
 
@@ -761,12 +763,12 @@ Amazon Route 53 supports several routing policies determining how Route 53 respo
 
 **Static content**: CDN caches copies of commonly requested files:
 
-- HTML (Hypertext Markup Language)
-- CSS (Cascading Style Sheets)
-- JavaScript
+- [[HTML]] (Hypertext Markup Language)
+- [[CSS]] (Cascading Style Sheets)
+- [[JavaScript]]
 - Image files
 
-**How it works**: Delivers a local copy of requested content from a cache edge or **[[Point of Presence]]** (PoP) providing fastest delivery.
+**How it works**: Delivers a local copy of requested content from a cache edge or **Point of Presence** (PoP) providing fastest delivery.
 
 ### Dynamic Content Delivery
 
@@ -786,7 +788,7 @@ Amazon Route 53 supports several routing policies determining how Route 53 respo
 
 **Developer-friendly**: Provides a developer-friendly environment.
 
-**Global network**: Delivers files over a worldwide network of edge locations and [[Regional Edge Caches]].
+**Global network**: Delivers files over a worldwide network of edge locations and Regional Edge Caches.
 
 **No contracts**: Different from traditional CDN solutions—quickly obtain benefits without negotiated contracts, high prices, or minimum fees.
 
@@ -804,7 +806,7 @@ Amazon Route 53 supports several routing policies determining how Route 53 respo
 
 ### Regional Edge Caches
 
-**[[Regional Edge Caches]]**: CloudFront locations deployed globally close to viewers, located between origin server and global edge locations.
+**Regional Edge Caches**: CloudFront locations deployed globally close to viewers, located between origin server and global edge locations.
 
 **Larger cache**: Regional edge cache has larger cache than individual edge location.
 
@@ -824,7 +826,7 @@ Amazon Route 53 supports several routing policies determining how Route 53 respo
 
 **Network-level protection**: Provides both network-level and application-level protection.
 
-**[[AWS Shield Standard]]**: Built-in protections at no additional cost.
+**[[AWS Shield|AWS Shield Standard]]**: Built-in protections at no additional cost.
 
 **[[AWS Certificate Manager]]** (ACM): Can create and manage custom [[SSL Certificates]] at no extra cost.
 
@@ -834,7 +836,7 @@ Amazon Route 53 supports several routing policies determining how Route 53 respo
 
 **[[Lambda@Edge]]**: Integrates so you can run custom code across AWS locations worldwide, moving complex application logic closer to users.
 
-**DevOps integration**: Supports integrations with other tools and automation interfaces for [[CI/CD]] (Continuous Integration and Continuous Delivery) environments.
+**DevOps integration**: Supports integrations with other tools and automation interfaces for [[7 - Infrestructure as Code (IaC)|CI/CD]] (Continuous Integration and Continuous Delivery) environments.
 
 ### Deeply Integrated with AWS
 
@@ -854,7 +856,7 @@ Amazon Route 53 supports several routing policies determining how Route 53 respo
 
 **Reduced origin load**: Results in reduced load on origin servers and reduced need to scale origin infrastructure.
 
-**AWS origins savings**: If using AWS origins ([[Amazon S3]], Elastic Load Balancing), pay only for storage costs, not for data transferred between these services and CloudFront.
+**AWS origins savings**: If using AWS origins ([[Amazon S3]], Elastic Load Balancing), pay only for storage costs, not for data transferred between these services and [[Amazon CloudFront]].
 
 ## Amazon CloudFront Pricing
 
@@ -862,7 +864,7 @@ Charges based on actual usage in four areas:
 
 ### 1. Data Transfer Out
 
-**Charge**: Volume of data transferred out from CloudFront edge locations to internet or origin, measured in GB.
+**Charge**: Volume of data transferred out from CloudFront [[edge locations]] to internet or origin, measured in GB.
 
 **Regional pricing**: Data transfer totaled separately for geographic regions, then cost calculated based on pricing tiers for each area.
 
@@ -870,7 +872,7 @@ Charges based on actual usage in four areas:
 
 ### 2. HTTP(S) Requests
 
-**Charge**: Number of HTTP(S) requests made to CloudFront for your content.
+**Charge**: Number of [[HTTP]](S) requests made to CloudFront for your content.
 
 ### 3. Invalidation Requests
 
@@ -892,202 +894,6 @@ Charges based on actual usage in four areas:
 
 - Calculation: (1 day / 30 days) × $600 = $20
 
----
+# Tags
 
-## Review Questions
-
-1. What is a computer network? What devices are required to connect clients together?
-    
-2. What is an IP address? How many bits are in an IPv4 address vs. an IPv6 address?
-    
-3. Explain CIDR notation. What does `192.0.2.0/24` mean? How many IP addresses are available?
-    
-4. Calculate: How many IP addresses are available in `10.0.0.0/16`? What is the range?
-    
-5. What are the two special cases in CIDR addressing? What are they used for?
-    
-6. What is the OSI model? At which layer do routers operate? What about switches?
-    
-7. What is Amazon VPC? What control does it give you over your virtual networking resources?
-    
-8. What is the difference between a public subnet and a private subnet?
-    
-9. What is the size range for an IPv4 CIDR block when creating a VPC (largest to smallest)?
-    
-10. AWS reserves how many IP addresses in each subnet? What are they reserved for?
-    
-11. Calculate: A subnet has CIDR block `10.0.1.0/24`. How many total IP addresses? How many are available for use?
-    
-12. What is an Elastic IP address? How is it different from a regular public IP address?
-    
-13. What is an Elastic Network Interface? Can you detach the primary network interface from an instance?
-    
-14. What is a route table? What are the two components of a route?
-    
-15. What is an Internet Gateway? What are its two purposes?
-    
-16. What is a NAT Gateway? Why would you use one in a private subnet?
-    
-17. Compare NAT Gateway vs. NAT Instance. Which does AWS recommend and why?
-    
-18. What is VPC Sharing? List at least four benefits.
-    
-19. What is VPC Peering? What are three restrictions of VPC peering?
-    
-20. Explain transitive peering. If VPC A peers with VPC B, and VPC A peers with VPC C, can VPC B communicate with VPC C?
-    
-21. What is AWS Site-to-Site VPN? List the setup steps to connect your VPC to a remote network.
-    
-22. What is AWS Direct Connect? What are three benefits compared to internet-based connections?
-    
-23. What is a VPC Endpoint? What are the two types and how do they differ?
-    
-24. What problem does AWS Transit Gateway solve? Explain the hub-and-spoke model.
-    
-25. Compare Security Groups and Network ACLs across these dimensions: level of operation, stateful vs. stateless, allow/deny rules, rule evaluation.
-    
-26. What does it mean that Security Groups are "stateful"? Give an example.
-    
-27. What does it mean that Network ACLs are "stateless"? How does this affect traffic?
-    
-28. What is Amazon Route 53? What does it do?
-    
-29. Explain these Route 53 routing policies:
-    
-    - Simple Routing
-    - Weighted Round Robin
-    - Latency Routing
-    - Geolocation Routing
-    - Failover Routing
-30. What is the purpose of a CDN? How does it improve performance?
-    
-31. What is Amazon CloudFront? How is it different from traditional CDN solutions?
-    
-32. Explain the difference between Edge Locations and Regional Edge Caches in CloudFront.
-    
-33. List and explain four benefits of Amazon CloudFront.
-    
-34. What are the four pricing components for Amazon CloudFront?
-    
-35. Design a VPC with these requirements:
-    
-    - CIDR block starting at 10.0.0.0
-    - Two subnets (public and private) with 256 addresses each
-    - Web servers in public subnet accessible from internet
-    - Database servers in private subnet able to download patches
-    - High availability across two Availability Zones
-
----
-
-## Practical Scenarios
-
-### Scenario 1: CIDR Calculations
-
-You're designing a VPC with CIDR block `172.16.0.0/20`. Calculate: a) How many total IP addresses are available? b) If you create 4 equal-sized subnets, what's the CIDR for each? c) How many usable IP addresses in each subnet (after AWS reservations)?
-
-### Scenario 2: Subnet Design
-
-You need to create a VPC for a three-tier application:
-
-- Web tier (needs internet access)
-- Application tier (needs outbound internet, no inbound)
-- Database tier (no internet access at all)
-
-Design the subnet structure including:
-
-- Subnet types (public/private)
-- Route table configurations
-- Required gateways
-
-### Scenario 3: Security Design
-
-You have a web application with:
-
-- Web servers in public subnet
-- Application servers in private subnet
-- Database in private subnet
-
-Design security using both Security Groups and Network ACLs:
-
-- What rules would you create for each layer?
-- Which would you use for allow rules? Deny rules?
-- How would you restrict database access to only application servers?
-
-### Scenario 4: Multi-Region Architecture
-
-You're deploying a global application with users in North America, Europe, and Asia. Design an architecture using:
-
-- VPCs in multiple regions
-- Amazon Route 53 routing policies
-- Amazon CloudFront for content delivery
-
-Explain which Route 53 routing policy would be best and why.
-
-### Scenario 5: Hybrid Cloud Connectivity
-
-Your company has an on-premises data center and wants to connect to AWS. Compare:
-
-- AWS Site-to-Site VPN
-- AWS Direct Connect
-
-For each, explain:
-
-- When you'd use it
-- Setup requirements
-- Cost considerations
-- Performance expectations
-
-### Scenario 6: VPC Peering Challenge
-
-You have 5 VPCs:
-
-- VPC A (Shared Services)
-- VPC B (Development)
-- VPC C (Testing)
-- VPC D (Production)
-- VPC E (DR/Backup)
-
-All VPCs need to communicate with VPC A. VPCs B, C, and D should NOT communicate with each other. Design the peering connections. Can you use AWS Transit Gateway to simplify this? How?
-
-### Scenario 7: Cost Optimization
-
-You have:
-
-- 10 VPCs across 3 AWS regions
-- Each VPC has a NAT Gateway ($0.045/hour)
-- Heavy inter-VPC traffic
-
-Calculate monthly NAT Gateway costs and propose a cost-optimized solution using VPC Sharing or Transit Gateway.
-
-### Scenario 8: DNS Failover Design
-
-Design a DNS failover solution for a critical web application:
-
-- Primary: Full application stack in us-east-1
-- Secondary: Static website in S3
-
-Configure Route 53 failover routing with health checks. What happens when: a) Primary web server fails? b) Primary database fails? c) Both fail?
-
----
-
-## Common Mistakes to Avoid
-
-1. **Choosing wrong VPC CIDR block** - Can't change after creation; plan carefully
-2. **Forgetting AWS reserved IPs** - Always subtract 5 from total subnet IPs
-3. **Putting NAT Gateway in private subnet** - Must be in public subnet
-4. **Assuming VPC peering is transitive** - Must create explicit connections
-5. **Confusing stateful (Security Groups) with stateless (Network ACLs)** - Affects return traffic handling
-6. **Not using route tables correctly** - Forgetting to route 0.0.0.0/0 to Internet Gateway
-7. **Overlapping CIDR blocks in VPC peering** - IP ranges cannot overlap
-8. **Releasing Elastic IPs still in use** - Causes unexpected charges
-9. **Not considering multi-AZ for high availability** - Should span multiple Availability Zones
-10. **Using public IPs for internal communication** - Use private IPs within VPC
-11. **Not leveraging VPC endpoints** - Can avoid NAT Gateway charges for AWS services
-12. **Overcomplicating with too many VPCs** - Consider VPC Sharing instead
-13. **Forgetting to update both route tables in VPC peering** - Need bidirectional routes
-14. **Not monitoring CloudFront costs** - Can accumulate with high traffic
-15. **Assuming Network ACL rules apply to Security Groups** - They're separate layers
-
----
-
-#AWS #Networking #VPC #CloudNetworking #AWSNetworking #Subnets #IPAddressing #CIDR #SecurityGroups #NetworkACLs #InternetGateway #NATGateway #VPCPeering #DirectConnect #SiteToSiteVPN #Route53 #DNS #CloudFront #CDN #TransitGateway #VPCEndpoints #NetworkSecurity #CloudInfrastructure #AWSArchitecture #NetworkDesign #HighAvailability #MultiRegion #ContentDelivery #AWSServices #CloudSecurity
+#AWS #Networking #VPC #CloudNetworking #Subnets #IPAddressing #CIDR #SecurityGroups #InternetGateway #NetworkSecurity #CloudInfrastructure #CloudSecurity #cloud-computing 
