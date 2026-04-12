@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sault College/W26/Winter 2026/Cloud Computing - CSD126/8 - Storage.md",
+                "file": "Sault College/W26/Winter 2026/Databases I - CSD123/9 - Database-Driven Apps & NoSQL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8 - Storage"
+              "title": "9 - Database-Driven Apps & NoSQL"
             }
           }
         ],
@@ -224,21 +224,24 @@
   },
   "active": "2ccaf720fd300922",
   "lastOpenFiles": [
-    "Sault College/W26/Winter 2026/Databases I - CSD123/9 - Database-Driven Apps & NoSQL.md",
-    "Sault College/W26/Winter 2026/Databases I - CSD123/10 - Transactions & Disaster Recovery.md",
     "Sault College/W26/Winter 2026/Databases I - CSD123/8 - Views, Indexes & Security.md",
+    "Sault College/W26/Winter 2026/Databases I - CSD123/7 - Creating Databases.md",
+    "Sault College/W26/Winter 2026/Databases I - CSD123/6 - Subqueries — Query Inception.md",
+    "Sault College/W26/Winter 2026/Databases I - CSD123/5 - SQL Aggregation & Functions.md",
+    "Sault College/W26/Winter 2026/Databases I - CSD123/10 - Transactions & Disaster Recovery.md",
+    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/1 - Cloud Concepts Overview.md",
+    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/8 - Storage.md",
+    "Sault College/W26/Winter 2026/Databases I - CSD123/9 - Database-Driven Apps & NoSQL.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/6 - Interfaces in Java.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/5 - Generalization and Polymorphism.md",
     "Interfaces.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/4 - Introduction to Software Testing.md",
     "copilot/copilot-conversations/Extends_vs._Implements@20260408_113544.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/7 - Intro to JavaFX.md",
-    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/8 - Storage.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/7 - Infrestructure as Code (IaC).md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/6 - Compute.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/Infrastructure as Code (IaC).md",
     "copilot/copilot-conversations/Benefits_of_IaC@20260407_094351.md",
-    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/1 - Cloud Concepts Overview.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/3 - Designing Types.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/2 - Namespaces in Java.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/1 - Intoduction to Java.md",
@@ -247,9 +250,6 @@
     "variables.md",
     "Tokens.md",
     "Sault College/W26/Winter 2026/Introduction to Web Development/1 - Architecture, Tools, & Setup.md",
-    "SQL.md",
-    "Static Typing.md",
-    "Sault College/W26/Winter 2026/Databases I - CSD123/5 - SQL Aggregation & Functions.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards/Type-in-Answer",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards/Cloze",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards/Basic Cards",

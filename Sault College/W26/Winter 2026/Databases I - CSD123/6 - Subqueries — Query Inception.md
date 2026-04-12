@@ -42,11 +42,11 @@ Subqueries are full `SELECT` statements, always enclosed in parentheses, where t
 
 Here is the most important mental shift when learning subqueries: _the type of result the inner query returns completely determines how you must write the outer query._ There are three possibilities, and each one unlocks different operators and placement rules.
 
-|Type|What the Inner Query Returns|Where It Lives|Operators Used|
-|---|---|---|---|
-|**Scalar**|1 row × 1 column (a single value)|`WHERE` clause|`=`, `<`, `>`, `!=`, etc.|
-|**List**|Many rows × 1 column (a list of values)|`WHERE` clause|`IN`, `NOT IN`, `ANY`, `ALL`|
-|**Table**|Many rows × many columns (a full table)|`FROM` clause|Standard `SELECT` logic|
+| Type       | What the Inner Query Returns            | Where It Lives | Operators Used               |
+| ---------- | --------------------------------------- | -------------- | ---------------------------- |
+| **Scalar** | 1 row × 1 column (a single value)       | `WHERE` clause | `=`, `<`, `>`, `!=`, etc.    |
+| **List**   | Many rows × 1 column (a list of values) | `WHERE` clause | `IN`, `NOT IN`, `ANY`, `ALL` |
+| **Table**  | Many rows × many columns (a full table) | `FROM` clause  | Standard `SELECT` logic      |
 
 Think of it this way: if a subquery gives back _one number_, the outer query can compare against it directly. 
 - If it gives back _a list of IDs_, the outer query needs to check membership in that list. 
@@ -140,22 +140,20 @@ You can also stack subqueries inside each other — the innermost one always exe
 > [!warning] Three Rules 
 > You Cannot Break with List Subqueries **One column only** — the inner `SELECT` must return exactly one column. Writing `SELECT Name, ID` will cause an error because `IN` can only compare one thing at a time. **Data type match** — the column in the outer query must be the same data type as the column returned by the inner query. **NULLs poison `NOT IN`** — if the subquery list contains even a single `NULL` value, `NOT IN` will return zero results. Always add `WHERE column IS NOT NULL` inside your inner query when using `NOT IN`.
 
----
-
 ## Scalar vs. List at a Glance
 
-|Feature|Scalar Subquery|List Subquery|
-|---|---|---|
-|Dimensions|1 Row × 1 Column|Many Rows × 1 Column|
-|Valid Operators|`=`, `!=`, `<`, `>`, `<=`, `>=`|`IN`, `NOT IN`, `ANY`, `ALL`|
-|Aggregate Usage|Very common — `AVG`, `MIN`, `MAX`|Rare — usually filters raw IDs|
-|Failure Mode|Crashes if it returns 2+ rows|Crashes if it selects 2+ columns|
+| Feature         | Scalar Subquery                   | List Subquery                    |
+| --------------- | --------------------------------- | -------------------------------- |
+| Dimensions      | 1 Row × 1 Column                  | Many Rows × 1 Column             |
+| Valid Operators | `=`, `!=`, `<`, `>`, `<=`, `>=`   | `IN`, `NOT IN`, `ANY`, `ALL`     |
+| Aggregate Usage | Very common — `AVG`, `MIN`, `MAX` | Rare — usually filters raw IDs   |
+| Failure Mode    | Crashes if it returns 2+ rows     | Crashes if it selects 2+ columns |
+|                 |                                   |                                  |
 
----
+## Table Subqueries (Inline Views / Derived Tables)
 
-## Part 3: Table Subqueries (Inline Views / Derived Tables)
-
-> [!note] Definition A **table subquery** (also called an _inline view_ or _derived table_) returns multiple columns and multiple rows — an entire table. It lives in the `FROM` clause, and the outer query treats it exactly like a real database table.
+> [!note] Definition 
+> A **table subquery** (also called an _inline view_ or _derived table_) returns multiple columns and multiple rows — an entire table. It lives in the `FROM` clause, and the outer query treats it exactly like a real database table.
 
 The elegant logic behind this comes from a simple observation rooted in relational theory: _every SELECT query produces a table as its output — so you can write a SELECT against that output just as you would against any stored table._ The result exists temporarily in memory and is discarded after the query finishes.
 
@@ -176,13 +174,12 @@ Three rules govern inline views: they go in the **`FROM` clause** (not `WHERE`),
 
 The three main use cases for inline views are **double aggregation** (doing `COUNT` then `MAX`, as above), **pre-filtering** (shrinking a massive million-row table into a small virtual table _before_ performing expensive JOINs), and **complex math** (performing calculations with clean aliases in the inner query, then referencing those simple aliases in the outer query).
 
----
-
-## Part 4: Correlated Subqueries
+## Correlated Subqueries
 
 All three types above are **uncorrelated** — the inner query is completely self-contained. It runs once, produces a result, and has no knowledge of the outer query. A _correlated_ subquery breaks this model.
 
-> [!note] Definition A **correlated subquery** is a subquery that **references a column from the outer query**. This creates a dependency between the two queries, which means the inner query cannot run just once — it must execute _once for every single row_ evaluated by the outer query.
+> [!note] Definition 
+> A **correlated subquery** is a subquery that **references a column from the outer query**. This creates a dependency between the two queries, which means the inner query cannot run just once — it must execute _once for every single row_ evaluated by the outer query.
 
 Think of it as a loop built into SQL. The outer query picks its first row and passes that row's specific data (like a MinionID) down into the inner query. The inner query then runs completely using that value. The result is evaluated. Then the outer query moves to its second row, passes that data down, and the inner query runs again. This continues for every row in the outer table.
 
@@ -205,32 +202,34 @@ Think of it as a loop built into SQL. The outer query picks its first row and pa
 
 `EXISTS` is particularly well-suited for correlated subqueries because it short-circuits — the moment it finds even one matching row, it stops and returns `TRUE`, rather than scanning the entire table.
 
-> [!warning] Performance — Correlated Subqueries Scale Poorly If the outer table has 10,000 rows, the inner query runs **10,000 times**. This is O(N²) behaviour — performance degrades rapidly as the table grows. On large production databases, correlated subqueries can become serious bottlenecks.
+> [!warning] Performance
+> Correlated Subqueries Scale Poorly If the outer table has 10,000 rows, the inner query runs **10,000 times**. This is O(N²) behaviour — performance degrades rapidly as the table grows. On large production databases, correlated subqueries can become serious bottlenecks.
 > 
 > Always ask yourself: _can this be rewritten as an `INNER JOIN`?_ Joins allow the database engine's query optimizer to use far more efficient execution strategies.
-
----
 
 ## Subqueries vs. JOINs
 
 Many problems can be solved with either approach. Understanding the trade-offs is what separates good SQL writers from great ones.
 
-|Criteria|Subqueries|JOINs|
-|---|---|---|
-|Output Columns|Limited to the outer query's tables|Can output columns from any joined table|
-|Execution Speed|Often slower, especially if correlated|Usually faster due to query optimizer|
-|Readability|High — reads like a natural logical sentence|Moderate — can get cluttered|
-|Aggregate Filtering|Excellent and natural|Requires awkward `GROUP BY` + `HAVING`|
+| Criteria            | Subqueries                                   | JOINs                                    |
+| ------------------- | -------------------------------------------- | ---------------------------------------- |
+| Output Columns      | Limited to the outer query's tables          | Can output columns from any joined table |
+| Execution Speed     | Often slower, especially if correlated       | Usually faster due to query optimizer    |
+| Readability         | High — reads like a natural logical sentence | Moderate — can get cluttered             |
+| Aggregate Filtering | Excellent and natural                        | Requires awkward `GROUP BY` + `HAVING`   |
+|                     |                                              |                                          |
 
 Choose a subquery when you need to filter rows based on a calculated aggregate, when the inner result is only needed for _filtering_ (not display), or when readability is the top priority. Choose a JOIN when your `SELECT` clause needs to display columns from multiple tables, or when you are working with very large tables and performance matters.
 
-> [!tip] A Simple Mental Test Ask: "Do I need data _from_ the second table in my output, or am I just using it to _filter_ the first table?" If filtering only — a subquery is clean and natural. If you need to show columns from both tables — use a JOIN.
+> [!tip] A Simple Mental Test Ask: 
+> "Do I need data _from_ the second table in my output, or am I just using it to _filter_ the first table?" If filtering only — a subquery is clean and natural. If you need to show columns from both tables — use a JOIN.
 
 ---
 
 ## Best Practices & Formatting
 
-> [!tip] Three Formatting Habits to Build Now **Indent the inner query** by one tab or a few spaces — this visually separates the layers of logic and makes nesting depth obvious at a glance. **Start the subquery on a new line** — never bury `(SELECT ...)` at the end of a long `WHERE` clause string. **Comment complex logic** — if you are nesting three levels deep, add a `-- comment` explaining _why_ that structure is necessary.
+> [!tip] Three Formatting Habits to Build 
+> Now **Indent the inner query** by one tab or a few spaces — this visually separates the layers of logic and makes nesting depth obvious at a glance. **Start the subquery on a new line** — never bury `(SELECT ...)` at the end of a long `WHERE` clause string. **Comment complex logic** — if you are nesting three levels deep, add a `-- comment` explaining _why_ that structure is necessary.
 
 **Readable (good):**
 
@@ -251,18 +250,7 @@ WHERE MinionID IN (
 SELECT Name, HireDate FROM Minions WHERE MinionID IN (SELECT MinionID FROM Assignments WHERE Shift = 'Graveyard');
 ```
 
-Both produce identical results. Only one of them is maintainable six months later.
 
----
-
-## Summary
-
-Subqueries elevate SQL from basic data retrieval to programmatic logic. The key mental framework: **always start by asking what your inner query returns.** One value → scalar with standard comparison operators. A list of values → `IN` or `NOT IN`. An entire table → put it in `FROM` with an alias. And if you need per-row logic that depends on the outer context — that is a correlated subquery, used carefully given its performance cost.
-
-Further reading: [SQL Subqueries — W3Schools](https://www.w3schools.com/sql/sql_subqueries.asp) | [Subqueries in SQL — Mode Analytics](https://mode.com/sql-tutorial/sql-sub-queries/)
-
----
-
-## Tags
+# Tags
 
 #databases #SQL #subqueries #nested_queries #query_optimization #relational_databases #scalar_subquery #inline_view #correlated_subquery

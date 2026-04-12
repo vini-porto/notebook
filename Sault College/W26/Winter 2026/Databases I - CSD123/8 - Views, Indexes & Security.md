@@ -14,7 +14,7 @@
 
 The best analogy: a view is like a **window into a room**. The room (the table) holds all the actual data. The window (the view) just gives you a specific, filtered way to look at it. If furniture moves in the room, the view through the window updates instantly.
 
-## Why Use Views? The Two S's
+## Why Use Views?
 
 **1. Simplicity** Instead of writing a massive JOIN query every morning, you write it once, save it as a view, and from then on query it like a simple table. _Hide the ugly code._
 
@@ -136,8 +136,6 @@ Without an index, the database does a **Full Table Scan** — it reads every sin
 > Indexes are stored in memory using a **B-Tree** (Balanced Tree) data structure. At each step, the search space is cut in half: "Is the value greater than 50? Go right. Less than 50? Go left."
 > 
 > Searching **1 million rows** takes about **20 steps** instead of 1,000,000. That's the power of a B-Tree.
-
-For more on B-Trees, see: [B-Tree Visualization](https://www.cs.usfca.edu/~galles/visualization/BTree.html)
 
 This connects to [[Data Structures]] and [[Algorithms]] — the B-Tree is one of the most important structures in all of computer science.
 
@@ -338,18 +336,7 @@ Now if you need to change what `DataEntry` workers can do, you change the role o
 > GRANT INSERT ON Minions TO 'Dave';
 > ```
 
----
 
-# Summary
-
-|Concept|What it does|Key Command(s)|
-|---|---|---|
-|**View**|Virtual table — saves a query, hides complexity or sensitive columns|`CREATE VIEW`, `DROP VIEW`|
-|**Index**|B-Tree lookup — speeds up `SELECT` at the cost of slower writes|`CREATE INDEX`, `DROP INDEX`, `EXPLAIN`|
-|**DCL**|Controls who can do what — enforces Least Privilege|`GRANT`, `REVOKE`, `CREATE ROLE`|
-
-> [!important] The Golden Combo Views + DCL together = a powerful security layer. Create a view to hide sensitive columns, then grant permissions only on the view. Users can interact with data safely without ever touching the raw tables.
-
-## Tags
+# Tags
 
 #databases #sql #views #indexes #dcl #security #btree #data_control_language #least_privilege #sql_injection #roles #permissions

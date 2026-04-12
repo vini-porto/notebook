@@ -9,13 +9,11 @@ Think of a database like a factory. Before you can produce anything, you need to
 |Products manufactured|Rows|
 |Workers|SQL commands|
 
-This lecture is all about **how to build that factory** — creating tables, adding data, modifying it, and removing it when needed. Related concepts: [[Databases]], [[Software Engineering]]
+This is all about **how to build that factory** — creating tables, adding data, modifying it, and removing it when needed. Related: [[Databases]], [[Software Engineering]]
 
----
+# SQL Command Families
 
-## SQL Command Families
-
-SQL is not just one thing — it is split into four main families of commands, each with a different job.
+SQL is not just one thing, it is split into four main families of commands, each with a different job.
 
 > [!note] The Four SQL Families
 > 
@@ -24,11 +22,7 @@ SQL is not just one thing — it is split into four main families of commands, e
 > - **DCL** — _Data Control Language_: handles **permissions and security**
 > - **TCL** — _Transaction Control Language_: manages **committing or rolling back** changes
 
-This lecture focuses mainly on **DDL** and **DML**.
-
----
-
-## DDL — Building the Structure
+# DDL — Building the Structure
 
 DDL is what you use to define how the database is organized. You are not touching any real data yet — you are just setting up the framework.
 
@@ -39,7 +33,7 @@ DDL is what you use to define how the database is organized. You are not touchin
 > - `DROP` — completely removes a table (structure and all data)
 > - `TRUNCATE` — removes all rows but keeps the table structure
 
-### CREATE TABLE
+## CREATE TABLE
 
 This is how you create a new, empty table ready to hold data.
 
@@ -53,20 +47,21 @@ CREATE TABLE Minions (
 
 When this runs, you get an **empty table** — like an empty spreadsheet with the column headers already set up.
 
-### Data Types
+## Data Types
 
 Every column needs a **data type** that tells the database what kind of information it will store. Choosing the right type matters because it affects storage, performance, and what operations you can do.
 
-|Data Type|What it stores|Example|
-|---|---|---|
-|`INT`|Whole numbers|1, 42, 500|
-|`VARCHAR(50)`|Text up to 50 characters|'Kevin', 'Leadership'|
-|`DECIMAL(6,2)`|Numbers with decimal places|1234.56|
-|`DATE`|Calendar dates|2024-01-15|
+| Data Type      | What it stores              | Example               |
+| -------------- | --------------------------- | --------------------- |
+| `INT`          | Whole numbers               | 1, 42, 500            |
+| `VARCHAR(50)`  | Text up to 50 characters    | 'Kevin', 'Leadership' |
+| `DECIMAL(6,2)` | Numbers with decimal places | 1234.56               |
+| `DATE`         | Calendar dates              | 2024-01-15            |
 
-> [!tip] Think Before You Pick a Type If a column stores someone's phone number, use `VARCHAR`, not `INT` — phone numbers can start with a zero and you never do math on them!
+> [!tip] Think Before You Pick a Type
+> If a column stores someone's phone number, use `VARCHAR`, not `INT` — phone numbers can start with a zero and you never do math on them!
 
-### Constraints — Safety Rules for Your Data
+## Constraints — Safety Rules for Your Data
 
 Constraints are rules you attach to columns to **protect the quality of your data**. They stop bad or duplicate data from getting in.
 
@@ -77,7 +72,7 @@ Constraints are rules you attach to columns to **protect the quality of your dat
 > - **`UNIQUE`** — no two rows can have the same value in this column
 > - **`DEFAULT`** — if no value is provided, use this one automatically
 
-#### PRIMARY KEY Example
+### PRIMARY KEY Example
 
 ```sql
 CREATE TABLE Villains (
@@ -92,7 +87,7 @@ Rules for primary keys:
 - Cannot be **NULL**
 - Only **one primary key** per table
 
-#### DEFAULT Example
+### DEFAULT Example
 
 ```sql
 CREATE TABLE Robots (
@@ -107,7 +102,7 @@ VALUES (1);
 
 Even though no `Status` value was inserted, the `DEFAULT` constraint fills it in automatically.
 
-### ALTER TABLE
+## ALTER TABLE
 
 Once a table exists, you can **modify its structure** without having to delete and recreate it. This is very useful when requirements change over time.
 
@@ -118,7 +113,7 @@ ADD BananaConsumption INT;
 
 This adds a brand new column called `BananaConsumption` to the existing `Minions` table. All existing rows will have `NULL` in that new column.
 
-### DROP vs TRUNCATE vs DELETE
+## DROP vs TRUNCATE vs DELETE
 
 These three commands all remove data, but they behave very differently:
 
@@ -130,11 +125,10 @@ These three commands all remove data, but they behave very differently:
 > |`TRUNCATE TABLE`|Yes — all of them|No — keeps the table|No|
 > |`DELETE`|Yes|No|Yes — can use `WHERE`|
 
----
 
-## DML — Working with the Data
+# DML — Working with the Data
 
-Once the structure is built, DML commands let you **fill it, read it, update it, and clean it out**.
+Once the structure is built, DML commands let you **fill it, read it, update it, and clean it out**
 
 > [!note] Key DML Commands
 > 
@@ -143,7 +137,7 @@ Once the structure is built, DML commands let you **fill it, read it, update it,
 > - `UPDATE` — modify existing rows
 > - `DELETE` — remove specific rows
 
-### INSERT
+## INSERT
 
 Add a single row:
 
@@ -161,7 +155,7 @@ INSERT INTO Minions VALUES
     (4, 'Dave',   'Rocket Building', 4520);
 ```
 
-### SELECT (Quick Review)
+## SELECT
 
 ```sql
 -- Return all columns and all rows
@@ -171,7 +165,7 @@ SELECT * FROM Minions;
 SELECT Name, Skill FROM Minions;
 ```
 
-### UPDATE
+## UPDATE
 
 Modify the value of a column in one or more existing rows.
 
@@ -183,7 +177,8 @@ WHERE MinionID = 2;
 
 This only changes **Bob's** row because of the `WHERE` clause.
 
-> [!warning] UPDATE without WHERE is Dangerous If you forget the `WHERE` clause, **every single row** in the table gets updated.
+> [!warning] 
+> UPDATE without WHERE is Dangerous If you forget the `WHERE` clause, **every single row** in the table gets updated.
 > 
 > ```sql
 > -- This changes ALL minions' skill — probably not what you want!
@@ -191,7 +186,7 @@ This only changes **Bob's** row because of the `WHERE` clause.
 > SET Skill = 'Advanced Chaos';
 > ```
 
-### DELETE
+## DELETE
 
 Remove one or more rows from a table.
 
@@ -201,11 +196,10 @@ WHERE MinionID = 3;
 -- Stuart is removed
 ```
 
-> [!warning] DELETE without WHERE Destroys Everything Just like `UPDATE`, if you leave out the `WHERE` clause, **all rows are deleted**.
+> [!warning] 
+> DELETE without WHERE Destroys Everything Just like `UPDATE`, if you leave out the `WHERE` clause, **all rows are deleted**.
 
----
-
-## A Complete Example — The Villain & Minions Database
+# Example — The Villain & Minions Database
 
 Here is how a full database creation and population workflow looks, step by step.
 
@@ -271,7 +265,8 @@ SELECT * FROM Minions;
 SELECT * FROM Assignments;
 ```
 
-> [!tip] Always Verify After Inserting Running a quick `SELECT *` after bulk inserts is a good habit — it helps catch mistakes like wrong column order or missing values before they cause bigger problems.
+> [!tip] 
+> Always Verify After Inserting Running a quick `SELECT *` after bulk inserts is a good habit — it helps catch mistakes like wrong column order or missing values before they cause bigger problems.
 
 The schema for this database looks like this:
 
@@ -284,31 +279,7 @@ EvilPlan              AssignmentID (PK)     Skill
 DangerLevel           Mission
 ```
 
----
-
-## Common Mistakes & Exercises
-
-> [!example] Exercise 1 — Predict the Result What does this do?
-> 
-> ```sql
-> UPDATE Minions
-> SET LoyaltyLevel = 100;
-> ```
-> 
-> **Answer:** Every row changes — there is no `WHERE` clause, so all minions get `LoyaltyLevel = 100`. This is usually a mistake!
-
-> [!example] Exercise 2 — Predict the Error What happens here?
-> 
-> ```sql
-> INSERT INTO Minions
-> VALUES (1, 'FakeKevin', 'Hacking', 10);
-> ```
-> 
-> **Answer:** A **PRIMARY KEY violation** error. `MinionID = 1` already belongs to Kevin. Primary keys enforce uniqueness and will reject the duplicate.
-
----
-
-## The Three Most Dangerous SQL Commands
+# The Three Most Dangerous SQL Commands
 
 > [!warning] SQL Disasters to Avoid These three commands can cause serious, hard-to-reverse damage:
 > 
@@ -324,9 +295,7 @@ DROP TABLE Assignments;
 -- Table structure: gone. All rows: gone. No undo.
 ```
 
----
-
-## Debugging SQL
+# Debugging SQL
 
 When your SQL fails, follow this checklist:
 
@@ -335,20 +304,6 @@ When your SQL fails, follow this checklist:
 3. **Check data types** — inserting text into an `INT` column will fail
 4. **Verify table structure** — use `DESCRIBE tablename;` to see what the table looks like
 
----
-
-## Why This Matters in the Real World
-
-DDL and DML are the foundation of virtually every software system that stores data:
-
-- **Banking systems** — every transaction is an `INSERT` or `UPDATE`
-- **Hospital records** — patient data is managed with these same commands
-- **Online stores** — products, orders, and inventory use `CREATE`, `INSERT`, `UPDATE`, `DELETE`
-- **Video games** — player profiles, scores, and progress stored in tables
-- **Social media platforms** — posts, likes, and followers all live in relational tables
-
----
-
-## Tags
+# Tags
 
 #databases #sql #ddl #dml #create_table #insert #update #delete #constraints #primary_key #data_types #sql_basics
