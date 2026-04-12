@@ -88,7 +88,7 @@ Here's how all three tiers work together in a real example:
 
 Drivers handle the complex network handshake so developers can simply pass a SQL string and get results back — without worrying about the low-level connection details.
 
-# The Danger and the Fix: SQL Injection
+# SQL Injection
 
 ## What is SQL Injection?
 
@@ -117,7 +117,8 @@ The database runs both statements — and the entire `Assignments` table is gone
 
 ## The Solution: Parameterized Queries
 
-> [!important] Always use Parameterized Queries Never concatenate (glue) user input directly into SQL strings.
+> [!important] 
+> Always use Parameterized Queries Never concatenate (glue) user input directly into SQL strings.
 
 Instead, use **placeholders** (`?` or `@param`) in your SQL, and pass the data separately:
 
@@ -133,7 +134,8 @@ const query = "SELECT * FROM Minions WHERE Name = ?";
 db.execute(query, [userInput]);
 ```
 
-> [!tip] Parameterized queries are the single most important security practice when building database-driven applications. Make it a habit — always.
+> [!tip] 
+> Parameterized queries are the single most important security practice when building database-driven applications. Make it a habit — always.
 
 
 # Introduction to NoSQL
@@ -164,7 +166,8 @@ SQL databases are built on strict rules — fixed tables, defined columns, enfor
 - No fixed columns
 - Prioritises **speed**, **flexibility**, and **horizontal scaling**
 
-> [!important] NoSQL doesn't replace SQL, it solves _different_ problems. Some problems are better suited to SQL; others are better suited to NoSQL.
+> [!important] 
+> NoSQL doesn't replace SQL, it solves _different_ problems. Some problems are better suited to SQL; others are better suited to NoSQL.
 
 ## The 4 Types of NoSQL Databases
 
@@ -256,7 +259,7 @@ Used by:
 - **Social networks** — "Minion A is friends with Minion B, who works with Minion C"
 - **Recommendation engines** — Amazon's "Customers who bought this also bought..." or Netflix's "You might also like..."
 
-# Part 5 - SQL vs. NoSQL: The Great Debate
+# SQL vs. NoSQL
 
 ## ACID vs. BASE
 
@@ -296,18 +299,6 @@ Used by:
 > - **Redis** → session caching, shopping carts, fast lookups
 > 
 > Use the right tool for the right job.
-
-# Summary
-
-|Topic|What You Covered|
-|---|---|
-|Database Design|ERDs, Normalisation (1NF → 3NF)|
-|Data Definition|`CREATE`, `ALTER`, `DROP`|
-|Data Manipulation|`INSERT`, `UPDATE`, `DELETE`|
-|Data Querying|`SELECT`, JOINs, Grouping, Subqueries|
-|Optimisation & Security|Views, Indexes, DCL (GRANT/REVOKE)|
-|Application Architecture|3-Tier Model, Drivers, SQL Injection|
-|NoSQL|Document DBs, Key-Value, Graph, SQL vs. NoSQL|
 
 See also: [[Databases]], [[Software Engineering]], [[Cybersecurity]], [[Computer Networks]]
 
