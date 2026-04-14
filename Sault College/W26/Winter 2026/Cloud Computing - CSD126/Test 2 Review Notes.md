@@ -18,7 +18,8 @@ Understanding the lifecycle is essential for the test. An instance moves through
 |**Shutting down**|Transition before permanent deletion|
 |**Terminated**|Permanently deleted — cannot be recovered|
 
-> [!warning] Key distinction A **stopped** instance can be restarted (and may move to a different physical host). A **terminated** instance is gone forever.
+> [!warning] Key distinction
+> A **stopped** instance can be restarted (and may move to a different physical host). A **terminated** instance is gone forever.
 
 ### Security Groups
 
