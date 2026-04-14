@@ -562,13 +562,14 @@ Aurora is a **relational database** (MySQL and PostgreSQL compatible) built from
 
 CI/CD is a set of practices that automate the process of building, testing, and releasing software. Think of it as an automated assembly line for code.
 
-|Term|Full Name|What It Does|
-|---|---|---|
-|**CI**|Continuous Integration|Automatically builds and tests code on every push|
-|**CD**|Continuous Delivery|Prepares code for release; a human approves the final push to production|
-|**CD**|Continuous Deployment|Deploys to production automatically if all tests pass — no human needed|
+| Term   | Full Name              | What It Does                                                             |
+| ------ | ---------------------- | ------------------------------------------------------------------------ |
+| **CI** | Continuous Integration | Automatically builds and tests code on every push                        |
+| **CD** | Continuous Delivery    | Prepares code for release; a human approves the final push to production |
+| **CD** | Continuous Deployment  | Deploys to production automatically if all tests pass — no human needed  |
 
-> [!important] Delivery vs. Deployment Continuous **Delivery** requires human approval before going live. Continuous **Deployment** is fully automatic. Most teams start with Delivery.
+> [!important] Delivery vs. Deployment
+> Continuous **Delivery** requires human approval before going live. Continuous **Deployment** is fully automatic. Most teams start with Delivery.
 
 ## The CI/CD Pipeline Flow
 
