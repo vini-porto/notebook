@@ -2,8 +2,6 @@
 
 These notes cover the three topics likely to appear on your written exam. Each section explains the concept from scratch and shows you exactly what you need to know.
 
----
-
 ## 1. Maven Configuration
 
 [[Software Engineering]]
@@ -371,19 +369,3 @@ For the **Maven question**, focus on what goes inside `pom.xml`: GAV coordinates
 For the **testing question**, go through your checklist: normal cases, boundary values, empty/null inputs, exception cases, and any special logic branches in the method.
 
 For the **type definition question**, read the description carefully. Ask: is this a fixed set of values (enum)? Is it just immutable data (record)? Does it have changing state or behaviour (class)?
-
----
-
-## External Resources
-
-- [JUnit 5 User Guide](https://junit.org/junit5/docs/current/user-guide/)
-- [Maven Getting Started Guide](https://maven.apache.org/guides/getting-started/index.html)
-- [GeeksForGeeks: Java Records](https://www.geeksforgeeks.org/records-in-java/)
-- [GeeksForGeeks: Java Enums](https://www.geeksforgeeks.org/enum-in-java/)
-- [W3Schools Java Classes](https://www.w3schools.com/java/java_classes.asp)
-
----
-
-## Tags
-
-#computer_science #java #maven #testing #junit #unit_testing #records #enums #classes #type_definitions #software_engineering #study_notes #exam_prep
