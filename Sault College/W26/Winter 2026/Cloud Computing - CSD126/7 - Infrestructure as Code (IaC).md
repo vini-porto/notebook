@@ -8,9 +8,9 @@ This means logging into the [[AWS]] (or [[Azure]], GCP, etc.) web interface and 
 
 **Problems with this approach:**
 
-- **Poor change management** — if you need to update something, you have to manually figure out what needs to be created, modified, or deleted.
-- **Hard to keep environments consistent** — your dev, test, and production environments can easily drift apart because each was set up by hand.
-- **Hard to automate** — clicking through a web UI cannot be scripted easily.
+- **Poor change management**, if you need to update something, you have to manually figure out what needs to be created, modified, or deleted.
+- **Hard to keep environments consistent**, your dev, test, and production environments can easily drift apart because each was set up by hand.
+- **Hard to automate**, clicking through a web UI cannot be scripted easily.
 
 ## Approach 2: Using the [[Amazon CLI]] or SDKs
 
@@ -18,9 +18,9 @@ This means writing scripts that use the [[AWS]] CLI or an SDK to configure servi
 
 **Problems with this approach:**
 
-- **Hard to maintain state** — there is no built-in way to know what the current state of your infrastructure is.
-- **Hard to express dependencies** — scripts must be run in the correct order (e.g., you must create a [[VPC]] before adding a subnet to it), and managing that order manually is error-prone.
-- **Still poor change management** — you still have to figure out what changed and update your scripts accordingly.
+- **Hard to maintain state**, there is no built-in way to know what the current state of your infrastructure is.
+- **Hard to express dependencies**, scripts must be run in the correct order (e.g., you must create a [[VPC]] before adding a subnet to it), and managing that order manually is error-prone.
+- **Still poor change management**, you still have to figure out what changed and update your scripts accordingly.
 
 # Infrastructure as Code (IaC)
 

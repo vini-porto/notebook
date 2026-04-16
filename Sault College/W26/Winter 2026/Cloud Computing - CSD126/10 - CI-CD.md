@@ -1,7 +1,7 @@
 # Definition? 
 
 > [!note] What is CI/CD? 
-> **CI/CD** stands for **Continuous Integration** and **Continuous Delivery / Continuous Deployment**. It is a set of practices and tools that automate the process of building, testing, and releasing software — so teams can ship code changes faster and more reliably.
+> **CI/CD** stands for **Continuous Integration** and **Continuous Delivery / Continuous Deployment**. It is a set of practices and tools that automate the process of building, testing, and releasing software, so teams can ship code changes faster and more reliably.
 
 Think of CI/CD as an assembly line for software. Instead of a developer manually running tests and uploading files to a server, all of that happens automatically every time code is pushed.
 
@@ -16,11 +16,9 @@ Think of CI/CD as an assembly line for software. Instead of a developer manually
 > [!important] Delivery vs. Deployment
 > These two are often confused. In **Continuous Delivery**, a human must click "approve" before the code goes live. In **Continuous Deployment**, if all tests pass, the code goes live automatically — no human needed. Most teams start with Delivery and move toward Deployment as their test coverage matures.
 
-Together, these form a **CI/CD pipeline** — a series of automated steps that take code from a developer's machine all the way to production.
-
 # Why Use CI/CD?
 
-The main reason is **speed** — but the benefits go further:
+The main reason is **speed** but the benefits go further:
 
 - **Development velocity**: Developers can push smaller changes more often instead of waiting for big releases.
 - **Stability and reliability**: Automated tests catch bugs early, keeping the codebase stable at all times.

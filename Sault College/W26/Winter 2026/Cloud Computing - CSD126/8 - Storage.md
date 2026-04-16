@@ -1,6 +1,6 @@
 # Why Cloud Storage Matters
 
-Cloud storage is more reliable, scalable, and secure than keeping storage on your own physical machines. Nearly everything in the cloud depends on it — databases, big data analytics, IoT devices, backups, and applications all need a place to store their data.
+Cloud storage is more reliable, scalable, and secure than keeping storage on your own physical machines. Nearly everything in the cloud depends on it, databases, big data analytics, IoT devices, backups, and applications all need a place to store their data.
 
 > [!note] The five AWS storage categories
 > AWS groups its storage services into five broad types. Understanding when to use each one is a core cloud skill.
