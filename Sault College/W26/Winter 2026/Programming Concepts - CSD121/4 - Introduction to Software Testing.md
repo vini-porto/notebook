@@ -7,9 +7,9 @@
 
 There are three main reasons to test software:
 
-- **Ensure software quality** — make sure the program actually does what it is supposed to do.
-- **Identify bugs** — find errors in the code before users encounter them.
-- **Detect regressions** — check that new changes haven't accidentally broken something that was already working.
+- **Ensure software quality**: make sure the program actually does what it is supposed to do.
+- **Identify bugs**: find errors in the code before users encounter them.
+- **Detect regressions**: check that new changes haven't accidentally broken something that was already working.
 
 > [!important] 
 > A **regression** is when a previously working feature breaks due to a new code change. Automated tests help catch these automatically.
@@ -76,8 +76,8 @@ This refers to _how_ the tests are run.
 
 Two popular development philosophies around testing:
 
-- **Test-Driven Development (TDD)** — write the tests _before_ you write the code. This can lead to more robust and modular code if done consistently.
-- **Bug-Driven Development (BDD)** — write tests _in response to detected bugs_, so those bugs can never silently come back.
+- **Test-Driven Development (TDD)**: write the tests _before_ you write the code. This can lead to more robust and modular code if done consistently.
+- **Bug-Driven Development (BDD)**: write tests _in response to detected bugs_, so those bugs can never silently come back.
 
 # Testing Frameworks
 
@@ -91,9 +91,6 @@ Most programming platforms have dedicated testing frameworks that make writing a
 |JavaScript|Jest, Mocha|
 |Go|go test (built-in)|
 |PHP|PHPUnit, Pest|
-
-> [!tip]
->  For more on testing frameworks in Python, check out [GeeksforGeeks - Pytest](https://www.geeksforgeeks.org/pytest-tutorial/).
 
 # Writing Automated Tests
 
@@ -170,17 +167,17 @@ class TestIntUtils {
 }
 ```
 
-- **`import org.junit.jupiter.api.Test`** — imports the `@Test` annotation from JUnit.
+- **`import org.junit.jupiter.api.Test`**, imports the `@Test` annotation from JUnit.
 
-- **`import static org.junit.jupiter.api.Assertions.*`** — imports assertion methods like `assertTrue`, `assertFalse`, `assertEquals`, etc.
+- **`import static org.junit.jupiter.api.Assertions.*`**, imports assertion methods like `assertTrue`, `assertFalse`, `assertEquals`, etc.
 
-- **The test class** — named `TestIntUtils` (convention: `Test` + name of class being tested).
+- **The test class**: named `TestIntUtils` (convention: `Test` + name of class being tested).
 
-- **`@Test` annotation** — marks a method as a JUnit test. Every method with this annotation will be automatically run by JUnit.
+- **`@Test` annotation**: marks a method as a JUnit test. Every method with this annotation will be automatically run by JUnit.
 
-- **Test method name** — can be anything, but _should clearly describe what is being tested_.
+- **Test method name**: can be anything, but _should clearly describe what is being tested_.
 
-- **Multiple assertions per test** — a single test method can (and often should) contain multiple assertions, as long as they all relate to the same concept being verified.
+- **Multiple assertions per test**: a single test method can (and often should) contain multiple assertions, as long as they all relate to the same concept being verified.
 
 > [!important] 
 > One test class should have **multiple test methods**, one for each distinct behaviour or scenario you want to verify.
@@ -210,9 +207,9 @@ public void testThatNonPrimesAreNotPrime() {
 
 In IDEA, you can run:
 
-- An **individual test method** — right-click on the method
-- **All tests in a class** — right-click on the class
-- **All tests in the project** — run all tests in the test folder
+- An **individual test method**: right-click on the method
+- **All tests in a class**: right-click on the class
+- **All tests in the project**: run all tests in the test folder
 
 When tests pass, the IDE shows green checkmarks and a summary like "Tests passed: 2 of 2 tests – 27 ms".
 
@@ -227,15 +224,13 @@ When a test **fails**, the IDE tells you:
 > ```
 > AssertionFailedError:
 > Expected :false
-> Actual   :true
+> Actual :true
 > at IntUtilsTest.testThatNonPrimesAreNotPrime(IntUtilsTest.java:24)
 > ```
 > 
 > This tells you precisely where to look in your code to fix the bug.
 
 # Choosing What to Test
-
-You can't always test every possible input (imagine testing every possible string!). So you need to be strategic about _what_ to test.
 
 ## Key Categories to Cover
 
@@ -275,7 +270,7 @@ In large projects, 100% coverage is often not feasible. Instead, prioritize:
 
 # Testing Classes - Instance Methods & Constructors
 
-Testing instance methods works just like testing static methods — but you need to **create an object first** and configure it before calling the method.
+Testing instance methods works just like testing static methods, but you need to **create an object first** and configure it before calling the method.
 
 You should also **test constructors** to verify that instance variables are correctly initialized.
 
@@ -318,51 +313,6 @@ class HeroTest {
 ```
 
 Notice that `testTakeDamage2` tests an **edge case** — what happens when damage exceeds health? The third argument to `assertEquals` is an optional message displayed if the assertion fails, which helps with debugging.
-
-# Another Full Example: `titleCase()`
-
-```java
-/**
- * Convert a string to title case.
- * @param s the string to convert
- * @return the converted string
- */
-public static String titleCase(String s) { ... }
-```
-
-**Testing valid inputs:**
-
-```java
-@Test
-void testValidInputs() {
-    assertEquals("Hello", titleCase("hello"));
-    assertEquals("Hello", titleCase("hElLo"));
-    assertEquals("Hello, World!", titleCase("hEllO, wOrLd!"));
-}
-```
-
-**Testing boundary conditions and special cases:**
-
-```java
-@Test
-void nullRemainsNull() {
-    assertNull(titleCase(null));
-}
-
-@Test
-void emptyStringRemainsEmpty() {
-    assertEquals("", titleCase(""));
-}
-
-@Test
-void singleLetterIsCapitalized() {
-    assertEquals("A", titleCase("a"));
-    assertEquals("Z", titleCase("z"));
-}
-```
-
-> [!warning] Common Mistake 
-> Many beginners only test the "happy path" — valid inputs that obviously work. Don't forget to test `null`, empty strings, negative numbers, and other edge cases. These are where bugs love to hide.
 
 # External Resources
 

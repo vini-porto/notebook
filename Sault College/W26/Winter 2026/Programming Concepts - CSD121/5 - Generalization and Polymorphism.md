@@ -4,16 +4,16 @@ Before diving in, here's a recap of the OOP concepts you should already know:
 
 > [!note] OOP Principles Recap
 > 
-> - **Abstraction** — Focus on the essential details of something; ignore everything irrelevant. If a `Person` class only needs `name` and `address` for your program, you don't need to add `height`, `birthday`, etc.
-> - **Encapsulation** — Wrap up your abstraction into a class with a clean public interface. Users of your class don't need to know _how_ it works internally, only _what_ it does.
-> - **Generalization** — When multiple classes share common state or behaviour, move those shared parts into a broader, more general class.
+> - **Abstraction**: Focus on the essential details of something; ignore everything irrelevant. If a `Person` class only needs `name` and `address` for your program, you don't need to add `height`, `birthday`, etc.
+> - **Encapsulation**: Wrap up your abstraction into a class with a clean public interface. Users of your class don't need to know _how_ it works internally, only _what_ it does.
+> - **Generalization**: When multiple classes share common state or behaviour, move those shared parts into a broader, more general class.
 
 # Polymorphism
 
 > [!note] Polymorphism 
-> Means "many forms." In programming, it's the ability for different types to be used in a _uniform_ way — the same operation works across different types.
+> Means "many forms." In programming, it's the ability for different types to be used in a _uniform_ way, the same operation works across different types.
 
-You've already seen several kinds of polymorphism:
+Already seen kinds of polymorphism:
 
 |Type|Example|
 |---|---|
@@ -117,8 +117,8 @@ String heading = s.letterhead(); // Works! letterhead() is inherited from Person
 
 > [!warning] Inheritance is NOT "has a"
 > 
-> - A `Student` HAS A `Program` — so `Program` should be an **attribute** (a variable) of `Student`, _not_ a superclass of it.
-> - A `House` HAS A `Room` — `Room` should be an attribute of `House`, not a subclass.
+> - A `Student` HAS A `Program`, so `Program` should be an **attribute** (a variable) of `Student`, _not_ a superclass of it.
+> - A `House` HAS A `Room`, `Room` should be an attribute of `House`, not a subclass.
 > 
 > Confusing "is a" and "has a" is one of the most common design mistakes in OOP.
 
@@ -156,7 +156,7 @@ Classes connected through inheritance form a **hierarchy**. Higher up = more gen
 > A `NullPointerException` has the full public interface of `NullPointerException` **plus** `RuntimeException` **plus** `Exception` **plus** `Throwable`.
 
 > [!tip] 
-> Not everything belongs in one hierarchy You don't need to force all your classes into a single hierarchy. `Car` and `Building` are completely separate — don't make one a subclass of the other just to use inheritance. Only use inheritance when the "is a" relationship is genuinely true.
+> Not everything belongs in one hierarchy You don't need to force all your classes into a single hierarchy. `Car` and `Building` are completely separate, don't make one a subclass of the other just to use inheritance. Only use inheritance when the "is a" relationship is genuinely true.
 
 # Key Terms
 
@@ -167,7 +167,7 @@ Classes connected through inheritance form a **hierarchy**. Higher up = more gen
 |**Inherit**|A subtype automatically has all the variables and methods of its supertype|
 |**Inheritance hierarchy**|A set of classes connected through supertype/subtype relationships|
 
-# Inheritance in Java: The Details
+# Inheritance in Java
 
 ## Single inheritance only
 
@@ -186,7 +186,7 @@ class Person { ... } // Automatically extends Object
 
 # Visibility and Inheritance
 
-When a superclass has `private` fields, subclasses **cannot** access them directly — even though they're inherited.
+When a superclass has `private` fields, subclasses **cannot** access them directly, even though they're inherited.
 
 ```java
 class Person {
@@ -221,7 +221,7 @@ class Student extends Person {
 **Option 2: Use `protected` visibility**
 
 > [!note] 
-> The `protected` Modifier `protected` members are accessible within the class itself, its package, _and_ all subclasses — even subclasses many levels down the hierarchy.
+> The `protected` Modifier `protected` members are accessible within the class itself, its package, _and_ all subclasses, even subclasses many levels down the hierarchy.
 
 ```java
 class Person {
@@ -265,7 +265,8 @@ class Student extends Person {
 }
 ```
 
-> [!warning] The call to `super(...)` **must be the very first line** in your constructor. If the superclass has a default (no-argument) constructor, Java calls it automatically and you don't need to write `super()` explicitly.
+> [!warning] 
+> The call to `super(...)` **must be the very first line** in your constructor. If the superclass has a default (no-argument) constructor, Java calls it automatically and you don't need to write `super()` explicitly.
 
 # Overriding Methods
 
@@ -314,16 +315,6 @@ class Instructor extends Employee {
 > [!warning] 
 > Never use `this.toString()` here! If you call `this.toString()` inside `toString()`, you'd get **infinite recursion**. Always use `super.toString()` to refer to the parent class's version.
 
-## Overriding vs. Overloading
-
-These two are easy to confuse:
-
-||Overriding|Overloading|
-|---|---|---|
-|Where|In a **subclass**|In the **same class**|
-|Signature|Must be **identical** to superclass method|Must be **different** from all other versions|
-|Purpose|Specialize inherited behaviour|Provide multiple signatures for one method name|
-
 # Static vs. Dynamic Types
 
 This is where things get really interesting. Consider:
@@ -332,15 +323,15 @@ This is where things get really interesting. Consider:
 Person p = new Instructor();
 ```
 
-- The **static type** of `p` is `Person` — this is what the compiler sees, checked at compile time
-- The **dynamic type** of `p` is `Instructor` — this is what actually lives in memory at run time
+- The **static type** of `p` is `Person`, this is what the compiler sees, checked at compile time
+- The **dynamic type** of `p` is `Instructor` this is what actually lives in memory at run time
 
 This works because `Instructor` IS A `Person`.
 
 > [!important] The Rule
 > 
 > - **Static type** controls _which methods you're allowed to call_ (compile-time check)
-> - **Dynamic type** controls _which implementation actually runs_ (run-time decision — called **dynamic method dispatch**)
+> - **Dynamic type** controls _which implementation actually runs_ (run-time decision called **dynamic method dispatch**)
 
 ```java
 Person p = new Instructor();
@@ -379,7 +370,7 @@ Dynamic method dispatch is what makes subtype polymorphism so powerful in practi
 Sometimes a superclass exists _only_ to group shared state and behaviour — it should never be instantiated on its own. That's what `abstract` is for.
 
 > [!note] Definition 
-> An **abstract class** cannot be directly instantiated with `new`. It is meant to be extended by concrete subclasses. It may define **abstract methods** — methods with no body that subclasses _must_ implement.
+> An **abstract class** cannot be directly instantiated with `new`. It is meant to be extended by concrete subclasses. It may define **abstract methods**; methods with no body that subclasses _must_ implement.
 
 ```java
 abstract class Storage {
@@ -426,19 +417,6 @@ Storage c = new Cloud();    // OK
 
 > [!tip] 
 > Abstract classes are great when you want to guarantee that all subclasses implement certain behaviour (like `write()`), while still sharing common code (like `hasEnoughCapacity()`).
-
-# Putting It All Together
-
-> [!important] Summary of Key Ideas
-> 
-> - **Polymorphism** = uniform interaction for different types. **Subtype polymorphism** = subtypes can be used wherever supertypes are expected.
-> - **Generalization** = move shared state/behaviour into a superclass. Use `extends` in Java.
-> - **Inheritance** = subclasses automatically get all non-private members of their superclass.
-> - Use **`protected`** when subclasses need direct access to superclass fields.
-> - Constructors run **top-down** in the hierarchy. Use `super(...)` to call a superclass constructor.
-> - **Overriding** = redefining a superclass method in a subclass (same signature, new body).
-> - **Static type** = what the compiler checks. **Dynamic type** = what actually runs (dynamic method dispatch).
-> - **Abstract classes** = cannot be instantiated; exist purely to be extended.
 
 Other info:
 

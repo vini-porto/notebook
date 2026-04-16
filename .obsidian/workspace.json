@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sault College/W26/Winter 2026/Cloud Computing - CSD126/AWS Services Reference Note.md",
+                "file": "Sault College/W26/Winter 2026/Programming Concepts - CSD121/8 - Software Design Principles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AWS Services Reference Note"
+              "title": "8 - Software Design Principles"
             }
           },
           {
@@ -225,6 +225,14 @@
   },
   "active": "5e936048adaadd46",
   "lastOpenFiles": [
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/7 - Intro to JavaFX.md",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/6 - Interfaces in Java.md",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/5 - Generalization and Polymorphism.md",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/4 - Introduction to Software Testing.md",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/3 - Designing Types.md",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/2 - Namespaces in Java.md",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/1 - Intoduction to Java.md",
+    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/AWS Services Reference Note.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/10 - CI-CD.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/1 - Cloud Concepts.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/2 - AWS Pricing.md",
@@ -235,19 +243,11 @@
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/7 - Infrestructure as Code (IaC).md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/8 - Storage.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/9 - AWS Database Services.md",
-    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/AWS Services Reference Note.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/Test 2 Review Notes.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Notes for test 2.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Notes for the test 1.md",
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/7 - Intro to JavaFX.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/8 - Software Design Principles.md",
     "Sault College/W26/Winter 2026/Introduction to Web Development/4 - The World of CSS.md",
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/6 - Interfaces in Java.md",
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/4 - Introduction to Software Testing.md",
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/3 - Designing Types.md",
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/2 - Namespaces in Java.md",
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/1 - Intoduction to Java.md",
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/5 - Generalization and Polymorphism.md",
     "Sault College/W26/Winter 2026/Bussiness Aplications/Lab 10a - Power BI.md",
     "Sault College/W26/Winter 2026/Bussiness Aplications/CSA103 — Test Review Notes.md",
     "Sault College/W26/Winter 2026/Bussiness Aplications/Lab 01 - Email Management and Collaboration Tools.md",

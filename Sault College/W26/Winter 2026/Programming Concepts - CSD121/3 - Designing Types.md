@@ -1,4 +1,4 @@
-# Why Do We Need to Model Data?
+# Why Do We Need?
 
 Every program operates on data. Depending on the domain, that data looks very different:
 
@@ -20,14 +20,14 @@ Data can be stored in variables, and values are either **scalar** or **composite
 
 ## Flat vs Nested Data
 
-- **Flat**: one level of sub-components — e.g. a list of integers, or a `Point(x, y, z)`
-- **Nested**: multiple levels — e.g. a list of lists, or a list of `Point` objects
+- **Flat**: one level of sub-components (e.g. a list of integers, or a `Point(x, y, z)`)
+- **Nested**: multiple levels (e.g. a list of lists, or a list of `Point` objects)
 
 # The Problem with Simple Approaches
 
 Let's say we are building a conference center event manager. An event has a title, start/end datetime, and a list of requested services.
 
-## Just Variables — Not Enough
+## Just Variables
 
 ```java
 String hackathon_title = "Hackathon";
@@ -35,9 +35,9 @@ String hackathon_start = "2023-10-01T10:00:00";
 String hackathon_end   = "2023-10-01T18:00:00";
 ```
 
-This falls apart as soon as you have multiple events — there's no structure connecting them.
+This falls apart as soon as you have multiple events, there's no structure connecting them.
 
-# Lists of Tuples — Fragile
+# Lists of Tuples
 
 ```python
 events = [
@@ -49,7 +49,7 @@ def show_event_titles(event_list):
         print(event[0])  # You need to know title is at index 0 — brittle!
 ```
 
-# Maps — Better, but Still Problematic
+# Maps
 
 ```python
 events = [show_event_titles
@@ -67,7 +67,7 @@ for event in events:
 > - The IDE/compiler cannot help you catch these issues ahead of time
 
 
-# The Solution: Define Your Own Types
+# The Solution
 
 In statically typed languages like Java, you can define **custom types** so the **compiler helps you catch errors** at compile time rather than at run time.
 
@@ -80,10 +80,9 @@ var event = new Event(
 );
 ```
 
-# Four Type-Definition Structures in Java
+# Four Type-Definition Structures
 
-## `class` — General Purpose Types
-
+## `class`
 The basic structure of a Java class:
 
 ```java
@@ -120,7 +119,7 @@ class <TypeName> {
 > 
 > - When you call `e1.getDuration()`, `this` inside `Event` refers to `e1`
 > - When you call `e2.getDuration()`, `this` refers to `e2`
-> - `this` cannot be used in _class (static) methods_ — only instance methods
+> - `this` cannot be used in _class (static) methods_, only instance methods
 
 # Types vs Objects
 
@@ -238,17 +237,17 @@ class Foo {
 
 Top-level type definitions can be package-private or `public`. Nested types can also be `private`.
 
-## Why Access Modifiers Matter
+## Why does it Matter
 
 Access modifiers let type designers:
 
-- **Expose a clean API** — `public` members form the _public interface_ of the type (also called **abstraction**)
-- **Hide internal details** — `private`/package-private members are _encapsulated_ implementation details
+- **Expose a clean API**, `public` members form the _public interface_ of the type (also called **abstraction**)
+- **Hide internal details**: `private`/package-private members are _encapsulated_ implementation details
 
 > [!important] Abstraction vs Encapsulation
 > 
-> - **Abstraction** — focusing on essential details and ignoring irrelevant complexity. The user sees _what_ the type does, not _how_.
-> - **Encapsulation** — hiding the internal complexity behind a simple interface. The designer builds the complex internals; the user only sees the clean surface.
+> - **Abstraction**: focusing on essential details and ignoring irrelevant complexity. The user sees _what_ the type does, not _how_.
+> - **Encapsulation**: hiding the internal complexity behind a simple interface. The designer builds the complex internals; the user only sees the clean surface.
 
 # Common Pattern: Private Variables, Public Methods
 
@@ -337,7 +336,8 @@ public int hashCode() {
 }
 ```
 
-> [!important] Whenever you implement `.equals`, always implement `.hashCode` too!
+> [!important] 
+> Whenever you implement `.equals`, always implement `.hashCode` too!
 
 # Copy Constructor
 
@@ -351,12 +351,12 @@ public Event(Event other) {
 }
 ```
 
-This is a _shallow copy_, but that is fine here because `String` and `LocalDateTime` are **immutable** — you cannot change them through the copy, so the original is safe.
+This is a _shallow copy_, but that is fine here because `String` and `LocalDateTime` are **immutable**, you cannot change them through the copy, so the original is safe.
 
 > [!tip] IDE Code Generation 
 > Most modern IDEs (like IntelliJ) can auto-generate boilerplate like getters, setters, `equals`, `hashCode`, `toString`, and constructors. Use the "Generate" menu to save time!
 
-# `enum` — Fixed Sets of Values
+# `enum` 
 
 Sometimes a type should only have a specific, limited set of possible values.
 
@@ -396,7 +396,7 @@ opposite("NORTH");        // TYPE ERROR — wrong type entirely!
 > - The compiler ensures all values are handled in a `switch`
 > - Full type safety — you can't pass the wrong type by accident
 
-# `record` — Data-Focused Types
+# `record`
 
 When you just need a type to hold a fixed set of data fields, use `record` instead of `class`.
 
@@ -414,7 +414,7 @@ var r = new Rectangle(10, 10, 100, 200);
 A `record` automatically gives you:
 
 - A constructor with all fields as parameters
-- Accessor methods with the same name as each field (note: no `get` prefix — just `name()`, not `getName()`)
+- Accessor methods with the same name as each field (note: no `get` prefix, just `name()`, not `getName()`)
 - `equals`, `hashCode`, and `toString` — all auto-generated
 - **Immutability** — no setters; fields cannot be changed after creation
 
@@ -423,9 +423,11 @@ A `record` automatically gives you:
 
 Both `enum` and `record` can have additional methods and class members attached to them just like a regular class.
 
-# `interface` — Defining Behaviour
+# `interface`
 
-While `record` defines a type in terms of _data_, an `interface` defines a type in terms of _behaviour_ — a set of methods that implementing types **must** provide.
+[[6 - Interfaces in Java]]
+
+While `record` defines a type in terms of _data_, an `interface` defines a type in terms of _behaviour_, a set of methods that implementing types **must** provide.
 
 ```java
 public interface Runnable {
@@ -467,6 +469,6 @@ External references:
 - [GeeksForGeeks — Java Enums](https://www.geeksforgeeks.org/enum-in-java/)
 - [GeeksForGeeks — Java Records](https://www.geeksforgeeks.org/record-classes-in-java/)
 
-## Tags
+# Tags
 
 #computer_science #java #object_oriented #types #classes #encapsulation #abstraction #enums #records #interfaces #study_notes #programming

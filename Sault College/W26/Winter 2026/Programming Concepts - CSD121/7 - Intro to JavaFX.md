@@ -1,8 +1,6 @@
 
 JavaFX is a **set of GUI (Graphical User Interface) components** for building graphical desktop applications in Java. Think of it as the modern, more powerful replacement for the older Swing library. Instead of building plain text-based programs, JavaFX lets you create real windows with buttons, text fields, shapes, animations, and more.
 
-Related topics: [[Software Engineering]], [[Programming Languages]]
-
 # Setting Up JavaFX
 
 > [!important] 
@@ -10,9 +8,9 @@ Related topics: [[Software Engineering]], [[Programming Languages]]
 
 You have two options:
 
-**Option 1 — Download manually** and add it as a library to your project.
+**Option 1: Download manually** and add it as a library to your project.
 
-**Option 2 — Use Maven** (recommended) by declaring it as a dependency:
+**Option 2: Use Maven** (recommended) by declaring it as a dependency:
 
 ```xml
 <dependency>
@@ -24,7 +22,7 @@ You have two options:
 
 ## Java Modules and JavaFX
 
-JavaFX uses Java's **module system** — a way of organizing packages so that only the parts you explicitly allow are visible to the outside world.
+JavaFX uses Java's **module system**, a way of organizing packages so that only the parts you explicitly allow are visible to the outside world.
 
 Every JavaFX app that uses modules needs a `module-info.java` file:
 
@@ -37,7 +35,8 @@ module myjavafxmodule {
 }
 ```
 
-> [!note] A **module** is a collection of related packages. By using modules, you have fine-grained control over what is accessible from your code.
+> [!note] 
+> A **module** is a collection of related packages. By using modules, you have fine-grained control over what is accessible from your code.
 
 
 # Features of JavaFX
@@ -46,16 +45,17 @@ JavaFX is a rich framework with many capabilities:
 
 - A large set of ready-to-use UI controls (buttons, sliders, text fields, etc.)
 - Flexible event handling and data binding APIs
-- **FXML** — a declarative XML-based way to define your UI layout
-- **CSS styling** — you can style your app just like a web page
+- **FXML**: a declarative XML-based way to define your UI layout
+- **CSS styling**: you can style your app just like a web page
 - A built-in web view to display web content
 - GPU acceleration for smooth rendering
 - Accessibility and internationalization support out of the box
 
-> [!tip] Most GUI frameworks (like Electron, Flutter, Qt, and .NET MAUI) share similar concepts: components, layout management, event handling, and styling. Learning JavaFX will make it easier to pick up others later.
+> [!tip] 
+> Most GUI frameworks (like Electron, Flutter, Qt, and .NET MAUI) share similar concepts: components, layout management, event handling, and styling. Learning JavaFX will make it easier to pick up others later.
 
 
-# The Core Structure: Stage, Scene, and Nodes
+# Stage, Scene, and Nodes
 
 This is the most important concept to understand. A JavaFX application is built like a **theatre**:
 
@@ -87,7 +87,8 @@ public class MyApp extends Application {
 }
 ```
 
-> [!note] When JavaFX is ready, it automatically calls your `start()` method and passes a `Stage` object to it. You don't create the Stage yourself.
+> [!note] 
+> When JavaFX is ready, it automatically calls your `start()` method and passes a `Stage` object to it. You don't create the Stage yourself.
 
 ## The Stage
 
@@ -101,13 +102,14 @@ The operating system controls what these decorations look like. The Stage holds 
 
 ## The Scene and Scene Graph
 
-The **Scene** holds the actual content of your window. It is organized as a **scene graph** — a tree structure made up of **Node** objects.
+The **Scene** holds the actual content of your window. It is organized as a **scene graph**, a tree structure made up of **Node** objects.
 
 - The **root node** has no parent.
 - Every other node has exactly **one parent**.
 - A node can have **zero or more children**.
 
-> [!note] Think of the scene graph like an upside-down family tree. The root is at the top, and it branches down into all the UI elements of your app.
+> [!note] 
+> Think of the scene graph like an upside-down family tree. The root is at the top, and it branches down into all the UI elements of your app.
 
 # The Node Hierarchy
 
@@ -134,7 +136,8 @@ Node (abstract)
 |**Pane**|Manages how children are laid out|
 |**Shape**|Draw shapes or text on screen|
 
-> [!important] **Regions** have visual styling and spacing concerns. **Groups** are purely logical — they let you manipulate multiple nodes together as a unit, but have no appearance of their own.
+> [!important] 
+> **Regions** have visual styling and spacing concerns. **Groups** are purely logical — they let you manipulate multiple nodes together as a unit, but have no appearance of their own.
 
 # Your First JavaFX App
 
@@ -170,7 +173,8 @@ Stage
 
 # Coordinates in JavaFX
 
-> [!note] In JavaFX (and most GUI libraries), the **top-left corner is (0, 0)**. The x-axis goes right and the y-axis goes **down**.
+> [!note] 
+> In JavaFX (and most GUI libraries), the **top-left corner is (0, 0)**. The x-axis goes right and the y-axis goes **down**.
 
 This is different from what you might expect from math class, where y typically goes up. Keep this in mind when positioning shapes or elements manually.
 
@@ -219,7 +223,7 @@ vbox.setPadding(new Insets(10, 50, 50, 50));
 
 The `javafx.scene.shape` package contains many ready-to-use shape classes, all extending the abstract `Shape` class: `Arc`, `Ellipse`, `Line`, `Polygon`, `Polyline`, `Rectangle`, and more.
 
-**Text** is also a `Shape` — it lives in `javafx.scene.text.Text`:
+**Text** is also a `Shape`, it lives in `javafx.scene.text.Text`:
 
 ```java
 Text text = new Text();
@@ -269,9 +273,9 @@ Color.gray(0.5);           // Grayscale (0.0–1.0)
 
 `Color` is a subtype of the abstract `Paint` class. Other `Paint` types include:
 
-- `ImagePattern` — use an image as a background fill
-- `LinearGradient` — a gradient that transitions in a straight line
-- `RadialGradient` — a gradient that radiates outward from a center point
+- `ImagePattern`: use an image as a background fill
+- `LinearGradient`: a gradient that transitions in a straight line
+- `RadialGradient`: a gradient that radiates outward from a center point
 
 # Effects
 
@@ -341,16 +345,18 @@ Button button = new Button("Click me!");
 button.setOnMouseClicked(new ClickHandler());
 ```
 
-> [!note] The `Event` object passed to `handle()` carries information about the event. For example, `MouseEvent` tells you which mouse button was clicked and where on the screen the click happened.
+> [!note] 
+> The `Event` object passed to `handle()` carries information about the event. For example, `MouseEvent` tells you which mouse button was clicked and where on the screen the click happened.
 > 
-> `EventHandler` is **generic** — `EventHandler<MouseEvent>` means "a handler _of_ mouse events".
+> `EventHandler` is **generic**, `EventHandler<MouseEvent>` means "a handler _of_ mouse events".
 
-> [!warning] Do not confuse the **event type** (e.g. `MouseEvent`) with the **handler** (e.g. `EventHandler<MouseEvent>`). The handler is what you write; the event type is what gets passed into it.
+> [!warning] 
+> Do not confuse the **event type** (e.g. `MouseEvent`) with the **handler** (e.g. `EventHandler<MouseEvent>`). The handler is what you write; the event type is what gets passed into it.
 
 
 # Controls
 
-**Controls** are interactive UI elements the user can interact with — like buttons, checkboxes, sliders, and text fields. They all extend `javafx.scene.controls.Control`, so they:
+**Controls** are interactive UI elements the user can interact with, like buttons, checkboxes, sliders, and text fields. They all extend `javafx.scene.controls.Control`, so they:
 
 - Can be styled with CSS
 - Can have effects applied
@@ -358,29 +364,19 @@ button.setOnMouseClicked(new ClickHandler());
 
 ## Three Categories of Basic Controls
 
-**Labelled** — have an icon and/or text label:
+**Labelled**: have an icon and/or text label:
 
 - `Button`, `CheckBox`, `Hyperlink`, `Label`, `RadioButton`, `ToggleButton`
 
-**Text input** — allow the user to type:
+**Text input**: allow the user to type:
 
 - `TextField`, `TextArea`, `PasswordField`
 - Support selection, caret positioning, undo/redo, copy/paste, and formatting
 
-**Other** — specialized controls:
+**Other**: specialized controls:
 
 - `ProgressBar`, `ProgressIndicator`, `Slider`
 
-
-
-> [!tip] For hands-on code examples for layouts and controls, check out the open-source sample repository used in the slides:
-> 
-> - Layouts: https://github.com/Apress/learnjavafx17/tree/main/src/com/jdojo/container
-> - Controls: https://github.com/Apress/learnjavafx17/tree/main/src/com/jdojo/control
-> 
-> More JavaFX learning resources: https://www.geeksforgeeks.org/javafx-tutorial/
-
-
-## Tags
+# Tags
 
 #computer_science #java #javafx #gui #programming #software_engineering #study_notes #ui_development
