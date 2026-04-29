@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages/English/Advanced English/Advanced Verbs.md",
+                "file": "Languages/English/Advanced English/C1 Advanced Adjectives.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Advanced Verbs"
+              "title": "C1 Advanced Adjectives"
             }
           },
           {
@@ -107,7 +107,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "25633665bbc170a3",
@@ -222,10 +223,11 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "315c83aaff31e835",
+  "active": "5e936048adaadd46",
   "lastOpenFiles": [
-    "Amazon EC2.md",
     "Languages/English/Advanced English/Advanced Verbs.md",
+    "Languages/English/Advanced English/C1 Advanced Adjectives.md",
+    "Amazon EC2.md",
     "Languages/English/Advanced English/Rhyming Reduplication.md",
     "Languages/English/grammar/English Adjectives.md",
     "Languages/French/Curso de Francês - Avec Elisa/1 - Sounds in french.md",
@@ -251,7 +253,6 @@
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/6 - Compute.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/7 - Infrestructure as Code (IaC).md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/8 - Storage.md",
-    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/9 - AWS Database Services.md",
     "aws_storage_overview.svg",
     "copilot/memory",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards/Type-in-Answer",
