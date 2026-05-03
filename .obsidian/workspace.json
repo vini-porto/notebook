@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages/English/Advanced English/C1 Advanced Adjectives UK.md",
+                "file": "Life/Life Gols.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C1 Advanced Adjectives UK"
+              "title": "Life Gols"
             }
           },
           {
@@ -224,8 +224,10 @@
   },
   "active": "5e936048adaadd46",
   "lastOpenFiles": [
-    "Languages/English/Advanced English/Advanced Verbs.md",
     "Languages/English/Advanced English/C1 Advanced Adjectives UK.md",
+    "Life/Life Gols.md",
+    "Life",
+    "Languages/English/Advanced English/Advanced Verbs.md",
     "Amazon EC2.md",
     "Languages/English/Advanced English/Rhyming Reduplication.md",
     "Languages/English/grammar/English Adjectives.md",
@@ -251,7 +253,6 @@
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/5 - Networking and Content Delivery.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/6 - Compute.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/7 - Infrestructure as Code (IaC).md",
-    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/8 - Storage.md",
     "aws_storage_overview.svg",
     "copilot/memory",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards/Type-in-Answer",
@@ -260,7 +261,6 @@
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards",
     "Languages/French/A1-A2",
     "Languages/French",
-    "Languages",
     "Untitled.canvas",
     "Pasted image 20260107101322.png",
     "Pasted image 20260107100759.png",
