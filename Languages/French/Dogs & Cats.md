@@ -134,3 +134,69 @@ pet meal
 > - dogsitter
 > - pertsitter
 > - nounou - catsitter
+
+# nuances à connaître
+
+### un chien vs une chienne
+- chien (mâle) - dog
+- chienne (femelle)
+### un chat vs une chatte
+- chat (mâle) - cat
+- chatte (femelle)
+
+> [!attention] Related 
+> The word **chatte** can also refer to female sexual organs in a vulgar way.
+### un chiot
+*baby dog*
+> [!attention] Related 
+> The plural of the word "chiot" is not "chiottes." "Chiottes" means toilet in a vulgar way.
+
+### un chaton vs une chatonne
+*baby cat*
+
+### un animal de race
+*a purebred animal*
+- un labrador
+- un berger allemand
+- un sacré de Birmanie
+- un Maine Coon
+
+### un chien croisé / un chien bâtard
+*a mixed breed dog*
+
+### un chat de gouttière / un chat européen
+*a mixed breed cat*
+
+# les ordres
+
+### Assis!
+*Sat!*
+### Couché
+*lay down!*
+### Au pied!
+*near!*
+### Pas bouger!
+*Stay still!*
+### Donne la patte!
+*Give me your paw!*
+### Fais le beau!
+*stand up*
+
+# verbes et sons
+
+### aboyer
+*bark*
+- Ouaf! Ouaf!
+### miauler
+*to meow*
+- Miaou!
+### ranronner
+*purr*
+### grogner
+*growl*
+### promener le chien
+*walk the dog*
+### faire ses besoins
+*to poop*
+### ramasser les crottes
+*catch poop*
