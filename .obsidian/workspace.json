@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages/French/Dogs & Cats.md",
+                "file": "Languages/French/Sentir, Se Sentir, Ressentir.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dogs & Cats"
+              "title": "Sentir, Se Sentir, Ressentir"
             }
           }
         ],
@@ -205,14 +205,14 @@
       "obsidian-importer:Open Importer": false,
       "obsidian-git:Open Git source control": false,
       "copilot:Open Copilot Chat": false,
-      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
-      "translate:Open translation view": false
+      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
   "active": "f76b791d4f2df2f2",
   "lastOpenFiles": [
-    "Amazon EC2.md",
     "Languages/French/Dogs & Cats.md",
+    "Languages/French/Sentir, Se Sentir, Ressentir.md",
+    "Amazon EC2.md",
     "Languages/French/Curso de Francês - Avec Elisa/1 - Sounds in french.md",
     "Languages/French/A1-A2/French Vowels.md",
     "Languages/French/A1-A2/French Sound System.md",
@@ -239,7 +239,6 @@
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/3 - AWS Global Infrastructure.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/4 - AWS Cloud Security.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/5 - Networking and Content Delivery.md",
-    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/6 - Compute.md",
     "aws_storage_overview.svg",
     "copilot/memory",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards/Type-in-Answer",
