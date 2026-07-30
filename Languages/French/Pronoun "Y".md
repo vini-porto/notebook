@@ -2,6 +2,8 @@
 
 >[!attention] Pronom Y
 >- un endroit 🚫
+>	- A: Tu connais cette ville ? B: Oui je la connais !
+>	- A: Tu vas faire le devoir ? B: Oui, je vais le faire.
 >- à cet endroit ✅
 
 - ==**A:** Tu vas à cette boulangerie ? **B:** Oui, J'y vais.==
@@ -44,3 +46,38 @@ Il ne remplace jamais un lieu précédé par la préposition DE.
 - Vas-y!
 ### avant l'impératif négatif
 - N'y va pas!
+
+# Pour remplacer À CETTE CHOSE.
+
+## au présent 
+- ==**A:** La princesse renonce a son héritage ? **B:** Oui, elle y renonce.==
+- ==**A:** La princesse renonce a son héritage ? **B:** Non, elle n'y renonce pas.==
+	- Elle renonce à son héritage (à cette chose).
+	- Elle ne renonce pas à son héritage (à cette chose).
+
+# au passé composé
+ - ==A: Tu as réfléchi à ma proposition ? B: Oui, J'y ai réfléchi.==
+ - ==A: Tu as réfléchi à ma proposition ? B: Non, je n'y ai pas réfléchi.==
+	 - Jai réfléchi à ta proposition (à cette chose).
+	 - Je n'ai pas réfléchi à ta proposition (à cette chose).
+
+## au futur proche
+- ==**A:** Vous allez participer a la réunion ? **B:** Oui, on va y participer.==
+- ==**A:** Vous allez participer a la réunion ? **B:** Non, on ne va pas y participer.==
+	- On va participer à la réunion (à cette chose).
+	- On ne va pas participer a la réunion (à cette chose).
+
+## à l'impératif affirmatif
+- ==Cet investissement est intéressant. Pensez-y !==
+	- Pensez a cet investissement (à cette chose).
+### à l'impératif négatif
+- ==N'y pensez pas !==
+
+>[!attention] Pronom Y
+> Le pronom Y n'a aucun lien avec des personnes.
+> - ==A: Tu as téléphoné a Léo ? B: Qui, je lui ai téléphoné.==
+
+>[!attention] La place du pronom Y
+> - avant tous les verbes
+> - avant l'infinitif
+> - après l'impératif affirmatif
