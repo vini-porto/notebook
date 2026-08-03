@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages/French/100 phrases utiles.md",
+                "file": "Languages/French/Done/100 phrases utiles.md",
                 "mode": "source",
                 "source": false
               },
@@ -195,11 +195,12 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "f76b791d4f2df2f2",
+  "active": "315c83aaff31e835",
   "lastOpenFiles": [
+    "Languages/French/Done",
     "Languages/French/la prononciation.md",
     "Languages/French/Les vacances.md",
-    "Languages/French/100 phrases utiles.md",
+    "Languages/French/Done/100 phrases utiles.md",
     "Languages/French/Dogs & Cats.md",
     "Languages/French/Pronoun \"Y\".md",
     "Life/2026-07-31.md",
@@ -228,7 +229,6 @@
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/4 - Introduction to Software Testing.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/3 - Designing Types.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/2 - Namespaces in Java.md",
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/1 - Intoduction to Java.md",
     "aws_storage_overview.svg",
     "copilot/memory",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/Anki Cards/Type-in-Answer",
