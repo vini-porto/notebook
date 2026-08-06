@@ -1,0 +1,263 @@
+{
+  "main": {
+    "id": "47a5ad604e11be1c",
+    "type": "split",
+    "children": [
+      {
+        "id": "f7d9c971389e0b66",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f76b791d4f2df2f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/nota-diaria.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "nota-diaria"
+            }
+          },
+          {
+            "id": "b834f7ace57b58af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages/French/Phrases courantes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Phrases courantes"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b43ed8ef6c855b66",
+    "type": "split",
+    "children": [
+      {
+        "id": "21890d7094446f8a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "315c83aaff31e835",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "56cc834018be2fc1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "c4435d9464e61936",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "25633665bbc170a3",
+    "type": "split",
+    "children": [
+      {
+        "id": "2598bdca9a3c7a22",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b6b35e470c9379b8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Languages/English/Advanced English/Advanced Verbs.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Advanced Verbs"
+            }
+          },
+          {
+            "id": "be496329ff98aa57",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Sault College/F25/CSD112/Cisco CLI - Network Equipment.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Cisco CLI - Network Equipment"
+            }
+          },
+          {
+            "id": "86a353ecf5e85a91",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "aa80de77852bd6af",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Sault College/F25/CSD112/Cisco CLI - Network Equipment.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Cisco CLI - Network Equipment"
+            }
+          },
+          {
+            "id": "ba7f4238cbf16f48",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "24134f0d97f258b6",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-importer:Open Importer": false,
+      "obsidian-git:Open Git source control": false,
+      "copilot:Open Copilot Chat": false,
+      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
+    }
+  },
+  "active": "b834f7ace57b58af",
+  "lastOpenFiles": [
+    "Templates/nota-diaria.md",
+    "Languages/French/Phrases courantes.md",
+    "Languages/French/Done/100 phrases utiles.md",
+    "Languages/English/Phrasal Verbs/50 Most Common Phrasal Verbs.md",
+    "Life/Questions to ask.md",
+    "Languages/English/Leaning Zone/Still at large.md",
+    "Languages/English/Leaning Zone",
+    "Languages/English/Register variation/Ordering the sparkling hop water.md",
+    "Languages/English/Register variation/Handling a Task Myself.md",
+    "Languages/English/Idiomatic Expressions",
+    "Languages/English/Untitled.md",
+    "Languages/English/Phrasal Verbs",
+    "Amazon EBS.md",
+    "Availability Zones.md",
+    "Ordering.md",
+    "Templates/paraphrase.md",
+    "Untitled.canvas",
+    "Untitled",
+    "Languages/English/Advanced English/Rhyming Reduplication.md",
+    "Languages/English/Register variation",
+    "Languages/English/Advanced English/C1 Advanced Adjectives UK.md",
+    "Languages/English/Advanced English/Advanced Verbs.md",
+    "Languages/French/Done",
+    "Languages/French/la prononciation.md",
+    "Languages/French/Les vacances.md",
+    "Languages/French/Dogs & Cats.md",
+    "Languages/French/Pronoun \"Y\".md",
+    "Life/2026-07-31.md",
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/8 - Software Design Principles.md",
+    "Life",
+    "Templates",
+    "Languages/French/Sentir, Se Sentir, Ressentir.md",
+    "Amazon EC2.md",
+    "Languages/French/Curso de Francês - Avec Elisa/1 - Sounds in french.md",
+    "Languages/French/A1-A2/French Vowels.md",
+    "Life",
+    "Languages/French/Curso de Francês - Avec Elisa",
+    "aws_storage_overview.svg",
+    "Pasted image 20260107101322.png",
+    "Pasted image 20260107100759.png",
+    "Pasted image 20260107100742.png",
+    "image 1 2.png",
+    "image 2.png",
+    "image 1 6.png",
+    "image 1 5.png",
+    "image 1 4.png",
+    "image 1 3.png"
+  ]
+}
