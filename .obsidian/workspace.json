@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages/French/Phrases courantes.md",
+                "file": "Life/Conversation guide.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Phrases courantes"
+              "title": "Conversation guide"
             }
           }
         ],
@@ -212,8 +212,9 @@
   },
   "active": "b834f7ace57b58af",
   "lastOpenFiles": [
-    "Templates/nota-diaria.md",
     "Languages/French/Phrases courantes.md",
+    "Life/Conversation guide.md",
+    "Templates/nota-diaria.md",
     "Languages/French/Done/100 phrases utiles.md",
     "Languages/English/Phrasal Verbs/50 Most Common Phrasal Verbs.md",
     "Life/Questions to ask.md",
@@ -246,7 +247,6 @@
     "Languages/French/Sentir, Se Sentir, Ressentir.md",
     "Amazon EC2.md",
     "Languages/French/Curso de Francês - Avec Elisa/1 - Sounds in french.md",
-    "Languages/French/A1-A2/French Vowels.md",
     "Life",
     "Languages/French/Curso de Francês - Avec Elisa",
     "aws_storage_overview.svg",
