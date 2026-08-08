@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Life/Conversation guide.md",
+                "file": "Life/humor/WHINDERSSON NUNES.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Conversation guide"
+              "title": "WHINDERSSON NUNES"
             }
           }
         ],
@@ -212,8 +212,10 @@
   },
   "active": "b834f7ace57b58af",
   "lastOpenFiles": [
-    "Languages/French/Phrases courantes.md",
     "Life/Conversation guide.md",
+    "Life/humor/WHINDERSSON NUNES.md",
+    "Life/humor",
+    "Languages/French/Phrases courantes.md",
     "Templates/nota-diaria.md",
     "Languages/French/Done/100 phrases utiles.md",
     "Languages/English/Phrasal Verbs/50 Most Common Phrasal Verbs.md",
@@ -246,9 +248,7 @@
     "Templates",
     "Languages/French/Sentir, Se Sentir, Ressentir.md",
     "Amazon EC2.md",
-    "Languages/French/Curso de Francês - Avec Elisa/1 - Sounds in french.md",
     "Life",
-    "Languages/French/Curso de Francês - Avec Elisa",
     "aws_storage_overview.svg",
     "Pasted image 20260107101322.png",
     "Pasted image 20260107100759.png",
