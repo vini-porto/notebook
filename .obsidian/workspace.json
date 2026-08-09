@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Life/Conversation guide.md",
+                "file": "Languages/English/Animals/Water Animals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Conversation guide"
+              "title": "Water Animals"
             }
           }
         ],
@@ -212,9 +212,15 @@
   },
   "active": "b834f7ace57b58af",
   "lastOpenFiles": [
+    "Pasted image 20260808234145.png",
+    "Pasted image 20260808233800.png",
+    "Pasted image 20260808233406.png",
+    "Pasted image 20260808233337.png",
+    "Life/Conversation guide.md",
+    "Languages/English/Animals/Water Animals.md",
+    "Languages/English/Animals",
     "Life/Questions to ask.md",
     "Life/humor/WHINDERSSON NUNES.md",
-    "Life/Conversation guide.md",
     "Life/humor",
     "Languages/French/Phrases courantes.md",
     "Templates/nota-diaria.md",
@@ -246,18 +252,12 @@
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/8 - Software Design Principles.md",
     "Life",
     "Templates",
-    "Languages/French/Sentir, Se Sentir, Ressentir.md",
-    "Amazon EC2.md",
-    "Life",
     "aws_storage_overview.svg",
     "Pasted image 20260107101322.png",
     "Pasted image 20260107100759.png",
     "Pasted image 20260107100742.png",
     "image 1 2.png",
     "image 2.png",
-    "image 1 6.png",
-    "image 1 5.png",
-    "image 1 4.png",
-    "image 1 3.png"
+    "image 1 6.png"
   ]
 }
