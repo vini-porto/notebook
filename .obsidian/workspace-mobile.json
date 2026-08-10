@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nick(Delta).md",
-                "mode": "preview",
+                "file": "Life/Conversation guide Delta.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nick(Delta)"
+              "title": "Conversation guide Delta"
             }
           }
         ]
@@ -181,10 +181,11 @@
   },
   "active": "17868b78d6a8c0d3",
   "lastOpenFiles": [
+    "Nick(Delta).md",
     "Pasted image 20260808233406.png",
     "Pasted image 20260808233337.png",
     "Pasted image 20260808234145.png",
-    "Life/Conversation guide.md",
+    "Life/Conversation guide Delta.md",
     "Life/humor/WHINDERSSON NUNES.md",
     "Languages/English/Animals/Water Animals.md",
     "Pasted image 20260808233800.png",
@@ -208,7 +209,6 @@
     "/Languages/English",
     "/Languages",
     "Life/People that I know from/Delta.md",
-    "Nick(Delta).md",
     "Mario(Delta).md",
     "Kristen(Delta).md",
     "Life/Questions to ask.md",
