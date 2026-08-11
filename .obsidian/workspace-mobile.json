@@ -100,14 +100,14 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Test.md",
+            "file": "Life/Conversation guide Delta.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
             "showSearch": false,
             "searchQuery": "",
             "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
+            "unlinkedCollapsed": false
           },
           "icon": "links-coming-in",
           "title": "Backlinks"
@@ -163,7 +163,7 @@
         }
       }
     ],
-    "currentTab": 4
+    "currentTab": 0
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,20 +181,27 @@
   },
   "active": "17868b78d6a8c0d3",
   "lastOpenFiles": [
+    "Pasted image 20260809234012.png",
+    "Pasted image 20260809235031.png",
+    "Pasted image 20260809234334.png",
+    "Pasted image 20260809234150.png",
+    "Pasted image 20260809234258.png",
+    "Pasted image 20260809234054.png",
+    "Pasted image 20260809233819.png",
+    "/Pasted image 20260809235031.png",
+    "/Pasted image 20260809234334.png",
+    "/Pasted image 20260809234258.png",
+    "/Pasted image 20260809234150.png",
+    "/Languages/English/Animals/Water Animals.md",
+    "/Languages/English/Animals",
+    "/Languages/English",
+    "/Languages",
     "Life/People that I know from/Delta.md",
     "Jansen(Delta).md",
     "Life/Conversation guide Delta.md",
     "Nick(Delta).md",
-    "Pasted image 20260808233406.png",
-    "Pasted image 20260808233337.png",
-    "Pasted image 20260808234145.png",
     "Life/humor/WHINDERSSON NUNES.md",
     "Languages/English/Animals/Water Animals.md",
-    "Pasted image 20260808233800.png",
-    "/Pasted image 20260808234145.png",
-    "/Pasted image 20260808233800.png",
-    "/Pasted image 20260808233406.png",
-    "/Pasted image 20260808233337.png",
     "/Life/humor/WHINDERSSON NUNES.md",
     "/Life/Conversation guide.md",
     "/Languages/French/Phrases courantes.md",
@@ -202,14 +209,10 @@
     "/Languages/French",
     "/Languages/English/Phrasal Verbs/50 Most Common Phrasal Verbs.md",
     "/Languages/English/Phrasal Verbs",
-    "/Languages/English/Animals/Water Animals.md",
     "/Life/humor",
     "Life/humor",
     "/Life",
-    "/Languages/English/Animals",
     "Languages/English/Animals",
-    "/Languages/English",
-    "/Languages",
     "Mario(Delta).md",
     "Kristen(Delta).md",
     "Life/Questions to ask.md",
@@ -223,7 +226,6 @@
     "Languages/French/Les vacances.md",
     "Languages/French/Dogs & Cats.md",
     "Life/2026-07-31.md",
-    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/AWS Services Reference Note.md",
-    "Languages/English/Leaning Zone/Still at large.md"
+    "Sault College/W26/Winter 2026/Cloud Computing - CSD126/AWS Services Reference Note.md"
   ]
 }
