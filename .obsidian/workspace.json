@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/nota-diaria.md",
+                "file": "Languages/English/Animals/Water Animals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "nota-diaria"
+              "title": "Water Animals"
             }
           }
         ]
@@ -197,20 +197,27 @@
   },
   "active": "f76b791d4f2df2f2",
   "lastOpenFiles": [
+    "Pasted image 20260809235031.png",
+    "Pasted image 20260809234334.png",
+    "Pasted image 20260809234258.png",
+    "Pasted image 20260809234150.png",
+    "Pasted image 20260809234054.png",
+    "Pasted image 20260809234012.png",
+    "Pasted image 20260809233819.png",
+    "Languages/English/Phrasal Verbs/50 Most Common Phrasal Verbs.md",
+    "Life/Conversation guide.md",
+    "Templates/nota-diaria.md",
     "Pasted image 20260808234145.png",
     "Pasted image 20260808233800.png",
     "Pasted image 20260808233406.png",
     "Pasted image 20260808233337.png",
     "Languages/English/Animals/Water Animals.md",
-    "Life/Conversation guide.md",
     "Languages/English/Animals",
     "Life/Questions to ask.md",
     "Life/humor/WHINDERSSON NUNES.md",
     "Life/humor",
     "Languages/French/Phrases courantes.md",
-    "Templates/nota-diaria.md",
     "Languages/French/Done/100 phrases utiles.md",
-    "Languages/English/Phrasal Verbs/50 Most Common Phrasal Verbs.md",
     "Languages/English/Leaning Zone/Still at large.md",
     "Languages/English/Leaning Zone",
     "Languages/English/Register variation/Ordering the sparkling hop water.md",
@@ -236,12 +243,6 @@
     "Life/2026-07-31.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/8 - Software Design Principles.md",
     "Life",
-    "Templates",
-    "aws_storage_overview.svg",
-    "Pasted image 20260107101322.png",
-    "Pasted image 20260107100759.png",
-    "Pasted image 20260107100742.png",
-    "image 1 2.png",
-    "image 2.png"
+    "Templates"
   ]
 }
