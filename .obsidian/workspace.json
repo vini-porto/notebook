@@ -13,15 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages/English/Animals/Water Animals.md",
+                "file": "Languages/English/Eatable Plants/Fuits.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Water Animals"
+              "title": "Fuits"
+            }
+          },
+          {
+            "id": "b341edcda21f570f",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.13.6"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -195,8 +208,24 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "f76b791d4f2df2f2",
+  "active": "b341edcda21f570f",
   "lastOpenFiles": [
+    "Jansen(Delta).md",
+    "Languages/English/Animals/Water Animals.md",
+    "Languages/English/Eatable Plants/Fuits.md",
+    "Languages/English/Eatable Plants/Roots & tubers.md",
+    "Languages/English/Eatable Plants/Herbs & spices.md",
+    "Languages/English/Eatable Plants/Nuts & seeds.md",
+    "Languages/English/Eatable Plants/Grains & cereals.md",
+    "Languages/English/Eatable Plants/legumes.md",
+    "Languages/English/Eatable Plants/Vegetables.md",
+    "Languages/English/Eatable Plants",
+    "Nick(Delta).md",
+    "Mario(Delta).md",
+    "Life/People that I know from/Delta.md",
+    "Life/People that I know from",
+    "Life/Conversation guide Delta.md",
+    "Kristen(Delta).md",
     "Pasted image 20260809235031.png",
     "Pasted image 20260809234334.png",
     "Pasted image 20260809234258.png",
@@ -210,8 +239,6 @@
     "Pasted image 20260808234145.png",
     "Pasted image 20260808233800.png",
     "Pasted image 20260808233406.png",
-    "Pasted image 20260808233337.png",
-    "Languages/English/Animals/Water Animals.md",
     "Languages/English/Animals",
     "Life/Questions to ask.md",
     "Life/humor/WHINDERSSON NUNES.md",
@@ -226,23 +253,9 @@
     "Languages/English/Untitled.md",
     "Languages/English/Phrasal Verbs",
     "Amazon EBS.md",
-    "Availability Zones.md",
-    "Ordering.md",
-    "Templates/paraphrase.md",
     "Untitled.canvas",
-    "Untitled",
-    "Languages/English/Advanced English/Rhyming Reduplication.md",
     "Languages/English/Register variation",
-    "Languages/English/Advanced English/C1 Advanced Adjectives UK.md",
-    "Languages/English/Advanced English/Advanced Verbs.md",
     "Languages/French/Done",
-    "Languages/French/la prononciation.md",
-    "Languages/French/Les vacances.md",
-    "Languages/French/Dogs & Cats.md",
-    "Languages/French/Pronoun \"Y\".md",
-    "Life/2026-07-31.md",
-    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/8 - Software Design Principles.md",
-    "Life",
-    "Templates"
+    "Life"
   ]
 }
