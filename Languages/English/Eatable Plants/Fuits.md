@@ -147,16 +147,134 @@ Can be used as an **adjective** for color, flavor but also, quality: in excellen
 - ==I love the **cherry** aroma in this tea.==
 # Peach
 
+#Noun: soft juicy fruit with sweet yellow flesh / exceptionally good person or thing
+#Adjective: particularly pleasing or agreeable / inform on someone 
+#Verb: inform on someone
+
+---
+
+>[!EXAMPLE] Expressions with **Peach**
+>- **peach on:** inform on someone to an authority
+>	- She decided not to peach on her friends.
+>	- He threatened to peach on his accomplice to the police.
+>- **a peach of a:** very good or excellent / very attractive or appealing
+>	- She gave a peach of a performance in the play.
+>	- That was a peach of a meal we just had.
+>	- He has a peach of a smile that lights up the room.
+>	- She wore a peach of a dress to the party.
+>- **be a peach:** be very kind or helpful / be very attractive or pleasing
+>	- Thanks for helping me, you're always a peach.
+>	- Could you be a peach and pass me that book?
+>	- She is always a peach in her lovely dresses.
+>  - **peach fuzz:** very fine, soft hair on skin
+> 	 - Teenagers often have peach fuzz on their upper lips.
+>	- She noticed peach fuzz on her cheeks.
+>	- The baby’s skin was covered in peach fuzz.
+
+
+- ==She added slices of **peach** to the fruit salad.==
+- ==She wore a dress of **peach** color.==
+- ==The sunset had a beautiful **peach** hue.==
+- ==That vintage guitar is a **peach**.==
+- ==Her homemade pie is a **peach**.==
+- ==The walls were painted a soft **peach** color.==
+- ==Her **peach** scarf matched the autumn leaves.==
+- ==Her **peach** demeanor made everyone feel at ease.==
+- ==The **peach** melody of the song was soothing.==
+- ==She threatened to **peach** on the group if they didn't include her.==
+- ==The witness was reluctant to **peach** on his accomplices.==
+
 # Plum
+
+#Noun: small sweet fruit with smooth skin / something highly desirable, especially a job
+#Adjective: highly desirable or advantageous
+#Adverb: completely or utterly / exactly, precisely
+
+---
+
+>[!EXAMPLE] Expressions with **Plum**
+>- **plum role:** highly desirable job or position
+>	- She landed a plum role in the new movie.
+>	- He was thrilled to get a plum role at the tech company.
+>- **plum crazy:** completely insane or irrational / extremely enthusiastic or passionate
+>	- He must be plum crazy to quit his job without another one lined up.
+>	- She went plum crazy after hearing the news.
+> 	 - She's plum crazy about that new band and follows them everywhere.
+> - **real plum:** very desirable or advantageous thing
+> 	- Landing that job was a real plum for her.
+>	- That promotion was a real plum for his career.
+>  - **like a ripe plum:** very appealing or desirable / easily attainable or ready for use
+> 	 - The deal was like a ripe plum to investors.
+>	- The job offer was like a ripe plum to her.
+> 	 - The opportunity was like a ripe plum, ready to be seized.
+> - **plum tuckered out:** extremely tired or exhauste
+> 	- After the long hike, I was plum tuckered out.
+>	- She was plum tuckered out after the marathon.
+
+- ==Her **plum** lipstick complemented her outfit.==
+- ==She was offered a **plum** role in the new movie.==
+- ==Getting a **plum** assignment like that is rare.==
+- ==She packed a **plum** in her lunchbox.==
+- ==The market sells fresh plums every summer.==
+- ==The **plum** in the orchard was heavy with fruit.==
+- ==A **plum** stood tall in the backyard.==
+- ==That project was a **plum** for the new manager.==
+- ==She got a **plum** assignment right out of college.==
+- ==The artist chose a **plum** shade for the painting.==
+- ==Her room was decorated in a soothing **plum** color.==
+- ==She was **plum** surprised by the unexpected gift.==
+- ==The room was **plum** silent after the announcement.==
+- ==The arrow hit **plum** in the middle of the target.==
+- ==She placed the vase **plum** on the table.==
 
 # Apricot
 
+- ==The **apricot** tree in the backyard is full of fruit.==
+- ==The walls were painted in a calming **apricot**.==
+- ==Her scarf was a lovely shade of **apricot**.==
+- ==The **apricot** was planted last spring.==
+- ==He admired the **apricot** in the neighbor's yard.==
+- ==The **apricot** walls brightened the room.==
+- ==Her **apricot** scarf matched the autumn leaves.==
+
 # Pear
+
+#Noun: sweet fruit with a rounded bottom and narrowing top / wood from a fruit-bearing tree used in furniture making
+
+---
+
+>[!EXAMPLE] Expressions with **Pear**
+>- **pear of anguish:** historical torture device used to inflict pain
+>	- The museum displayed a pear of anguish from the medieval era.
+>- **alligator pear:**  avocado
+>	- She sliced the alligator pear for the salad.
+
+- ==The **pear** tree in the garden is blooming.==
+- ==The old **pear** in the orchard was diseased.==
+- ==Farmers are planting a new variety of **pear**.==
+- ==The cabinet was crafted from **pear**.==
+- ==**Pear** is often used in fine woodworking.==
+- ==The designer chose **pear** for the logo.==
+- ==Her dress was a lovely **pear** hue.==
 
 # Pineapple
 
+- ==He bought a **pineapple** at the market.==
+- ==The banquet hall featured a **pineapple** on each table.==
+- ==**Pineapple** motifs were carved into the wooden panels.==
+
 # Mango
 
+>[!EXAMPLE] Expressions with **Pear**
+>- **mango madness:** promotional event featuring mango products / tropical-themed party or celebration
+>	- The store's mango madness offered discounts on all mango-flavored items
+>	- We had a mango madness at the beach with tropical drinks and music.
+
+- ==The market sold mangoes imported from tropical regions.==
+- ==The **mango** tree is blooming beautifully.==
+- ==Farmers harvested a large **mango** this season.==
+- ==The artist chose a **mango** hue for the sunset.==
+- ==Her room was painted in a soft **mango** shade.==
 # Papaya
 
 # Watermelon
