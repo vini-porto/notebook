@@ -277,26 +277,200 @@ Can be used as an **adjective** for color, flavor but also, quality: in excellen
 - ==Her room was painted in a soft **mango** shade.==
 # Papaya
 
+- ==The smoothie was made with ripe **papaya**.==
+- ==**Papaya** is often used in fruit salads for its sweetness.==
+- ==The **papaya** tree can reach up to 10 meters in height.==
+- ==Her dress was a bright **papaya** shade.==
+- ==The sunset had a beautiful **papaya** hue.==
 
 # Watermelon
 
+>[!EXAMPLE] Expressions with **Watermelon** 
+>- **watermelon snow:** snow with red or pink patches from algae
+> 	- We hiked through fields of watermelon snow.
+>	- Scientists study the causes of watermelon snow.
+>	- Watermelon snow can be seen in polar regions. 
+
+- ==He bought a **watermelon** from the farmer's market.==
+- ==The artist used a **watermelon** hue for the sunset.==
+- ==Her nails were painted in a bright **watermelon** shade.==
 # Cantaloupe
+
+- ==She sliced the **cantaloupe** for breakfast.==
+- ==The **cantaloupe** hue of the sunset was breathtaking.==
+- ==She painted her room in a soft **cantaloupe** color.==
 
 # Honeydew melon
 
+- ==I bought a honeydew melon for the picnic.==
+- ==Honeydew melon is a refreshing summer treat.==
+- ==He added honeydew melon to the smoothie for extra sweetness.==
+
 # Kiwi
+
+#Noun: oval fruit with brown skin and green flesh / person from New Zealand / flightless bird native to New Zealand
+
+---
+
+- ==**Kiwi** is a great source of vitamin C.==
+- ==The **kiwi** shared stories of New Zealand culture.==
+- ==A **kiwi** guided us through the local market.==
+- ==Kiwis are nocturnal and elusive creatures.==
+- ==The **kiwi**'s habitat is threatened by deforestation.==
 
 # Lemon
 
+#Noun: yellow citrus fruit with sour taste / defective item or person
+
+---
+
+>[!EXAMPLE] Expressions with **Lemon** 
+>- **buy a lemon:** purchase something that turns out to be defective
+>	- He didn't know he would buy a lemon when he got that car.
+>- **sell someone a lemon:** trick someone into a bad deal
+>	- She was sold a lemon when she bought that old house.
+> - **suck a lemon:** to deal with an unpleasant situation: 
+> 	- When the project failed, they had to suck a lemon and move on.
+> - **stand there like a lemon:** remain in one place doing nothing helpful in an awkward situation
+> 	- Everyone was busy cleaning while I could only stand there like a lemon.
+
+- ==The recipe called for the zest of a **lemon**.==
+- ==The artist used a **lemon** hue for the painting.==
+- ==Her room was decorated in a **lemon** color scheme.==
+- ==The phone was a **lemon**, breaking within days.==
+- ==His new laptop was a **lemon**, constantly crashing.==
+- ==The drink had a refreshing **lemon** aroma.==
+- ==She wore a dress with a **lemon** scent.==
+- ==The room was painted in a soft **lemon** hue.==
+- ==He chose a **lemon** tie to match his shirt.==
+
 # Lime
+#Noun: green citrus fruit smaller than a lemon / inorganic material containing calcium like calcium oxide
+#Verb: hang out or socialize informally / treat soil with crushed calcium compounds to lower acidity. / apply limewash to a surface 
+
+---
+
+- ==She squeezed **lime** over the grilled fish.==
+- ==The **lime** was planted in the garden last spring.==
+- ==A **lime** can thrive in tropical climates.==
+- ==**Lime** is essential in the production of steel.==
+- ==Farmers use **lime** to improve soil quality.==
+- ==The **lime** walls brightened up the room.==
+- ==His favorite color is **lime** because it's so vibrant.==
+- ==Every Friday night, there's a **lime** at the local bar.==
+- ==The **lime** at her house was the highlight of the weekend.==
+- ==The **lime** scent filled the room.==
+- ==Her **lime** dessert was refreshing and tangy.==
+- ==The **lime** curtains brightened up the room.==
+- ==He painted his bike a striking **lime** color.==
+- ==They decided to **lime** at the local cafe.==
+- ==We often **lime** at the park after work.==
+- ==They **lime** the garden every spring.==
+- ==It's essential to **lime** the soil for better growth.==
+- ==Workers **lime** the old building annually.==
+- ==They plan to **lime** the exterior walls next week.==
+- ==Farmers **lime** the trees to protect their crops.==
+- ==Hunters **lime** the nets to trap the elusive birds.==
 
 # Grapefruit
 
+- ==**Grapefruit** can be a healthy snack option.==
+- ==I enjoy a fresh **grapefruit** for breakfast.==
+- ==**Grapefruit** can be quite tart and refreshing.==
+
 # Pomegranate
+
+- ==She bought a **pomegranate** at the farmer's market.==
+- ==The walls were painted in a **pomegranate** hue.==
+- ==Her lipstick was a striking **pomegranate** shade.==
 
 # Fig
 
+#Noun: sweet fruit with many small seeds / something of little value
+#Verb: dress or adorn in a showy way / insult with a contemptuous gesture
+
+---
+
+>[!EXAMPLE] Expressions with **Fig** 
+>- **fig leaf:** something used to hide an undesirable fact
+>	- The apology was just a fig leaf for their mistakes.
+>	- The charity donation was a fig leaf for the company's tax evasion.
+>- **care/give a fig:** feel any concern or interest about something
+>	- He doesn't care a fig about their opinion.
+> 	 - I don't give a fig about their opinion.
+>- **not worth a fig:** having no value or importance
+>	- His opinion is not worth a fig to me.
+>	- Her excuses are not worth a fig.
+>- **vine and fig tree:** symbol of peace and prosperity / place of personal security and comfort
+>	- They dreamed of living under their own vine and fig tree.
+> 	 - He found his vine and fig tree in the countryside.
+
+- ==The **fig** tree in the garden bears fruit in summer.==
+- ==A **fig** can grow quite large in warm climates.==
+- ==The **fig** provides shade in the summer.==
+- ==She doesn't give a **fig** about their opinions.==
+- ==His promises aren't worth a **fig** to me.==
+- ==He figged himself out in his finest clothes for the event.==
+- ==They figged up the room with extravagant decorations.==
+- ==She would **fig** her rivals during debates.==
+- ==The actor was known to **fig** critics with humor.==
+- ==The artisan noticed the soap would **fig** overnight.==
+- ==After a week, the batch started to **fig** unexpectedly.==
+- ==He learned how to **fig** the horse properly.==
+- ==The stablehand was skilled at figging horses.==
+
 # Date
+#Noun: specific day when an event happens / sweet fruit that grows on a tall palm tree / romantic meeting with someone
+#Verb: become old-fashioned or outdated
+
+---
+
+>[!EXAMPLE] Expressions with **Date** 
+>- **double date:** date where two couples participate together
+>	- We went on a double date to the movies.
+>	- We decided to double date with our friends last weekend.
+>- **cheap date:** date that costs little money / person who gets drunk easily
+>	- We went for a walk in the park, it was a cheap date.
+>	- She's such a cheap date, one drink and she's tipsy.
+>- **date around:** explore different romantic relationships
+>	- He wanted to date around to find the right person.
+>	- She decided to date around after her breakup.
+>- **to date:** up until now or the present time
+>	- This is the best movie I have seen to date.
+>	- To date, no one has solved the puzzle.
+>- **bring up to date:** make something current or modern / inform someone of the latest news
+>	- We need to bring the software up to date.
+>	- She brought him up to date on the project status.
+>- **be past its sell-by date:** no longer useful or relevant / no longer safe or good to use or eat
+> 	 - That style is past its sell-by date.
+> 	 - This milk is past its sell-by date.
+>  - **drop-dead date:** absolute deadline that cannot be missed
+> 	 - The project must be completed by the drop-dead date.
+>  - **it's a date:** agreement to meet at a specific time
+> 	 - We agreed to meet at 7 PM, it's a date.
+>	- Let's meet at the cafe at noon, it's a date.
+>  - **date with destiny:** inevitable future event that is momentous
+> 	 - She felt she had a date with destiny at the championship.
+>  - **Dutch date:** romantic outing where participants split the cost
+> 	 - They went on a Dutch date to the new restaurant.
+> 	 - A Dutch date seemed fair to both of them.
+>  - **blind date:** romantic meeting between strangers
+> 	 - They went on a blind date last night.
+>	- She was nervous about her first blind date.
+
+- The **date** of the meeting was changed.
+- Dates are often used in Middle Eastern desserts.
+- She bought a box of dates from the market.
+- She has a **date** with her favorite author at the book signing.
+- He asked her out on a **date** to the new restaurant.
+- They decided to **date** after meeting at the conference.
+- She doesn't **date** anyone from her workplace.
+- He forgot to **date** the contract before filing it.
+- Please **date** the application form upon completion.
+- His slang started to **date** as new terms emerged.
+- The technology began to **date** within a few years.
+- Scientists used carbon dating to **date** the ancient pottery.
+- The team dated the fossils to the Jurassic period.
 
 # Coconut
 

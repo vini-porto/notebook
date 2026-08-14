@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "Fuits"
             }
-          },
-          {
-            "id": "3a8cbd3fa54e4492",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.13.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.13.7"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Verb",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +76,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -208,8 +196,9 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "3a8cbd3fa54e4492",
+  "active": "f76b791d4f2df2f2",
   "lastOpenFiles": [
+    "Kevin02.md",
     "Jansen(Delta).md",
     "Languages/English/Animals/Water Animals.md",
     "Languages/English/Eatable Plants/Fuits.md",
@@ -252,7 +241,6 @@
     "Languages/English/Idiomatic Expressions",
     "Languages/English/Untitled.md",
     "Languages/English/Phrasal Verbs",
-    "Amazon EBS.md",
     "Untitled.canvas",
     "Languages/English/Register variation",
     "Languages/French/Done",
