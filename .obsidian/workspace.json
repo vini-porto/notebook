@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Fuits"
             }
+          },
+          {
+            "id": "3a8cbd3fa54e4492",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.13.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -195,7 +208,7 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "315c83aaff31e835",
+  "active": "3a8cbd3fa54e4492",
   "lastOpenFiles": [
     "Jansen(Delta).md",
     "Languages/English/Animals/Water Animals.md",
