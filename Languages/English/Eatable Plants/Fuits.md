@@ -458,46 +458,150 @@ Can be used as an **adjective** for color, flavor but also, quality: in excellen
 > 	 - They went on a blind date last night.
 >	- She was nervous about her first blind date.
 
-- The **date** of the meeting was changed.
-- Dates are often used in Middle Eastern desserts.
-- She bought a box of dates from the market.
-- She has a **date** with her favorite author at the book signing.
-- He asked her out on a **date** to the new restaurant.
-- They decided to **date** after meeting at the conference.
-- She doesn't **date** anyone from her workplace.
-- He forgot to **date** the contract before filing it.
-- Please **date** the application form upon completion.
-- His slang started to **date** as new terms emerged.
-- The technology began to **date** within a few years.
-- Scientists used carbon dating to **date** the ancient pottery.
-- The team dated the fossils to the Jurassic period.
+- ==The **date** of the meeting was changed.==
+- ==Dates are often used in Middle Eastern desserts.==
+- ==She bought a box of dates from the market.==
+- ==She has a **date** with her favorite author at the book signing.==
+- ==He asked her out on a **date** to the new restaurant.==
+- ==They decided to **date** after meeting at the conference.==
+- ==She doesn't **date** anyone from her workplace.==
+- ==He forgot to **date** the contract before filing it.==
+- ==Please **date** the application form upon completion.==
+- ==His slang started to **date** as new terms emerged.==
+- ==The technology began to **date** within a few years.==
+- ==Scientists used carbon dating to **date** the ancient pottery.==
+- ==The team dated the fossils to the Jurassic period.==
 
 # Coconut
 
+>[!EXAMPLE] Expressions with **Coconut** 
+>- **coconut wireless:** unofficial communication system in island communities / informal spread of information in Oceania 
+>	- ==They learned about the storm through the **coconut wireless**.==
+>	- ==News of the event spread quickly through the **coconut wireless**.==
+>- **coconut meat:** edible white flesh inside a coconut
+
+- ==The recipe calls for fresh **coconut**.==
+- ==She cracked open the **coconut** to drink its water.==
+- ==The recipe calls for grated **coconut**.==
+- ==A **coconut** fell from the tree with a thud.==
+- ==They harvested coconuts from the tall trees.==
+
 # Avocado
+
+>[!EXAMPLE] Expressions with **Avocado** 
+>- **avocado toast:** popular breakfast or brunch dish
+> 	 - ==**Avocado toast** is a trendy meal at cafes.==
+
+- ==He wore an **avocado** shirt to the event.==
+- ==The kitchen appliances were all in **avocado** tones.==
+- ==She wore an **avocado** dress to the party.==
+- ==She spread **avocado** on her toast for breakfast.==
+- ==**Avocado** is a key ingredient in guacamole.==
+- ==The **avocado** provides shade in the backyard.==
+- ==**Avocado** leaves rustled in the wind.==
+- ==The curtains in the living room are **avocado**.==
+- ==He chose an **avocado** tie for the event.==
 
 # Guava
 
+- ==He made a delicious **guava** smoothie for the party.==
+- ==The **guava** provides shade in the garden.==
+- ==Farmers cultivate **guava** for its sweet fruit.==
+
 # Passion fruit
+
+- ==**Passion fruit** is often used in tropical desserts.==
+- ==**Passion fruit** is often used in desserts.==
+- ==The **passion fruit** vine climbed the trellis.==
 
 # Lychee
 
+- ==The **lychee** tree in our backyard is blooming.==
+- ==He savored the juicy **lychee** after dinner.==
+- ==**Lychee** is often used in tropical fruit salads.==
+
 # Dragon fruit
+
+- ==The market sells **dragon fruit** at a high price.==
+- ==Farmers are cultivating **dragon fruit** for export.==
+- ==**Dragon fruit** requires specific conditions to grow well.==
 
 # Persimmon
 
+>[!EXAMPLE] Expressions with **Persimmon** 
+>- **huckleberry above a persimmon:** person better than another
+>	- ==She proved to be a **huckleberry above a persimmon** in the competition.==
+> 	 - ==In terms of skill, he's a **huckleberry above a persimmon**.==
+>  - **huckleberry above one's persimmon:**
+> 	 - ==Managing the project was a **huckleberry above his persimmon**.==
+
+- ==She made a delicious **persimmon** pudding for dessert.==
+- ==The **persimmon** was planted last spring.==
+- ==**Persimmon** leaves turned orange in autumn.==
 # Cranberry
+
+- ==The **cranberry** harvest was exceptionally good this year.==
+- ==The artist used a **cranberry** hue in the painting.==
+- ==Her scarf was a lovely shade of **cranberry**.==
+- ==**Cranberry** bushes are common in this region.==
+- ==We harvested the **cranberry** in late autumn.==
 
 # Elderberry
 
+- ==The **elderberry** pie was a hit at the dinner party.==
+- ==**Elderberry** is used in traditional medicine.==
+- ==Birds often feed on **elderberry** fruits.==
+
 # Currant
 
-# Gooseberry
+- ==The bread was studded with sweet currants.==
+- ==She sprinkled currants over the cereal for breakfast.==
+- ==Currants are often used in traditional British desserts.==
 
+# Gooseberry
+#Noun: small round, green fruit often used in desserts / unwanted person in a group of couples
+
+---
+
+>[!EXAMPLE] Expressions with **Gooseberry** 
+>- **play gooseberry:** be an unwanted third person with a couple: 
+>	- ==I didn't want to **play gooseberry** on their date==
+>- **under a gooseberry bush:** in a place where babies are said to be found
+>	- ==They told the child that babies come from under a **gooseberry bush**.==
+>- **green as a gooseberry:** very inexperienced or naive
+>	- ==He was **green as a gooseberry** when he started his first job.==
+>- **gooseberry eye:** prominent dull eye often seen as unattractive
+>	- ==He was known for his **gooseberry eye**, which stood out.==
+>- **gooseberry season:** time when news is light and unusual
+>	- ==During **gooseberry season**, newspapers often feature quirky stories.==
+
+- ==The **gooseberry** bush in the backyard is full of ripe fruit.==
+- ==Being a **gooseberry** on their date was awkward.==
+- ==He often felt like a **gooseberry** among his married friends.==
+- ==I planted a **gooseberry** in my garden.==
+- ==The **gooseberry**'s thorns can be quite sharp.==
 # Nectarine
+
+- ==The **nectarine** was ripe and ready to eat.==
+- ==Her dress was a lovely **nectarine** shade.==
+- ==The artist chose **nectarine** for the background.==
 
 # Tangerine
 
+- ==He wore a **tangerine** tie that stood out in the boardroom.==
+- ==She peeled a **tangerine** for dessert.==
+- ==Tangerines are in season during winter.==
+- ==The orchard has several tangerines growing healthily.==
+- ==Farmers are cultivating tangerines for their juicy fruits.==
+- ==The sunset painted the sky in **tangerine** hues.==
+- ==His favorite crayon was the **tangerine** one.==
+
 # Star fruit
 
+- ==The **star fruit** adds a unique flavor to the dish.==
+
 # Jackfruit
+
+- ==She made a curry using fresh **jackfruit**.==
+- ==**Jackfruit** is a versatile ingredient in vegan recipes.==
+- ==The market was filled with the sweet aroma of ripe **jackfruit**.==
