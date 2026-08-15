@@ -19,9 +19,9 @@
 >[!EXAMPLE] Expressions with **banana**
 >- **banana kick:** kick that curves in flight
 >- **make like a banana and split:** to leave a place quickly or suddenly
->	- We should make like a banana and split before it rains.
->	- We need to make like a banana and split before the meeting starts.
->	- Let's make like a banana and split once the show ends.
+>	- ==We should make like a banana and split before it rains.==
+>	- ==We need to make like a banana and split before the meeting starts.==
+>	- ==Let's make like a banana and split once the show ends.==
 
 - ==The monkey grabbed a **banana** from the bunch.==
 - ==The **banana** needs plenty of sunlight to thrive.==
@@ -62,9 +62,9 @@
 
 >[!EXAMPLE] Expressions with **Strawberry**
 >- **strawberry blonde:** having light reddish-blonde hair / person with reddish blonde hair
-> 	 - She admired her strawberry blonde curls in the mirror.
->	- Her strawberry blonde hair shone in the sunlight.
-> 	 - She is a natural strawberry blonde.
+> 	 - ==She admired her strawberry blonde curls in the mirror.==
+>	- ==Her strawberry blonde hair shone in the sunlight.==
+> 	 - ==She is a natural strawberry blonde.==
 
 - ==The **strawberry** was ripe and ready to eat.==
 - ==A **strawberry** was planted in the corner of the yard.==
@@ -93,8 +93,7 @@
 - ==She planted a **raspberry** in her backyard garden.==
 - ==The **raspberry** was covered in morning dew.==
 - ==The walls were painted a soft **raspberry** hue.==
-
-- Her lipstick was a striking **raspberry** shade.
+- ==Her lipstick was a striking **raspberry** shade.==
 
 # Blackberry
 
@@ -114,23 +113,23 @@ Can be used as an **adjective** for color, flavor but also, quality: in excellen
 
 >[!EXAMPLE] Expressions with **Cherry**
 >- **cherry condition:** excellent or pristine state / like new or unused
->	- The vintage car is in cherry condition.
->	- The bike was in cherry condition after restoration.
->	- He kept his tools in cherry condition.
+>	- ==The vintage car is in cherry condition.==
+>	- ==The bike was in cherry condition after restoration.==
+>	- ==He kept his tools in cherry condition.==
 > - **cherry boy:** boy or man who is naive or inexperienced (Virgin)
->	- As a cherry boy in the business, he made several rookie mistakes.
->	- He was a cherry boy when it came to relationships.
-> 	 - He was teased for being a cherry boy in college.
+>	- ==As a cherry boy in the business, he made several rookie mistakes.==
+>	- ==He was a cherry boy when it came to relationships.==
+> 	 - ==He was teased for being a cherry boy in college.==
 >  - **cherry on top:** final touch that enhances a situation
-> 	 - Winning the lottery was the cherry on top.
->	- The bonus was the cherry on top of a great year.
->	- Her smile was the cherry on top of a perfect day.
+> 	 - ==Winning the lottery was the cherry on top.==
+>	- ==The bonus was the cherry on top of a great year.==
+>	- ==Her smile was the cherry on top of a perfect day.==
 >- **bite of the cherry:** chance to do something important
-> 	 - He was thrilled to get a bite of the cherry.
+> 	 - ==He was thrilled to get a bite of the cherry.==
 > - **pop the cherry:** do something for the first time / break the hymen during first intercourse
-> 	- I popped the cherry on public speaking at the wedding toast.
-> 	- He was nervous to pop the cherry.
->	- She felt ready to pop the cherry with her partner.
+> 	- ==I popped the cherry on public speaking at the wedding toast.==
+> 	- ==He was nervous to pop the cherry.==
+>	- ==She felt ready to pop the cherry with her partner.==
 
 - ==The **cherry** pie was a hit at the party.==
 - ==The walls were painted in a **cherry** hue.==
@@ -155,21 +154,21 @@ Can be used as an **adjective** for color, flavor but also, quality: in excellen
 
 >[!EXAMPLE] Expressions with **Peach**
 >- **peach on:** inform on someone to an authority
->	- She decided not to peach on her friends.
->	- He threatened to peach on his accomplice to the police.
+>	- ==She decided not to peach on her friends.==
+>	- ==He threatened to peach on his accomplice to the police.==
 >- **a peach of a:** very good or excellent / very attractive or appealing
->	- She gave a peach of a performance in the play.
->	- That was a peach of a meal we just had.
->	- He has a peach of a smile that lights up the room.
->	- She wore a peach of a dress to the party.
+>	- ==She gave a peach of a performance in the play.==
+>	- ==That was a peach of a meal we just had.==
+>	- ==He has a peach of a smile that lights up the room.==
+>	- ==She wore a peach of a dress to the party.==
 >- **be a peach:** be very kind or helpful / be very attractive or pleasing
->	- Thanks for helping me, you're always a peach.
->	- Could you be a peach and pass me that book?
->	- She is always a peach in her lovely dresses.
+>	- ==Thanks for helping me, you're always a peach.==
+>	- ==Could you be a peach and pass me that book?==
+>	- ==She is always a peach in her lovely dresses.==
 >  - **peach fuzz:** very fine, soft hair on skin
-> 	 - Teenagers often have peach fuzz on their upper lips.
->	- She noticed peach fuzz on her cheeks.
->	- The baby’s skin was covered in peach fuzz.
+> 	 - ==Teenagers often have peach fuzz on their upper lips.==
+>	- ==She noticed peach fuzz on her cheeks.==
+>	- ==The baby’s skin was covered in peach fuzz.==
 
 
 - ==She added slices of **peach** to the fruit salad.==
@@ -191,25 +190,24 @@ Can be used as an **adjective** for color, flavor but also, quality: in excellen
 #Adverb: completely or utterly / exactly, precisely
 
 ---
-
 >[!EXAMPLE] Expressions with **Plum**
 >- **plum role:** highly desirable job or position
->	- She landed a plum role in the new movie.
->	- He was thrilled to get a plum role at the tech company.
+>	- ==She landed a **plum role** in the new movie.==
+>	- ==He was thrilled to get a **plum role** at the tech company.==
 >- **plum crazy:** completely insane or irrational / extremely enthusiastic or passionate
->	- He must be plum crazy to quit his job without another one lined up.
->	- She went plum crazy after hearing the news.
-> 	 - She's plum crazy about that new band and follows them everywhere.
+>	- ==He must be **plum crazy** to quit his job without another one lined up.==
+>	- ==She went **plum crazy** after hearing the news.==
+> 	 - ==She's **plum crazy** about that new band and follows them everywhere.==
 > - **real plum:** very desirable or advantageous thing
-> 	- Landing that job was a real plum for her.
->	- That promotion was a real plum for his career.
+> 	- ==Landing that job was a **real plum** for her.==
+>	- ==That promotion was a **real plum** for his career.==
 >  - **like a ripe plum:** very appealing or desirable / easily attainable or ready for use
-> 	 - The deal was like a ripe plum to investors.
->	- The job offer was like a ripe plum to her.
-> 	 - The opportunity was like a ripe plum, ready to be seized.
+> 	 - ==The deal was like a **ripe plum** to investors.==
+>	- ==The job offer was like a **ripe plum** to her.==
+> 	 - ==The opportunity was like a **ripe plum**, ready to be seized.==
 > - **plum tuckered out:** extremely tired or exhauste
-> 	- After the long hike, I was plum tuckered out.
->	- She was plum tuckered out after the marathon.
+> 	- ==After the long hike, I was **plum tuckered out**.==
+>	- ==She was **plum tuckered out** after the marathon.==
 
 - ==Her **plum** lipstick complemented her outfit.==
 - ==She was offered a **plum** role in the new movie.==
@@ -245,9 +243,9 @@ Can be used as an **adjective** for color, flavor but also, quality: in excellen
 
 >[!EXAMPLE] Expressions with **Pear**
 >- **pear of anguish:** historical torture device used to inflict pain
->	- The museum displayed a pear of anguish from the medieval era.
+>	- ==The museum displayed a pear of anguish from the medieval era.==
 >- **alligator pear:**  avocado
->	- She sliced the alligator pear for the salad.
+>	- ==She sliced the alligator pear for the salad.==
 
 - ==The **pear** tree in the garden is blooming.==
 - ==The old **pear** in the orchard was diseased.==
@@ -267,8 +265,8 @@ Can be used as an **adjective** for color, flavor but also, quality: in excellen
 
 >[!EXAMPLE] Expressions with **Pear**
 >- **mango madness:** promotional event featuring mango products / tropical-themed party or celebration
->	- The store's mango madness offered discounts on all mango-flavored items
->	- We had a mango madness at the beach with tropical drinks and music.
+>	- ==The store's mango madness offered discounts on all mango-flavored items==
+>	- ==We had a mango madness at the beach with tropical drinks and music.==
 
 - ==The market sold mangoes imported from tropical regions.==
 - ==The **mango** tree is blooming beautifully.==
@@ -287,9 +285,9 @@ Can be used as an **adjective** for color, flavor but also, quality: in excellen
 
 >[!EXAMPLE] Expressions with **Watermelon** 
 >- **watermelon snow:** snow with red or pink patches from algae
-> 	- We hiked through fields of watermelon snow.
->	- Scientists study the causes of watermelon snow.
->	- Watermelon snow can be seen in polar regions. 
+> 	- ==We hiked through fields of **watermelon snow**.==
+>	- ==Scientists study the causes of **watermelon snow**.==
+
 
 - ==He bought a **watermelon** from the farmer's market.==
 - ==The artist used a **watermelon** hue for the sunset.==
@@ -326,13 +324,13 @@ Can be used as an **adjective** for color, flavor but also, quality: in excellen
 
 >[!EXAMPLE] Expressions with **Lemon** 
 >- **buy a lemon:** purchase something that turns out to be defective
->	- He didn't know he would buy a lemon when he got that car.
+>	- ==He didn't know he would buy a lemon when he got that car.==
 >- **sell someone a lemon:** trick someone into a bad deal
->	- She was sold a lemon when she bought that old house.
+>	- ==She was sold a lemon when she bought that old house.==
 > - **suck a lemon:** to deal with an unpleasant situation: 
-> 	- When the project failed, they had to suck a lemon and move on.
+> 	- ==When the project failed, they had to suck a lemon and move on.==
 > - **stand there like a lemon:** remain in one place doing nothing helpful in an awkward situation
-> 	- Everyone was busy cleaning while I could only stand there like a lemon.
+> 	- ==Everyone was busy cleaning while I could only stand there like a lemon.==
 
 - ==The recipe called for the zest of a **lemon**.==
 - ==The artist used a **lemon** hue for the painting.==
@@ -393,17 +391,17 @@ Can be used as an **adjective** for color, flavor but also, quality: in excellen
 
 >[!EXAMPLE] Expressions with **Fig** 
 >- **fig leaf:** something used to hide an undesirable fact
->	- The apology was just a fig leaf for their mistakes.
->	- The charity donation was a fig leaf for the company's tax evasion.
+>	- ==The apology was just a fig leaf for their mistakes.==
+>	- ==The charity donation was a fig leaf for the company's tax evasion.==
 >- **care/give a fig:** feel any concern or interest about something
->	- He doesn't care a fig about their opinion.
-> 	 - I don't give a fig about their opinion.
+>	- ==He doesn't care a fig about their opinion.==
+> 	 - ==I don't give a fig about their opinion.==
 >- **not worth a fig:** having no value or importance
->	- His opinion is not worth a fig to me.
->	- Her excuses are not worth a fig.
+>	- ==His opinion is not worth a fig to me.==
+>	- ==Her excuses are not worth a fig.==
 >- **vine and fig tree:** symbol of peace and prosperity / place of personal security and comfort
->	- They dreamed of living under their own vine and fig tree.
-> 	 - He found his vine and fig tree in the countryside.
+>	- ==They dreamed of living under their own vine and fig tree.==
+> 	 - ==He found his vine and fig tree in the countryside.==
 
 - ==The **fig** tree in the garden bears fruit in summer.==
 - ==A **fig** can grow quite large in warm climates.==
