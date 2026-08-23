@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages/English/Eatable Plants/Fuits.md",
+                "file": "Languages/English/Eatable Plants/Herbs & spices.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fuits"
+              "title": "Herbs & spices"
             }
           }
         ]
@@ -195,8 +195,11 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "315c83aaff31e835",
+  "active": "f76b791d4f2df2f2",
   "lastOpenFiles": [
+    "Languages/English/Eatable Plants/Fuits.md",
+    "Languages/English/Eatable Plants/Grains & cereals.md",
+    "Languages/English/Eatable Plants/Herbs & spices.md",
     "Languages/English/Eatable Plants 1/legumes.md",
     "Languages/English/Eatable Plants 1/Vegetables.md",
     "Languages/English/Eatable Plants 1/Roots & tubers.md",
@@ -205,13 +208,10 @@
     "Languages/English/Eatable Plants 1/Grains & cereals.md",
     "Languages/English/Eatable Plants 1/Fuits.md",
     "Languages/English/Eatable Plants 1",
-    "Languages/English/Eatable Plants/Grains & cereals.md",
-    "Languages/English/Eatable Plants/Herbs & spices.md",
     "Languages/English/Eatable Plants/legumes.md",
     "Languages/English/Eatable Plants/Vegetables.md",
     "Languages/English/Eatable Plants/Roots & tubers.md",
     "Languages/English/Eatable Plants/Nuts & seeds.md",
-    "Languages/English/Eatable Plants/Fuits.md",
     "Languages/English/Animals/Water Animals.md",
     "Kevin02.md",
     "Jansen(Delta).md",

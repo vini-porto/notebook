@@ -11,9 +11,9 @@ PT: Trigo
 >	- ==The trader attempted to make a corner in wheat.==
 
 
-====- Farmers harvest wheat in late summer.
-- Wheat is a staple crop in many countries.
-- The field was full of golden wheat.
+- ==Farmers harvest wheat in late summer.==
+- ==Wheat is a staple crop in many countries.==
+- ==The field was full of golden wheat.==
 
 # Rice
 
@@ -62,23 +62,23 @@ PT: Milho
 >- **earn one's corn:** justify one's position by performing well
 >	- ==He really earned his corn with that successful project.==
 
-- She bought fresh **corn** from the market.
-- In Scotland, oats are the primary **corn**.
-- Barley serves as **corn** in some regions.
-- The farmer harvested **corn** early this year.
-- **Corn** prices have risen due to the drought.
-- She visited a podiatrist for her **corn**.
-- The **corn** on his toe made walking painful.
-- He visited a podiatrist for his **corn**.
-- The **corn** on his hand made writing difficult.
-- His speech was full of **corn**, yet it moved the audience.
-- The novel's plot was **corn**, but it was a bestseller.
-- Many forums discuss the impact of **corn** on society.
-- **Corn** is often shared discreetly among users.
-- They decided to **corn** the fish for preservation.
-- Corned vegetables are a traditional method of storage.
-- The chemist corned the salt for the experiment.
-- They corned the powder to improve its texture.
+- ==She bought fresh **corn** from the market.==
+- ==In Scotland, oats are the primary **corn**.==
+- ==Barley serves as **corn** in some regions.==
+- ==The farmer harvested **corn** early this year.==
+- ==**Corn** prices have risen due to the drought.==
+- ==She visited a podiatrist for her **corn**.==
+- ==The **corn** on his toe made walking painful.==
+- ==He visited a podiatrist for his **corn**.==
+- ==The **corn** on his hand made writing difficult.==
+- ==His speech was full of **corn**, yet it moved the audience.==
+- ==The novel's plot was **corn**, but it was a bestseller.==
+- ==Many forums discuss the impact of **corn** on society.==
+- ==**Corn** is often shared discreetly among users.==
+- ==They decided to **corn** the fish for preservation.==
+- ==Corned vegetables are a traditional method of storage.==
+- ==The chemist corned the salt for the experiment.==
+- ==They corned the powder to improve its texture.==
 
 # Oats
 PT: Aveia
@@ -120,30 +120,30 @@ PT: centeio
 
 ---
 
-- **Rye** is often used in classic American whiskey recipes.
-- **Rye** is often used in whiskey production.
-- The bakery uses **rye** in their bread recipes.
-- She baked a fresh loaf of **rye** for breakfast.
-- **Rye** pairs well with hearty soups.
+- ==**Rye** is often used in classic American whiskey recipes.==
+- ==**Rye** is often used in whiskey production.==
+- ==The bakery uses **rye** in their bread recipes.==
+- ==She baked a fresh loaf of **rye** for breakfast.==
+- ==**Rye** pairs well with hearty soups.==
 # Millet
 PT: milho-painço
 
 ---
 
-- **Millet** porridge is a staple in many cultures.
-- Farmers are increasing **millet** production due to its resilience.
-- **Millet** can be used to make porridge and bread.
-- Each **millet** had its own legal system and schools.
-- The **millet** negotiated its own taxes with the empire.
+- ==**Millet** porridge is a staple in many cultures.==
+- ==Farmers are increasing **millet** production due to its resilience.==
+- ==**Millet** can be used to make porridge and bread.==
+- ==Each **millet** had its own legal system and schools.==
+- ==The **millet** negotiated its own taxes with the empire.==
 
 # Quinoa
 PT: quinoa
 
 ---
 
-- Many people enjoy **quinoa** as a salad base.
-- **Quinoa** is a staple food in many Andean communities.
-- The seeds of **quinoa** are rich in protein and nutrients.
+- ==Many people enjoy **quinoa** as a salad base.==
+- ==**Quinoa** is a staple food in many Andean communities.==
+- ==The seeds of **quinoa** are rich in protein and nutrients.==
 
 # Sorghum
 PT: sorgo
@@ -152,23 +152,23 @@ PT: sorgo
 >[!example] Expressions with **Oats**
 >- **sorghum molasses/syrup:** syrup made by boiling sweet sorghum juice
 
-- **Sorghum** can be used to make syrup.
-- **Sorghum** is a staple food in many African countries.
-- The syrup made from **sorghum** is quite sweet.
+- ==**Sorghum** can be used to make syrup.==
+- ==**Sorghum** is a staple food in many African countries.==
+- ==The syrup made from **sorghum** is quite sweet.==
 
 # Buckwheat
 PT: trigo-sarraceno
 
 ---
 
-- **Buckwheat** is often used in gluten-free recipes.
-- **Buckwheat** pancakes are a popular breakfast choice.
-- Farmers are increasing **buckwheat** cultivation this year.
+- ==**Buckwheat** is often used in gluten-free recipes.==
+- ==**Buckwheat** pancakes are a popular breakfast choice.==
+- ==Farmers are increasing **buckwheat** cultivation this year.==
 
 # Spelt
 PT: espelta / trigo espelta
 
-==---==
+---
 - ==Farmers in Europe have cultivated **spelt** for centuries.==
 - ==**Spelt** flour is a good alternative for baking.==
 - ==Farmers are increasingly growing **spelt** due to its health benefits.==
