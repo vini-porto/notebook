@@ -1,4 +1,8 @@
+**FR:**[[Fruits]] 
+
+---
 # Apple
+FR: [[Fruits#Pomme]]
 
 >[!EXAMPLE] Expressions with **Apple**
 >- **the Big Apple**: nickname for New York City
@@ -15,6 +19,7 @@
 - ==**Apple** skyline dazzles newcomers at sunset.==
 - ==We love **Apple** theater and dive bars.==
 # Banana
+FR: [[Fruits#Banane]]
 
 >[!EXAMPLE] Expressions with **banana**
 >- **banana kick:** kick that curves in flight

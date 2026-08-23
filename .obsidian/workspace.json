@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages/English/Eatable Plants/Herbs & spices.md",
+                "file": "Languages/English/Eatable Plants/Fuits.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Herbs & spices"
+              "title": "Fuits"
             }
           }
         ]
@@ -76,7 +76,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -197,8 +198,19 @@
   },
   "active": "f76b791d4f2df2f2",
   "lastOpenFiles": [
+    "Languages/French/plantes comestibles/Fruits.md",
+    "copilot/copilot-conversations/Are_you_there@20260305_110936.md",
     "Languages/English/Eatable Plants/Fuits.md",
     "Languages/English/Eatable Plants/Grains & cereals.md",
+    "Languages/French/plantes comestibles/Champignons.md",
+    "Languages/French/plantes comestibles/Herbes et Épices.md",
+    "Languages/French/plantes comestibles/Céréales.md",
+    "Languages/French/plantes comestibles/Racines et Tubercules.md",
+    "Languages/French/plantes comestibles/Noix et Graines.md",
+    "Languages/French/plantes comestibles/Légumineuses.md",
+    "Languages/French/plantes comestibles/Légumes.md",
+    "Languages/French/plantes comestibles",
+    "Languages/English/Animals/Water Animals.md",
     "Languages/English/Eatable Plants/Herbs & spices.md",
     "Languages/English/Eatable Plants 1/legumes.md",
     "Languages/English/Eatable Plants 1/Vegetables.md",
@@ -212,16 +224,10 @@
     "Languages/English/Eatable Plants/Vegetables.md",
     "Languages/English/Eatable Plants/Roots & tubers.md",
     "Languages/English/Eatable Plants/Nuts & seeds.md",
-    "Languages/English/Animals/Water Animals.md",
     "Kevin02.md",
     "Jansen(Delta).md",
     "Languages/English/Eatable Plants",
-    "Nick(Delta).md",
-    "Mario(Delta).md",
-    "Life/People that I know from/Delta.md",
     "Life/People that I know from",
-    "Life/Conversation guide Delta.md",
-    "Kristen(Delta).md",
     "Pasted image 20260809235031.png",
     "Pasted image 20260809234334.png",
     "Pasted image 20260809234258.png",
@@ -229,20 +235,15 @@
     "Pasted image 20260809234054.png",
     "Pasted image 20260809234012.png",
     "Pasted image 20260809233819.png",
-    "Languages/English/Phrasal Verbs/50 Most Common Phrasal Verbs.md",
-    "Life/Conversation guide.md",
-    "Templates/nota-diaria.md",
     "Pasted image 20260808234145.png",
     "Pasted image 20260808233800.png",
     "Pasted image 20260808233406.png",
     "Languages/English/Animals",
-    "Life/Questions to ask.md",
     "Life/humor",
     "Languages/English/Leaning Zone",
     "Languages/English/Idiomatic Expressions",
     "Languages/English/Phrasal Verbs",
     "Untitled.canvas",
-    "Languages/English/Register variation",
-    "Languages/French/Done"
+    "Languages/English/Register variation"
   ]
 }
