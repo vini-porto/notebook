@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages/English/Eatable Plants/Roots & tubers.md",
+                "file": "Languages/English/Eatable Plants/Vegetables.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Roots & tubers"
+              "title": "Vegetables"
             }
           }
         ]
@@ -197,10 +197,10 @@
   },
   "active": "3b725a0f9afec274",
   "lastOpenFiles": [
-    "Languages/English/Eatable Plants/Nuts & seeds.md",
     "Languages/English/Eatable Plants/Roots & tubers.md",
-    "Languages/English/Eatable Plants/legumes.md",
     "Languages/English/Eatable Plants/Herbs & spices.md",
+    "Languages/English/Eatable Plants/Nuts & seeds.md",
+    "Languages/English/Eatable Plants/legumes.md",
     "Amazon EC2.md",
     "Life/People that I know from/Delta.md",
     "Life/2026-07-31.md",
