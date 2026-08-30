@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages/French/Phrases courantes.md",
+                "file": "Languages/French/Les vacances.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Phrases courantes"
+              "title": "Les vacances"
             }
           },
           {
@@ -211,11 +211,12 @@
   },
   "active": "3b725a0f9afec274",
   "lastOpenFiles": [
-    "Languages/French/Les nombres.md",
-    "Languages/French/Phrases courantes.md",
     "Languages/French/la prononciation.md",
     "Languages/French/Dogs & Cats.md",
+    "Languages/French/100 phrases utiles.md",
     "Languages/French/Les vacances.md",
+    "Languages/French/Phrases courantes.md",
+    "Languages/French/Les nombres.md",
     "Languages/French/Sentir, Se Sentir, Ressentir.md",
     "Languages/French/Pronoun \"Y\".md",
     "Languages/French/plantes comestibles/Fruits.md",
@@ -237,7 +238,6 @@
     "Languages/English/Phrasal Verbs/50 Most Common Phrasal Verbs.md",
     "Verbal Expression.md",
     "Languages/English/Eatable Plants/Grains & cereals.md",
-    "copilot/copilot-conversations/Are_you_there@20260305_110936.md",
     "Languages/French/plantes comestibles",
     "Languages/English/Eatable Plants 1",
     "Languages/English/Eatable Plants",
