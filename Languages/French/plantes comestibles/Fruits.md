@@ -64,7 +64,41 @@ EN: [[Fuits#Avocado]] | PT: Abacate
 - ==Des rideaux **avocat** décorent la salle à manger.==
 # Banane
 EN: [[Fuits#Banana]]
+#Nom:
+- (tropical) fruit jaune allongé et courbé qui pousse sur le bananier
+- (sac) petit sac qu'on porte autour de la taille
+- (surnom) personne naive ou un peu béte
+- (mine joyeuse) sourire large et visible
+- (cheveux relevés) coiffure gonflée vers I'arriere comme celle des rockers
+---
+>[!note] **PT:**  
+>- Banana
+>- Pochete
+>- bobo / tolo / ingénuo
+>- sorriso de orelha a orelha
+>- Topete
 
+---
+>[!EXAMPLE] Expressions avec **Banane**
+>- #Feminine **peau de banane / pelure de banane:** (fruit) écorce jaune de la banane que I'on enléve pour manger le fruit
+>	>[!note] PT: Casca de banana
+>- **avoir la banane:** (joie) étre heureux et de bonne humeur
+>	>[!note] PT: estar sorrindo a toa
+>	- ==Elle a la banane depuis qu'elle a eu sa promotion.==
+>- #Masculine **connecteur banane / fiche banane:** (électronique) piece électrique cylindrique avec ressort pour relier des circuits.
+>	>[!note] PT: estar sorrindo a toa
+>	- ==Il faut insérer le connecteur banane dans la borne rouge.==
+>	- ==Il branche le multimétre avec des fiches banane rouge et noire.==
+
+- Les enfants partagent une **banane** au goûter.
+- Sa **banane** contient son portefeuille et son téléphone.
+- Elle porte une **banane** lors de ses voyages.
+- Il joue la **banane** devant ses amis pour les faire rire.
+- Arrête de passer pour une **banane** en classe, sois attentif.
+- Son discours lui a donné une **banane** irrésistible.
+- Après la blague, tout le monde affichait une **banane**.
+- Il se coiffe toujours avec une **banane** impeccable.
+- Sa **banane** attire tous les regards lors des concerts.
 # Canneberge
 
 # Cantaloup
