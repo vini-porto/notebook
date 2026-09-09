@@ -13,3 +13,24 @@
 - ==Don't bust her bubble with bad news.==
 - ==Sorry to bust your bubble, but that's not true.==
 - ==I don't want to bust your bubble, but we can't go.==
+
+# sandbag
+#Noun: PT: saco de areia / armadilha
+- (construction) bag filled with sand used as a weight or barrier.
+- (poker) deceptive play in poker with a strong hand
+#Verb: **PT:** maltratar / enganar / construir uma barreira de saco
+- (unfair treatment) treat someone harshly or unfairly
+- (deception) conceal true intentions to gain advantage
+- (construction) construct a barrier using sandbags.
+---
+- ==A **sandbag** was placed at the door to prevent flooding.==
+- ==The soldiers took cover behind a **sandbag**.==
+- ==A **sandbag** was placed at the door for safety.==
+- ==His **sandbag** strategy fooled everyone at the table.==
+- ==She lost to a clever **sandbag** in the final round.==
+- ==He felt sandbagged by the sudden change in plans.==
+- ==The team was sandbagged with unrealistic deadlines.==
+- ==He tried to **sandbag** his colleagues by downplaying his skills.==
+- ==The player was accused of sandbagging to lower expectations.==
+- ==Workers sandbagged the riverbank ahead of the storm.==
+- ==Volunteers sandbagged the perimeter of the field.==
