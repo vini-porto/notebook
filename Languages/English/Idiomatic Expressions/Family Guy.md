@@ -34,3 +34,12 @@
 - ==The player was accused of sandbagging to lower expectations.==
 - ==Workers sandbagged the riverbank ahead of the storm.==
 - ==Volunteers sandbagged the perimeter of the field.==
+
+# screw you
+#expression: **PT:** vá se ferrar / dane-se
+- (emotion) act of defiance or contempt #US #Slang 
+- (communication) dismissive rejection or refusal #US #Slang
+---
+- ==His gesture was a silent **screw you** to the critics.==
+- ==**Screw you**, I'm not doing it!==
+- ==**Screw you** for not caring.==
