@@ -53,3 +53,18 @@
 - ==He spoke in a thick **Cockney** at the event.==
 - ==The **Cockney** entertained us with his stories.==
 - ==She recognized his accent as **Cockney** immediately.==
+
+# scamp
+
+#Noun: PT: arteiro / travesso / pestinha / malandro
+- (mischievous person) person who behaves mischievously or irresponsibly
+- (children) mischievous child often liked despite naughtiness
+- (advertising) preliminary design sketch in advertising
+---
+- ==Everyone knew him as the neighborhood **scamp**.==
+- ==That **scamp** always finds a way to make us laugh.==
+- ==Everyone loves the **scamp** despite his endless pranks.==
+- ==The designer presented a **scamp** to illustrate the concept.==
+- ==They sketched a **scamp** to visualize the campaign's theme.==
+- ==He scamped the painting, leaving it unfinished.==
+- ==They scamped the construction, ignoring safety standards.==
