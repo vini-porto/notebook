@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages/French/Done/la prononciation.md",
+                "file": "Languages/English/Idiomatic Expressions/Family Guy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "la prononciation"
+              "title": "Family Guy"
             }
           },
           {
@@ -209,8 +209,9 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "315c83aaff31e835",
+  "active": "3b725a0f9afec274",
   "lastOpenFiles": [
+    "Languages/French/Done/la prononciation.md",
     "Languages/French/Les vacances.md",
     "Languages/English/Phrasal Verbs/50 Most Common Phrasal Verbs.md",
     "Sault College/F26/CSD217 - WEB DEVEIOPMENT/Untitled.md",
@@ -222,7 +223,6 @@
     "Sault College/F26/CSD217 - WEB DEVEIOPMENT",
     "Sault College/F26/GEN100 - GLOBAL CITIZENSHIP",
     "Sault College/F26",
-    "Languages/French/Done/la prononciation.md",
     "Languages/French/Dogs & Cats.md",
     "Languages/French/100 phrases utiles.md",
     "Languages/French/Phrases courantes.md",

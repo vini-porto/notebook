@@ -43,3 +43,13 @@
 - ==His gesture was a silent **screw you** to the critics.==
 - ==**Screw you**, I'm not doing it!==
 - ==**Screw you** for not caring.==
+
+# cockney
+
+#Noun: PT: Londrino
+- (dialect) type of English spoken in East London.
+- (Londoner) person born within earshot of Bow Bells
+---
+- ==He spoke in a thick **Cockney** at the event.==
+- ==The **Cockney** entertained us with his stories.==
+- ==She recognized his accent as **Cockney** immediately.==
