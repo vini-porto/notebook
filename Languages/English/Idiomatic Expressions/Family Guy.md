@@ -68,3 +68,13 @@
 - ==They sketched a **scamp** to visualize the campaign's theme.==
 - ==He scamped the painting, leaving it unfinished.==
 - ==They scamped the construction, ignoring safety standards.==
+
+# jaunty tune
+
+#Noun: PT: Melodia alegre
+- (behavior) having a lively and cheerful manner
+- (fashion) stylish and up-to-date in appearance
+---
+- ==The cartoon started with a **jaunty tune** played on a banjo.==
+- ==A **jaunty whistle** came from the kitchen as he cooked breakfast.==
+- ==The band played a **jaunty rhythm** that got everyone dancing.==
