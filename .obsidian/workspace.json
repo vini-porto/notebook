@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages/English/Idiomatic Expressions/Family Guy.md",
+                "file": "Languages/English/Other/Family Guy.md",
                 "mode": "source",
                 "source": false
               },
@@ -69,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Noun",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,8 +90,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -210,7 +209,7 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "3b725a0f9afec274",
+  "active": "315c83aaff31e835",
   "lastOpenFiles": [
     "Languages/French/Done/la prononciation.md",
     "Languages/French/Les vacances.md",
@@ -220,7 +219,7 @@
     "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II",
     "Sault College/F26/CSD216 - DATABASES II",
     "Sault College/F26/CSD318 - PROJECT MANAGEMENT",
-    "Languages/English/Idiomatic Expressions/Family Guy.md",
+    "Languages/English/Other/Family Guy.md",
     "Sault College/F26/CSD217 - WEB DEVEIOPMENT",
     "Sault College/F26/GEN100 - GLOBAL CITIZENSHIP",
     "Sault College/F26",
