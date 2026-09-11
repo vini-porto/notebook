@@ -78,3 +78,9 @@
 - ==The cartoon started with a **jaunty tune** played on a banjo.==
 - ==A **jaunty whistle** came from the kitchen as he cooked breakfast.==
 - ==The band played a **jaunty rhythm** that got everyone dancing.==
+
+# carjack
+#Verb : PT: roubar um carro / assaltar um carro
+- (crime) steal a car by threatening the driver
+---
+==They planned to carjack the luxury car at night.==
