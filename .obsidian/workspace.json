@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sault College/F26/CSD318 - PROJECT MANAGEMENT/labs/Lab 01.md",
+                "file": "Sault College/F26/CSD124 - SYSTEMS ANALYSIS AND DESIGN/Labs/Lab 01.md",
                 "mode": "source",
                 "source": false
               },
@@ -117,8 +117,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.4765625,
-    "collapsed": true
+    "width": 313.4765625
   },
   "right": {
     "id": "25633665bbc170a3",
@@ -134,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sault College/F26/CSD318 - PROJECT MANAGEMENT/labs/Lab 01.md",
+                "file": "Sault College/F26/CSD124 - SYSTEMS ANALYSIS AND DESIGN/Labs/Lab 01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,8 +234,10 @@
   },
   "active": "a95826a40efb7313",
   "lastOpenFiles": [
-    "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 1 - Project Fundamentals & Failures.md",
     "Sault College/F26/CSD318 - PROJECT MANAGEMENT/labs/Lab 01.md",
+    "Sault College/F26/CSD124 - SYSTEMS ANALYSIS AND DESIGN/Labs/Lab 01.md",
+    "Sault College/F26/CSD124 - SYSTEMS ANALYSIS AND DESIGN/Labs",
+    "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 1 - Project Fundamentals & Failures.md",
     "Sault College/F26/CSD318 - PROJECT MANAGEMENT/Week 1 - Project Fundamentals & Failures.md.tmp.4574.c133cfc46c4a",
     "Sault College/F26/CSD318 - PROJECT MANAGEMENT/Week 1 - Project Fundamentals & Failures.md.tmp.4574.cbc9229db5da",
     "Sault College/F26/CSD318 - PROJECT MANAGEMENT/Week 1 - Project Fundamentals & Failures.md.tmp.4574.3ed5f5740c12",
@@ -252,7 +253,6 @@
     "Languages/French/Les vacances.md",
     "Languages/English/Phrasal Verbs/50 Most Common Phrasal Verbs.md",
     "Sault College/F26/CSD124 - SYSTEMS ANALYSIS AND DESIGN",
-    "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II",
     "Languages/French/Dogs & Cats.md",
     "Languages/French/100 phrases utiles.md",
     "Languages/French/Phrases courantes.md",
