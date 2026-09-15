@@ -1,0 +1,1 @@
+Trabalha no andar de cima da aza norte A. Ela trabalha com timetables. Pessoa de aparencia baixa e gordinha. Super amigavel e conpriencivel, me ajudou a achar o Rose Nolan Room para a seção de infromações sobre Curling.
