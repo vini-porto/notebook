@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sault College/F26/CSD124 - SYSTEMS ANALYSIS AND DESIGN/Labs/Lab 01.md",
+                "file": "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures/Week 1 -.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lab 01"
+              "title": "Week 1 -"
             }
           }
         ]
@@ -195,9 +195,11 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "3b725a0f9afec274",
+  "active": "315c83aaff31e835",
   "lastOpenFiles": [
+    "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures",
     "Sault College/F26/CSD318 - PROJECT MANAGEMENT/labs/Lab 01.md",
+    "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures/Week 1 -.md",
     "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 1 - Project Fundamentals & Failures.md",
     "Sault College/F26/CSD124 - SYSTEMS ANALYSIS AND DESIGN/Labs/Lab 01.md",
     "Sault College/F26/CSD124 - SYSTEMS ANALYSIS AND DESIGN/Labs",
@@ -231,8 +233,6 @@
     "Languages/English/Eatable Plants/Herbs & spices.md",
     "Languages/English/Eatable Plants/Nuts & seeds.md",
     "Languages/English/Eatable Plants/legumes.md",
-    "Amazon EC2.md",
-    "Life/People that I know from/Delta.md",
     "Pasted image 20260809235031.png",
     "Pasted image 20260809234334.png",
     "Pasted image 20260809234258.png",
