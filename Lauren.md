@@ -1,0 +1,3 @@
+Ela namora com alguém chamado “t”. Ela ruma pessoa easy going super tranaquila de conversar. Terminou sua graduação em arquitetura recentemente e daqui duas semanas vai começar em um novo trabalho de escritório. Ainda não sei se ela vai tarabalhar em tempo integral ou se irá deixar de trabalhar na Delta. Ela não sente a mesma paixão por arquitetura como sentia antigamente. 
+
+ATENÇÃO A TROCADILHOS ABERTOS: Tenha certeza de sempre ter as respostas engatilhadas para futuras interações.
