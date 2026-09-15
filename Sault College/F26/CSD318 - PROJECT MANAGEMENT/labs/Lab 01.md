@@ -41,7 +41,7 @@
 > - **ANS:** I would recoment Click up as it offers a good set of features that would match better for a company that wants to scale in an infrastructure project update. 
 
 # Part 3: Applying the PMI Talent Triangle to IT Roles
-he Project Management Institute (PMI) defines three core competency areas in the PMI Talent Triangle:
+The Project Management Institute (PMI) defines three core competency areas in the PMI Talent Triangle:
 
 - **Ways of Working** (Predictive, Agile, Hybrid, CI/CD)
 - **Power Skills** (Leadership, communication, conflict management, emotional intelligence)
@@ -51,4 +51,22 @@ he Project Management Institute (PMI) defines three core competency areas in the
 >- (Network Infrastructure): Leading the physical cabling, switch configuration, and VLAN segmentation overhaul for a new two-story corporate building.
 
 For your selected scenario, outline **two specific tasks or decisions** the Project Manager must execute under each of the three Talent Triangle pillars (6 total tasks).
+	For this project, if scope grows (like adding VLANs for computers), I would need more time, more budget, or I would push that scope to a later phase. If the deadline moves up, I would also need more people or otherwise I would cut scope. 
 
+# Part 4: Ethics Case Study — The Pre-Deployment Vulnerability
+  
+  Read the following scenario and answer the questions using the **PMI Code of Ethics and Professional Conduct** (Responsibility, Respect, Fairness, Honesty):
+
+**Scenario:**
+
+You are the Project Manager for a critical enterprise portal upgrade scheduled to go live in 24 hours. The client has already booked marketing campaigns announcing the launch, and your executive sponsor warns that missing this deadline will result in financial penalties. During final regression testing, your lead cybersecurity analyst discovers an unpatched, medium-severity authorization bypass vulnerability in the API backend. The lead developer tells you: _"We can suppress the alert for launch, go live tomorrow, and patch it in a maintenance release next weekend without anyone noticing."_
+
+1. **Responsibility:** What is your professional duty regarding the security risks and potential consequences of deploying with an active vulnerability? 
+	 Admitting a mistake instead of hiding it, following through on commitments, and upholding laws and regulations.
+2. **Honesty:** How must you communicate this finding to the client and executive sponsors, and what information must be disclosed?
+	Reporting project status accurately and avoiding half-truths or deception of any kind.
+3. **Fairness:** How do you address the conflicting interests between the marketing/executive team demanding an on-time launch and the security analyst raising concerns?
+	Disclosing potential conflicts of interest transparently and avoiding discrimination in hiring or vendor selection.
+    
+4. **Action Plan:** Outline the exact next steps you would take in the remaining 24 hours to manage this issue.
+	I would report the problem to the client telling about the recent found mistake that implies in a high vunerability for the project, and would connect him with the marketing team so we could find a solution for the posponement of the marketing campain for the next day and manage the financial penalties as a security risk.

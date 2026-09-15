@@ -6,24 +6,9 @@
       {
         "id": "0fa54f8f55729a20",
         "type": "tabs",
-        "dimension": 71.10874200426439,
         "children": [
           {
             "id": "3b725a0f9afec274",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 1 - Project Fundamentals & Failures.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Week 1 - Project Fundamentals & Failures"
-            }
-          },
-          {
-            "id": "a95826a40efb7313",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,28 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "Lab 01"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "d330eae4720d77c3",
-        "type": "tabs",
-        "dimension": 28.891257995735607,
-        "children": [
-          {
-            "id": "47d0b68c08027692",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 1 - Project Fundamentals & Failures.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Week 1 - Project Fundamentals & Failures"
             }
           }
         ]
@@ -232,12 +195,12 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "a95826a40efb7313",
+  "active": "3b725a0f9afec274",
   "lastOpenFiles": [
     "Sault College/F26/CSD318 - PROJECT MANAGEMENT/labs/Lab 01.md",
+    "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 1 - Project Fundamentals & Failures.md",
     "Sault College/F26/CSD124 - SYSTEMS ANALYSIS AND DESIGN/Labs/Lab 01.md",
     "Sault College/F26/CSD124 - SYSTEMS ANALYSIS AND DESIGN/Labs",
-    "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 1 - Project Fundamentals & Failures.md",
     "Sault College/F26/CSD318 - PROJECT MANAGEMENT/Week 1 - Project Fundamentals & Failures.md.tmp.4574.c133cfc46c4a",
     "Sault College/F26/CSD318 - PROJECT MANAGEMENT/Week 1 - Project Fundamentals & Failures.md.tmp.4574.cbc9229db5da",
     "Sault College/F26/CSD318 - PROJECT MANAGEMENT/Week 1 - Project Fundamentals & Failures.md.tmp.4574.3ed5f5740c12",
