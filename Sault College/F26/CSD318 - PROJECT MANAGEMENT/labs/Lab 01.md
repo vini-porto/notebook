@@ -1,10 +1,10 @@
 # Part 1: Project vs. Operational Work in IT
 
 1. Upgrading campus core switches to support multi-gigabit speeds and 802.1X port authentication.
-	**ANS:** Project: Because it has a temporary time to start and end the upgrade, plus It produces a unique result, difering from the old one.
+	**ANS:** Project: Because it has a temporary time to start and end the upgrade, plus It produces a unique result, differing from the old one.
     
 2. Managing daily Tier-1 helpdesk support tickets for password resets and printer connectivity.
-	**ANS:** Operation: Its a continuous task that have to be done repetedely and has not end date. Produces the same result at the end as other time requests.
+	**ANS:** Operation: Its a continuous task that have to be done repeatedly and has not end date. Produces the same result at the end as other time requests.
     
 3. Conducting regular bi-weekly operating system patch management across virtualized servers.
 	**ANS:** Operation: As it refers "bi-weekly" makes it an ongoing operation that have not end date, and always produces the same result. 
@@ -53,7 +53,7 @@ The Project Management Institute (PMI) defines three core competency areas in th
 For your selected scenario, outline **two specific tasks or decisions** the Project Manager must execute under each of the three Talent Triangle pillars (6 total tasks).
 	For this project, if scope grows (like adding VLANs for computers), I would need more time, more budget, or I would push that scope to a later phase. If the deadline moves up, I would also need more people or otherwise I would cut scope. 
 
-# Part 4: Ethics Case Study — The Pre-Deployment Vulnerability
+# Part 4: Ethics Case Study
   
   Read the following scenario and answer the questions using the **PMI Code of Ethics and Professional Conduct** (Responsibility, Respect, Fairness, Honesty):
 
@@ -70,3 +70,4 @@ You are the Project Manager for a critical enterprise portal upgrade scheduled t
     
 4. **Action Plan:** Outline the exact next steps you would take in the remaining 24 hours to manage this issue.
 	I would report the problem to the client telling about the recent found mistake that implies in a high vunerability for the project, and would connect him with the marketing team so we could find a solution for the posponement of the marketing campain for the next day and manage the financial penalties as a security risk.
+5. 
