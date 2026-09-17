@@ -53,7 +53,7 @@ In real Java development, we rarely just write loose, disconnected code. Instead
 2. **Constructors**: provide at least two:
    - A **no-argument constructor**, which frameworks (like JPA or JSON libraries) need so they can create your objects automatically (often through reflection).
    - A **full-argument constructor**, so you can quickly build a fully-populated object in one line.
-3. **Accessors and Mutators (getters/setters)**: the public "front door" to your private data.
+1. **Accessors and Mutators (getters/setters)**: the publicObject "front door" to your private data.
    - Convention: `public T getPropertyName()` and `public void setPropertyName(T value)`.
 
 > [!tip]
@@ -270,12 +270,12 @@ Parameters are just local variables that get initialized with whatever the calle
 > - For a primitive, the method gets a copy of the actual value.
 > - For an object, the method gets a copy of the *reference* (the address). You can't make the original reference point somewhere else, but you *can* use that reference to modify the object's internal state.
 
-| Variable Type | Declared where? | Lifetime | Visibility |
-|---|---|---|---|
-| Instance field | Inside class, outside methods | Bound to the object's lifespan | Entire class (via methods) |
-| Class field | Inside class, marked `static` | Bound to the JVM process | Entire class (global to all objects) |
-| Local variable | Inside a method | During method execution | Only inside that method block |
-| Parameter | In the method signature | During method execution | Only inside that method block |
+| Variable Type  | Declared where?               | Lifetime                       | Visibility                           |
+| -------------- | ----------------------------- | ------------------------------ | ------------------------------------ |
+| Instance field | Inside class, outside methods | Bound to the object's lifespan | Entire class (via methods)           |
+| Class field    | Inside class, marked `static` | Bound to the JVM process       | Entire class (global to all objects) |
+| Local variable | Inside a method               | During method execution        | Only inside that method block        |
+| Parameter      | In the method signature       | During method execution        | Only inside that method block        |
 
 > [!tip] Academic tip
 > When debugging, check scope first. A "cannot find symbol" error usually means you're trying to reach a local variable from outside its method, or trying to access a private instance variable from a static context (like `main`) without going through an object reference.
