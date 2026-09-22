@@ -1,4 +1,3 @@
-# Git Worktrees
 
 > [!note] What problem does this solve?
 > Normally, a Git repository has **one working directory** tied to **one checked-out branch**. If you need to jump to a different branch mid-task, you either commit half-finished work, or run `git stash` and hope you remember to pop it later. A **worktree** removes that trade-off: it lets you check out multiple branches from the same repository **at the same time**, each in its own folder.
@@ -10,7 +9,7 @@ Picture two situations that come up constantly in this course and in real jobs:
 
 With a worktree, you just open a **second folder** that has the other branch already checked out, do the work there, and come back to the first folder exactly as you left it. You don't stash anything, and you don't commit early just to save your spot.
 
-## Creating a Worktree
+# Creating a Worktree
 
 > [!important] Keep worktrees outside the repo folder
 > Always place a new worktree **outside** your current repository folder, typically one level up in the parent directory. Nesting a worktree inside the repo it came from creates a repository-inside-a-repository, which Git does not handle well.
@@ -31,7 +30,7 @@ git worktree add ../my-branch-work my-branch
 
 Here `my-branch` already exists (locally or fetched from a remote). This checks it out into a new folder named `my-branch-work`. The folder name and branch name don't have to match.
 
-## Managing and Viewing Worktrees
+# Managing and Viewing Worktrees
 
 Once you've got more than one worktree going, you'll want a way to see what's checked out where:
 
@@ -41,7 +40,7 @@ git worktree list
 
 This prints the absolute path, current commit hash, and active branch for every worktree attached to the repository: a quick way to answer "wait, which folder has which branch?" without opening each one.
 
-## Removing a Worktree
+# Removing a Worktree
 
 Once a branch is done with (say its pull request just got merged), clean up the worktree with Git itself rather than just deleting the folder:
 
@@ -58,7 +57,7 @@ If a worktree folder gets deleted some other way (`rm -rf`, dragging it to the t
 git worktree prune
 ```
 
-## Important Rules to Remember
+# Important Rules to Remember
 
 | Rule | What it means in practice |
 |---|---|
