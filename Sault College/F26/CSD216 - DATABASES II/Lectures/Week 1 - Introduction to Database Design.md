@@ -52,7 +52,7 @@ NoSQL databases handle larger volumes of data and transactions by loosening data
 
 ## Other kinds of database software
 
-**Relational Database Management Systems (RDBMS)** are the software used to create, maintain, and operate a relational database. They typically follow a client/server model: the RDBMS runs a central server holding the database, and applications connect to that server to read and write data, which lets the same data serve many applications at once. Examples include PostgreSQL, MS SQL, MySQL, and Oracle.
+**Relational Database Management Systems (RDBMS)** are the software used to create, maintain, and operate a relational database. They typically follow a client/server model: the [[RDBMS]] runs a central server holding the database, and applications connect to that server to read and write data, which lets the same data serve many applications at once. Examples include PostgreSQL, MS SQL, MySQL, and Oracle.
 
 **Personal / embedded databases** are database libraries embedded directly inside an application, with no server involved. They're usually file-based and single-user, and show up often in desktop and mobile apps. Examples include H2, MS SQL Express, and SQLite.
 
