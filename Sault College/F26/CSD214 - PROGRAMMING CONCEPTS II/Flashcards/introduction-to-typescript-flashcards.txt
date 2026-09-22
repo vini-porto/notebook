@@ -1,0 +1,34 @@
+#separator:tab
+#html:false
+#tags column:3
+What is TypeScript, in relation to JavaScript?	A superset of JavaScript that adds static typing and compiles down to plain JavaScript.	CSD214 typescript
+What command installs the TypeScript compiler globally?	npm install -g typescript	CSD214 typescript
+What command generates a tsconfig.json file in the current folder?	tsc --init	CSD214 typescript
+What does the strict option in tsconfig.json control?	Whether strict type checking is enabled; without it TypeScript is much more permissive.	CSD214 typescript
+What does the target option in tsconfig.json control?	Which version of JavaScript the compiled output should target, e.g. ES2020.	CSD214 typescript
+What is the difference between let and const in TypeScript?	let can be reassigned after declaration; const cannot.	CSD214 typescript
+What does TypeScript do when you write let inferred = 5 without an annotation?	It infers the type number from the assigned value.	CSD214 typescript
+What is the difference between the any and unknown types?	any disables type checking entirely, while unknown accepts any value but forces you to narrow it before use.	CSD214 typescript
+Why should any generally be avoided in TypeScript code?	Because it defeats the purpose of using TypeScript by turning off type checking for that value.	CSD214 typescript
+What does a function with a void return type indicate?	That the function does not return a value.	CSD214 typescript
+What does the never type indicate about a function?	The function never returns normally, either because it always throws or loops forever.	CSD214 typescript
+How does a tuple type like [string, number] differ from an array type like string[]?	A tuple has a fixed length with a specific type per position, while an array can be any length with every element sharing one type.	CSD214 typescript
+What is a literal type, using "up" | "down" | "left" | "right" as an example?	A type that restricts a value to one specific, exact set of allowed values.	CSD214 typescript
+How does an enum differ from a literal union type at runtime?	An enum generates an actual JavaScript object at runtime, while a literal union is a compile-time-only check that produces no runtime code.	CSD214 typescript
+What does an interface describe in TypeScript?	The shape an object must have, without providing any implementation.	CSD214 typescript
+What are the three access modifiers in TypeScript, and which is the default?	public, private, and protected; public is the default.	CSD214 typescript
+What is the difference between private and protected access modifiers?	private is only accessible inside the declaring class; protected is accessible inside the declaring class and its subclasses.	CSD214 typescript
+What does prefixing a constructor parameter with private or public do?	It both declares the property on the class and assigns it from the argument, in one step.	CSD214 typescript
+What do static members belong to in a class?	The class itself, not any individual instance, so they are shared across the whole program.	CSD214 typescript
+What is a generic type parameter like <T> used for in a function?	It lets the function work with a type decided at the call site instead of being locked to one specific type.	CSD214 typescript
+What does T extends Lengthwise accomplish in a generic function signature?	It constrains T to any type that has a length property, so the function body can safely access arg.length.	CSD214 typescript
+What does the Partial<T> utility type do?	It makes every property of T optional.	CSD214 typescript
+What does the Record<K, V> utility type build?	An object type with keys of type K and values of type V.	CSD214 typescript
+What is the difference between an intersection type (&) and a union type (|)?	Intersection means a value must satisfy all combined types at once; union means a value can be one of several types, but only one at a time.	CSD214 typescript
+What does a type guard do?	Narrows a union type down to one specific type inside a conditional block, so the code afterward can safely assume that narrower type.	CSD214 typescript
+Name two ways to write a type guard mentioned in the lesson.	typeof for primitives, and instanceof for class instances (or a custom guard function).	CSD214 typescript
+What makes a union a discriminated union?	Each member of the union shares a common field with a different literal value, which TypeScript can check to narrow which variant is in use.	CSD214 typescript
+What does the optional chaining operator (?.) do in user?.profile?.name?	It short-circuits to undefined if user or profile is null or undefined, instead of throwing an error.	CSD214 typescript
+How does nullish coalescing (??) differ from the logical OR operator (||) for fallback values?	?? only falls back when the left side is null or undefined, while || also falls back on falsy values like 0, "", or false.	CSD214 typescript
+What does a mapped type like { readonly [P in keyof T]: T[P] } do?	It builds a new type by looping over the keys of T (via keyof T) and transforming each property, here by adding readonly.	CSD214 typescript
+What does a conditional type like T extends string ? true : false do?	It picks between two types based on whether T matches a condition, similar to a ternary operator evaluated at the type level.	CSD214 typescript

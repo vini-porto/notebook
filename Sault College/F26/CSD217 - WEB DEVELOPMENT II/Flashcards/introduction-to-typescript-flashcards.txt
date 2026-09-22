@@ -1,0 +1,27 @@
+#separator:tab
+#html:false
+#tags column:3
+What is TypeScript, in relation to JavaScript?	A superset of JavaScript that adds static typing and compiles down to plain JavaScript that runs anywhere JavaScript runs.	CSD217 typescript
+What command installs the TypeScript compiler globally?	npm install -g typescript	CSD217 typescript
+What command generates a tsconfig.json file in the current folder?	tsc --init	CSD217 typescript
+What does the strict option in tsconfig.json control?	Whether strict type checking is enabled; without it TypeScript is much more permissive.	CSD217 typescript
+What is the difference between the any and unknown types?	any disables type checking entirely, while unknown accepts any value but forces you to narrow it before use.	CSD217 typescript
+Why is any risky when typing a third-party library or API response?	It silently turns off type checking for every value that flows from it, hiding bugs that a proper interface or unknown would catch.	CSD217 typescript
+How does a tuple type like [string, number] differ from an array type like string[]?	A tuple has a fixed length with a specific type per position, while an array can be any length with every element sharing one type.	CSD217 typescript
+What does an interface describe in TypeScript?	The shape an object must have, without providing any implementation, useful for describing API responses or component props.	CSD217 typescript
+What are the three access modifiers in TypeScript, and which is the default?	public, private, and protected; public is the default.	CSD217 typescript
+What does prefixing a constructor parameter with private or public do?	It both declares the property on the class and assigns it from the argument, in one step.	CSD217 typescript
+What is a generic type parameter like <T> used for in a function or interface?	It lets the function or interface work with a type decided at the call site instead of being locked to one specific type.	CSD217 typescript
+What does T extends Lengthwise accomplish in a generic function signature?	It constrains T to any type that has a length property, so the function body can safely access arg.length.	CSD217 typescript
+What does the Partial<T> utility type do, and where is it commonly used?	It makes every property of T optional; commonly used for the body of a PATCH-style update request.	CSD217 typescript
+What does the Record<K, V> utility type build?	An object type with keys of type K and values of type V.	CSD217 typescript
+What is the difference between an intersection type (&) and a union type (|)?	Intersection means a value must satisfy all combined types at once; union means a value can be one of several types, but only one at a time.	CSD217 typescript
+What does a type guard do?	Narrows a union type down to one specific type inside a conditional block, so the code afterward can safely assume that narrower type.	CSD217 typescript
+What makes a union a discriminated union?	Each member of the union shares a common field with a different literal value, which TypeScript can check to narrow which variant is in use.	CSD217 typescript
+Give an example of a discriminated union used to model a UI loading state.	{ status: "loading" } | { status: "success"; data: T } | { status: "error"; message: string }	CSD217 typescript
+What does the optional chaining operator (?.) do in user?.profile?.name?	It short-circuits to undefined if user or profile is null or undefined, instead of throwing an error.	CSD217 typescript
+How does nullish coalescing (??) differ from the logical OR operator (||) for fallback values?	?? only falls back when the left side is null or undefined, while || also falls back on falsy values like 0, "", or false.	CSD217 typescript
+Why does the difference between ?? and || matter for a numeric field like quantity or price?	Because 0 is a valid, meaningful value there, and || would incorrectly replace it with the default while ?? would not.	CSD217 typescript
+What does a mapped type like { readonly [P in keyof T]: T[P] } do?	It builds a new type by looping over the keys of T (via keyof T) and transforming each property, here by adding readonly.	CSD217 typescript
+What does a conditional type like T extends string ? true : false do?	It picks between two types based on whether T matches a condition, similar to a ternary operator evaluated at the type level.	CSD217 typescript
+Why does TypeScript reduce runtime bugs in large frontend and backend codebases?	Because type errors are caught while writing the code, before deployment, instead of surfacing as bugs after users hit them.	CSD217 typescript
