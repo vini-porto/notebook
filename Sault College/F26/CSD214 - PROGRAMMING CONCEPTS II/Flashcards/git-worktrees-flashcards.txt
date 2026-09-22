@@ -1,0 +1,19 @@
+#separator:tab
+#html:false
+#tags column:3
+What is a Git worktree?	A checkout of a branch into its own working directory that stays connected to the same repository, letting you have multiple branches checked out at the same time.	CSD214 git worktrees
+What command creates a new worktree in ../my-branch on a brand-new branch called my-branch?	git worktree add ../my-branch -b my-branch	CSD214 git worktrees
+What command checks out an already-existing branch called my-branch into a new worktree folder ../my-branch-work?	git worktree add ../my-branch-work my-branch	CSD214 git worktrees
+Where should a new worktree be placed relative to the current repository, and why?	Outside the repo folder, typically one level up, to avoid nesting a repository inside itself.	CSD214 git worktrees
+What command lists all active worktrees?	git worktree list	CSD214 git worktrees
+What three pieces of information does git worktree list print for each worktree?	The absolute path, the current commit hash, and the active branch.	CSD214 git worktrees
+What command safely removes a worktree?	git worktree remove <path>	CSD214 git worktrees
+What check does git worktree remove perform before deleting a folder?	It checks for uncommitted changes in that folder and blocks the removal if any are found.	CSD214 git worktrees
+If a worktree folder is deleted with rm -rf instead of git worktree remove, what state does Git end up in?	Git keeps listing the worktree as active because its internal records were never updated; this is a dangling worktree reference.	CSD214 git worktrees
+What command cleans up dangling worktree references after a worktree folder was deleted manually?	git worktree prune	CSD214 git worktrees
+Can the same branch be checked out in two different worktrees at the same time?	No, Git enforces no duplicate checkouts.	CSD214 git worktrees
+What do all worktrees belonging to the same repository share?	The same underlying .git data: history and refs.	CSD214 git worktrees
+If you fetch a remote update in one worktree, do the other worktrees see it immediately?	Yes, since they all read from the same shared .git data, with no separate syncing step needed.	CSD214 git worktrees
+What manual workflow do worktrees remove the need for when switching branches mid-task?	Running git stash or making throwaway commits just to save your place before switching branches.	CSD214 git worktrees
+Which flag makes git worktree add create a brand-new branch instead of checking out an existing one?	-b	CSD214 git worktrees
+Which flag forces git worktree remove to delete a worktree even if it has uncommitted changes?	--force	CSD214 git worktrees
