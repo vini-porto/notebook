@@ -1,0 +1,4 @@
+- achieve
+- put away
+- lock up
+- store

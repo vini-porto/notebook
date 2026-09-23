@@ -1,0 +1,5 @@
+- pass away
+- depart
+- decease
+- perish
+- succumb

@@ -1,0 +1,9 @@
+- now and then
+- occasionally
+- once in a while
+- every now and then
+- every so often
+- at times
+- from time to time
+- off and on
+- once and again
