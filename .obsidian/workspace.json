@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 1 - Introduction to Database Design.md",
-                "mode": "source",
+                "file": "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 2 - The Database Mission.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 1 - Introduction to Database Design"
+              "title": "Week 2 - The Database Mission"
             }
           }
         ]
@@ -217,10 +217,10 @@
   },
   "active": "eb65aabe34871ec4",
   "lastOpenFiles": [
-    "RDBMS.md",
-    "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 1 - Introduction to Database Design.md",
     "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 3 - Analyzing Existing Databases.md",
     "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 2 - The Database Mission.md",
+    "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 1 - Introduction to Database Design.md",
+    "RDBMS.md",
     "Sault College/F26/CSD217 - WEB DEVELOPMENT II/Lectures/JavaScript.md",
     "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 3 - Analyzing Existing Databases.md.tmp.5258.0265dc97fe11",
     "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 3.md",
