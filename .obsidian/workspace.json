@@ -75,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "encapsulation",
+                "query": "been",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -216,7 +216,7 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "135db46651f10cc0",
+  "active": "56cc834018be2fc1",
   "lastOpenFiles": [
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/5 - Generalization and Polymorphism.md",
     "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures/Week 3 - Advanced Class Design, The Architecture of Data and UML.md",

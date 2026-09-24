@@ -259,7 +259,7 @@ public Book() {
 
 Later in the course, Hibernate (the ORM) and JSON libraries build objects using **[[Reflection]]**: they look for a constructor with *no arguments*, create an empty object, and then fill in the fields. Delete this constructor and the app will crash at Step 2 of the course roadmap.
 
-### 2. The "loaded" constructor
+### 2. The "loaded" constructor`
 
 ```java
 public Book(String author, String title, double price, int copies) {
