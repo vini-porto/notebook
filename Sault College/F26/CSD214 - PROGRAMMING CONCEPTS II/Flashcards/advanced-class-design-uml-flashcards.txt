@@ -1,0 +1,33 @@
+#separator:tab
+#html:false
+#tags column:3
+In the Bookstore design, what does the abstract class Product define, and what does the SaleableItem interface define?	Product defines what the objects ARE (identity); SaleableItem defines what they CAN DO (the contract: sellItem() and getPrice()).	CSD214 week3 class-design
+Which two methods does the SaleableItem contract require?	sellItem() and getPrice()	CSD214 week3 class-design
+Why is CashTill decoupled from Book and Ticket?	It depends only on the SaleableItem interface, not on concrete classes (effectively Dependency Inversion).	CSD214 week3 class-design
+What is dynamic binding in the context of cashTill.sellItem(item)?	The Java runtime decides at the moment of the call which concrete version of sellItem() to run (e.g. Book vs. Ticket).	CSD214 week3 class-design
+Which class is the root of the Bookstore hierarchy, and what logic does it hold?	Editable, an abstract class holding the console I/O logic (Scanner, getInput).	CSD214 week3 class-design
+Why does Publication exist as an intermediate abstract class?	To group the shared fields title, price and copies so Book and Magazine inherit them instead of repeating them (DRY).	CSD214 week3 class-design
+What must happen to CashTill for the store to start selling a new Coffee class that extends Product?	Nothing; CashTill accepts it unchanged (Open/Closed Principle).	CSD214 week3 class-design
+State the Open/Closed Principle.	Software should be open for extension but closed for modification.	CSD214 week3 class-design
+List the four traits of a Java Bean.	Private fields, public getters and setters, a no-argument constructor, and (optionally) implements Serializable.	CSD214 week3 java-bean
+Why does CashTill have no setRunningTotal() method?	To protect the invariant that the running total only goes up; state changes only through sellItem().	CSD214 week3 encapsulation
+According to the lecture, what is encapsulation really protecting?	Invariant logic: rules about how state may change, not just hidden data.	CSD214 week3 encapsulation
+Why do data classes need a no-arg constructor for Hibernate and JSON libraries?	They create objects via reflection by calling the no-arg constructor first, then setting fields.	CSD214 week3 constructors
+What is the purpose of a "loaded" constructor?	Developer convenience: creating a fully populated object in one line during testing or data seeding.	CSD214 week3 constructors
+What is the golden rule of constructor chaining?	A child can't exist until its parent part is initialized, so parent constructors always execute before child constructors.	CSD214 week3 constructors
+In the bucket-brigade analogy, which way does data flow and which way does initialization flow?	Data is passed UP to the parent that owns it; initialization flows DOWN.	CSD214 week3 constructors
+In new DiscMag(...), which field does DiscMag keep for itself, and what does it pass up?	It keeps hasDisc and passes orderQty, currentIssue, title, price and copies up to Magazine via super(...).	CSD214 week3 constructors
+Which constructor initializes the Scanner input field in the DiscMag chain?	Editable's constructor (called implicitly).	CSD214 week3 constructors
+Why can't DiscMag just set this.title directly?	title is private in Publication, so DiscMag must ask the parent to initialize it through the constructor chain.	CSD214 week3 constructors
+Why does book1 == book2 return false for two Books with identical data?	== compares memory addresses, and the two objects live at different addresses.	CSD214 week3 equals-hashcode
+What is the purpose of the super.equals(o) call inside Book.equals()?	It asks Publication to compare the fields it owns (title, price, copies) before Book compares author.	CSD214 week3 equals-hashcode
+What is the equals/hashCode contract?	If a.equals(b) is true, then a.hashCode() must equal b.hashCode().	CSD214 week3 equals-hashcode
+What goes wrong in a HashSet if you override equals() but not hashCode()?	The set looks in the wrong bucket, so an equal object is reported as "not found".	CSD214 week3 equals-hashcode
+What does an un-overridden toString() print for a Book?	The class name plus a hash, e.g. csd214.bookstore.pojos.Book@7ad041f3.	CSD214 week3 tostring
+What is a "God Class"?	A class that knows too much or does too much; in the Bookstore, App.java handles data storage, business logic and UI.	CSD214 week3 architecture
+What is the "Scanner problem" in the Bookstore design?	UI input logic (Scanner) lives inside data objects, so a Book can't work where there is no console, such as a web server.	CSD214 week3 architecture
+In the future MVC Bookstore, what are the Model, View and Controller?	Model: pure-data POJOs; View: Thymeleaf HTML templates; Controller: a class handling traffic between user and data.	CSD214 week3 mvc
+In the Auto Shop exercise, which synonyms were identified?	Part Number = Product ID; Manufacturer = Brand.	CSD214 week3 auto-shop
+Why is VehiclePart abstract?	The shop never sells a "generic" part, only specific ones like Tire or Battery; it holds shared manufacturer and price fields.	CSD214 week3 auto-shop
+In Tire.initialize(), what must be called first and why?	super.initialize(input), so the parent can prompt for manufacturer and price before Tire asks for diameter.	CSD214 week3 auto-shop
+Which three places in App.java had to change to add Tire and Battery?	The menu strings, two switch statements (addItem and listAny), and the populate() seeding logic.	CSD214 week3 auto-shop

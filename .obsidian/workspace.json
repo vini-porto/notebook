@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 3 - Analyzing Existing Databases.md",
+                "file": "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures/Week 3 - Advanced Class Design, The Architecture of Data and UML.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 3 - Analyzing Existing Databases"
+              "title": "Week 3 - Advanced Class Design, The Architecture of Data and UML"
             }
           }
         ]
@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 2 - The Database Mission.md",
+                "file": "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures/Week 2 - Object-Oriented Software Analysis and Design.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 2 - The Database Mission"
+              "title": "Week 2 - Object-Oriented Software Analysis and Design"
             }
           }
         ]
@@ -75,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "encapsulation",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -96,7 +96,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -215,12 +216,19 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "315c83aaff31e835",
+  "active": "135db46651f10cc0",
   "lastOpenFiles": [
+    "Sault College/W26/Winter 2026/Programming Concepts - CSD121/5 - Generalization and Polymorphism.md",
+    "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures/Week 3 - Advanced Class Design, The Architecture of Data and UML.md",
+    "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures/Week 1 - Java Review and In-Class Exercises.md",
+    "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures/Week 2 - Object-Oriented Software Analysis and Design.md",
+    "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Flashcards/advanced-class-design-uml-flashcards.txt",
+    "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Flashcards/advanced-class-design-uml-flashcards.txt.tmp.9858.2a48de72d842",
+    "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures/Week 3 - Advanced Class Design, The Architecture of Data and UML.md.tmp.9858.bc191ebb3582",
+    "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 2 - The Database Mission.md",
+    "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 3 - Analyzing Existing Databases.md",
     "Databases.md",
     "Sault College/W26/Winter 2026/Cloud Computing - CSD126/5 - Networking and Content Delivery.md",
-    "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 3 - Analyzing Existing Databases.md",
-    "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 2 - The Database Mission.md",
     "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 1 - Introduction to Database Design.md",
     "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 1 - Project Fundamentals & Failures.md",
     "Languages/English/synonyms/Hide (something).md",
@@ -236,23 +244,16 @@
     "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 3 - Analyzing Existing Databases.md.tmp.5258.0265dc97fe11",
     "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 3.md",
     "Sault College/F26/CSD217 - WEB DEVELOPMENT II/Lectures/TypeScript.md",
-    "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures/Week 1 - Java Review and In-Class Exercises.md",
     "Sault College/F26/CSD217 - WEB DEVELOPMENT II/Flashcards/introduction-to-typescript-flashcards.txt",
     "Sault College/F26/CSD217 - WEB DEVELOPMENT II/Flashcards",
-    "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures/Week 2 - Object-Oriented Software Analysis and Design.md",
     "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Flashcards/introduction-to-typescript-flashcards.txt",
     "Sault College/F26/CSD217 - WEB DEVELOPMENT II/Lectures/Week 1 - The DOM.md",
     "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures/Git Worktrees.md",
     "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Flashcards/git-worktrees-flashcards.txt",
-    "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Flashcards",
     "PMBOK.md",
-    "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/pasted file.txt",
-    "Sault College/F26/CSD217 - WEB DEVELOPMENT II/Lectures",
     "Sault College/F26/CSD217 - WEB DEVEIOPMENT II/Lectures/Week 1 - The DOM.md",
     "Sault College/F26/CSD217 - WEB DEVEIOPMENT II/Lectures/JavaScript.md",
     "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures/Week 1 -.md",
-    "Languages/English/Related Words/hard.md",
-    "Languages/English/Related Words/harsh.md",
     "Pasted image 20260809235031.png",
     "Pasted image 20260809234334.png",
     "Pasted image 20260809234258.png",
