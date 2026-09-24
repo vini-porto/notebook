@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 2 - The Database Mission.md",
+                "file": "Sault College/F26/CSD217 - WEB DEVELOPMENT II/Lectures/TypeScript.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 2 - The Database Mission"
+              "title": "TypeScript"
             }
           }
         ]
@@ -215,12 +215,14 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "135db46651f10cc0",
+  "active": "0762b22ca5ddbf4e",
   "lastOpenFiles": [
-    "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 3 - Analyzing Existing Databases.md",
-    "Sault College/F26/CSD216 - DATABASES II/CSD216 Open-Book Test - Practice Questions (Weeks 1-3).md",
-    "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 1 - Introduction to Database Design.md",
+    "Interfaces.md",
+    "Sault College/F26/CSD217 - WEB DEVELOPMENT II/Lectures/TypeScript.md",
     "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 2 - The Database Mission.md",
+    "Sault College/F26/CSD216 - DATABASES II/CSD216 Open-Book Test - Practice Questions (Weeks 1-3).md",
+    "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 3 - Analyzing Existing Databases.md",
+    "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 1 - Introduction to Database Design.md",
     "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures/Week 2 - Object-Oriented Software Analysis and Design.md",
     "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures/Week 3 - Advanced Class Design, The Architecture of Data and UML.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/5 - Generalization and Polymorphism.md",
@@ -243,7 +245,6 @@
     "Sault College/F26/CSD217 - WEB DEVELOPMENT II/Lectures/JavaScript.md",
     "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 3 - Analyzing Existing Databases.md.tmp.5258.0265dc97fe11",
     "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 3.md",
-    "Sault College/F26/CSD217 - WEB DEVELOPMENT II/Lectures/TypeScript.md",
     "Sault College/F26/CSD217 - WEB DEVELOPMENT II/Flashcards/introduction-to-typescript-flashcards.txt",
     "Sault College/F26/CSD217 - WEB DEVELOPMENT II/Flashcards",
     "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Flashcards/introduction-to-typescript-flashcards.txt",
@@ -252,7 +253,6 @@
     "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Flashcards/git-worktrees-flashcards.txt",
     "PMBOK.md",
     "Sault College/F26/CSD217 - WEB DEVEIOPMENT II/Lectures/Week 1 - The DOM.md",
-    "Sault College/F26/CSD217 - WEB DEVEIOPMENT II/Lectures/JavaScript.md",
     "Pasted image 20260809235031.png",
     "Pasted image 20260809234334.png",
     "Pasted image 20260809234258.png",
