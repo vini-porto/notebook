@@ -131,11 +131,11 @@ Every project, regardless of methodology, moves through a set of stages from sta
 
 ## Comparing Popular PM Tools
 
-| Tool | Workflow | Strength | Best for |
-|---|---|---|---|
-| Microsoft Project | Traditional / Gantt | Deep scheduling, dependencies, critical path | Large, fixed-scope infrastructure projects |
-| Jira | Agile / Kanban / Scrum | Sprint boards, backlogs, dev-tool integration | Software development teams |
-| Basecamp | Flexible to-do + docs | Simplicity, message boards, client-friendly | Small teams needing one shared home base |
+| Tool              | Workflow               | Strength                                      | Best for                                   |
+| ----------------- | ---------------------- | --------------------------------------------- | ------------------------------------------ |
+| Microsoft Project | Traditional / Gantt    | Deep scheduling, dependencies, critical path  | Large, fixed-scope infrastructure projects |
+| Jira              | Agile / Kanban / Scrum | Sprint boards, backlogs, dev-tool integration | Software development teams                 |
+| Basecamp          | Flexible to-do + docs  | Simplicity, message boards, client-friendly   | Small teams needing one shared home base   |
 
 > [!example] Basecamp's origin story
 > Basecamp wasn't originally a product, it was an internal tool a small web design agency, 37signals, built in 2004 to manage their own client projects. Other agencies started asking to use it too, so 37signals turned it into a standalone product, and it did so well that the whole company eventually renamed itself Basecamp.
