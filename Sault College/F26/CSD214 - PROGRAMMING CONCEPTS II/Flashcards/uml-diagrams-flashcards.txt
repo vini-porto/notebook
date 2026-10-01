@@ -1,0 +1,38 @@
+#separator:tab
+#html:false
+#tags column:3
+Is UML a methodology or a notation?	A precise, graphical diagramming notation. It describes how to draw a design, not the process for creating one.	CSD214 week3.1 uml
+What are the three compartments of a UML class box, top to bottom?	The class name, the attributes (with types), and the methods (behaviours).	CSD214 week3.1 uml
+What do the UML visibility symbols -, +, # and ~ mean?	- private, + public, # protected, ~ package.	CSD214 week3.1 uml
+Which Java access level matches the UML ~ symbol?	Package-private (no access modifier keyword).	CSD214 week3.1 uml
+What does multiplicity 0..* mean?	Zero or more (no upper limit). Plain * means the same.	CSD214 week3.1 uml
+What does multiplicity 1..* mean?	One or more (at least one).	CSD214 week3.1 uml
+What does multiplicity 0..1 mean?	Zero or one (optional).	CSD214 week3.1 uml
+How do you read multiplicity 3..7?	A range from three through seven, inclusive.	CSD214 week3.1 uml
+Why should multiplicity always be shown on an association?	Without it the relationship is unspecified, so readers can misunderstand how many objects are allowed.	CSD214 week3.1 uml
+Why don't inheritance lines carry multiplicity numbers?	Inheritance is an is-a relationship between types (Cash is a type of Payment), not a link between collections of objects.	CSD214 week3.1 uml
+In a simple directed association A --> B, which class knows about the other?	A knows about B (navigability A to B). B does not know about A.	CSD214 week3.1 uml
+What does a simple association usually correspond to in Java code?	An instance variable in Class A whose type is Class B.	CSD214 week3.1 uml
+What is a dependency relationship, and how is it drawn?	A weak, temporary uses-a relationship where a class uses another only as a method parameter or local variable. Dashed line with an open arrow (..>).	CSD214 week3.1 uml
+How is a bidirectional association different from a simple association?	Both classes know about each other, so you can navigate both ways (e.g. Student and Course).	CSD214 week3.1 uml
+What is aggregation, and what symbol shows it?	A weak has-a relationship where the part can exist independently of the whole. Hollow diamond at the whole (o--).	CSD214 week3.1 uml
+What is composition, and what symbol shows it?	A strong part-of relationship where the part cannot exist without the whole and is destroyed with it. Solid diamond at the whole (*--).	CSD214 week3.1 uml
+Which end of the line does an aggregation or composition diamond go on?	The whole (owner) end, e.g. Library o--> Book, House *--> Room.	CSD214 week3.1 uml
+What two tests justify composition over aggregation (Body/Hand example)?	Coincident lifetime (the part doesn't live independently) and exclusive ownership (the part belongs to only one whole at a time).	CSD214 week3.1 uml
+What is the Mermaid syntax for inheritance and what does it look like?	<|-- ; a solid line with a hollow triangle pointing at the parent.	CSD214 week3.1 uml
+What is realization, and what is its Mermaid syntax?	A class implementing an interface. Dashed line with a hollow triangle: <|..	CSD214 week3.1 uml
+In the CashTill example, why does CashTill have sell(item: SaleableItem) instead of sell(p: Publication)?	It programs to an interface, so it only depends on getPrice() and can sell any SaleableItem without changes (low coupling, extensibility).	CSD214 week3.1 uml
+In the bank example, why is Customer linked to BankAccount rather than to each account subclass?	The multiplicity then covers all subclasses, and a new account type can be added as a child without changing the Customer relationship.	CSD214 week3.1 uml
+In the Clock example, why is Clock linked to the ClockDisplay interface?	So a DigitalDisplay or AnalogDisplay can be swapped at runtime without changing Clock's code (Strategy Pattern).	CSD214 week3.1 uml
+What is the purpose of a package diagram?	To simplify large systems by grouping related classes into higher-level units (like folders) and showing dependencies between them.	CSD214 week3.1 uml
+In a package dependency arrow, which way does it point?	From the client (the package that needs info) to the supplier (the package providing it).	CSD214 week3.1 uml
+What design problem can package diagrams reveal?	Circular dependencies (package A depends on B and B depends on A), usually a sign of bad design.	CSD214 week3.1 uml
+How is an object named in an object diagram?	instanceName : ClassName, e.g. centralLibrary : Library.	CSD214 week3.1 uml
+How does an object diagram differ from a class diagram?	It shows a snapshot: instances instead of classes, values instead of types, and links without multiplicities.	CSD214 week3.1 uml
+What does a sequence diagram focus on?	The order of messages between objects over time (behaviour), with time flowing top to bottom.	CSD214 week3.1 uml
+In a sequence diagram, what does an activation bar show?	When an object is active, busy performing a task.	CSD214 week3.1 uml
+In a sequence diagram, what is the difference between ->> and -->> arrows?	->> (solid) is a synchronous call where the sender waits; -->> (dashed) is a return message.	CSD214 week3.1 uml
+What is an alt block used for in a sequence diagram?	To show alternative flows, like if/else (e.g. book available vs. already on loan).	CSD214 week3.1 uml
+What are the two main categories of UML diagrams?	Structural diagrams (what the system is made of) and behavioral diagrams (how the system acts).	CSD214 week3.1 uml
+Which UML diagram tracks how a single object changes state over its lifecycle?	A state machine diagram (e.g. Order: Pending, Paid, Shipped).	CSD214 week3.1 uml
+Which UML diagram shows who (actor) can do what (use case) without technical detail?	A use case diagram.	CSD214 week3.1 uml
