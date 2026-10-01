@@ -1,4 +1,4 @@
-Recommended reading: *Database Design for Mere Mortals*, Chapters 7 to 9.
+[[[]()]()]()Recommended reading: *Database Design for Mere Mortals*, Chapters 7 to 9.
 
 By the end of this lesson, you should be able to:
 - Identify and define a set of table structures for a database
