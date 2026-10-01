@@ -1,0 +1,31 @@
+#separator:tab
+#html:false
+#tags column:3
+What is the difference between the load and DOMContentLoaded events?	DOMContentLoaded fires when the DOM is ready, possibly before images and stylesheets finish; load waits until the page and all dependent resources are loaded.	CSD217 javascript-events
+Which event is typically used to stop a form from reloading the page?	submit (combined with event.preventDefault()).	CSD217 javascript-events
+What is the difference between setTimeout and setInterval?	setTimeout runs a function once after a delay; setInterval runs it repeatedly every given number of milliseconds.	CSD217 javascript-events
+How do you cancel a timer created with setTimeout before it fires?	Pass the ID it returned to clearTimeout(timerId).	CSD217 javascript-events
+What unit is the delay argument of setTimeout and setInterval in?	Milliseconds (1000 ms = 1 second).	CSD217 javascript-events
+Name two drawbacks of inline event handlers like onclick="...".	They mix HTML and JavaScript, and they are not reusable across many elements.	CSD217 javascript-events
+Why is addEventListener preferred over inline handlers?	It keeps structure and behavior separate and supports multiple listeners per element.	CSD217 javascript-events
+In what order do multiple listeners for the same event on one element run?	In the order they were registered.	CSD217 javascript-events
+Why give an event handler a name instead of using an anonymous arrow function?	So it can be reused or removed later with removeEventListener, which needs the same function reference.	CSD217 javascript-events
+What does event.key give you in a keydown handler?	The key that was pressed.	CSD217 javascript-events
+What does event.target refer to?	The element where the event actually happened (for example, the clicked li inside a ul).	CSD217 javascript-events
+What does event.preventDefault() do?	Cancels the browser's built-in action for the event, such as following a link or submitting a form.	CSD217 javascript-events
+What does event.stopPropagation() do?	Stops the event from bubbling up to parent elements.	CSD217 javascript-events
+What are the three phases of event propagation, in order?	Capturing phase (down from window to target), target phase, bubbling phase (up from target to root).	CSD217 javascript-events
+Which propagation phase do listeners use by default?	The bubbling phase.	CSD217 javascript-events
+How do you make a listener run during the capturing phase?	Pass { capture: true } as the third argument to addEventListener.	CSD217 javascript-events
+What is event delegation?	Attaching one listener to a parent element and using event.target to handle events from its children, relying on bubbling.	CSD217 javascript-events
+Why does event delegation work for elements added to the page later?	The listener lives on the parent, which already exists, and events from new children bubble up to it.	CSD217 javascript-events
+In a delegated handler, why compare event.target.tagName to 'LI' and not 'li'?	tagName returns HTML element names in uppercase.	CSD217 javascript-events
+What does the { once: true } listener option do?	Removes the listener automatically after its first call.	CSD217 javascript-events
+Before { once: true } existed, how did you make a listener run only once?	Call removeEventListener with the same named handler from inside that handler.	CSD217 javascript-events
+What does debouncing do to an event handler?	Waits until events stop for a set time, then runs the handler once; each new event resets the timer.	CSD217 javascript-events
+What does throttling do to an event handler?	Lets the handler run at most once per time window, ignoring events in between.	CSD217 javascript-events
+Which fits a scroll handler that must update while scrolling: debounce or throttle?	Throttle, because it keeps running at regular intervals during continuous events.	CSD217 javascript-events
+What do the bubbles and cancelable options mean when creating new Event(...)?	bubbles lets the event propagate up to parents; cancelable lets it be stopped with preventDefault().	CSD217 javascript-events
+How does CustomEvent differ from Event?	CustomEvent can carry arbitrary data in its detail property.	CSD217 javascript-events
+Which method fires a custom event on an element?	element.dispatchEvent(event).	CSD217 javascript-events
+Why are custom events useful for communication between components?	Components send and receive events without calling each other directly, which keeps them loosely coupled.	CSD217 javascript-events

@@ -35,12 +35,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures/Week 3.3 - SOLID Principles.md",
+                "file": "Sault College/F26/CSD217 - WEB DEVELOPMENT II/Lectures/Week 2 - JavaScript Events.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 3.3 - SOLID Principles"
+              "title": "Week 2 - JavaScript Events"
             }
           }
         ]
@@ -219,9 +219,15 @@
   },
   "active": "0762b22ca5ddbf4e",
   "lastOpenFiles": [
+    "Sault College/F26/CSD217 - WEB DEVELOPMENT II/Lectures/TypeScript.md",
+    "Sault College/F26/CSD217 - WEB DEVELOPMENT II/Flashcards/javascript-events-flashcards.txt",
+    "Sault College/F26/CSD217 - WEB DEVELOPMENT II/Flashcards/javascript-events-flashcards.txt.tmp.6144.b5f0ff091d3f",
+    "Sault College/F26/CSD217 - WEB DEVELOPMENT II/Lectures/Week 2 - JavaScript Events.md",
+    "Sault College/F26/CSD217 - WEB DEVELOPMENT II/Lectures/Week 2 - JavaScript Events.md.tmp.6144.ed8a4d5a9513",
+    "Sault College/F26/CSD217 - WEB DEVELOPMENT II/Lectures/Week 1 - The DOM.md",
+    "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures/Week 3.3 - SOLID Principles.md",
     "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures/Week 3.2 - Data Structures (Collections).md",
     "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures/Week 3.1 - UML Diagrams.md",
-    "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures/Week 3.3 - SOLID Principles.md",
     "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Flashcards/solid-principles-flashcards.txt",
     "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Flashcards/solid-principles-flashcards.txt.tmp.5509.f1635a691eec",
     "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures/Week 3.3 - SOLID Principles.md.tmp.5509.e969521ca6bc",
@@ -233,9 +239,6 @@
     "Untitled.md",
     "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 2 - PM Methodologies & the Project Life Cycle.md",
     "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 3 - Project Types, Trends & CI-CD in Practice.md",
-    "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Flashcards/uml-diagrams-flashcards.txt",
-    "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Flashcards/uml-diagrams-flashcards.txt.tmp.3779.e9af65f2afb9",
-    "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures/Week 3.1 - UML Diagrams.md.tmp.3779.3e9535ef7e79",
     "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 4 - Stakeholders & the Project Charter.md",
     "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 4 - Defining Tables and Fields.md",
     "Languages/English/Eatable Plants/Fuits.md",
@@ -252,8 +255,6 @@
     "Sault College/F26/CSD124 - SYSTEMS ANALYSIS AND DESIGN/Labs/Lab 01.md",
     "Sault College/F26/CSD216 - DATABASES II/CSD216 Open-Book Test - Practice Questions (Weeks 1-3).md",
     "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 2 - The Database Mission.md",
-    "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 1 - Introduction to Database Design.md",
-    "Sault College/F26/CSD217 - WEB DEVELOPMENT II/Lectures/TypeScript.md",
     "Pasted image 20260809235031.png",
     "Pasted image 20260809234334.png",
     "Pasted image 20260809234258.png",
