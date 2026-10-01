@@ -1,0 +1,41 @@
+#separator:tab
+#html:false
+#tags column:3
+In Java, is an array a primitive or an object?	An object.	CSD214 week3.2 collections
+What default value fills a new boolean array?	false	CSD214 week3.2 collections
+What default value fills a new int or double array?	0 (0.0 for double).	CSD214 week3.2 collections
+What default value fills a new array of a reference type, such as String[]?	null	CSD214 week3.2 collections
+How do you get the length of an array named data?	data.length (a field, no parentheses).	CSD214 week3.2 collections
+How is a 2D array described in the lecture?	As an array of arrays (rows, each holding columns).	CSD214 week3.2 collections
+For double[][] m, how do you get the number of columns?	m[0].length (the length of the first row).	CSD214 week3.2 collections
+How does the lecture describe a 3D array?	As a stack of 2D arrays (and a 4D array as a stack of 3D arrays).	CSD214 week3.2 collections
+What is a collection?	A container object used to hold other objects, used to store, retrieve, manipulate and communicate aggregate data.	CSD214 week3.2 collections
+What are the two high-level collection interfaces in the JDK?	java.util.Collection (collects objects) and java.util.Map (maps key/value pairs).	CSD214 week3.2 collections
+What is the most commonly used implementation of List?	ArrayList	CSD214 week3.2 collections
+What is the most commonly used implementation of Set?	HashSet	CSD214 week3.2 collections
+What is the most commonly used implementation of Map?	HashMap	CSD214 week3.2 collections
+What is the most commonly used implementation of Queue?	LinkedList	CSD214 week3.2 collections
+What does the diamond operator (JDK 7+) let you write?	new ArrayList<>() instead of new ArrayList<String>(); Java infers the type.	CSD214 week3.2 collections
+What does retainAll(c) do to a collection?	Keeps only the elements that are also in c and removes the rest.	CSD214 week3.2 collections
+What are the three ways to traverse a collection in the lecture?	The for-each loop, an Iterator, and aggregate operations on a stream.	CSD214 week3.2 collections
+What does Iterator.remove() remove?	The last element returned by next(). It may be called only once per call to next().	CSD214 week3.2 collections
+What is the only safe way to modify a collection during iteration?	Iterator.remove()	CSD214 week3.2 collections
+Why can't a for-each loop be used for filtering (removing) elements?	It hides the iterator, so you can't call remove().	CSD214 week3.2 collections
+Besides removing elements, when should you use an Iterator instead of for-each?	When you need to iterate over multiple collections in parallel.	CSD214 week3.2 collections
+In JDK 8+, what is the preferred way to iterate over a collection?	Get a stream and perform aggregate operations on it (often with lambda expressions).	CSD214 week3.2 collections
+When might parallelStream() make sense?	When the collection is large enough and the computer has enough cores.	CSD214 week3.2 collections
+What is the key difference between bulk operations (addAll, removeAll) and aggregate operations?	Bulk operations are mutative (they modify the collection); aggregate operations do not modify the underlying collection.	CSD214 week3.2 collections
+Why should lambdas in aggregate operations avoid mutation?	So the code doesn't break if it is later run from a parallel stream.	CSD214 week3.2 collections
+Which stream call joins elements into one comma-separated String?	.collect(Collectors.joining(", ")) after .map(Object::toString).	CSD214 week3.2 collections
+What is a Set?	A Collection that cannot contain duplicate elements.	CSD214 week3.2 collections
+What is a List?	An ordered Collection that may contain duplicates.	CSD214 week3.2 collections
+What four kinds of operations does List add to Collection?	Positional access, search, iteration (extended Iterator) and range-view.	CSD214 week3.2 collections
+Without generics, what happens to objects put into a collection?	They are upcast to Object, so you must know their type and cast them back when taking them out.	CSD214 week3.2 collections
+What is a Queue?	A collection for holding elements prior to processing, usually (not always) in FIFO order.	CSD214 week3.2 collections
+What is the difference between poll() and remove() on an empty Queue?	poll() returns null; remove() throws an exception.	CSD214 week3.2 collections
+What is a Map, and can it hold duplicate keys?	An object that maps keys to values. No: each key maps to at most one value.	CSD214 week3.2 collections
+What are the three collection views of a Map?	keySet, entrySet and values.	CSD214 week3.2 collections
+What are Java's three general-purpose Map implementations?	HashMap, TreeMap and LinkedHashMap.	CSD214 week3.2 collections
+Decision chart: key-value pairs, order matters, sorted. Which class?	TreeMap	CSD214 week3.2 collections
+Decision chart: no duplicates, order matters by insertion order. Which class?	LinkedHashSet	CSD214 week3.2 collections
+Decision chart: duplicates allowed, not random access, not fast insert/delete, used as FIFO. Which class?	ArrayDeque (LIFO would be Stack).	CSD214 week3.2 collections
