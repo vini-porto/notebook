@@ -473,7 +473,7 @@ int total = employees.stream()
 ### Bulk operations vs. aggregate operations
 
 The names sound alike, so don't mix them up.
-
+	
 | | Bulk operations | Aggregate operations |
 |---|---|---|
 | Examples | `containsAll`, `addAll`, `removeAll` | `filter`, `map`, `forEach`, `collect` on a stream |

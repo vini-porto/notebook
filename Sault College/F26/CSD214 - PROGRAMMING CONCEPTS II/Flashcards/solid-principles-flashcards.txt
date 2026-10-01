@@ -1,0 +1,33 @@
+#separator:tab
+#html:false
+#tags column:3
+What does the S in SOLID stand for?	Single Responsibility Principle (SRP).	CSD214 week3.3 solid
+What does the O in SOLID stand for?	Open/Closed Principle (OCP).	CSD214 week3.3 solid
+What does the L in SOLID stand for?	Liskov Substitution Principle (LSP).	CSD214 week3.3 solid
+What does the I in SOLID stand for?	Interface Segregation Principle (ISP).	CSD214 week3.3 solid
+What does the D in SOLID stand for?	Dependency Inversion Principle (DIP).	CSD214 week3.3 solid
+State the Single Responsibility Principle.	A class should have one responsibility, so there is only one reason to change it.	CSD214 week3.3 solid
+What three jobs did the bad Employee class mix together?	Personal details (data), business logic (salary, leave, tax calculations) and DB logic (save/update).	CSD214 week3.3 solid
+In the SRP fix, which three classes replace the single Employee class?	Employee (data only), EmployeeService (calculations) and EmployeeDAO (save/update).	CSD214 week3.3 solid
+What does DAO stand for, and what is its job?	Data Access Object: a class whose only job is reading and writing data to storage.	CSD214 week3.3 solid
+What is a God Class?	One class that does almost everything (UI, storage and logic), like the Lab 1 App.java. An extreme SRP violation.	CSD214 week3.3 solid
+State the Open/Closed Principle.	A class should be open for extension but closed for modification.	CSD214 week3.3 solid
+Why did the bad EmployeeSalary class violate OCP?	It used an if/else chain on employee type, so a new type (e.g. part-time) meant modifying the method.	CSD214 week3.3 solid
+How does the lecture fix the EmployeeSalary OCP problem?	Make EmployeeSalary an interface with one implementing class per type (PermanentEmployeeSalary, ContractEmployeeSalary). New types become new classes.	CSD214 week3.3 solid
+State the Liskov Substitution Principle.	Child classes must be replaceable with their parent classes without breaking the behaviour of the code.	CSD214 week3.3 solid
+Why does TeslaToyCar extends Car (with fuel()) violate LSP?	TeslaToyCar.fuel() throws an exception, so it can't be used everywhere a Car is expected.	CSD214 week3.3 solid
+How does the lecture fix the TeslaToyCar LSP problem?	Remove fuel() from Car and add a RealCar subclass with fuel(); TeslaToyCar extends Car, TeslaRealCar extends RealCar.	CSD214 week3.3 solid
+What is a common warning sign of an LSP violation?	A subclass overrides a parent method just to throw "not supported" (or do nothing).	CSD214 week3.3 solid
+State the Interface Segregation Principle.	An interface should only have methods that apply to all implementing classes; clients shouldn't depend on methods they don't use.	CSD214 week3.3 solid
+What happens when an interface has a method only some classes need?	The other classes are forced to write a dummy implementation.	CSD214 week3.3 solid
+How does the lecture fix the Vehicle interface that contained fly()?	Move fly() into a new Flyable interface; Bus implements Vehicle, Aeroplane implements Vehicle and Flyable.	CSD214 week3.3 solid
+State the Dependency Inversion Principle.	Classes should depend on abstractions (interfaces or abstract classes), not concrete implementations.	CSD214 week3.3 solid
+Why is private SQLRepository repository = new SQLRepository(); inside Service a DIP violation?	Service is tightly coupled to SQLRepository; supporting NoSQLRepository would require changing Service.	CSD214 week3.3 solid
+In the DIP fix, how does Service get its Repository?	It declares a Repository (interface) field and receives the object through its constructor.	CSD214 week3.3 solid
+What is passing a dependency through a constructor called in the lecture?	Manual dependency injection (done in Lab 5).	CSD214 week3.3 solid
+What are the three layers Lab 5 splits the monolith into?	Repository (data access: how data is stored), Service (business rules) and Presentation (UI interaction).	CSD214 week3.3 solid
+Which principle lets the app switch from InMemoryRepository to JdbcRepository without changing business logic?	Dependency Inversion (using a Repository interface).	CSD214 week3.3 solid
+How do @Autowired and @Service in Spring Boot relate to SOLID?	They are the framework automating the Dependency Inversion Principle (Inversion of Control).	CSD214 week3.3 solid
+In the Tire before/after exercise, what does Tire.java become?	A pure POJO: just data (diameter and price).	CSD214 week3.3 solid
+In the Tire before/after exercise, what is JdbcProductRepository?	The class that implements the ProductRepository interface with the SQL logic.	CSD214 week3.3 solid
+Why is ProductService open for extension and closed for modification?	A new product like Battery or Laptop can be added without changing the core transaction logic.	CSD214 week3.3 solid
