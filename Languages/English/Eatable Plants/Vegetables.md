@@ -79,10 +79,42 @@
 - ==She saved her **lettuce** for the upcoming trip.==
 - ==They counted their **lettuce** before heading to the store.==
 # Kale
+#Noun: 
+- (vegetable) leafy green vegetable with curly leaves. ***PT: Couve***
+- (finance) informal term for money. ***PT: Dinheiro, Grana***
+---
+- ==Farmers markets often sell fresh **kale**.==
+- ==He saved his **kale** for a rainy day.==
+- ==The thief made off with all the **kale**.==
 
 # Celery
+#Noun:
+- (food) type of vegetable with long fibrous stalks. PT: Salsão/Aipo
+- (colors) pale yellow-green color used in fashion and paint. PT: Verde aipo
+---
+- ==**Celery** sticks were served with the dip.==
+- ==The designer chose a **celery** for the logo.==
+- ==Her dress was a lovely shade of **celery**.==
 
 # Cucumber
+#Noun:
+- (food) edible fruit with green rind and white flesh. ***PT: Pepino***
+- (personality) person who is calm and composed. ***PT: pessoacalma / pessoa tranquila***
+---
+>[!EXAMPLE] Expressions with **Cucumber**
+>- **cool as a cucumber:** (calmness) calm and composed in stressful situations. 
+>	>[!note]- **PT:** calmo e sereno / tranquilo
+>	- ==Despite the chaos, he stayed **cool as a cucumber**.==
+>- **cucumber time:** (slow period) period of low activity or news #Dated #UK
+>	>[!note]- **PT:** periodo de calmaria
+>	- ==Retailers often see a drop in sales during **cucumber time**.==
+>	- ==Many businesses plan for **cucumber time** in advance.==
+
+- ==**Cucumber** slices were served as a snack.==
+- ==The **cucumber** vines climbed up the trellis.==
+- ==She picked a fresh **cucumber** from the garden.==
+- ==She remained a **cucumber** despite the chaos around her.==
+- ==Even in crisis, he was a **cucumber**, unflustered and calm.==
 
 # Zucchini
 
