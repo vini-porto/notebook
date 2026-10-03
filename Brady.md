@@ -1,0 +1,1 @@
+Rapaz legal, trabalha na cozinha. De estatura baixa e gordinho. Tive poucas interações com ele, e por algum motivo continuo esquecendo o nome dele. Ele aparentemente tem poucas horas de sono pelo que ele me falou, então presumo que tenha mais de um trabalho ou estude.
