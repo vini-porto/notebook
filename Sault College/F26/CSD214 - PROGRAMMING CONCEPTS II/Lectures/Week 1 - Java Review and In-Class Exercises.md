@@ -9,17 +9,17 @@
 
 Traditional languages like C or C++ compile straight down to **machine code**: a set of instructions that only one specific CPU and OS combination understands. That means if you want your app to run on Windows, Linux, and macOS, you basically have to recompile (and sometimes rewrite parts of) your code for each one. This is called the **Platform Problem**: maintaining software across many different hardware/OS combinations is expensive and time-consuming.
 
-## The "Write Once, Run Anywhere" (WORA) Philosophy
+## The "Write Once, Run Anywhere" (==WORA==) Philosophy
 
 Java's answer to the platform problem is an abstraction layer. The idea: write your source code **once**, and run it on **any** device that has a Java Runtime Environment (JRE) installed.
 
 Here's how it pulls this off:
 
-| Step | Tool | What happens |
-|---|---|---|
-| 1 | **`javac`** (the compiler) | Translates `.java` source files into **Java Bytecode** (`.class` files) instead of machine code |
-| 2 | **Bytecode** | An intermediate, platform-independent format, not tied to any specific CPU |
-| 3 | **JVM** (Java Virtual Machine) | Reads the bytecode and translates it into the real machine code for whatever hardware it's running on, in real time (acting like an interpreter or Just-In-Time compiler) |
+| Step | Tool                               | What happens                                                                                                                                                              |
+| ---- | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1    | **`javac`** (the compiler)         | Translates `.java` source files into **Java Bytecode** (`.class` files) instead of machine code                                                                           |
+| 2    | **Bytecode**                       | An intermediate, platform-independent format, not tied to any specific CPU                                                                                                |
+| 3    | **[[JVM]]** (Java Virtual Machine) | Reads the bytecode and translates it into the real machine code for whatever hardware it's running on, in real time (acting like an interpreter or Just-In-Time compiler) |
 
 > [!important] The key idea
 > You don't ship your program to the operating system. You ship it to the **JVM**. As long as a JVM exists for a given platform, your Java program runs there without any changes.
@@ -32,7 +32,7 @@ Traditional: Source Code → Compiler → Machine Code (platform-specific) → E
 Java: Source Code → javac → Bytecode → JVM (Windows / Linux / macOS) → Execution
 ```
 
-The JVM sits between your application and the hardware, hiding all the messy platform-specific details so your code behaves the same no matter where it runs.
+The [[JVM]] sits between your application and the hardware, hiding all the messy platform-specific details so your code behaves the same no matter where it runs.
 
 > [!tip]
 > If you want a deeper dive into how compilation and interpretation differ across languages, [GeeksforGeeks](https://www.geeksforgeeks.org) has good breakdowns of compiled vs. interpreted languages. This connects to what you'll see later in [[Programming Languages]] and [[Operating Systems]].
@@ -57,7 +57,7 @@ In real Java development, we rarely just write loose, disconnected code. Instead
    - Convention: `public T getPropertyName()` and `public void setPropertyName(T value)`.
 
 > [!tip]
-> Don't type these by hand every time. In IntelliJ, press `Alt+Insert` (or `Cmd+N` on Mac) inside a class to auto-generate constructors, getters, and setters. It keeps your code consistent and saves a lot of typing.
+> Don't type these by hand every time. In IntelliJ, press `Alt+Insert` (or `Cmd+N` on Mac) inside a class to ==auto-generate constructors, getters, and setters==. It keeps your code consistent and saves a lot of typing.
 
 ## The JavaBean standard: 4 strict rules
 
@@ -89,7 +89,7 @@ A **JavaBean** is a POJO that specifically follows these rules:
 > }
 > ```
 
-## Essential overrides: toString, equals, hashCode
+## ==Essential overrides==: toString, equals, hashCode
 
 Every class inherits three methods from `Object` that you'll almost always want to override once your objects need to be printed, compared, or stored in collections like `ArrayList` or `HashSet`.
 
