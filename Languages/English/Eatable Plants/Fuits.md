@@ -608,3 +608,6 @@ Can be used as an **adjective** for color, flavor but also, quality: in excellen
 - ==She made a curry using fresh **jackfruit**.==
 - ==**Jackfruit** is a versatile ingredient in vegan recipes.==
 - ==The market was filled with the sweet aroma of ripe **jackfruit**.==
+
+# Anki Status
+#Done
