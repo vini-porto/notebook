@@ -1,0 +1,33 @@
+#separator:tab
+#html:false
+#tags column:3
+What is citizenship?	Membership in a political system, with the rights and responsibilities of membership.	GEN100 week-01 global-citizenship
+What is global citizenship?	An umbrella term for the social, political, environmental and economic actions of globally minded people on a worldwide scale; the belief that individuals belong to multiple local and non-local networks.	GEN100 week-01 global-citizenship
+What is a nation?	A group of people who share culture, language, history and/or a political identity.	GEN100 week-01 global-citizenship
+What is a state?	An independent political unit with territorial boundaries recognized internationally by other political units.	GEN100 week-01 global-citizenship
+How many UN member states are there, and how many states does the US State Department recognize?	193 UN member states; 195 recognized by the US State Department.	GEN100 week-01 global-citizenship
+Name two "nations within a nation" in Canada.	The Québécois and Indigenous Peoples.	GEN100 week-01 global-citizenship
+How many ethnic origins did Canadians report in 2016, and how many people reported more than one?	Over 250 origins; 4 in 10 reported more than one.	GEN100 week-01 global-citizenship
+Define power.	How we get others to do what we want, often through coercion (sanctions and penalties).	GEN100 week-01 global-citizenship
+Define sovereignty.	The absolute and independent authority of a nation; its right to autonomy or self-government.	GEN100 week-01 global-citizenship
+Define legitimacy.	The moral obligation citizens feel to obey the laws and pronouncements of those in authority.	GEN100 week-01 global-citizenship
+According to Weber, what are the three bases of legitimate authority?	Tradition, charisma and law.	GEN100 week-01 global-citizenship
+Why does the lecture say the Canadian government is sovereign?	Because it is legitimate, based on the consent of citizens given through elections.	GEN100 week-01 global-citizenship
+What do the Greek roots of "democracy" mean?	Demos (people) + kratos (power): power of the people.	GEN100 week-01 global-citizenship
+What is one of the basic challenges of democracy?	Balancing individual freedom with the public good (majority rule while protecting minority rights).	GEN100 week-01 global-citizenship
+Who is Canada's head of state, and how did he get that role?	King Charles III; his authority is inherited.	GEN100 week-01 global-citizenship
+What does the Governor General do?	Represents the King in Canada and gives Royal Assent so federal bills become law; the role is mostly ceremonial.	GEN100 week-01 global-citizenship
+How does someone become Prime Minister?	By leading the party that wins the most seats and keeps the confidence of the House of Commons.	GEN100 week-01 global-citizenship
+What is party discipline?	Members of a party promote the same policies and vote together on almost every occasion.	GEN100 week-01 global-citizenship
+How many MPs sit in the House of Commons?	343, each representing one riding.	GEN100 week-01 global-citizenship
+What does "confidence" mean in the Westminster model?	Having the support of a majority of votes in the House of Commons.	GEN100 week-01 global-citizenship
+What are values?	Beliefs about ideal goals and behaviour that serve as standards for social life.	GEN100 week-01 global-citizenship
+Which Charter section covers fundamental freedoms?	Section 2.	GEN100 week-01 global-citizenship
+Which Charter sections cover democratic rights, and what is the maximum time between elections?	Sections 3 to 5; 5 years (with exceptions).	GEN100 week-01 global-citizenship
+Which Charter section protects equality rights, and which section protects gender equality from the notwithstanding clause?	Section 15; Section 28.	GEN100 week-01 global-citizenship
+What is affirmative action?	A law or program that gives preference to individuals with certain characteristics in hiring or promotion, to address historical disadvantage.	GEN100 week-01 global-citizenship
+Which three groups of Indigenous Peoples does the Constitution recognize?	First Nations, Métis and Inuit.	GEN100 week-01 global-citizenship
+What is political efficacy?	The feeling that one has political influence and that one's participation can make an impact.	GEN100 week-01 global-citizenship
+What was the all-time low federal turnout, and in what year?	58.8% in 2008.	GEN100 week-01 global-citizenship
+What were 2021 turnout rates for ages 18 to 24 and 65 to 74?	47% and 75%.	GEN100 week-01 global-citizenship
+What is the difference between negative and positive liberty?	Negative liberty is freedom from government interference; positive liberty is the freedom to reach your potential, with government providing opportunities.	GEN100 week-01 global-citizenship
