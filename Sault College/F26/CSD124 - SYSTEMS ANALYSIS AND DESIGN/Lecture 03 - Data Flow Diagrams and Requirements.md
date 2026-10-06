@@ -1,4 +1,4 @@
-# Data Flow Diagrams and Requirements
+	# Data Flow Diagrams and Requirements
 
 This lecture goes deeper into the tools an analyst uses during [[Systems Analysis]]. It starts with the stages of systems analysis and a longer, 8-phase version of the development sequence. Then it revisits [[Process Flow Diagram|process flow diagrams]] and [[Data Flow Diagram|data flow diagrams]] (DFDs) with new examples, and introduces **DFD levels** (the context diagram, or Level 0, and Level 1). It ends with the documents that come out of analysis: the fact-finding document, the [[Software Requirements Specification]] (SRS), [[Use Case|use cases]], and the difference between scope, requirements and design.
 
