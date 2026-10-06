@@ -1,0 +1,41 @@
+#separator:tab
+#html:false
+#tags column:3
+According to the lecture, what does testing give us?	Evidence that software behaves as expected.	CSD214 week4 testing
+What is the problem with manual testing, according to the lecture?	Relying on it alone. Manual checks are hard to repeat exactly, but manual testing is still useful for exploration, UX/UI and investigating bugs.	CSD214 week4 testing
+What does a useful automated test become?	A repeatable specification of behaviour.	CSD214 week4 testing
+As test scope grows from unit to E2E, how do tests usually change?	They become more realistic, slower, more dependent on other parts of the system, and harder to diagnose when they fail.	CSD214 week4 testing
+What is a unit test?	A test that checks a small piece of behaviour in isolation (a method, a class, or a small group of highly related code).	CSD214 week4 testing
+What question should a failing unit test answer?	What specific behaviour failed?	CSD214 week4 testing
+What does the Arrange step of Arrange-Act-Assert do?	Sets up the starting conditions (creates objects and prepares data).	CSD214 week4 testing
+What does the Act step of Arrange-Act-Assert do?	Performs the behaviour being tested (calls the method).	CSD214 week4 testing
+What does the Assert step of Arrange-Act-Assert do?	Checks that the result matches the expected result.	CSD214 week4 testing
+In assertEquals(250.00, tire.getPrice(), 0.001), what is the 0.001 for?	It is a tolerance (delta) for comparing doubles, which can have tiny rounding errors.	CSD214 week4 testing
+Why was the old Editable (with its own Scanner) hard to test?	The class created its own dependency (new Scanner(System.in)), so a test couldn't supply prepared answers instead of waiting for a human.	CSD214 week4 testing
+In the old Editable design, what two things did the class decide by itself?	What input it needs and where that input comes from.	CSD214 week4 testing
+What is dependency injection?	An object or method receives a dependency from outside rather than creating it internally.	CSD214 week4 testing
+After DI, what are the method signatures in the Editable interface?	void initialize(Scanner input) and void edit(Scanner input).	CSD214 week4 testing
+With DI, what Scanner does production code pass versus a test?	Production: new Scanner(System.in). Test: new Scanner(preparedInput).	CSD214 week4 testing
+How does a test simulate console input for a Scanner?	new Scanner(new ByteArrayInputStream(inputData.getBytes())), where inputData has one answer per line separated by \n.	CSD214 week4 testing
+What does the Tire unit test NOT prove?	That CashTill can sell the tire, that the menu creates the correct object, or that the whole workflow works.	CSD214 week4 testing
+What is an integration test?	A test that checks multiple components collaborate correctly (do they agree on how they interact?).	CSD214 week4 testing
+Why is the CashTill + real Tire test integration rather than unit?	It crosses the boundary between CashTill and a real Tire; the boundary between components is part of what is tested.	CSD214 week4 testing
+What does CashTill.sellItem(SaleableItem item) do?	Adds item.getPrice() to the running total, then calls item.sellItem() (which lowers stock).	CSD214 week4 testing
+What two things does the cashTillSellsARealTire test assert?	The till's running total equals the tire's price (250.00) and the tire's stock dropped by one (10 to 9).	CSD214 week4 testing
+What is an end-to-end (E2E) test?	A test that exercises a complete application workflow through its normal entry point.	CSD214 week4 testing
+In the E2E test, why is populate() overridden with an empty method?	So the app starts with a predictable state instead of sample data.	CSD214 week4 testing
+What should a good E2E assertion verify?	The observable result of the workflow, not merely that the application did not crash.	CSD214 week4 testing
+Why does the E2E test use System.setIn() instead of injecting a Scanner?	App creates its own Scanner(System.in) internally, so the test can only replace the global input stream.	CSD214 week4 testing
+What is the downside of System.setIn() in tests?	It is a global change that affects all code in the JVM. Injection gives a cleaner testing seam.	CSD214 week4 testing
+What does the testing pyramid recommend?	Many fast, focused unit tests; some integration tests for important boundaries; fewer E2E tests for critical workflows. A guideline, not a required ratio.	CSD214 week4 testing
+What is a regression?	When a change breaks behaviour that previously worked.	CSD214 week4 testing
+What question does a smoke test ask?	Is the build healthy enough for deeper testing?	CSD214 week4 testing
+Why are smoke tests "broad and shallow"?	They quickly touch many parts (app starts, menu appears, DB connects, one workflow) without depth; if they fail, a long suite is not worth running.	CSD214 week4 testing
+What is fuzz testing?	Feeding large amounts of unexpected, malformed or random input into software to find crashes, hangs, uncaught exceptions or hidden assumptions.	CSD214 week4 testing
+What question does acceptance testing ask?	Does the software satisfy a requirement or user need?	CSD214 week4 testing
+What question does load/stress testing ask?	What happens as demand approaches or exceeds expected limits?	CSD214 week4 testing
+What does "independent" mean as a quality of a good test?	It does not depend on the order tests are executed in.	CSD214 week4 testing
+Why should test names describe behaviour (e.g. sellingItemAddsPriceToRunningTotal)?	So the name explains the failure before you even open the test code.	CSD214 week4 testing
+What can code coverage show, and what can't it show?	It can reveal untested code, but high coverage alone doesn't prove the tests are good.	CSD214 week4 testing
+Why is initialize(Scanner input) a better design than creating the Scanner inside initialize()?	It gives the caller control over the dependency, making the code easier to test, easier to reuse and less coupled to one environment.	CSD214 week4 testing
+Name two warning signs that a class is designed in a hard-to-test way.	Any two of: creates many dependencies internally; heavy global/static state; business logic mixed with console or DB I/O; one test needs most of the app; no easy way to substitute an external resource.	CSD214 week4 testing
