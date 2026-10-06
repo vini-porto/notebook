@@ -117,9 +117,72 @@
 - ==Even in crisis, he was a **cucumber**, unflustered and calm.==
 
 # Zucchini
+#Noun:
+- (vegetable) type of dark green summer squash. ***PT: abobrinha italiana / abobrinha***
+
+---
+- ==**Zucchini** is a great addition to stir-fry.==
 
 # Squash
+#Noun:
+- (vegetable) edible fruit of squash plants. ***PT: abódbora***
+- (sports) sport played in an enclosed court using rackets and a ball. ***PT: squash (jogo)***
+- (beverage) fruit-based drink diluted with water. ***PT: suco concentrado/refresco***
+- (crowded space) situation with limited space. ***PT: aperto/falta de espago***
+---
+#Verb:
+- (crush) press into a flat mass or pulp. ***PT: amassar / esmagar / achatar***
+- (competition) defeat or beat someone overwhelmingly in a competition. ***PT: esmagar / aniquilar***
+- (overcome) suppress or force into submission. ***PT: suprimir /  dominar / reprimir***
+- (sounds) make a sucking or splashing sound. ***PT: fazer barulho  / esguichar***
+---
+>[!EXAMPLE] Expressions with **Squash**
+>- **squash in:** (physical space) fit into a small space by compressing / (schedule) fit an activity into a busy schedule
+>	>[!note]- **PT:** apertar-se / encaixar / incluir /  agendar
+>	- ==We managed to **squash** five people **into** the car.==
+>	- ==I  can **squash in** a meeting before lunch.==
+>- **squash rumors:** (truth) prove false information wrong #US 
+>	>[!note]- **PT:** desmentir rumores
+>	- ==She quickly **squashed rumors** by showing the evidence.==
+>- **squash up:** (action) crush or flatten something / (compression) compress into a smaller space #UK 
+>	>[!note]- **PT:** amassar esmagar achatar
+>	- ==He **squashed up** the empty can with his foot.==
+>- **squash the competition/opposition:** (sports talk) beat rivals completely, stopping them from making progress / (politics) reduce the influence of the opposing side
+>	>[!note] PT: esmagar a concorréncia
+>	- ==Our team **squashed the competition** in the final.== 
+>	- ==The new policy aims to **squash the opposition**'s power in the council.==
+>- **squash the beef:** (confiict) resolve a conflict or disagreement
+>	>[!note] PT: acabar com a briga
+>	- ==They decided to **squash the beef** and become friends again.==
+>- **squash the noise:** (sound) reduce or eliminate unwanted sound / (suppression) suppress or silence dissent or criticism
+>	>[!note] PT: abafaroruido / eliminar o ruido
+>	- ==He used earplugs to **squash the noise** from the construction site.==
+>- **squash flat:** (crush object) press something until it is completely flat. 
+>	>[!note] PT: amassar / achatar / esmagar
+>	- ==He **squashed** the can **flat** with his foot.==
+>- **squash the uprising:** (protest) end a protest or resistance
+>	>[!note] PT: reprimir a revolta
+>	- ==The military was called in to **squash the uprising**.==
 
+- ==The market sells several kinds of **squash**.==
+- ==She joined a **squash** league to stay fit.==
+- ==**Squash** is a fast-paced and competitive sport.==
+- ==The chef used **squash** in the seasonal soup.==
+- ==**Squash** is a staple in their autumn recipes.==
+- ==He offered me a refreshing lemon **squash**.==
+- ==They served blackcurrant **squash** at the party.==
+- ==The **squash** in the subway car was unbearable.==
+- ==During the sale, the store was a **squash**.==
+- ==He squashed the bug with a tissue.==
+- ==The chef squashed the garlic with a knife.==
+- ==They managed to **squash** the competition in the semi-finals.==
+- ==He trained hard to **squash** his opponent in the tournament.==
+- ==He tried to **squash** the rumors about his past.==
+- ==The manager squashed any hopes of a holiday bonus.==
+- ==We squashed into the crowded elevator.==
+- ==He squashed himself into the tiny seat.==
+- ==The sponge squashed under the pressure.==
+- ==The wet shoes squashed on the tiles.==
 # Pumpkin
 
 # Bell pepper
