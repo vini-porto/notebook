@@ -184,12 +184,57 @@
 - ==The sponge squashed under the pressure.==
 - ==The wet shoes squashed on the tiles.==
 # Pumpkin
+#Noun:
+- (food) large round orange fruit with thick skin
+- (affection) term of endearment
+- (colors) orange shade like ripe winter squash skin
+---
 
+>[!EXAMPLE] Expressions with **Cucumber**
+>- **pumpkin head:** (judgment) person considered to be foolish or stupid / (prison slang) severe head injury from a beating #US
+>	>[!note]- **PT:** Pateta
+>	- ==Don't be such a **pumpkin head** and think before you act.==
+>	- ==He got a **pumpkin head** after the fight.==
+>- **turn into a pumpkin:** (uselessness) stop functioning or become useless / (curfew) leave by a specific time #US 
+>	>[!note]- **PT:** Parar de funcionar / ir embora
+>	- ==The computer **turned into a pumpkin** after the power surge.==
+>	- ==I have to **turn into a pumpkin** by midnight.==
+>- **pumpkin time:** (curfew) time when one must leave or go home #US #Rare
+>	>[!note]- **PT:** hora de ir para casa / hora de voltar
+>	- ==It's **pumpkin time**, so we need to head back now.==
+>- **pumpkin chunkin':** (throwing competition) competition where people use machines to throw pumpkins far #Rare #Slang #US 
+>	>[!note]- **PT:** arremesso de abéboras
+>	- ==**Pumpkin chunkin'** attracts teams from all over the country.==
+
+- ==**Pumpkin** soup is perfect for autumn evenings.==
+- ==She whispered, 'Goodnight, **pumpkin**,' as she tucked him in.==
+- =='**Pumpkin**,' he said, 'you did a great job today.'==
+- ==The walls were painted in a **pumpkin** shade.==
+- ==Her scarf was a bright **pumpkin** color.==
+- ==We carved a **pumpkin** for Halloween.==
+- ==The farmer harvested a large **pumpkin** this year.==
 # Bell pepper
+#Noun: 
+- (food vegetable) sweet, mild fruit eaten as a hollow, colorful vegetable. ***PT: pimentão***
+---
 
+- ==The **bell pepper** adds color to the dish.==
+- ==Each **bell pepper** needs plenty of sunlight.==
+- ==The farmer watered the young **bell pepper** seedlings.==
 # Chili pepper
+#Noun:
+- (spices) fruit of Capsicum plant with spicy flavor. ***PT: pimenta / pimenta chili***
+---
+>[!EXAMPLE] Expressions with **Cucumber**
+>- **ghost chili pepper:** (food) verv hot chili pepper from India called bhut iolokia #Rare
+>	>[!note]- **PT:** pimenta fantasma / bhut jolokia
+>	- ==**Ghost chili pepper** is one of the hottest peppers.==
 
+- ==He grows **chili pepper** in his garden.==
+- ==He added a **chili pepper** to the stew.==
+- ==**Chili pepper** plants lined the garden path.==
 # Tomato
+
 
 # Eggplant
 
