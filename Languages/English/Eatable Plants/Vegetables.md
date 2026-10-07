@@ -234,8 +234,25 @@
 - ==He added a **chili pepper** to the stew.==
 - ==**Chili pepper** plants lined the garden path.==
 # Tomato
+#Noun: PT: Tomate
+- (fruit) red or yellowish fruit with a juicy pulp, used as a vegetable
+- (color) shade of red like ripe fruit skin
+---
+>[!EXAMPLE] Expressions with **Cucumber**
+>- **tomato tomahto:** | (choices) situation where two options are equivalent / (language) trivial difference in opinion #US 
+>	>[!note]- **PT:** dá no mesmo / tanto faz
+>	- ==Choosing between the two brands is a **tomato tomahto** situation.==
+>	>[!note]- **PT:** dá no mesmo / tanto faz
+>	- ==Arguing over the color is just **tomato tomahto**.==
+>- **tomato face:** (red-faced person) person with a red face, often from embarrassment or exertion #Rare. 
+>	>[!note]- **PT:** rosto vermelho / cara de tomate
+>	- ==She turned into a **tomato face** when everyone sang happy birthday to her.==
 
-
+- ==The chef added a ripe **tomato** to the salad.==
+- ==The **tomato** plants need plenty of sunlight.==
+- ==She bought a new variety of **tomato** for her garden.==
+- ==The walls were painted in a **tomato** hue.==
+- ==She wore a scarf of **tomato** red.==
 # Eggplant
 
 # Asparagus

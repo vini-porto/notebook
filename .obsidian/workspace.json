@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Tomato",
+                "query": "tag:#Rare",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -197,7 +197,7 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "56cc834018be2fc1",
+  "active": "135db46651f10cc0",
   "lastOpenFiles": [
     "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 4 - Defining Tables and Fields.md",
     "Sault College/F26/GEN100 - GLOBAL CITIZENSHIP/GEN100 - Week 04 - Converging Currents of Globalization.md",
