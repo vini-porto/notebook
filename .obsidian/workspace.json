@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sault College/F26/CSD217 - WEB DEVELOPMENT II/Lectures/Week 4 - Promises and Async Await.md",
+                "file": "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 6 - Business Rules and Views.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 4 - Promises and Async Await"
+              "title": "Week 6 - Business Rules and Views"
             }
           }
         ]
@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.4765625,
-    "collapsed": true
+    "width": 313.4765625
   },
   "right": {
     "id": "25633665bbc170a3",
@@ -199,11 +198,13 @@
   },
   "active": "135db46651f10cc0",
   "lastOpenFiles": [
+    "Sault College/F26/CSD216 - DATABASES II/CSD216 Open-Book Test - Practice Questions (Weeks 1-3).md",
+    "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 5 - Brainstorming, the WBS & Work Detail Breakdown.md",
+    "Sault College/F26/CSD217 - WEB DEVELOPMENT II/Lectures/Week 4 - Promises and Async Await.md",
     "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 5 - Establishing Relationships.md",
     "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 4 - Defining Tables and Fields.md",
     "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 5 - Establishing Relationships.md.tmp.13000.97e69607d6fe",
     "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures/Week 4 - Testing and Dependency Injection.md",
-    "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 5 - Brainstorming, the WBS & Work Detail Breakdown.md",
     "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 4 - Stakeholders & the Project Charter.md",
     "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 3 - Project Types, Trends & CI-CD in Practice.md",
     "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 5 - Brainstorming, the WBS & Work Detail Breakdown.md.tmp.5254.b2f64d06b091",
@@ -233,8 +234,6 @@
     "Sault College/F26/CSD124 - SYSTEMS ANALYSIS AND DESIGN/Lecture 01 - Systems Analysis Overview.md",
     "Brady.md",
     "Languages/English/Eatable Plants/Grains & cereals.md",
-    "Languages/English/Eatable Plants/Roots & tubers.md",
-    "Broccoli.md",
     "Pasted image 20260809235031.png",
     "Pasted image 20260809234334.png",
     "Pasted image 20260809234258.png",
