@@ -1,0 +1,35 @@
+#separator:tab
+#html:false
+#tags column:3
+What is the error-first callback convention?	The callback's first argument is the error (null if none) and the second is the result: cb(err, result).	CSD217 promises-async-await
+What is callback hell?	Deeply nested callbacks, where each dependent async step goes inside the previous callback, making code drift right and become hard to read.	CSD217 promises-async-await
+Name the four ways the lecture lists to mitigate callback hell.	Named callbacks, higher-order wrappers, converting callbacks to Promises with util.promisify, and async/await.	CSD217 promises-async-await
+What does util.promisify do?	Turns a Node.js function that uses an error-first callback into a function that returns a Promise.	CSD217 promises-async-await
+What two functions does a Promise executor receive?	resolve (call on success with a value) and reject (call on failure with an error).	CSD217 promises-async-await
+What are the three states of a Promise?	Pending, fulfilled, and rejected.	CSD217 promises-async-await
+What does it mean for a Promise to be settled?	It is no longer pending: it is either fulfilled or rejected, and it can never change state again.	CSD217 promises-async-await
+Why does .then allow chaining?	Every .then returns a new Promise, and the value returned in one step becomes the input of the next.	CSD217 promises-async-await
+In a chain of .then calls, which errors does one .catch at the end handle?	Errors from any step above it; a failure skips the remaining .then calls and jumps to the .catch.	CSD217 promises-async-await
+Does fetch reject when the server returns a 404 or 500?	No. fetch only rejects on network failure, so you must check res.ok and throw yourself.	CSD217 promises-async-await
+What does res.ok tell you about a fetch Response?	Whether the HTTP status is in the success range (200-299).	CSD217 promises-async-await
+What does an async function always return?	A Promise: it fulfills with the returned value or rejects with the thrown error.	CSD217 promises-async-await
+What does await do?	Pauses the async function until the Promise settles, then gives back its value (or throws its error).	CSD217 promises-async-await
+How do you handle errors with async/await?	Wrap the await calls in try/catch.	CSD217 promises-async-await
+What do you get if you call an async function without await?	A Promise object, not the resolved value.	CSD217 promises-async-await
+Why is async/await called syntactic sugar?	It adds no new abilities; it is a more readable, linear way to write Promise-based code.	CSD217 promises-async-await
+What is an async generator?	A function declared with async function* that can await inside and yield values one at a time as they become available.	CSD217 promises-async-await
+Which loop consumes an async generator?	for await (const x of gen()) { ... }	CSD217 promises-async-await
+What does "no buffering" mean for an async generator that fetches pages?	Each page is fetched only when the loop asks for it and processed as it arrives, instead of downloading everything first.	CSD217 promises-async-await
+What does Promise.resolve(i) create?	A Promise that is already fulfilled with the value i.	CSD217 promises-async-await
+When does Promise.all fulfill, and when does it reject?	It fulfills with an array of all values when every Promise succeeds; it rejects with the first error as soon as any one fails.	CSD217 promises-async-await
+In what order does Promise.all return its values?	In the same order as the input array, regardless of which finished first.	CSD217 promises-async-await
+What does Promise.allSettled return?	An array with one object per Promise: { status: 'fulfilled', value } or { status: 'rejected', reason }. It never rejects.	CSD217 promises-async-await
+When is Promise.allSettled better than Promise.all?	When you want to handle partial success, for example retrying only the requests that failed.	CSD217 promises-async-await
+What does Promise.any return?	The value of the first Promise that succeeds; it rejects only if all of them fail.	CSD217 promises-async-await
+What does Promise.race return?	The outcome of the first Promise to settle, whether it succeeded or failed.	CSD217 promises-async-await
+Which concurrency helper fits a request timeout, and why?	Promise.race, because the timer's rejection must be able to win if it settles before the request.	CSD217 promises-async-await
+How do you install Jest for a project?	npm install --save-dev jest (as a development dependency).	CSD217 promises-async-await
+How do you make a Jest test wait for async code?	Make the test function async and await the result (or return the Promise).	CSD217 promises-async-await
+What does jest.mock('axios') do?	Replaces every function in the axios module with a fake mock, so no real requests are sent.	CSD217 promises-async-await
+What does axios.get.mockResolvedValue(x) do in a test?	Makes the mocked axios.get return a Promise that fulfills with x.	CSD217 promises-async-await
+Why mock external calls in tests?	Real network calls make tests slow and unreliable; mocks give fast, predictable answers.	CSD217 promises-async-await
