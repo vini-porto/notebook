@@ -51,11 +51,11 @@ Drawing the project early helps in a few ways:
 
 ## Three Brainstorming and Visualization Tools
 
-| Tool | How it works | Best for |
-|---|---|---|
-| **[[Mind Map]]** | Put the project in the centre and branch outward into major areas, then sub-areas | The first fast, flexible "get everything out of our heads" pass |
-| **[[Affinity Diagram]]** | Write every idea on its own note, then sort the notes into natural groups | After a big brainstorm, when you have 40 loose ideas and need themes |
-| **[[Fishbone Diagram\|Cause-and-Effect (Fishbone)]]** | Put a problem or risk at the "head" and trace possible causes along category "bones" | Risks and problems, rather than deliverables |
+| Tool                                                  | How it works                                                                         | Best for                                                             |
+| ----------------------------------------------------- | ------------------------------------------------------------------------------------ | -------------------------------------------------------------------- |
+| **[[Mind Map]]**                                      | Put the project in the centre and branch outward into major areas, then sub-areas    | The first fast, flexible "get everything out of our heads" pass      |
+| **[[Affinity Diagram]]**                              | Write every idea on its own note, then sort the notes into natural groups            | After a big brainstorm, when you have 40 loose ideas and need themes |
+| **[[Fishbone Diagram\|Cause-and-Effect (Fishbone)]]** | Put a problem or risk at the "head" and trace possible causes along category "bones" | Risks and problems, rather than deliverables                         |
 
 > [!tip] Picking the right tool
 > Use a mind map or affinity diagram when you're figuring out *what the project will produce*. Save the fishbone for when you're asking *why something might go wrong*. That makes it more of a [[Risk Management|risk]] tool than a scope tool.
