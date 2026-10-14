@@ -1,0 +1,33 @@
+#separator:tab
+#html:false
+#tags column:3
+What is mass media?	Any medium designed to communicate messages to a mass audience.	GEN100 week-05 global-citizenship
+What is media literacy?	The ability to recognize, critically assess and make informed choices about messages contained in mass media forms.	GEN100 week-05 global-citizenship
+What is passive media?	Media that allows little or no direct input into the content from the user; created and controlled by a few and consumed by the masses.	GEN100 week-05 global-citizenship
+Give three examples of passive media from the lecture.	TV, magazines, radio, books, newspapers (any three).	GEN100 week-05 global-citizenship
+What is media framing?	Presenting stories and issues according to the reality the media wants the public (the receivers) to accept.	GEN100 week-05 global-citizenship
+What are the three reasons media frame stories?	To promote particular interests (bias, propaganda), to drive ratings (moral panic), and to fit a certain narrative or storyline (convenience, entertainment).	GEN100 week-05 global-citizenship
+Which form of mass media is still the most influential, according to the lecture?	Television.	GEN100 week-05 global-citizenship
+How many hours per week did Canadians 18+ watch traditional TV on average (CRTC, 2017)?	27 hours.	GEN100 week-05 global-citizenship
+What percentage of Canadians had home internet access in 2018?	94% (Statistics Canada).	GEN100 week-05 global-citizenship
+What percentage of Canadians had at least one streaming subscription in 2018?	67% (Abacus, 2019).	GEN100 week-05 global-citizenship
+How do functionalists see mass media?	As promoting common values and beliefs.	GEN100 week-05 global-citizenship
+What is the socialization function of media?	Helping individuals learn the culture, attitudes, values and norms needed to participate in society.	GEN100 week-05 global-citizenship
+What is the surveillance function of media?	Gathering and disseminating information for the population (for example, news).	GEN100 week-05 global-citizenship
+What is the correlation function of media?	Presenting difficult and complex issues in a way most people can understand.	GEN100 week-05 global-citizenship
+How does conflict theory see mass media?	As a tool rich and powerful elites use to control the masses and reinforce false consciousness.	GEN100 week-05 global-citizenship
+What is false consciousness?	Belief in and support of the system that oppresses you; not being aware of the class to which one belongs.	GEN100 week-05 global-citizenship
+What is propaganda?	Large-scale use of information made to appear truthful but intentionally manipulating facts to promote a worldview and influence the opinions or behaviours of most of the population.	GEN100 week-05 global-citizenship
+What is the propaganda model?	The assertion that mainstream media companies transmit content that reflects their commercial interests.	GEN100 week-05 global-citizenship
+What is media consolidation?	The concentration of ownership of news sources into the hands of fewer and fewer corporations.	GEN100 week-05 global-citizenship
+How many companies controlled 90% of American media in 1983 vs. 2011?	50 companies in 1983; 6 companies in 2011.	GEN100 week-05 global-citizenship
+Name the five assumptions underlying media literacy.	All media are constructions; audiences negotiate meaning; media have commercial interests; media have social and political implications; each medium has a unique aesthetic form.	GEN100 week-05 global-citizenship
+What is active media?	Media that allows the exchange of information between users who share in creating the content and messages.	GEN100 week-05 global-citizenship
+What is social media?	Highly interactive, internet-based media in which users create and consume content.	GEN100 week-05 global-citizenship
+What percentage of online Canadians are on at least one social platform (CBC, 2018)?	About 94%.	GEN100 week-05 global-citizenship
+What is viral media?	Media produced by amateurs and professionals that gains widespread popularity and distribution through the internet, usually short video clips.	GEN100 week-05 global-citizenship
+What does it mean that cell phones "leapfrogged" landlines in some developing countries?	People went straight to cell phones without first building conventional phone line networks.	GEN100 week-05 global-citizenship
+Why do journalists fear the 24/7 news cycle?	Factual reporting is losing ground to loud, splashy, fast sensational reporting, and journalism turns into commentary and opinion.	GEN100 week-05 global-citizenship
+What two problems happen when breaking news has no time for mediation?	Reporters can't check facts thoroughly, and editors can't select and focus stories, so context is lost and bias slips in.	GEN100 week-05 global-citizenship
+What are the five principles of journalism ethics?	Truth, honesty and impartiality; privacy; confidentiality; profit and conflict of interest; social responsibility.	GEN100 week-05 global-citizenship
+What does the confidentiality principle require?	Protecting the identity of sources when asked to do so.	GEN100 week-05 global-citizenship
