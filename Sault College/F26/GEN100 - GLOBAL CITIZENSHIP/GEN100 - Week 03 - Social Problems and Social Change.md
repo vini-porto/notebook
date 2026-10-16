@@ -30,11 +30,11 @@ The term comes from the sociologist [[C. Wright Mills]]. It asks you to look at 
 
 The slide shows three circles inside each other:
 
-| Level | Where it sits in the diagram | Scale |
-|---|---|---|
-| **Micro** | Small inner circle | Individuals and the small groups around them |
-| **Macro** | Middle circle | Large institutions within a society, such as government and media |
-| **Global** | Large outer circle | The whole world, across countries |
+| Level      | Where it sits in the diagram | Scale                                                             |
+| ---------- | ---------------------------- | ----------------------------------------------------------------- |
+| **Micro**  | Small inner circle           | Individuals and the small groups around them                      |
+| **Macro**  | Middle circle                | Large institutions within a society, such as government and media |
+| **Global** | Large outer circle           | The whole world, across countries                                 |
 
 Each circle sits inside the next one. What happens in your personal life (micro) is shaped by your country's institutions (macro), which are shaped by what happens around the world (global).
 
