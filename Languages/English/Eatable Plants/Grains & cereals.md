@@ -41,8 +41,16 @@ PT: Arroz
 
 # Corn (maize)
 
-#Noun: maize, a grain crop of the species Zea mays / hard thickening of the skin, often on toes / type of callus on the feet or hands / something old-fashioned or sentimental
-#Verb: preserve food using coarse salt / form a substance into grains
+#Noun:
+- (grain plant) maize, a qrain crop of the species Zea mays. ***PT: Milho***
+- (agriculture) any cereal plant that is the main crop of a region. ***PT: Milho / Cereal***
+- (skin condition) hard thickening of the skin, often on toes. ***PT: Calo***
+- (nostalgia) something old-fashioned or sentimental. ***PT: melodrama***
+- (internet) pornography in euphemistic internet slang. ***PT: pornô / Conteúdo adulto***
+
+#Verb:
+- (cooking) preserve food using coarse salt. ***PT: Salgar / Curar***
+- (granulate) form a substance into grains. ***PT: Granulizar*****
 
 PT: Milho
 
@@ -50,17 +58,17 @@ PT: Milho
 
 >[!example] Expressions with **Rice**
 >- **eat one's seed corn:** consume something essential for future / use resources meant for future growth now
->	- ==If you sell your tools, you're eating your seed corn.==
->	- ==Spending all your savings is like eating your seed corn.==
+>	- ==If you sell your tools, you're **eating your seed corn**.==
+>	- ==Spending all your savings is like **eating your seed corn**.==
 >- **can of corn:** easily caught fly ball in baseball / something very easy to do
->	- ==The outfielder caught a can of corn to end the inning.==
->	- ==For him, solving that puzzle was a can of corn.==
+>	- ==The outfielder caught a **can of corn** to end the inning.==
+>	- ==For him, solving that puzzle was a **can of corn**.==
 >- **acknowledge the corn:** confess to a minor wrongdoing
->	- ==She acknowledged the corn about the broken vase.==
+>	- ==She **acknowledged the corn** about the broken vase.==
 >- **cream someone's corn:** make someone feel annoyed or impatient
->	- ==Her constant humming creams my corn.==
+>	- ==Her constant humming **creams my corn**.==
 >- **earn one's corn:** justify one's position by performing well
->	- ==He really earned his corn with that successful project.==
+>	- ==He really **earned his corn** with that successful project.==
 
 - ==She bought fresh **corn** from the market.==
 - ==In Scotland, oats are the primary **corn**.==

@@ -254,16 +254,59 @@
 - ==The walls were painted in a **tomato** hue.==
 - ==She wore a scarf of **tomato** red.==
 # Eggplant
+#Noun: Pt: beriniela
+- purple fruit used as a vegetable in cooking
+- plant that bears eggplants
+- dark purple color like vegetable skin
+---
+- ==The recipe calls for roasted **eggplant**.==
+- ==The **eggplant** in the garden grew taller than expected.==
+- ==She planted an **eggplant** next to the tomatoes.==
+- ==The artist chose **eggplant** for the background color.==
+- ==Her scarf was a lovely shade of **eggplant**.==
 
 # Asparagus
+#Noun: PT: aspargos
+- edible young green shoots from a spring garden vegetable
+- plant with leaflike stems and small flowers
+---
+- ==The chef prepared a delicious **asparagus** soup.==
+- ==She added **asparagus** to the salad for a fresh taste.==
+- ==Farmers harvested **asparagus** in the early spring.==
 
 # Artichoke
+#Noun: PT: alcachofra
+- (food) edible flower bud used as vegetable
+- (botany) thistle-like plant grown for its edible flower buds
+---
+- ==They harvested the **artichoke** from their garden.==
+- ==We planted an **artichoke** in the backyard.==
+- ==The **artichoke** needs plenty of sunlight to grow well.==
+- ==The dress was a lovely **artichoke** shade.==
+- ==Her eyes were a deep **artichoke** color.==
 
 # Brussels sprout
-
-# Corn
-
+#Noun: PT: couve-de-bruxelas
+- (food) small green vegetable buds
+- (vegetable) plant producing small green buds
+---
+- ==**Brussels sprouts** are a great source of vitamins.==
+- ==She harvested **Brussels sprouts** from her backyard garden.==
+- ==**Brussels sprouts** are often served roasted with garlic.==
 # Peas
+#Noun: PT: Ervilha
+- (vegetable) small spherical green seed eaten as a vegetable
+- (botany) plant with pods containing edible seeds
+---
+>[!EXAMPLE] Expressions with **Cucumber**
+>- **tomato tomahto:** | (choices) situation where two options are equivalent / (language) trivial difference in opinion #US 
+>	>[!note]- **PT:** dá no mesmo / tanto faz
+>	- ==Choosing between the two brands is a **tomato tomahto** situation.==
+>	>[!note]- **PT:** dá no mesmo / tanto faz
+>	- ==Arguing over the color is just **tomato tomahto**.==
+>- **tomato face:** (red-faced person) person with a red face, often from embarrassment or exertion #Rare. 
+>	>[!note]- **PT:** rosto vermelho / cara de tomate
+>	- ==She turned into a **tomato face** when everyone sang happy birthday to her.
 
 # Green beans
 
