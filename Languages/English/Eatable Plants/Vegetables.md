@@ -298,16 +298,32 @@
 - (vegetable) small spherical green seed eaten as a vegetable
 - (botany) plant with pods containing edible seeds
 ---
->[!EXAMPLE] Expressions with **Cucumber**
->- **tomato tomahto:** | (choices) situation where two options are equivalent / (language) trivial difference in opinion #US 
->	>[!note]- **PT:** dá no mesmo / tanto faz
->	- ==Choosing between the two brands is a **tomato tomahto** situation.==
->	>[!note]- **PT:** dá no mesmo / tanto faz
->	- ==Arguing over the color is just **tomato tomahto**.==
->- **tomato face:** (red-faced person) person with a red face, often from embarrassment or exertion #Rare. 
->	>[!note]- **PT:** rosto vermelho / cara de tomate
->	- ==She turned into a **tomato face** when everyone sang happy birthday to her.
+>[!EXAMPLE] Expressions with **Peas**
+>- **pea shooter:** (toys) toy tube for shooting small objects / (ineffectiveness) person or thing that is ineffective
+>	>[!note]- **PT:** zarabatana
+>	- ==He made a **pea shooter** from a straw.==
+>	>[!note]- **PT:** Coisa inútil
+>	- ==His arguments were like a **pea shooter** against a tank.==
+>- **pea brain:** (insult) person perceived as lacking intelligence #US 
+>	>[!note]- **PT:** burro / tolo
+>	- ==He called his brother a **pea brain** for losing the keys.==
+>- **like two peas in a pod:** (similarity) in a way that shows very close similarity or perfect match
+>	>[!note]- **PT:** como duas gotas d'água
+>	- ==They worked **like two peas in a pod** on the project.==
+>- **like peas and carrots:** (association) in a closely associated way / (harmony) in a harmonious or compatible manner #US
+>	>[!note]- **PT:** como unha e carne
+>	- ==The twins are **like peas and carrots**.==
+>	- ==They work together **like peas and carrots**.==
+>- **like shelling peas:** (ease) very easy to do or accomplish #UK
+>	>[!note] PT: moleza
+>	- ==Solving the puzzle was **like shelling peas**.==
+>- **thick as pea soup:** (weather) very dense or foggy #UK
+>	>[!NOTE] PT: espesso como sopa de ervilhas
+>	- ==The fog was **thick as pea soup**, making it hard to see.==
 
+- ==Peas are a staple in many vegetable soups.==
+- ==She added a **pea** to the soup for flavor.==
+- ==A single **pea** rolled off the plate.==
 # Green beans
 
 # Radish
