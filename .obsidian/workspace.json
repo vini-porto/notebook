@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages/English/Eatable Plants/Grains & cereals.md",
+                "file": "Languages/English/Eatable Plants/Vegetables.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Grains & cereals"
+              "title": "Vegetables"
             }
           },
           {
@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages/English/Eatable Plants/Vegetables.md",
+                "file": "Languages/English/Eatable Plants/Roots & tubers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vegetables"
+              "title": "Roots & tubers"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -213,10 +212,11 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "efc64927c64aed84",
+  "active": "135db46651f10cc0",
   "lastOpenFiles": [
-    "Languages/English/Eatable Plants/Grains & cereals.md",
+    "Languages/English/Eatable Plants/Roots & tubers.md",
     "Languages/English/Eatable Plants/Vegetables.md",
+    "Languages/English/Eatable Plants/Grains & cereals.md",
     "Languages/English/Eatable Plants/Fuits.md",
     "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 1 - Project Fundamentals & Failures.md",
     "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 2 - PM Methodologies & the Project Life Cycle.md",
@@ -250,7 +250,6 @@
     "Sault College/F26/CSD217 - WEB DEVELOPMENT II/Lectures/Week 2 - JavaScript Events.md",
     "Dependency Injection.md",
     "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures/Week 3.2 - Data Structures (Collections).md",
-    "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures/Week 1 - Java Review and In-Class Exercises.md",
     "Pasted image 20260809235031.png",
     "Pasted image 20260809234334.png",
     "Pasted image 20260809234258.png",

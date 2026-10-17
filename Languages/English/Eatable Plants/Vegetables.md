@@ -325,16 +325,13 @@
 - ==She added a **pea** to the soup for flavor.==
 - ==A single **pea** rolled off the plate.==
 # Green beans
-
-# Radish
-
-# Beet
-
-# Turnip
-
-# Parsnip
+#Noun: PT: feijão verde / vagem
+- (vegetable) immature green pods of beans
+---
+- **Green beans** are rich in vitamins.
 
 # Leek
+
 
 # Onion
 
