@@ -331,28 +331,142 @@
 - **Green beans** are rich in vitamins.
 
 # Leek
-
+#Noun: PT: alho-poró / alho-francés
+- (food) vegetable with mild onion flavor and long green leaves
+---
+- ==The recipe called for sautéed **leek**.==
+- ==The **leek** is featured in many Welsh emblems.==
+- ==A **leek** was presented as a gift to the visiting dignitary.==
 
 # Onion
+#Noun 
+- (cooking) edible bulb used as a vegetable or spice. ***PT: Cebola***
+- (drug slang) ounce of a drug. ***PT: Onça***
+---
+>[!EXAMPLE] Expressions with **Onion**
+>- **onion bag:** (sports) net used in soccer to catch the ball. #UK #Slang  
+>	>[!note]- **PT:** baliza / rede de futebol
+>	- ==The ball hit the back of the **onion bag**.==
+>- **peel the onion:** (investigation) investigate a matter deeply step by step
+>	>[!note] PT: ir ao fundo da questão
+>	- ==The detective had to **peel the onion** to solve the case.==
 
+- ==The recipe calls for a large **onion**.==
+- ==He chopped the **onion** finely for the stew.==
+- ==The recipe called for a large **onion**.==
+- ==They found an **onion** in his backpack.==
+- ==She sold an **onion** to the undercover officer.==
 # Garlic
+#Noun: PT: Alho
+- (cooking) pungent bulb used to flavor many savory dishes
+---
+>[!EXAMPLE] Expressions with **Garlic**
+>- **garlic up:** (cooking) add garlic to food #Rare 
+>	>[!note]- **PT:** colocar alho / adicionar alho
+>	- ==She decided to **garlic up** the pasta sauce for extra flavor.==
 
+- ==**Garlic** is known for its health benefits.==
+- ==**Garlic** adds a strong flavor to dishes.==
+- ==He planted **garlic** in his backyard garden.==
 # Shallot
+#Noun: PT: Chalota
+- (cooking) small mild-flavored bulb used for seasoning
+---
+- ==He sautéed **shallot** with garlic.==
+- ==I added chopped **shallot** to the salad.==
+- ==**Shallot** is often used in gourmet recipes.==
 
 # Scallion (green onion)
+#Noun: PT: Cebolinha
+- (food) spring onion with long green leaves
+- (voung onion) any onion without a fully developed bulb
+---
+- ==The chef garnished the dish with sliced **scallion**.==
+- ==I added chopped scallions to the salad for extra flavor.==
+- ==Scallions can be used in soups for a fresh taste.==
 
 # Fennel
+#Noun:
+- (cooking) seeds used as a spice in cooking. ***PT: erva-doce***
+- (herb) plant with yellow flowers, feathery leaves, and sweet anise-like flavor. ***PT: funcho***
+---
+- ==She sprinkled **fennel** on the salad.==
+- ==**Fennel** seeds are used in various cuisines.==
+- ==The garden was full of blooming **fennel**.==
+- ==**Fennel** is often used in Mediterranean dishes.==
+- ==Roasted **fennel** pairs well with fish.==
 
 # Okra
+#Noun: PT: Quiabo
+- (vegetable) edible green pods used in cooking
+- (botany) flowering plant grown for its pods
+---
+- ==**Okra** is often used in gumbo recipes.==
+- ==The farmer harvested **okra** early in the morning.==
+- ==She added fresh **okra** to the vegetable stew.==
 
 # Bok choy
-
+#Noun: PT: bok choy / acelga chinesa
+- (vegetable) Chinese cabbage with edible white stalks and green leaves
+---
+- ==She prefers **bok choy** in her salads.==
 # Swiss chard
+#Noun: PT: Acelga
+- (food) leafy green vegetable often used in salads
+- (botany) plant with large green leaves and colorful stems
+---
+- ==**Swiss chard** grows well in my garden.==
+- ==**Swiss chard** adds color to the salad.==
+- ==Farmers markets often sell fresh **Swiss chard**.==
 
 # Arugula
+#Noun: PT: Rúcula
+- (plant and food) annual plant with peppery leaves eaten in salads
+---
+- ==The chef garnished the dish with **arugula** leaves.==
 
 # Watercress
-
+#Noun:
+- (plants) edible aquatic plant with peppery leaves
+#Adjective:
+- (color) green like leaves of the peppery aquatic plant
+---
+- ==**Watercress** grows best in clean, running water.==
+- ==The dress was a lovely **watercress** shade.==
+- ==Her eyes sparkled with a **watercress** hue.==
 # Endive
+#Noun: PT: endivia / chicéria / escarola
+- (leafy vegetable) plant of the daisy family, cultivated for its edible leaves.
+---
+- ==**Endive** adds a slight bitterness to the dish.==
 
 # Rhubarb
+#Noun:
+- (cooking) long sour leafstalks used in cooking. ***PT: ruibarbo*** 
+- (dispute) angry exchange of words or a brawl. ***PT: briga / disputa***
+- (theater) background noise from indistinct conversations. ***PT: murmurio / ruído de fundo***
+- (medical) dried roots used as a laxative. ***PT: ruibarbo***
+- (military) RAF code name for low-level flight operations. ***PT: voo em baixa altitude***
+
+#Verb:
+- (theater) create indistinct conversation noise by repeating 'rhubarb'. ***PT: murmurar / fazer murmurio***
+- (loud argument) argue loudly and disruptively. ***PT: altercar / discutir ruidosamente***
+- (military) fire at targets opportunistically. ***PT: atirar / disparar  alvejar***
+---
+- ==He added **rhubarb** to the stew for a tangy taste.==
+- ==She made a pie with fresh **rhubarb** from the garden.==
+- ==The debate turned into a **rhubarb** quickly.==
+- ==A **rhubarb** broke out at the meeting.==
+- ==The director asked for more **rhubarb** in the background.==
+- ==**Rhubarb** filled the theater as the scene unfolded.==
+
+- ==**Rhubarb** has been used in herbal remedies for centuries.==
+- ==The doctor recommended **rhubarb** for its medicinal properties.==
+- ==Pilots trained for **rhubarb** missions regularly.==
+- ==The squadron executed a **rhubarb** at dawn.==
+- ==The extras were instructed to **rhubarb** during the scene.==
+- ==In the play, they **rhubarb** to mimic a busy market.==
+- ==Fans started to **rhubarb** after the controversial call.==
+- ==The two politicians began to **rhubarb** during the debate.==
+- ==The soldiers rhubarbed whenever they spotted enemy units.==
+- ==During the exercise, they rhubarbed at mock targets.==

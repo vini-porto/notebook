@@ -90,13 +90,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 313.4765625,
-    "collapsed": true
+    "width": 313.4765625
   },
   "right": {
     "id": "25633665bbc170a3",
@@ -215,9 +213,12 @@
   "active": "135db46651f10cc0",
   "lastOpenFiles": [
     "Languages/English/Eatable Plants/Roots & tubers.md",
-    "Languages/English/Eatable Plants/Vegetables.md",
+    "Languages/English/Eatable Plants/Nuts & seeds.md",
+    "Languages/English/Eatable Plants/legumes.md",
+    "Languages/English/Eatable Plants/Herbs & spices.md",
     "Languages/English/Eatable Plants/Grains & cereals.md",
     "Languages/English/Eatable Plants/Fuits.md",
+    "Languages/English/Eatable Plants/Vegetables.md",
     "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 1 - Project Fundamentals & Failures.md",
     "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 2 - PM Methodologies & the Project Life Cycle.md",
     "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 4 - Stakeholders & the Project Charter.md",
@@ -247,9 +248,6 @@
     "Sault College/F26/GEN100 - GLOBAL CITIZENSHIP/GEN100 - Week 04 - Converging Currents of Globalization - Flashcards.txt.tmp.12698.1de354ba2bc7",
     "Sault College/F26/GEN100 - GLOBAL CITIZENSHIP/GEN100 - Week 04 - Converging Currents of Globalization.md.tmp.12698.24b49730e466",
     "Sault College/F26/GEN100 - GLOBAL CITIZENSHIP/GEN100 - Week 01 - Canadian and Global Citizenship.md",
-    "Sault College/F26/CSD217 - WEB DEVELOPMENT II/Lectures/Week 2 - JavaScript Events.md",
-    "Dependency Injection.md",
-    "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures/Week 3.2 - Data Structures (Collections).md",
     "Pasted image 20260809235031.png",
     "Pasted image 20260809234334.png",
     "Pasted image 20260809234258.png",
