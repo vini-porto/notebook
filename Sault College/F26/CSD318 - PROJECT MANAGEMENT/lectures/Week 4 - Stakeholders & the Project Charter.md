@@ -230,15 +230,15 @@ The Charter:
 
 ## Core Components of a Charter
 
-| Component | What it contains |
-|---|---|
-| **Purpose & Justification** | Why the project exists and what business need it addresses |
-| **Objectives & Success Criteria** | The SMART criteria that define "done" and "successful" |
-| **Scope (In / Out)** | A clear boundary of what the project will and will not deliver |
-| **Key Stakeholders & Roles** | Who's involved (from your Power/Interest Grid) and their authority |
-| **Budget Summary** | A high-level estimate; detailed [[Budgeting|budgeting]] comes in Week 6 |
-| **Milestones / Timeline** | Major checkpoints only; the full schedule is Week 8's job |
-| **Sponsor Authorization** | A signature or formal sign-off that makes the project official |
+| Component                         | What it contains                                                   |
+| --------------------------------- | ------------------------------------------------------------------ |
+| **Purpose & Justification**       | Why the project exists and what business need it addresses         |
+| **Objectives & Success Criteria** | The SMART criteria that define "done" and "successful"             |
+| **Scope (In / Out)**              | A clear boundary of what the project will and will not deliver     |
+| **Key Stakeholders & Roles**      | Who's involved (from your Power/Interest Grid) and their authority |
+| **Budget Summary**                | A high-level estimate; detailed Budgeting                          |
+| **Milestones / Timeline**         | Major checkpoints only; the full schedule is Week 8's job          |
+| **Sponsor Authorization**         | A signature or formal sign-off that makes the project official     |
 
 ```mermaid
 flowchart TD
