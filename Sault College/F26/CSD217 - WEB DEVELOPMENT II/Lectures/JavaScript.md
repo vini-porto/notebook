@@ -1,6 +1,6 @@
 # Overview
 
-This lecture covers the first four chapters of *Eloquent JavaScript*: the absolute basics of [[JavaScript]] as a language — variables, data types, operators, functions, and the two core data structures (objects and arrays).
+This lecture covers the first four chapters of *Eloquent JavaScript*: the absolute basics of JavaScript as a language — variables, data types, operators, functions, and the two core data structures (objects and arrays).
 
 > [!note] What you'll learn
 > - The building blocks of a JavaScript program (variables, values, operators)
@@ -30,13 +30,13 @@ var z = 30;      // function-scoped, mutable
 
 ## Primitive data types
 
-| Type | Example | Notes |
-|---|---|---|
-| Number | `42`, `3.14` | `typeof` returns `"number"` |
-| String | `"Hello"` | text data |
-| Boolean | `true` | used with `===` vs `==` comparisons |
-| Null | `null` | `typeof null === "object"` — a well-known quirk of the language |
-| Undefined | `undefined` | the default value of an uninitialized variable |
+| Type      | Example      | Notes                                                           |
+| --------- | ------------ | --------------------------------------------------------------- |
+| Number    | `42`, `3.14` | `typeof` returns `"number"`                                     |
+| String    | `"Hello"`    | text data                                                       |
+| Boolean   | `true`       | used with `===` vs `==` comparisons                             |
+| Null      | `null`       | `typeof null === "object"` — a well-known quirk of the language |
+| Undefined | `undefined`  | the default value of an uninitialized variable                  |
 
 > [!warning] Common mistake
 > `typeof null` returns `"object"`, not `"null"`. This is a long-standing bug in JavaScript that was never fixed, because fixing it would break too much existing code. Just memorize it as an exception.
@@ -131,25 +131,17 @@ function logAndReturn(x) {
 > [!tip]
 > Pure functions are easier to test and reason about, because you never have to worry about what else they might be doing. Prefer them when you can.
 
-## Summary of Chapter 1
-
-- Variables (`let`, `const`, `var`)
-- Primitive types
-- Console API
-- Math operators and the `Math` object
-- Functions and arrow syntax
-
 # Chapter 2 – Values, Variables, and Operators
 
 ## Arithmetic vs logical vs comparison operators
 
-| Operator | Example | Result |
-|---|---|---|
-| `+` | `5 + 3` | `8` |
-| `*` | `2 * 4` | `8` |
-| `&&` | `true && false` | `false` |
-| `==` | `5 == "5"` | `true` |
-| `===` | `5 === "5"` | `false` |
+| Operator | Example         | Result  |
+| -------- | --------------- | ------- |
+| `+`      | `5 + 3`         | `8`     |
+| `*`      | `2 * 4`         | `8`     |
+| `&&`     | `true && false` | `false` |
+| `==`     | `5 == "5"`      | `true`  |
+| `===`    | `5 === "5"`     | `false` |
 
 ## Operator precedence
 
@@ -245,14 +237,6 @@ class Person {}
 let p = new Person();
 console.log(p instanceof Person); // true
 ```
-
-## Summary of Chapter 2
-
-- Arithmetic, logical, and comparison operators
-- Precedence and associativity
-- Truthiness and equality
-- Assignment and conditional operators
-- Short-circuit logic
 
 # Chapter 3 – Program Structure
 
@@ -376,15 +360,6 @@ const squares = arr.map(n => n * n); // arrow keeps lexical this
 > [!warning] Common mistake
 > Arrow functions do **not** get their own `this` — they inherit it from the surrounding (lexical) scope. This is usually what you want inside something like `.map()`, but it means arrow functions are a poor choice for object methods that need to refer to the object itself via `this`.
 
-## Summary of Chapter 3
-
-- Block scope and hoisting
-- Function types and default parameters
-- Rest and spread syntax
-- Purity and side effects
-- Closures and IIFEs
-- `this` in regular functions vs arrow functions
-
 # Chapter 4 – Data Structures
 
 ## Objects — key/value pairs
@@ -445,11 +420,11 @@ const evens = nums.filter(n => n % 2 === 0);   // [2,4]
 const sum = nums.reduce((a, b) => a + b, 0);   // 10
 ```
 
-| Method | What it does |
-|---|---|
-| `map()` | Transforms each item, returns a new array of the same length |
+| Method     | What it does                                                                  |
+| ---------- | ----------------------------------------------------------------------------- |
+| `map()`    | Transforms each item, returns a new array of the same length                  |
 | `filter()` | Keeps only the items that pass a test, returns a (possibly shorter) new array |
-| `reduce()` | Combines all items into a single value (like a total) |
+| `reduce()` | Combines all items into a single value (like a total)                         |
 
 ## `for...of` vs `for...in`
 
