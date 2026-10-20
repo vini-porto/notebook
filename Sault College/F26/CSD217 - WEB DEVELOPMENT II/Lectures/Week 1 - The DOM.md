@@ -29,13 +29,13 @@ A **URL** (Uniform Resource Locator) is just a unique address for a web resource
 http://www.saultcollege.ca/about
 ```
 
-| Part | Example |
-|---|---|
-| protocol | `http` |
-| sub domain | `www` |
-| domain | `saultcollege` |
-| top-level domain | `.ca` |
-| path | `/about` |
+| Part             | Example        |
+| ---------------- | -------------- |
+| protocol         | `http`         |
+| sub domain       | `www`          |
+| domain           | `saultcollege` |
+| top-level domain | `.ca`          |
+| path             | `/about`       |
 
 ## Including JavaScript in a web page
 
@@ -130,24 +130,24 @@ Think of the DOM as a **tree**: a structure made of connected nodes, where each 
 
 Every DOM node comes with built-in properties that let you move around the tree:
 
-| Property | What it gives you |
-|---|---|
-| `parentNode` | the node's parent |
-| `childNodes` | a collection with **all** the node's children (including text nodes) |
-| `children` | a collection with only the children that are **elements** |
-| `firstChild` / `lastChild` | the first/last child node |
-| `previousElementSibling` / `nextElementSibling` | the closest sibling element before/after this one |
+| Property                                        | What it gives you                                                    |
+| ----------------------------------------------- | -------------------------------------------------------------------- |
+| `parentNode`                                    | the node's parent                                                    |
+| `childNodes`                                    | a collection with **all** the node's children (including text nodes) |
+| `children`                                      | a collection with only the children that are **elements**            |
+| `firstChild` / `lastChild`                      | the first/last child node                                            |
+| `previousElementSibling` / `nextElementSibling` | the closest sibling element before/after this one                    |
 
 > [!tip]
 > Notice the naming pattern: anything with "Element" in the name (like `children`, `previousElementSibling`) only counts actual HTML elements, and skips plain text nodes. Properties without "Element" in the name (like `childNodes`) count everything, text included.
 
 ## Getting and setting an element's content
 
-| Property | Gets/sets | Notes |
-|---|---|---|
-| `innerHTML` | the **HTML** content of an element | When you set it, the string you give it is *parsed as HTML* |
+| Property      | Gets/sets                          | Notes                                                                       |
+| ------------- | ---------------------------------- | --------------------------------------------------------------------------- |
+| `innerHTML`   | the **HTML** content of an element | When you set it, the string you give it is *parsed as HTML*                 |
 | `textContent` | the **text** content of an element | When you set it, any HTML you give it is treated as plain text (not parsed) |
-| `innerText` | the "human-readable" text content | CSS-aware — text hidden via CSS is *not* included |
+| `innerText`   | the "human-readable" text content  | CSS-aware — text hidden via CSS is *not* included                           |
 
 > [!warning] Common mistake
 > Setting `innerHTML` with untrusted or user-supplied text can be a security risk (it gets parsed as real HTML/JavaScript). If you just want to insert plain text, `textContent` is the safer choice.
@@ -257,12 +257,12 @@ const el = document.querySelector('div.a');
 
 DOM nodes have built-in methods for changing the structure of the tree:
 
-| Method | What it does |
-|---|---|
-| `appendChild(node)` | Adds `node` as the **last child** of the node it's called on |
-| `insertBefore(node, nodeToPrecede)` | Inserts `node` immediately before `nodeToPrecede` |
-| `replaceChild(node, nodeToReplace)` | Swaps `nodeToReplace` out for `node` |
-| `cloneNode(deep)` | Makes a copy of the node. If `deep` is `true`, all its child nodes are cloned too |
+| Method                              | What it does                                                                      |
+| ----------------------------------- | --------------------------------------------------------------------------------- |
+| `appendChild(node)`                 | Adds `node` as the **last child** of the node it's called on                      |
+| `insertBefore(node, nodeToPrecede)` | Inserts `node` immediately before `nodeToPrecede`                                 |
+| `replaceChild(node, nodeToReplace)` | Swaps `nodeToReplace` out for `node`                                              |
+| `cloneNode(deep)`                   | Makes a copy of the node. If `deep` is `true`, all its child nodes are cloned too |
 
 To create brand-new content (not just move existing content around), `document` gives you:
 
@@ -400,14 +400,6 @@ Besides `style`, there are several **read-only** properties for measuring an ele
 > [!important] Don't mix these up
 > - `.style.width` gives back exactly what you (or a stylesheet) previously *set* it to, including the unit — it says nothing about the element's real rendered size.
 > - `.clientWidth` gives the element's **actual width in pixels**, as it appears in the browser, with no units — regardless of whether `.style.width` was ever set at all.
-
-# Summary
-
-- JavaScript code runs exactly where the `<script>` element sits in the HTML — unless the `defer` attribute is used, in which case it waits until parsing is done.
-- The DOM is a data structure representing the loaded document; the browser builds it automatically.
-- The DOM API provides many methods for traversing (finding your way around) and manipulating (changing) that structure.
-- Changes made to the DOM in code appear immediately in the browser viewport, and changes in the viewport are reflected immediately back in the DOM — it's live in both directions.
-- Some DOM methods (like `getElementById`) return a single object representing one HTML element, while others (like `querySelectorAll`) return array-like collections of such objects.
 
 # External resources
 

@@ -1,3 +1,67 @@
+# DOM
+
+```
+http://www.saultcollege.ca/about
+```
+
+| Part             | Example        |
+| ---------------- | -------------- |
+| protocol         | `http`         |
+| sub domain       | `www`          |
+| domain           | `saultcollege` |
+| top-level domain | `.ca`          |
+| path             | `/about`       |
+
+> [!tip]
+> `defer` is the modern, recommended approach. You'll still see the "script at the bottom of body" trick in a lot of older code, so it helps to recognize it.
+
+> [!important] Sandboxing
+> This restriction is called **sandboxing**. It's the browser's way of balancing "let websites be genuinely useful and interactive" against "keep users safe and private." This connects closely to [[Web Security]] and [[Authentication]] as topics.
+
+>[!NOTe] DOM Analogy
+>Think of the DOM as a **tree**: a structure made of connected nodes, where each node can have other nodes as its children.
+
+| Property                                        | What it gives you                                                    |
+| ----------------------------------------------- | -------------------------------------------------------------------- |
+| `parentNode`                                    | the node's parent                                                    |
+| `childNodes`                                    | a collection with **all** the node's children (including text nodes) |
+| `children`                                      | a collection with only the children that are **elements**            |
+| `firstChild` / `lastChild`                      | the first/last child node                                            |
+| `previousElementSibling` / `nextElementSibling` | the closest sibling element before/after this one                    |
+The whole DOM tree is reachable through one global variable: `document`.
+
+- `document.body` — the `<body>` element
+- `document.head` — the `<head>` element
+---
+
+| Method                              | What it does                                                                      |
+| ----------------------------------- | --------------------------------------------------------------------------------- |
+| `appendChild(node)`                 | Adds `node` as the **last child** of the node it's called on                      |
+| `insertBefore(node, nodeToPrecede)` | Inserts `node` immediately before `nodeToPrecede`                                 |
+| `replaceChild(node, nodeToReplace)` | Swaps `nodeToReplace` out for `node`                                              |
+| `cloneNode(deep)`                   | Makes a copy of the node. If `deep` is `true`, all its child nodes are cloned too |
+
+> [!warning] A node can only exist in one place at a time
+> A DOM node can only occupy **one spot** in the tree. If you `appendChild` or `insertBefore` a node that *already exists elsewhere* in the DOM, it gets **moved** to the new position — it does **not** get duplicated.
+>
+> ```html
+> <div id="myDiv">
+>   <p id="a">A</p>
+>   <p id="b">B</p>
+>   <p id="c">C</p>
+> </div>
+> <script>
+>   // Move paragraph A to the end
+>   document.getElementById('myDiv')
+>     .appendChild(document.getElementById('a'));
+> </script>
+> ```
+> After this runs, the order becomes B, C, A — paragraph A wasn't copied, it was relocated. If you actually want a copy, use `cloneNode()` first.
+
+> [!warning] Common mistake
+> All CSS values set through JavaScript must be **strings** — and for anything that needs a unit (like width or margin), don't forget to include it (`"75px"`, not `75`). Leaving out the unit is a very easy mistake to make.
+
+
 # JavaScript
 - `let` and `const` are **block-scoped** (they only exist inside the `{ }` they were declared in)
 
@@ -187,3 +251,162 @@ Spread (`...`) can be used to build a new array or object by expanding an existi
 const moreColors = [...colors, "orange"];
 const newBook = { ...book, year: 2022 };
 ```
+
+# TypeScript
+
+You can also state the type directly, which matters most for function parameters or a variable that starts without a value:
+
+```ts
+let count: number = 42;
+```
+
+Arrays hold values of one type:
+
+```ts
+let numbers: number[] = [1, 2, 3];
+let strings: Array<string> = ["a", "b"];
+```
+
+A **tuple** is an array with a fixed length where each position has its own type, handy for something like a `[key, value]` pair coming back from an API:
+
+```ts
+let person: [string, number] = ["Alice", 30];
+```
+
+- `any`: disables type checking for that value entirely.
+- `unknown`: also accepts any value, but forces you to narrow it (check what it actually is) before you can use it.
+
+> [!warning] Avoid `any` in frontend and backend code alike
+> `any` is easy to reach for when a third-party library or an API response doesn't have types, but it silently turns off checking everywhere that value flows. Prefer `unknown` and narrow it, or write a proper interface for the response shape.
+
+`never` marks a function that never returns normally, either because it always throws or loops forever:
+
+```ts
+function fail(message: string): never {
+  throw new Error(message);
+}
+```
+
+A **literal type** restricts a value to one exact set of options, useful for things like a fixed set of HTTP methods or UI states:
+
+```ts
+type Direction = "up" | "down" | "left" | "right";
+```
+
+An **enum** names a fixed set of related constants:
+
+```ts
+enum Color { Red, Green, Blue }
+```
+
+> [!note] Literal types vs enums
+> Literal unions are a compile-time-only check that leaves no trace in the compiled JavaScript. Enums generate an actual JavaScript object at runtime.
+
+Interface syntax:
+
+```ts
+interface Person {
+  name: string;
+  age: number;
+}
+```
+
+Class Syntax:
+
+```ts
+class Animal {
+  constructor(public name: string) {}
+  speak() { console.log(`${this.name} makes a noise`); }
+}
+```
+
+A class can extend another one, reusing its properties and methods and overriding what needs to change:
+
+```ts
+class Dog extends Animal {
+  speak() { console.log(`${this.name} barks`); }
+}
+```
+
+| Modifier           | Visibility                                               |
+| ------------------ | -------------------------------------------------------- |
+| `public` (default) | Accessible from anywhere                                 |
+| `private`          | Only accessible inside the declaring class               |
+| `protected`        | Accessible inside the declaring class and its subclasses |
+
+```ts
+class Calculator {
+  add(a: number, b: number): number;
+  add(a: string, b: string): string;
+  add(a: any, b: any): any { return a + b; }
+}
+```
+
+The first two lines declare the valid call signatures; the third is the actual implementation, which has to handle every case those signatures allow.
+
+---
+
+Generic Function
+
+```ts
+function identity<T>(arg: T): T { return arg; }
+```
+
+Generic Interface
+
+```ts
+interface Box<T> {
+  content: T;
+}
+```
+
+---
+Built-in helpers that transform an existing type into a new one:
+
+| Utility        | Effect                                                                       |
+| -------------- | ---------------------------------------------------------------------------- |
+| `Partial<T>`   | Makes every property of `T` optional, useful for a PATCH-style update object |
+| `Readonly<T>`  | Makes every property of `T` read-only                                        |
+| `Record<K, V>` | Builds an object type with keys of type `K` and values of type `V`           |
+An **intersection** combines multiple types into one that must satisfy all of them:
+
+```ts
+type Admin = { level: number };
+type User = { name: string };
+type SuperUser = Admin & User;
+```
+
+A [[Union Types|union]] means a value can be one of several types:
+
+```ts
+type ID = number | string;
+```
+
+
+---
+A **type guard** narrows a union down to one specific type inside a conditional block, so the code after the check can safely assume that narrower type:
+
+- `typeof` for primitives (`typeof value === "string"`)
+- `instanceof` for class instances
+- Custom guard functions for anything more specific, such as checking the shape of an API response before trusting it
+
+
+```ts
+type IsString<T> = T extends string ? true : false;
+```
+
+Conditional types pick between two types based on whether `T` matches a condition, similar to a ternary operator, but evaluated at the type level instead of at runtime.
+
+
+```ts
+const name = user?.profile?.name;
+```
+
+If `user` or `user.profile` is `null` or `undefined`, the whole expression short-circuits to `undefined` instead of throwing, which matters a lot when rendering UI from data that might not have loaded yet.
+
+
+```ts
+const value = input ?? defaultValue;
+```
+
+Falls back to `defaultValue` only when `input` is `null` or `undefined`, unlike `||`, which would also fall back on `0`, `""`, or `false`, a distinction that matters for things like a quantity field where `0` is a valid, meaningful value.

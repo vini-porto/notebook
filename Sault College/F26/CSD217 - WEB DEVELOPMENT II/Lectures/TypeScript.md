@@ -1,6 +1,6 @@
 
 > [!note] Where this fits in web development
-> Plain [[JavaScript]] never checks your types until the code actually runs in the browser or on the server. In a small script that's fine; in a large frontend codebase or a [[Node.js]] backend, a typo in a property name can slip through code review and only surface as a bug in production. [[TypeScript]] is a superset of JavaScript that adds a type system on top, catching that class of mistake while you're still writing the code. It compiles down to ordinary JavaScript, so it runs anywhere JavaScript already runs, in the browser, in [[Node.js]], and inside frameworks like [[React]] and Angular.
+> Plain [[JavaScript]] never checks your types until the code actually runs in the browser or on the server. In a small script that's fine; in a large frontend codebase or a [[Node.js]] backend, a typo in a property name can slip through code review and only surface as a bug in production. TypeScript is a superset of JavaScript that adds a type system on top, catching that class of mistake while you're still writing the code. It compiles down to ordinary JavaScript, so it runs anywhere JavaScript already runs, in the browser, in [[Node.js]], and inside frameworks like [[React]] and Angular.
 
 # What is TypeScript?
 
@@ -181,11 +181,11 @@ class Dog extends Animal {
 
 ## Access modifiers
 
-| Modifier | Visibility |
-|---|---|
-| `public` (default) | Accessible from anywhere |
-| `private` | Only accessible inside the declaring class |
-| `protected` | Accessible inside the declaring class and its subclasses |
+| Modifier           | Visibility                                               |
+| ------------------ | -------------------------------------------------------- |
+| `public` (default) | Accessible from anywhere                                 |
+| `private`          | Only accessible inside the declaring class               |
+| `protected`        | Accessible inside the declaring class and its subclasses |
 
 ## Getters and setters
 
@@ -268,11 +268,11 @@ function logLength<T extends Lengthwise>(arg: T) {
 
 Built-in helpers that transform an existing type into a new one:
 
-| Utility | Effect |
-|---|---|
-| `Partial<T>` | Makes every property of `T` optional, useful for a PATCH-style update object |
-| `Readonly<T>` | Makes every property of `T` read-only |
-| `Record<K, V>` | Builds an object type with keys of type `K` and values of type `V` |
+| Utility        | Effect                                                                       |
+| -------------- | ---------------------------------------------------------------------------- |
+| `Partial<T>`   | Makes every property of `T` optional, useful for a PATCH-style update object |
+| `Readonly<T>`  | Makes every property of `T` read-only                                        |
+| `Record<K, V>` | Builds an object type with keys of type `K` and values of type `V`           |
 
 See the [TypeScript utility types reference](https://www.typescriptlang.org/docs/handbook/utility-types.html) for the full list.
 
@@ -401,17 +401,6 @@ classDiagram
 ```
 
 `Dog` inherits `name` and the constructor from `Animal`, then overrides `speak()` with its own implementation.
-
-# Summary
-
-- [[TypeScript]] is a superset of [[JavaScript]] that adds static typing and compiles down to plain JavaScript that runs anywhere JavaScript already runs.
-- `tsc --init` generates `tsconfig.json`, which controls how the compiler behaves (`target`, `module`, `strict`, and more).
-- Types can be left to inference or written explicitly; `any` disables checking entirely and should be avoided in favor of `unknown`.
-- [[Interfaces]], classes, [[Inheritance]], and access modifiers (`public`/`private`/`protected`) bring familiar object-oriented patterns to JavaScript, with static members, getters/setters, and constructor parameter properties as convenient shortcuts.
-- [[Generics]] let functions, interfaces, and classes work with a type decided at the call site, which is why they show up so often in typed API clients and reusable components.
-- [[Union Types|Unions]], intersections, type guards, and discriminated unions make it possible to model values that can take several shapes, like UI or API states, while still being checked safely.
-- Mapped and conditional types transform existing types into new ones based on their keys or on a condition.
-- Optional chaining (`?.`), nullish coalescing (`??`), and template literals (`` ` ``) are modern JavaScript features that TypeScript web code relies on constantly.
 
 # Exercises
 
