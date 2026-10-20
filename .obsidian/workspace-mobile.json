@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 4 - Stakeholders & the Project Charter.md",
+                "file": "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 5 - Brainstorming, the WBS & Work Detail Breakdown.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 4 - Stakeholders & the Project Charter"
+              "title": "Week 5 - Brainstorming, the WBS & Work Detail Breakdown"
             }
           }
         ]
@@ -100,7 +100,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 4 - Stakeholders & the Project Charter.md",
+            "file": "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 5 - Brainstorming, the WBS & Work Detail Breakdown.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -179,10 +179,18 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "17868b78d6a8c0d3",
+  "active": "c32dc3be1be482c8",
   "lastOpenFiles": [
-    "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 3 - Project Types, Trends & CI-CD in Practice.md",
+    "/Sault College/F26/CSD217 - WEB DEVELOPMENT II/Lectures/Week 1 - The DOM.md",
+    "/Sault College/F26/CSD217 - WEB DEVELOPMENT II/Lectures/TypeScript.md",
+    "/Sault College/F26/CSD217 - WEB DEVELOPMENT II/Lectures/Test Review - Points to remember.md",
+    "/Sault College/F26/CSD217 - WEB DEVELOPMENT II/Lectures/JavaScript.md",
+    "/Sault College/F26/CSD217 - WEB DEVELOPMENT II/Lectures",
+    "/Sault College/F26/CSD217 - WEB DEVELOPMENT II",
+    "/Sault College/F26",
+    "/Sault College",
     "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 4 - Stakeholders & the Project Charter.md",
+    "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 3 - Project Types, Trends & CI-CD in Practice.md",
     "Sault College/F26/GEN100 - GLOBAL CITIZENSHIP/GEN100 - Week 04 - Converging Currents of Globalization.md",
     "Sault College/F26/GEN100 - GLOBAL CITIZENSHIP/GEN100 - Week 01 - Canadian and Global Citizenship.md",
     "Sault College/F26/GEN100 - GLOBAL CITIZENSHIP/GEN100 - Week 05 - A World of Media.md",
@@ -194,16 +202,12 @@
     "/Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 1 - Project Fundamentals & Failures.md",
     "/Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures",
     "/Sault College/F26/CSD318 - PROJECT MANAGEMENT",
-    "/Sault College/F26",
-    "/Sault College",
     "/Languages/English/Eatable Plants/Vegetables.md",
     "/Languages/English/Eatable Plants/Grains & cereals.md",
     "/Languages/English/Eatable Plants",
     "/Languages/English",
     "/Languages",
     "Life/People that I know from/Delta.md",
-    "Sault College/F26/GEN100 - GLOBAL CITIZENSHIP/GEN100 - Week 01 - Canadian and Global Citizenship - Flashcards.txt",
-    "Sault College/F26/GEN100 - GLOBAL CITIZENSHIP/GEN100 - Week 05 - A World of Media - Flashcards.txt",
     "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 6 - Business Rules and Views.md",
     "Dependency Injection.md",
     "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures/Week 4 - Testing and Dependency Injection.md",
@@ -213,10 +217,6 @@
     "/Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 5 - Brainstorming, the WBS & Work Detail Breakdown.md",
     "/Sault College/F26/CSD217 - WEB DEVELOPMENT II/Lectures/Week 4 - Promises and Async Await.md",
     "Sault College/F26/CSD217 - WEB DEVELOPMENT II/Lectures/Week 4 - Promises and Async Await.md",
-    "/Sault College/F26/CSD216 - DATABASES II/Lectures/Week 6 - Business Rules and Views.md",
-    "/Sault College/F26/CSD216 - DATABASES II/Lectures/Week 5 - Establishing Relationships.md",
-    "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 5 - Establishing Relationships.md",
-    "/Sault College/F26/CSD216 - DATABASES II/CSD216_MC_Mock_Tests_Weeks_4-6.md",
     "Pasted image 20260809234012.png",
     "Pasted image 20260809235031.png",
     "Pasted image 20260809234334.png",
