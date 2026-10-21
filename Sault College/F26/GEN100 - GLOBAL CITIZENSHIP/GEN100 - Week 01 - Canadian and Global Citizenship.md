@@ -382,17 +382,17 @@ Canadian voter turnout rates have been declining for decades.
 
 **2021 federal election (Statistics Canada):**
 
-| Reason for not voting | Share of non-voters |
-|---|---|
-| Everyday life or health reasons | 43% |
-| Too busy (part of the above) | 24% |
-| Illness or disability (part of the above) | 11% |
-| Out of town (part of the above) | 9% |
-| Political reasons | 39% |
-| Not interested in politics (part of the above) | 32% |
-| Electoral process-related reasons | 7% |
-| COVID-19 | 2% |
-| All other reasons | 8% |
+| Reason for not voting                          | Share of non-voters |
+| ---------------------------------------------- | ------------------- |
+| Everyday life or health reasons                | 43%                 |
+| Too busy (part of the above)                   | 24%                 |
+| Illness or disability (part of the above)      | 11%                 |
+| Out of town (part of the above)                | 9%                  |
+| Political reasons                              | 39%                 |
+| Not interested in politics (part of the above) | 32%                 |
+| Electoral process-related reasons              | 7%                  |
+| COVID-19                                       | 2%                  |
+| All other reasons                              | 8%                  |
 
 > [!tip] Reading the table
 > The indented categories are parts of the bigger categories. "Too busy", "out of town" and "illness or disability" add up to the 43% for everyday life or health reasons, and "not interested in politics" is most of the 39% for political reasons.
