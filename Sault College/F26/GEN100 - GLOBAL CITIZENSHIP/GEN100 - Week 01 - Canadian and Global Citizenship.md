@@ -1,7 +1,3 @@
-# GEN100 Week 1: Canadian and Global Citizenship
-
-Week one sets up the vocabulary for the whole course. It starts with what citizenship means, moves through how authority and government work in Canada, covers the rights and responsibilities in the [[Canadian Charter of Rights and Freedoms]], and ends with who votes, who doesn't, and why.
-
 ## 1. What is citizenship?
 
 > [!note] Definition: Citizenship
