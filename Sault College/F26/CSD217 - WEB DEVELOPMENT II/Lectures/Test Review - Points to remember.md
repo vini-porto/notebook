@@ -410,3 +410,173 @@ const value = input ?? defaultValue;
 ```
 
 Falls back to `defaultValue` only when `input` is `null` or `undefined`, unlike `||`, which would also fall back on `0`, `""`, or `false`, a distinction that matters for things like a quantity field where `0` is a valid, meaningful value.
+
+# JavaScript Events
+
+> [!note] `load` vs `DOMContentLoaded`
+> Both are used for "run this once the page is ready" code. The difference is how long they wait:
+> - `DOMContentLoaded` fires as soon as the HTML has been parsed into the [[DOM]]. Images might still be downloading.
+> - `load` waits until *everything* is done, images and stylesheets included, so it fires later.
+>
+> If your code only needs to find and change elements, `DOMContentLoaded` is usually enough.
+
+Timers are not user events, but they also run code "later" instead of right away, so they belong in the same family of ideas.
+
+## `setTimeout()`: run code once
+
+```javascript
+let timerId = setTimeout(funcToCall, millisecondsToWait);
+```
+
+- The first parameter is a **function object** that gets called after the time has passed.
+- The second parameter is how many **milliseconds** to wait before calling it (1000 ms = 1 second).
+- The return value (`timerId`) identifies this timer. If you change your mind before the time runs out, cancel it with `clearTimeout(timerId)`.
+
+> [!warning] Common mistake
+> Pass the function itself, not the result of calling it.
+> - `setTimeout(sayHi, 1000)` is correct: JavaScript calls `sayHi` after 1 second.
+> - `setTimeout(sayHi(), 1000)` calls `sayHi` *immediately* and hands its return value (usually `undefined`) to `setTimeout`.
+
+> [!note] Definition
+> An **[[Event Listeners|event listener]]** (also called an *event handler*) is a function that runs when a specific event happens. It's attached to a DOM element, and it can be defined either inline in the HTML or through JavaScript.
+
+```html
+<button id="jsBtn">JS Click</button>
+<script>
+  const btn = document.getElementById('jsBtn');
+  btn.addEventListener('click', () => {
+    alert('Clicked via JS!');
+  });
+</script>
+```
+
+The pattern is always the same:
+
+1. Find the element.
+2. Call `element.addEventListener(eventType, handlerFunction)`.
+
+This keeps structure and behavior separate, and an element can have **more than one listener** for the same event.
+
+
+```html
+<button id="multiBtn">Multi Listener</button>
+<script>
+  const btn = document.getElementById('multiBtn');
+  btn.addEventListener('click', () => console.log('First listener'));
+  btn.addEventListener('click', () => console.log('Second listener'));
+</script>
+```
+
+Clicking the button prints `First listener` and then `Second listener`. Listeners run in the **order they were registered**.
+
+---
+
+When an event fires, the browser automatically passes an **[[Event Object|event object]]** to your handler. It holds information about what happened.
+
+```html
+<input id="keyInput" placeholder="Press a key" />
+<script>
+  const input = document.getElementById('keyInput');
+  input.addEventListener('keydown', event => {
+    console.log(`Key pressed: ${event.key}`);
+  });
+</script>
+```
+
+| Property | What it tells you |
+|---|---|
+| `event.key` | Which key was pressed (for keyboard events) |
+| `event.target` | The element where the event actually happened |
+| `event.type` | The event's name, like `"click"` or `"keydown"` |
+> [!note] The three phases of an event
+> 1. **Capturing phase.** The browser travels *down* the [[DOM]] tree, from the outermost element (`window`, `document`) toward the target element. Listeners configured for capturing run on the parent elements during this trip, *before* the target's own listeners.
+> 2. **Target phase.** The event reaches the element that was actually clicked, and the listeners on that element run.
+> 3. **Bubbling phase (the default).** The event travels back *up* from the target to its parent, then the grandparent, and so on until the root of the DOM. Normal listeners (the ones you add without options) run during this phase.
+
+## Event bubbling demo
+
+```html
+<ul id="list">
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul>
+<script>
+  const list = document.getElementById('list');
+  list.addEventListener('click', event => {
+    console.log(`Clicked on ${event.target.textContent}`);
+  });
+</script>
+```
+
+There is **one** listener, on the `<ul>`. Clicking any `<li>` still triggers it, because the click bubbles up from the `<li>` to the `<ul>`. Bubbling lets a single listener on the parent replace one listener per child.
+
+Sometimes you *don't* want the parent to react when the child is clicked. `event.stopPropagation()` stops the event from bubbling any further.
+
+```html
+<div id="parent" style="padding:20px;background:#eee;">
+  <button id="child">Child Button</button>
+</div>
+<script>
+  const child = document.getElementById('child');
+  const parent = document.getElementById('parent');
+  child.addEventListener('click', event => {
+    console.log('Child clicked');
+    event.stopPropagation();
+  });
+  parent.addEventListener('click', () => {
+    console.log('Parent clicked');
+  });
+</script>
+```
+
+> [!warning] Don't confuse these two
+> - `preventDefault()` cancels the **browser's built-in action** (navigation, form submit). The event still bubbles.
+> - `stopPropagation()` stops the **event from traveling** to parent elements. The browser's built-in action still happens.
+>
+> They solve different problems, and sometimes you need both.
+
+## Listening during the capture phase
+
+By default, listeners run in the bubbling phase. Passing `{ capture: true }` as a third argument makes the listener run during the capturing phase instead:
+
+```html
+<div id="capturing">
+  <button id="capturedBtn">Capture</button>
+</div>
+<script>
+  const btn = document.getElementById('capturedBtn');
+  btn.addEventListener('click', e => console.log('Captured listener'), { capture: true });
+  btn.addEventListener('click', e => console.log('Bubbling listener'));
+</script>
+```
+
+The `capture: true` listener runs **before** the bubbling listeners, so the output is `Captured listener` and then `Bubbling listener`.
+
+## Event delegation
+
+> [!note] Definition
+> **[[Event Delegation]]** means putting *one* listener on a parent element instead of one on each child, then using `event.target` to figure out which child was actually clicked. It works because of bubbling.
+
+```html
+<div id="menu">
+  <a href="#" data-page="home">Home</a>
+  <a href="#" data-page="about">About</a>
+  <a href="#" data-page="contact">Contact</a>
+</div>
+<script>
+  const menu = document.getElementById('menu');
+  menu.addEventListener('click', event => {
+    if (event.target.matches('a')) {
+      event.preventDefault();
+      console.log(`Navigate to ${event.target.dataset.page}`);
+    }
+  });
+</script>
+```
+
+What each piece does:
+
+- `event.target.matches('a')` checks whether the clicked element matches a [[CSS]] selector. Clicks on empty space inside the `<div>` are ignored.
+- `event.preventDefault()` stops the `href="#"` link from jumping to the top of the page.
+- `event.target.dataset.page` reads the custom `data-page` attribute (the `data-` attributes from last week).
