@@ -580,3 +580,29 @@ What each piece does:
 - `event.target.matches('a')` checks whether the clicked element matches a [[CSS]] selector. Clicks on empty space inside the `<div>` are ignored.
 - `event.preventDefault()` stops the `href="#"` link from jumping to the top of the page.
 - `event.target.dataset.page` reads the custom `data-page` attribute (the `data-` attributes from last week).
+
+> [!note] Debounce
+> **[[Debouncing]]** waits until the events *stop* for a set amount of time, then runs the handler once. Every new event resets the countdown.
+
+> [!note] Throttle
+> **[[Throttling]]** lets the handler run at most once every `ms` milliseconds, no matter how many events arrive in between.
+
+> [!tip] A way to remember the difference
+> Debounce is like an elevator door: every new person resets the timer, and it only closes once people stop arriving. Throttle is like a bus that leaves every 10 minutes no matter how many people show up.
+
+## Defining a custom event
+
+```javascript
+const myEvent = new Event('myCustom', {
+  bubbles: true,
+  cancelable: true
+});
+```
+
+| Option | Meaning |
+|---|---|
+| `bubbles` | Lets the event propagate up to parent elements |
+| `cancelable` | Lets a listener stop it with `preventDefault()` |
+> [!warning] Custom events don't bubble by default
+> If you leave out `bubbles: true`, the event only reaches listeners on the element that dispatched it. Parents won't hear it.
+
