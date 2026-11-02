@@ -25,8 +25,6 @@ By the end of the lecture you should be able to:
 > [!warning] UML is not a methodology
 > UML tells you *how to draw* a design. It does not tell you *how to design* software or what steps to follow in a project. Think of it as a shared drawing language that every developer can read.
 
-UML diagrams fall into two families. They're covered in detail in the [[#Summary of UML diagram types|summary]] at the end.
-
 ```mermaid
 mindmap
   root((UML))
