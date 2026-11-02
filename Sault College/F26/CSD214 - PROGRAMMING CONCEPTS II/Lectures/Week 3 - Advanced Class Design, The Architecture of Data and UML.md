@@ -17,19 +17,6 @@ The course description frames the whole semester: every programmer has to learn 
 | 1.4 | Explain the advantages of a tiered software architecture |
 | 1.5 | Create modular software applications |
 
-## Learning objectives
-
-By the end of the session you should be able to:
-
-- **Critique the Bookstore monolith.** Look at the current `App.java`, spot the *"God Class" anti-pattern*, and explain why adding a new department means surgery on that file (1.5).
-- **Audit Separation of Concerns (SoC).** Find "design smells" such as UI code (`Scanner`) living inside data objects (`Book`, `Tire`), which breaks the [[Single Responsibility Principle]].
-- **Deconstruct MVC.** Describe how Model, View and Controller roles should be split to fix the Bookstore's coupling problems (1.3).
-- **Evaluate tiered (N-Tier) architecture.** Explain how a *Service Layer* and the *Repository Pattern* would let the Bookstore swap its "database" (an `ArrayList` today, MySQL later) without breaking the user interface (1.4).
-- **Contrast "UI polymorphism" with "pure data."** Judge the `Editable` type: handy for console apps, a liability for web and security integration.
-- **Plan for modularity.** Propose a refactoring that uses the **DTO (Data Transfer Object) Pattern** to shield internal models from malicious user input (1.5, 6.0).
-
----
-
 ## Step 0: The GitHub template workflow
 
 Every lab from now on starts the same way, so the lecture practises it first.

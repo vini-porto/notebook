@@ -412,18 +412,6 @@ ElectronicDevice (abstract)
 > [!warning] Common mistake to watch for
 > If your two `Laptop` objects print `false` for `.equals()` even with the same serial number, double-check you actually selected the right identity field(s) when generating `equals()`/`hashCode()`. Remember, the default `Object.equals()` would have compared references, not data.
 
----
-
-## Summary
-
-- Java solves the **Platform Problem** through **WORA**: `javac` compiles to bytecode, and the **JVM** runs that bytecode anywhere.
-- **POJOs** are simple encapsulated objects; **JavaBeans** are POJOs that follow four strict rules (private fields, public accessors, no-arg constructor, serializable).
-- Always consider overriding **`toString()`**, **`equals()`**, and **`hashCode()`** together, never `equals()` alone.
-- **Primitives** store values directly; **references** store addresses pointing into the **heap**. Local variables and references themselves live on the **stack**.
-- `==` checks reference equality; `.equals()` checks logical equality. They are not the same thing.
-- Java is always **pass-by-value**, even for objects (you pass a copy of the reference, not the object).
-- IntelliJ's generation tools (`Alt+Insert`) save time and reduce typos when writing boilerplate, but business logic (like validation) still has to be written by hand.
-
 ## Tags
 
 #computer_science #java #programming #oop #software #study_notes

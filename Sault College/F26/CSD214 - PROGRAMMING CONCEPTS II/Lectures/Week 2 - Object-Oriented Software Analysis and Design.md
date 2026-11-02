@@ -318,16 +318,6 @@ A deeper walkthrough of this exact diagram (constructors, overloaded methods, an
 
 If parts of this diagram feel unfamiliar, [[Week 1 - Java Review and In-Class Exercises]] covers the underlying mechanics: abstract classes, constructors that chain through `super()`, and why `equals()`/`hashCode()` get overridden together.
 
----
-
-## Summary
-
-- Object-oriented analysis starts from a plain-language requirements description and works it into a design through a repeatable sequence: list nouns/verbs → cut what's out of scope → merge synonyms → identify classes/attributes/methods → identify relationships.
-- **Abstraction:** making `Product` and `Publication` abstract prevents anyone from instantiating a meaningless "generic product" that doesn't correspond to anything sellable.
-- **Polymorphism:** `CashTill` can sell a `Book`, a `Magazine`, or a `Ticket` through one `sellItem(SaleableItem item)` method, because all three implement `SaleableItem`.
-- **CRC cards** exist to catch broken responsibilities and missing classes cheaply, before any of this becomes actual code. A walkthrough that fails on an index card is much cheaper to fix than one buried in a class file.
-- **Scalability:** the hierarchy is built so that adding a new sellable category (say, `Laptop`) only requires extending `Product` and implementing `SaleableItem`. Nothing existing has to change.
-
 ## Tags
 
 #computer_science #oop #software_design #uml #crc_cards #java #study_notes
