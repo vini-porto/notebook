@@ -5,7 +5,7 @@ fonte: "Teaching and Learning Plan (TLP) 26F - CSD216.pdf"
 
 # Course Plan — CSD216 Databases II
 
-Professor: Mike Masters (mmasters@saultcollege.ca). Aulas: **terça e quinta**.
+Professor: Mike Masters (mmasters@saultcollege.ca). Aulas: **terça e quinta, 16:30–19:20**.
 Plano de estudos: [[Plano de Estudos F26]] · Erros: [[Erros - CSD216]]
 
 ## Avaliações
@@ -14,7 +14,7 @@ Plano de estudos: [[Plano de Estudos F26]] · Erros: [[Erros - CSD216]]
 |---|---|---|---|---|
 | Test 1 | 3 | Sept 22/24 | 20% | open book (feito) |
 | Lab 2, Lab 3 | 7 | Oct 20/22 | 4.28% cada | |
-| **Quiz 1** | 9 | **Nov 3 ou 5** | 3.33% | **closed book, 3–4 short answers** |
+| Quiz 1 | 9 | Nov 3 | 3.33% | closed book, 3–4 short answers (feito) |
 | Lab 4 | 9 | Nov 3/5 | 4.28% | |
 | Lab 5 | 10 | Nov 10/12 | 4.29% | |
 | **Test 2** | 11 | **Nov 17/19** | **20%** | confirmar se é open book |
