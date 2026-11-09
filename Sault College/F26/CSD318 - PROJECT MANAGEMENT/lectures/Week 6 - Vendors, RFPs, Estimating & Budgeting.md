@@ -261,13 +261,13 @@ flowchart LR
 
 ## Five Estimating Techniques
 
-| # | Technique | How it works | Strength | Weakness |
-|---|---|---|---|---|
-| 1 | **[[Expert Judgment]]** | Ask people who have done similar work | Fast and useful | Only as good as the experts' experience and honesty |
-| 2 | **[[Analogous Estimating\|Analogous]]** | Start from the actual cost or duration of a similar past project and adjust it | Quick, good for early estimates | Depends on how similar the past project really is |
-| 3 | **[[Parametric Estimating\|Parametric]]** | A unit rate times a quantity, e.g. cost per workstation × number of workstations | Accurate when the rate is reliable | Wrong rate, wrong estimate |
-| 4 | **[[Bottom-Up Estimating\|Bottom-Up]]** | Estimate every work package and task from your WBS, then add them up | Most accurate | Most effort |
-| 5 | **[[Three-Point Estimating\|Three-Point]]** | Estimate optimistic, most likely, and pessimistic values and combine them | Shows the uncertainty instead of hiding it | Needs three honest numbers per task |
+| #   | Technique                                   | How it works                                                                     | Strength                                   | Weakness                                            |
+| --- | ------------------------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------ | --------------------------------------------------- |
+| 1   | **[[Expert Judgment]]**                     | Ask people who have done similar work                                            | Fast and useful                            | Only as good as the experts' experience and honesty |
+| 2   | **[[Analogous Estimating\|Analogous]]**     | Start from the actual cost or duration of a similar past project and adjust it   | Quick, good for early estimates            | Depends on how similar the past project really is   |
+| 3   | **[[Parametric Estimating\|Parametric]]**   | A unit rate times a quantity, e.g. cost per workstation × number of workstations | Accurate when the rate is reliable         | Wrong rate, wrong estimate                          |
+| 4   | **[[Bottom-Up Estimating\|Bottom-Up]]**     | Estimate every work package and task from your WBS, then add them up             | Most accurate                              | Most effort                                         |
+| 5   | **[[Three-Point Estimating\|Three-Point]]** | Estimate optimistic, most likely, and pessimistic values and combine them        | Shows the uncertainty instead of hiding it | Needs three honest numbers per task                 |
 
 > [!example] The same project, estimated four ways
 > Setting up a new computer lab with 30 workstations:
