@@ -19,7 +19,8 @@ Erros: [[Erros - CSD214]] · [[Erros - CSD216]] · [[Erros - CSD217]]
 | **Nov 17 ou 19** ⚠️ | **CSD216 Test 2** | **20%** | confirmar formato |
 | Dec 1 ou 3 | CSD216 Quiz 2 | 3.33% | **closed book**, 3–4 short answers |
 | Dec 8 ou 10 | CSD216 Quiz 3 | 3.34% | **closed book**, 3–4 short answers |
-| Dec 14–17 ⚠️ | CSD214 Test 2 | ? | confirmar |
+| ~~Tue Nov 3~~ | ~~CSD214 Test 1~~ → **67.83/100 (C)** | | precisa subir no Test 2 |
+| Dec 14–17 ⚠️ | **CSD214 Test 2** | ? | confirmar peso e conteúdo |
 | Dec 14–17 ⚠️ | CSD217 Final | 30% | open book + coding |
 | Dec 15 ou 17 ⚠️ | **CSD216 Test 3** | **20%** | cumulativo |
 
@@ -32,6 +33,14 @@ Erros: [[Erros - CSD214]] · [[Erros - CSD216]] · [[Erros - CSD217]]
 3. **Todo bloco produz algo:** respostas escritas, código ou resumo de memória. Ler sozinho não conta.
 4. **Todo bloco termina com:** erros anotados em `Erros - CSDxxx` (o que eu disse → o certo → regra de 1 linha).
 5. **Perdeu um bloco? Não compense.** Siga para o próximo. Se sobrar tempo, recupere no domingo.
+
+## 🔴 Recuperação CSD214 (Test 1 = 67.83)
+
+Nos simulados você fez 83–89%, mas tirou 67.83 na prova. Para o Test 2:
+1. ✅ **Prova corrigida analisada** (05/11): 5 padrões em [[Erros - CSD214]]. Os maiores são interfaces/abstração e o processo de análise (iterativo).
+2. **Os labs entram na prova** (o Test 1 cobria labs 1–3). Todo domingo, 20 min no lab da semana: o que cada classe faz e por quê.
+3. **Simulados só com questões novas, no estilo da prova real:** cenários de "por quê / qual consequência", select-all, relacionar e V/F. Refazer o mesmo simulado infla a nota, porque você decora as respostas.
+4. **3 simulados cronometrados:** Nov 28, Dec 5 e Dec 11.
 
 ## Ritmo da semana (baseado no seu horário de aulas)
 
@@ -47,7 +56,7 @@ Erros: [[Erros - CSD214]] · [[Erros - CSD216]] · [[Erros - CSD217]]
 | **Qui** | noite | descanso |
 | **Sex** | livre | Processar a aula de CSD216 de quinta (15) + bloco principal (30) |
 | **Sáb** | livre | 1–2 blocos: código (CSD217) / backlog (CSD214) |
-| **Dom** | livre | Revisão semanal (15) + listas de erros |
+| **Dom** | livre | Revisão semanal (15) + listas de erros + **CSD214: lab da semana (20)** |
 
 ⚡ **Processar a aula** (15 min, no campus, logo depois da aula, enquanto ainda está fresco):
 1. Feche os slides e escreva **5 linhas** do que lembra.
@@ -66,9 +75,11 @@ Fazer isso no intervalo, ainda no campus, é a melhor arma contra a procrastina�
 ## Semana 9 — Nov 4 a 8 (CSD217 midterm)
 
 - [ ] **Qua 4, manhã: CSD217.** Escrever o Q1 (generator → CustomEvent → DOM) do zero, cronometrado (meta: <25 min).
+- [ ] **Qua 4 (10 min, qualquer hora): CSD214, brain dump do Test 1.** Escrever em [[Erros - CSD214]] tudo o que lembra da prova: assuntos que caíram, questões em que ficou em dúvida, se faltou tempo. Hoje é só isso, o foco é CSD217.
 - [ ] **Qua 4, noite (após 18:20): CSD217.** Escrever o Q2 (fetch + `Promise.all` + `res.ok` + criar elementos) do zero. Reler [[Erros - CSD217]].
   - [ ] +5 min: anotar em [[Erros - CSD216]] as perguntas do Quiz 1 que você lembra e o que respondeu (antes de esquecer).
 - [ ] **Qui 5, 12:20:** reler só [[Erros - CSD217]]. **Prova de CSD217, 13:30** (⚠️ confirmar: o seu horário mostra Cloud Computing às 13:30 na quinta). Depois: 5 min anotando o que caiu.
+- [ ] **Sex 6: CSD214 (20 min).** Ler a seção "Test 1 real" em [[Erros - CSD214]] e fazer o [treino de 24 questões novas](https://claude.ai/artifact/MRAYjJ5e9gXVFFQosTeYQL) (A 7 · B 7 · C 5 · D 5). Colar o resultado no Claude. Opcional: e-mail ao professor perguntando o conteúdo e o formato do Test 2.
 - [ ] **Sex 6: CSD216.** Processar as aulas da semana 9 (15 min). **CSD214, backlog JDBC (semana 5):** antes de ler, responda: o que é uma `Connection`? O que o `PreparedStatement` evita? Como ler um `ResultSet`? Depois leia os slides e o Lab 3. Crie a nota `Week 5 - JDBC`.
 - [ ] **Sáb 7: CSD214, backlog JPA/Hibernate (semana 6).** Mesmo método: o que é uma entidade? `@Entity`/`@Id`? O que o Hibernate faz que o JDBC não faz? Crie a nota `Week 6 - JPA and Hibernate`.
 - [ ] **Dom 8:** revisão semanal + 5 min anotando o que caiu no Test 1 de CSD214.
@@ -100,7 +111,7 @@ Fazer isso no intervalo, ainda no campus, é a melhor arma contra a procrastina�
 - [ ] **Qua 25, manhã: CSD216 Normalization.** Escrever de memória as definições de 1NF, 2NF e 3NF + normalizar uma tabela de exemplo no papel.
 - [ ] **Qui 26:** ⚡ 12:20 CSD214 · 15:20 CSD216: drill do Quiz 2 (4 respostas curtas por escrito).
 - [ ] **Sex 27:** processar a aula de CSD216 + **CSD214:** perguntas de JDBC/JPA/Repository sem olhar.
-- [ ] **Sáb 28: CSD217 auth.** Fluxo de sessão + `HttpOnly`/`Secure`/`SameSite` + exercício de código.
+- [ ] **Sáb 28:** (1) **CSD217 auth:** fluxo de sessão + `HttpOnly`/`Secure`/`SameSite` + código. (2) **CSD214 Mock #1** (questões novas, modo prova, cronometrado) sobre JDBC/JPA/Repository.
 - [ ] **Dom 29:** revisão + [[Erros - CSD216]].
 
 ## Semana 13 — Nov 30 a Dec 6 (CSD216 Quiz 2)
@@ -110,7 +121,7 @@ Fazer isso no intervalo, ainda no campus, é a melhor arma contra a procrastina�
 - [ ] **Qua 2, manhã: CSD216.** Processar NoSQL + criar 4 perguntas curtas (para o Quiz 3).
 - [ ] **Qui 3:** ⚡ 12:20 CSD214 · 15:20 CSD216: drill (se o quiz for hoje)
 - [ ] **Sex 4: CSD214.** Montar o mapa do Test 2: JDBC → JPA → Repository → Services → Spring → MVC (o que cada um faz e onde está).
-- [ ] **Sáb 5:** (1) **CSD217:** listar os tópicos do Final + um problema de código do zero. (2) **CSD214:** mock com o Claude.
+- [ ] **Sáb 5:** (1) **CSD217:** listar os tópicos do Final + um problema de código do zero. (2) **CSD214 Mock #2** (questões novas, incluindo Services/Spring).
 - [ ] **Dom 6:** revisão + as 3 listas de erros.
 
 ## Semana 14 — Dec 7 a 13 (CSD216 Quiz 3 + preparação para as finais)
@@ -119,7 +130,7 @@ Fazer isso no intervalo, ainda no campus, é a melhor arma contra a procrastina�
 - [ ] **Ter 8:** ⚡ 12:20 CSD214 · ⚡ 15:20 CSD217
 - [ ] **Qua 9, manhã: CSD216.** Processar Analytical Design + refazer [[CSD216 Open-Book Test - Practice Questions (Weeks 1-3)]].
 - [ ] **Qui 10:** ⚡ 12:20 CSD214 · 15:20 CSD216: drill (se o quiz for hoje)
-- [ ] **Sex 11: CSD214.** Mock cronometrado + anotar os erros.
+- [ ] **Sex 11: CSD214 Mock #3** (prova completa, 110 min, questões novas) + anotar os erros.
 - [ ] **Sáb 12:** (1) **CSD217:** mock de código cronometrado. (2) **CSD216:** mock das semanas 4–6 (Test 3 é cumulativo).
 - [ ] **Dom 13:** confirmar as datas e materiais das 3 provas finais e preencher a semana 15.
 
