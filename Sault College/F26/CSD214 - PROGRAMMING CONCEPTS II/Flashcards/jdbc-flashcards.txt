@@ -1,0 +1,52 @@
+#separator:tab
+#html:false
+#tags column:3
+What does JDBC stand for, and which package holds it?	Java Database Connectivity, in the java.sql package.	CSD214 week6 jdbc
+Which Java persistence tools are built on top of JDBC?	JPA, Hibernate, and Spring Data.	CSD214 week6 jdbc
+In JDBC, who implements the interfaces in java.sql?	A vendor's driver, for one specific database (e.g. MySQL Connector/J).	CSD214 week6 jdbc
+Why is JDBC an example of the Dependency Inversion Principle?	Your code depends only on interfaces (Connection, PreparedStatement, ResultSet); the driver is a plug-in that implements them.	CSD214 week6 jdbc solid
+How does the JDBC abstraction leak?	Each database speaks a slightly different dialect of SQL.	CSD214 week6 jdbc
+Which JDBC method runs a SELECT, and what does it return?	executeQuery(), which returns a ResultSet.	CSD214 week6 jdbc crud
+Which JDBC method runs INSERT, UPDATE, or DELETE, and what does it return?	executeUpdate(), which returns the number of rows affected.	CSD214 week6 jdbc crud
+What does execute() return?	true if the result is a ResultSet; it can run any SQL, such as CREATE TABLE.	CSD214 week6 jdbc crud
+DriverManager vs DataSource: what is the difference?	DriverManager opens connections from a URL (simple); DataSource is a factory for connections, usually pooled (production).	CSD214 week6 jdbc
+In jdbc:mysql://db:3306/csd214-labs, what are db and 3306?	db is the host (the MySQL service name in the dev container); 3306 is the port.	CSD214 week6 jdbc
+Why is Class.forName(...) no longer needed before connecting?	Modern drivers register themselves.	CSD214 week6 jdbc
+Where should database settings come from, and which source wins?	A db.properties file, with environment variables overriding it. Passwords never go in Git.	CSD214 week6 jdbc configuration
+What happens if you forget to close connections, statements, and result sets?	A resource leak: it works in a quick test, then fails after a few hundred requests with "Too many connections".	CSD214 week6 jdbc try_with_resources
+In what order does try-with-resources close resources?	In reverse order of opening (ResultSet, then PreparedStatement, then Connection), even if an exception is thrown.	CSD214 week6 jdbc try_with_resources
+Where does a ResultSet's cursor start, and what does next() return?	Before the first row; next() moves forward and returns false when there are no more rows.	CSD214 week6 jdbc resultset
+Are JDBC parameter and column positions 0-based or 1-based?	1-based.	CSD214 week6 jdbc resultset
+How should you read a result that has at most one row?	With if (rs.next()) rather than while.	CSD214 week6 jdbc resultset
+Which Java type maps to SQL DECIMAL(10,2)?	BigDecimal.	CSD214 week6 jdbc types
+Why use LocalDate instead of java.util.Date for a DATE column?	DATE is a calendar day; storing a java.util.Date (a moment in time) silently drops the time.	CSD214 week6 jdbc types
+What does rs.getInt("stock") return when the column is NULL?	0, because getInt returns a primitive int that can't be null.	CSD214 week6 jdbc null
+How do you read a nullable INT column so NULL stays null?	rs.getObject("stock", Integer.class)	CSD214 week6 jdbc null
+How do you write a null Integer to an INT column?	ps.setNull(index, Types.INTEGER)	CSD214 week6 jdbc null
+Why does the input ' OR '1'='1 return every row from concatenated SQL?	The WHERE clause becomes name = '' OR '1'='1', which is always true. The input was treated as code, not data.	CSD214 week6 jdbc sql_injection
+How do ? parameters prevent SQL injection?	The SQL and the values are sent separately, so input is always treated as data.	CSD214 week6 jdbc sql_injection
+Why is searching for O'Brien a good cheap test?	The apostrophe breaks concatenated SQL immediately, revealing code that doesn't use parameters.	CSD214 week6 jdbc sql_injection testing
+What is the object-relational impedance mismatch?	Objects and tables don't line up perfectly (identity vs primary key, inheritance vs none, references vs foreign keys, behaviour vs only data).	CSD214 week6 jdbc orm
+In single-table inheritance, what is the discriminator column?	A column (product_type) that records which class each row is.	CSD214 week6 jdbc orm
+What is the trade-off of single-table inheritance?	Simple, fast queries, but many nullable columns.	CSD214 week6 jdbc orm
+What is the trade-off of the joined inheritance strategy?	Normalized (one table per class linked by key), but every read needs joins.	CSD214 week6 jdbc orm
+Why not store getClass().getName() as the discriminator value?	Renaming or moving a class would break every existing row. Use stable values you control.	CSD214 week6 jdbc orm
+Why must mapRow's switch over product_type have a default case?	The switch is over a String, so the compiler can't check that every type is covered.	CSD214 week6 jdbc orm
+Why can one bindColumns method serve both INSERT and UPDATE?	Both statements list the columns in the same order.	CSD214 week6 jdbc repository
+Why does JdbcProductRepository translate SQLException into RepositoryException?	SQLException is checked and part of java.sql; declaring it would put JDBC in the interface (breaking DIP) and force the in-memory version to pretend it throws it.	CSD214 week6 jdbc exceptions
+What three things should exception translation do?	Wrap the exception, keep the cause, and add context.	CSD214 week6 jdbc exceptions
+What does the A in ACID guarantee?	Atomic: all of the transaction happens, or none of it does.	CSD214 week6 jdbc transactions
+What does the I in ACID guarantee?	Isolated: concurrent transactions don't see half-finished work.	CSD214 week6 jdbc transactions
+What is JDBC's default commit mode?	Auto-commit: every statement is its own transaction.	CSD214 week6 jdbc transactions
+What three Connection calls make two statements one transaction?	setAutoCommit(false), then commit() on success or rollback() on failure.	CSD214 week6 jdbc transactions
+Why must both statements in a transaction use the same Connection?	A transaction belongs to one connection; statements on another connection aren't part of it.	CSD214 week6 jdbc transactions
+Why is CREATE TABLE IF NOT EXISTS not enough when you add a field to a class?	It never changes a table that already exists, so the new column is not added.	CSD214 week6 jdbc schema
+How do real projects change a database schema?	Migration tools (Flyway, Liquibase) with numbered scripts like V2__add_apparel_size.sql, each applied exactly once.	CSD214 week6 jdbc schema
+What does a connection pool do?	Keeps connections open and lends them out; closing a borrowed connection returns it to the pool.	CSD214 week6 jdbc pooling
+Why not test JDBC code with mocks?	A mock test just repeats the implementation and can't catch real bugs like column typos, invalid SQL, or wrong parameter order.	CSD214 week6 jdbc testing
+What does assumeTrue(database.isReachable()) do in the JDBC contract test?	If no database is available, the tests are skipped, not failed.	CSD214 week6 jdbc testing
+Why run DELETE FROM product before each JDBC test?	So tests are independent and repeatable; every test starts with an empty table.	CSD214 week6 jdbc testing
+What does it prove if JdbcProductRepository passes the contract test?	It is substitutable for the in-memory repository (LSP).	CSD214 week6 jdbc testing solid
+What is the trade-off of H2 in memory as a test database?	Very fast, but a different SQL dialect than MySQL.	CSD214 week6 jdbc testing
+Which bookstore classes are allowed to import java.sql?	Only bookstore.database.Database and bookstore.repository.JdbcProductRepository.	CSD214 week6 jdbc architecture
+What does Spring's JdbcTemplate remove?	The try/close/translate boilerplate.	CSD214 week6 jdbc tools
