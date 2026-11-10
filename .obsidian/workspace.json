@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures/Week 6 - JDBC.md",
+                "file": "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 6 - Business Rules and Views.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 6 - JDBC"
+              "title": "Week 6 - Business Rules and Views"
             }
           }
         ]
@@ -43,7 +43,7 @@
                 "sortOrder": "alphabetical",
                 "autoReveal": false,
                 "showSearch": true,
-                "searchQuery": "Jdbc"
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "JDBC",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -199,12 +199,14 @@
   },
   "active": "846290849b28a7dc",
   "lastOpenFiles": [
+    "Views.md",
+    "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 6 - Business Rules and Views.md",
+    "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures/Week 6 - JDBC.md",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/practice/exercicios/s02-escopo-erros/Nivel3_Temperaturas.java~",
     "Sault College/W26/Winter 2026/Programming Concepts - CSD121/practice/out/production/practice/Nivel3_Temperaturas.class",
     "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures/Week 5 - The Repository Pattern.md",
     "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Flashcards/jdbc-flashcards.txt",
     "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Flashcards/jdbc-flashcards.txt.tmp.11436.2c5f534b7043",
-    "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures/Week 6 - JDBC.md",
     "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures/Week 6 - JDBC.md.tmp.11436.7dc53af1c238",
     "Sault College/W26/Winter 2026/Emerging Technology - CSD125/1 - Agentic AI & TuringBots.md",
     "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures/Week 4 - Testing and Dependency Injection.md",
@@ -215,7 +217,6 @@
     "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 6 - Vendors, RFPs, Estimating & Budgeting.md",
     "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 7 - Sequencing, the Critical Path & the Project Schedule.md.tmp.11167.4199f1c0a2e4",
     "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 7 - Sequencing, the Critical Path & the Project Schedule.md.tmp.11167.86f1924c769d",
-    "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 7 - Sequencing, the Critical Path & the Project Schedule.md.tmp.11167.4e69a542004b",
     "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 7 - Process Review and Extra Notes.md",
     "Templates/bloco-estudo.md",
     "Sault College/F26/CSD216 - DATABASES II/Erros - CSD216.md",
@@ -225,7 +226,6 @@
     "Sault College/F26/CSD217 - WEB DEVELOPMENT II/Course Plan - CSD217.md",
     "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Course Plan - CSD214.md",
     "Sault College/F26/CSD216 - DATABASES II/Course Plan - CSD216.md",
-    "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 6 - Business Rules and Views.md",
     "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures/Week 3.2 - Data Structures (Collections).md",
     "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures/Week 3.1 - UML Diagrams.md",
     "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures/Week 3 - Advanced Class Design, The Architecture of Data and UML.md",
