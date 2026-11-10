@@ -1,0 +1,49 @@
+#separator:tab
+#html:false
+#tags column:3
+What does persistence mean?	Data outlives the process that created it.	CSD214 week5 persistence
+Why is storing products in an ArrayList inside Inventory not persistent?	The list lives in the program's memory, so quitting the program loses every product.	CSD214 week5 persistence
+Name the five kinds of storage listed in the lecture.	In memory, files, relational database, document database, remote service.	CSD214 week5 persistence
+What should NOT change when an application's data moves to a different storage technology?	The business rules, such as the rules for selling a product.	CSD214 week5 persistence
+Which SOLID principle does putting SQL inside Inventory.sell() break by giving Inventory several reasons to change?	SRP. Inventory would change when selling rules, the table layout, or the database product change.	CSD214 week5 solid
+Why does SQL inside Inventory.sell() violate DIP?	A high-level policy (selling) depends directly on a low-level detail (SQL).	CSD214 week5 solid
+How does SQL inside Inventory hurt testing?	Every Inventory test needs a running database.	CSD214 week5 testing
+What is a repository, according to Martin Fowler?	An object that mediates between the domain and data mapping layers using a collection-like interface for accessing domain objects.	CSD214 week5 repository
+To its callers, what does a repository look like?	A collection of domain objects: put one in, get it back by id, ask for all or some, remove one.	CSD214 week5 repository
+What language should repository callers speak?	The language of the domain (Product, productId), never of the storage (ResultSet, rows, files).	CSD214 week5 repository
+What does it mean that ProductRepository.save is an upsert?	It inserts the product, or replaces the stored product with the same productId, so callers don't track whether an object is new.	CSD214 week5 interface-design
+Why does findById return Optional<Product>?	The type forces callers to handle a missing product instead of getting an unexpected null.	CSD214 week5 interface-design
+Why does deleteById return boolean instead of throwing?	"Nothing to delete" is not an error; the method returns false.	CSD214 week5 interface-design
+Which types must never appear in a repository interface signature?	Storage types such as Connection, SQLException and ResultSet.	CSD214 week5 interface-design
+Why are the interface's comments part of its contract?	They state promises (like "exactly this type") that every implementation must keep.	CSD214 week5 interface-design
+Why does InMemoryProductRepository use a LinkedHashMap?	Map gives fast lookup by productId, put replaces on an existing key, and LinkedHashMap keeps insertion order for a stable console listing.	CSD214 week5 implementation
+Why does findByType use p.getClass() == type instead of instanceof?	The contract promises exactly this type; instanceof would also include subclasses.	CSD214 week5 implementation
+How does Inventory receive its ProductRepository?	Through its constructor (dependency injection).	CSD214 week5 dependency-injection
+What is the composition root?	The one place (here, main) that chooses which implementation to use and wires objects together.	CSD214 week5 dependency-injection
+Where does the ProductRepository interface belong, according to DIP?	With the code that uses it (Inventory), not with the code that implements it.	CSD214 week5 solid
+How does the repository pattern support OCP?	Adding a new storage technology means adding a class, not editing Inventory or ConsoleUI.	CSD214 week5 solid
+How does ISP apply to repositories?	Keep interfaces to what callers need, e.g. a read-only ProductReader for a report screen. Split only when a real client needs it.	CSD214 week5 solid
+Why is LSP the most important SOLID principle for repositories?	Inventory works with any ProductRepository only if every implementation behaves the same from the caller's point of view.	CSD214 week5 solid
+What is the difference between implementing an interface and honouring its contract?	Implementing means the code compiles with matching signatures; honouring means keeping the promised behaviour.	CSD214 week5 solid
+What did Joel Spolsky say about abstractions?	All non-trivial abstractions, to some degree, are leaky.	CSD214 week5 leaky-abstractions
+Why does forgetting save() after setStock(3) seem fine in memory but fail with a database?	In memory findById returns the same object stored in the map; a database builds a new object from a row, so the unsaved change is lost.	CSD214 week5 leaky-abstractions
+What rule makes the repository contract explicit about changes?	After changing a product, always save it.	CSD214 week5 leaky-abstractions
+Besides object identity, name the four other leaks from the lecture.	Errors, order, cost, concurrency.	CSD214 week5 leaky-abstractions
+How should a good abstraction deal with leaks?	It decides how to handle them and documents the decision.	CSD214 week5 leaky-abstractions
+What are the two testing questions for the repository design?	Does Inventory follow its rules correctly? Does each repository keep its contract?	CSD214 week5 testing
+What is a fake test double?	A real, working implementation that takes a shortcut, e.g. memory instead of a database.	CSD214 week5 test-doubles
+What is a stub?	A test double that returns canned answers to calls.	CSD214 week5 test-doubles
+What is a mock?	A test double that records calls so the test can verify they happened.	CSD214 week5 test-doubles
+What is a dummy?	A test double that fills a parameter but is never actually used.	CSD214 week5 test-doubles
+What is a spy?	A real object that also records how it was used.	CSD214 week5 test-doubles
+What is a contract test?	Tests written once against the interface and run against each implementation.	CSD214 week5 contract-tests
+In the contract test structure, what does each subclass provide?	An implementation of createRepository() that returns an empty repository.	CSD214 week5 contract-tests
+Why is a contract test called "LSP made executable"?	Substitutability is checked by running the same tests on every implementation, not assumed.	CSD214 week5 contract-tests
+Why is assertSame(saved, found) a bad repository assertion?	It passes in memory but fails against a database, which returns a new object.	CSD214 week5 contract-tests
+Why is assertEquals(saved, found) not enough for products here?	equals only compares productId, so a repository that lost the name field would still pass.	CSD214 week5 contract-tests
+What does assertSameProduct compare?	Class, productId, and toString() (which lists every field).	CSD214 week5 contract-tests
+How does a DAO differ from a repository?	A DAO is often closer to storage (one per table, CRUD on rows); a repository uses domain language, one per kind of object.	CSD214 week5 related-patterns
+What is Active Record?	A pattern where the domain object saves itself, e.g. bag.save(), with no separate storage class.	CSD214 week5 related-patterns
+Why does the course avoid Active Record for Merchandise?	Merchandise would have two reasons to change (rules and storage) and database I/O would return to the domain.	CSD214 week5 related-patterns
+Where does "save also reduces the stock" belong?	In Inventory. Business rules don't belong in the repository.	CSD214 week5 common-mistakes
+Why is Repository<T, ID> for every type a mistake right now?	It's a generic interface too early, before a second type needs it.	CSD214 week5 common-mistakes
