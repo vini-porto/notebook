@@ -16,13 +16,14 @@
  *  - Nada de números mágicos.
  */
 
-// TODO: import static aqui
 import static java.lang.Math.*;
 
 public class Nivel3_Temperaturas {
 
-    // TODO: os 4 métodos aqui
     public static int maxima(int[] t){
+        if (t.length == 0){
+            return 0;
+        }
         int maxima = t[0];
         for (int temp : t){
             maxima = max(temp, maxima);
@@ -31,6 +32,9 @@ public class Nivel3_Temperaturas {
     }
 
     public static int minima(int[] t){
+        if (t.length == 0){
+            return 0;
+        }
         int minima = t[0];
         for (int temp : t){
             minima = min(temp, minima);
@@ -38,15 +42,21 @@ public class Nivel3_Temperaturas {
         return minima;
     }
     public static int amplitude(int[] t){
-        int max = maxima(t);
-        int min = minima(t);
+        int maior = maxima(t);
+        int menor = minima(t);
 
-        return max - min;
+        return maior - menor;
     }
 
     public static double media(int[] t){
-        
-        return ;
+        if (t.length == 0){
+            return 0.0;
+        }
+        double soma = 0.0;
+        for (int temp : t) {
+            soma += temp;
+        }
+        return soma / t.length;
     }
 
     public static void main(String[] args) {
@@ -55,17 +65,17 @@ public class Nivel3_Temperaturas {
         int[] umDia = {-8};
 
         // Descomente depois de escrever os métodos (selecione e aperte Ctrl+/):
-        // checar("maxima semana", 21, maxima(semana));
-        // checar("minima semana", -3, minima(semana));
-        // checar("amplitude semana", 24, amplitude(semana));
-        // checar("media semana", 8.0, media(semana));
-        // checar("maxima umDia", -8, maxima(umDia));
-        // checar("minima umDia", -8, minima(umDia));
-        // checar("amplitude umDia", 0, amplitude(umDia));
-        // checar("media {1, 2}", 1.5, media(new int[]{1, 2}));
-        // checar("maxima vazio", 0, maxima(vazio));
-        // checar("amplitude vazio", 0, amplitude(vazio));
-        // checar("media vazio", 0.0, media(vazio));
+        checar("maxima semana", 21, maxima(semana));
+        checar("minima semana", -3, minima(semana));
+        checar("amplitude semana", 24, amplitude(semana));
+        checar("media semana", 8.0, media(semana));
+        checar("maxima umDia", -8, maxima(umDia));
+        checar("minima umDia", -8, minima(umDia));
+        checar("amplitude umDia", 0, amplitude(umDia));
+        checar("media {1, 2}", 1.5, media(new int[]{1, 2}));
+        checar("maxima vazio", 0, maxima(vazio));
+        checar("amplitude vazio", 0, amplitude(vazio));
+        checar("media vazio", 0.0, media(vazio));
     }
 
     static void checar(String teste, Object esperado, Object obtido) {
