@@ -17,10 +17,37 @@
  */
 
 // TODO: import static aqui
+import static java.lang.Math.*;
 
 public class Nivel3_Temperaturas {
 
     // TODO: os 4 métodos aqui
+    public static int maxima(int[] t){
+        int maxima = t[0];
+        for (int temp : t){
+            maxima = max(temp, maxima);
+        }
+        return maxima;
+    }
+
+    public static int minima(int[] t){
+        int minima = t[0];
+        for (int temp : t){
+            minima = min(temp, minima);
+        }
+        return minima;
+    }
+    public static int amplitude(int[] t){
+        int max = maxima(t);
+        int min = minima(t);
+
+        return max - min;
+    }
+
+    public static double media(int[] t){
+        
+        return ;
+    }
 
     public static void main(String[] args) {
         int[] semana = {12, -3, 7, 21, 0, 15, 4};

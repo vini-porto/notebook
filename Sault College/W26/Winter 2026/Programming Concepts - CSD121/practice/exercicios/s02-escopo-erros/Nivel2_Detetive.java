@@ -1,3 +1,4 @@
+
 /*
  * S2 · NÍVEL 2: detetive de erros de run-time
  *
@@ -15,13 +16,16 @@ public class Nivel2_Detetive {
 
     // Retorna o último elemento. REGRA: array vazio -> retorna -1.
     static int ultimoElemento(int[] numeros) {
-        return numeros[numeros.length];
+        if (numeros.length == 0){
+            return -1;
+        }
+        return numeros[numeros.length - 1]; // indice começa em 0 e por isso o ultimo elemento é sempre o tamanho -1
     }
 
     // Soma todos os elementos. REGRA: array vazio -> 0.
     static int somaTodos(int[] numeros) {
         int soma = 0;
-        for (int i = 0; i <= numeros.length; i++) {
+        for (int i = 0; i < numeros.length; i++) { // Como o indice começa em 0 e ia até igual o tamanho do array acabava sempre buscando um a mais doque o array comportava
             soma += numeros[i];
         }
         return soma;
@@ -29,17 +33,26 @@ public class Nivel2_Detetive {
 
     // Quantidade de letras do nome. REGRA: nome null -> 0.
     static int tamanhoDoNome(String nome) {
+        if (nome == null) { // sem checagem de null o codigo tem a chance de quebrar por conta do usuario.
+            return 0;
+        }
         return nome.length();
     }
 
     // Quanto cada aluno paga, dividindo o total igualmente (com centavos).
     // REGRA: 0 alunos -> 0.0. Ex.: mediaPorAluno(100, 3) -> 33.333...
     static double mediaPorAluno(int total, int alunos) {
-        return total / alunos;
+        if (alunos == 0) { // divisão invalida por 0
+            return 0.0;
+        }
+        return (double) total / alunos;
     }
 
     // Primeira letra do texto. REGRA: texto vazio "" -> '?'.
     static char primeiraLetra(String texto) {
+        if (texto.isEmpty()){ // checar se a String esta vazia antes extrair character
+            return '?';
+        }
         return texto.charAt(0);
     }
 
