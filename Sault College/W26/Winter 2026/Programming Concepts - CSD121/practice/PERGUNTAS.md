@@ -47,3 +47,23 @@ Arrays são **objetos** (a variável guarda uma seta para eles), e todo objeto n
 Existe um atalho, só na declaração e quando você já sabe os valores: `int[] nums = {4, 8, 15};`, que por baixo é `new int[]{4, 8, 15}`.
 
 **Valores iniciais de um array novo:** o Java preenche com o valor padrão do tipo: `int` → `0`, `double` → `0.0`, `boolean` → `false`, `char` → `'\u0000'`, e qualquer objeto (`String`, `Ponto`…) → `null`. Então `new int[3]` começa como `[0, 0, 0]`, e `new String[3]` como `[null, null, null]`.
+
+---
+
+## Como o Java sabe qual constructor chamar? (S3)
+
+Ele olha os **argumentos** da chamada e procura o constructor cuja lista de parâmetros bate: mesma **quantidade**, mesmos **tipos**, na mesma **ordem**. Nome + tipos dos parâmetros = **assinatura** (signature). O **nome** dos parâmetros não importa.
+
+- `new Revista()` → `Revista()`; dentro dele, `this("Sem título")` → `Revista(String)`; dentro dele, `this(titulo, 50)` → `Revista(String, int)`. Cada chamada procura de novo a assinatura que combina. A escolha é feita pelo **compilador**.
+- Por isso **não pode** haver dois constructors com a mesma assinatura: `Revista(String titulo)` e `Revista(String editora)` são ambos `(String)` → erro `is already defined`.
+- O `this(...)` **não cria objeto novo**. Só o `new` cria. O `this(...)` passa **o mesmo objeto** para outro constructor completar (provado com `System.identityHashCode(this)`: o mesmo número em todos).
+
+---
+
+## Por que o `this(...)` (e o `super(...)`) precisa ser a primeira linha? (S3)
+
+Para ninguém usar o objeto **antes de ele estar montado**. Antes do `this(...)` rodar, os fields ainda têm os valores padrão (`null`, `0`), então código antes dele poderia usar um objeto pela metade (ex.: `this.nome.length()` → `NullPointerException`). A regra também impede chamar `this(...)` duas vezes ou só às vezes (dentro de um `if`).
+
+Analogia: é a **fundação da casa**. Primeiro a fundação, depois os quadros na parede.
+
+**Java 25** relaxou a regra: pode ter código antes, **desde que não use o objeto** (ex.: validar um parâmetro e lançar exception). Para a **prova**, considere a regra clássica: primeira linha.
