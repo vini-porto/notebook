@@ -1,4 +1,4 @@
-This lecture has no new design step. It walks back through the whole [[Database Design|database design process]] from [[Week 2 - The Database Mission]] to [[Week 6 - Business Rules and Views]], adds a final review and a documentation checklist, and then covers four extra topics:
+,This lecture has no new design step. It walks back through the whole [[Database Design|database design process]] from [[Week 2 - The Database Mission]] to [[Week 6 - Business Rules and Views]], adds a final review and a documentation checklist, and then covers four extra topics:
 - when (if ever) to bend the integrity rules
 - [[NoSQL]] databases
 - [[Analytical Databases|analytical databases]]

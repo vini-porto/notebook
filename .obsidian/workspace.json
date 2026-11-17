@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 8 - Leading, Monitoring & Closing the Project.md",
+                "file": "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 7 - Process Review and Extra Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 8 - Leading, Monitoring & Closing the Project"
+              "title": "Week 7 - Process Review and Extra Notes"
             }
           }
         ]
@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.4765625,
-    "collapsed": true
+    "width": 313.4765625
   },
   "right": {
     "id": "25633665bbc170a3",
@@ -199,12 +198,13 @@
   },
   "active": "846290849b28a7dc",
   "lastOpenFiles": [
-    "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 7 - Sequencing, the Critical Path & the Project Schedule.md",
-    "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 8 - Leading, Monitoring & Closing the Project.md.tmp.10763.5775bb4286a8",
-    "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 8 - Leading, Monitoring & Closing the Project.md",
-    "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 8 - Leading, Monitoring & Closing the Project.md.tmp.10763.c7ef5c29aa96",
+    "Untitled 1.md",
     "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 7 - Process Review and Extra Notes.md",
     "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 6 - Business Rules and Views.md",
+    "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 8 - Leading, Monitoring & Closing the Project.md",
+    "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 7 - Sequencing, the Critical Path & the Project Schedule.md",
+    "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 8 - Leading, Monitoring & Closing the Project.md.tmp.10763.5775bb4286a8",
+    "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 8 - Leading, Monitoring & Closing the Project.md.tmp.10763.c7ef5c29aa96",
     "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 8 - Physical Database Design.md",
     "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 8 - Physical Database Design.md.tmp.70719.f50a5ce39baa",
     "Views.md",
