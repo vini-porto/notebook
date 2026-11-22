@@ -1,4 +1,4 @@
-# Testing and Dependency Injection
+ # Testing and Dependency Injection
 
 > [!note] Where this lecture fits
 > Lecture 04 ("Testing & Testability: unit, integration, end-to-end, and more") moves the course from checking the bookstore app by hand to checking it with automated **[[JUnit]]** tests. Along the way it shows why **[[Dependency Injection]]** (DI) makes code easier to test, using the `Editable` interface, `Tire`, `Battery` and `CashTill` classes from the labs.
