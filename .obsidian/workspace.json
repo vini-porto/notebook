@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.4765625,
-    "collapsed": true
+    "width": 313.4765625
   },
   "right": {
     "id": "25633665bbc170a3",
@@ -199,14 +198,16 @@
   },
   "active": "846290849b28a7dc",
   "lastOpenFiles": [
-    "Untitled 1.md",
-    "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 7 - Process Review and Extra Notes.md",
+    "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 4 - Defining Tables and Fields.md",
+    "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 5 - Establishing Relationships.md",
     "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 6 - Business Rules and Views.md",
+    "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 8 - Physical Database Design.md",
+    "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 7 - Process Review and Extra Notes.md",
+    "Untitled 1.md",
     "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 8 - Leading, Monitoring & Closing the Project.md",
     "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 7 - Sequencing, the Critical Path & the Project Schedule.md",
     "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 8 - Leading, Monitoring & Closing the Project.md.tmp.10763.5775bb4286a8",
     "Sault College/F26/CSD318 - PROJECT MANAGEMENT/lectures/Week 8 - Leading, Monitoring & Closing the Project.md.tmp.10763.c7ef5c29aa96",
-    "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 8 - Physical Database Design.md",
     "Sault College/F26/CSD216 - DATABASES II/Lectures/Week 8 - Physical Database Design.md.tmp.70719.f50a5ce39baa",
     "Views.md",
     "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures/Week 6 - JDBC.md",
@@ -233,8 +234,6 @@
     "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures/Week 3.1 - UML Diagrams.md",
     "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures/Week 3 - Advanced Class Design, The Architecture of Data and UML.md",
     "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures/Week 2 - Object-Oriented Software Analysis and Design.md",
-    "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures/Week 1 - Java Review and In-Class Exercises.md",
-    "Sault College/F26/CSD214 - PROGRAMMING CONCEPTS II/Lectures/Git Worktrees.md",
     "Pasted image 20260809235031.png",
     "Pasted image 20260809234334.png",
     "Pasted image 20260809234258.png",
